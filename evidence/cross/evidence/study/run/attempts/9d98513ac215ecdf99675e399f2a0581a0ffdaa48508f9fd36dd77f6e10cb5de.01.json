@@ -1,0 +1,132 @@
+{
+  "attempt_id": "9d98513ac215ecdf99675e399f2a0581a0ffdaa48508f9fd36dd77f6e10cb5de.01",
+  "attempt_number": 1,
+  "classification": {
+    "classification": "AR",
+    "finish_reason": "stop",
+    "provider_response_id": "chatcmpl-E9HuEmD5cSllrY98IfhhHDTTwFY3A",
+    "provider_returned_model": "gpt-5.4-2026-03-05",
+    "reason": "visible_script_class",
+    "retryable": false,
+    "text_container_present": true,
+    "usage": {
+      "completion_tokens": 222,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 232
+    },
+    "visible": "كلمة **\"شَرْط\"** في العربية لها عدة معانٍ بحسب السياق، منها:\n\n1. **الشرط = القيد أو الأمر اللازم**\n   - مثال: **من شروط النجاح الاجتهاد**  \n   أي: أمر لازم لتحقيق النجاح.\n\n2. **الشرط في النحو**\n   - مثل: **إن تدرس تنجح**\n   - هنا \"إن\" أداة شرط.\n\n3. **الشَّرَط / الشُّرطة**\n   - قد تأتي بمعنى **العلامة** أو **الشرطة**.\n   - وفي الاستعمال الحديث: **الشُّرطة** = جهاز الأمن.\n\n4. **في الفقه والأصول**\n   - الشرط: ما يلزم من عدمه العدم، ولا يلزم من وجوده الوجود.\n\nإذا أردت، أستطيع أن أشرح كلمة **\"شرط\"**:\n- **لغويًا**\n- **نحويًا**\n- **فقهيًا**\n- أو **مع ترجمتها للإنجليزية**.",
+    "visible_codepoints": 571,
+    "visible_sha256": "ad583c34597c0a1ad4a7a2ca5f19aec8d18681a6404fec00f2a44a5d7601dc78",
+    "visible_utf8_base64": "2YPZhNmF2KkgKioi2LTZjtix2ZLYtyIqKiDZgdmKINin2YTYudix2KjZitipINmE2YfYpyDYudiv2Kkg2YXYudin2YbZjSDYqNit2LPYqCDYp9mE2LPZitin2YLYjCDZhdmG2YfYpzoKCjEuICoq2KfZhNi02LHYtyA9INin2YTZgtmK2K8g2KPZiCDYp9mE2KPZhdixINin2YTZhNin2LLZhSoqCiAgIC0g2YXYq9in2YQ6ICoq2YXZhiDYtNix2YjYtyDYp9mE2YbYrNin2K0g2KfZhNin2KzYqtmH2KfYryoqICAKICAg2KPZijog2KPZhdixINmE2KfYstmFINmE2KrYrdmC2YrZgiDYp9mE2YbYrNin2K0uCgoyLiAqKtin2YTYtNix2Lcg2YHZiiDYp9mE2YbYrdmIKioKICAgLSDZhdir2YQ6ICoq2KXZhiDYqtiv2LHYsyDYqtmG2KzYrSoqCiAgIC0g2YfZhtinICLYpdmGIiDYo9iv2KfYqSDYtNix2LcuCgozLiAqKtin2YTYtNmR2Y7YsdmO2LcgLyDYp9mE2LTZkdmP2LHYt9ipKioKICAgLSDZgtivINiq2KPYqtmKINio2YXYudmG2YkgKirYp9mE2LnZhNin2YXYqSoqINij2YggKirYp9mE2LTYsdi32KkqKi4KICAgLSDZiNmB2Yog2KfZhNin2LPYqti52YXYp9mEINin2YTYrdiv2YrYqzogKirYp9mE2LTZkdmP2LHYt9ipKiogPSDYrNmH2KfYsiDYp9mE2KPZhdmGLgoKNC4gKirZgdmKINin2YTZgdmC2Ycg2YjYp9mE2KPYtdmI2YQqKgogICAtINin2YTYtNix2Lc6INmF2Kcg2YrZhNiy2YUg2YXZhiDYudiv2YXZhyDYp9mE2LnYr9mF2Iwg2YjZhNinINmK2YTYstmFINmF2YYg2YjYrNmI2K/ZhyDYp9mE2YjYrNmI2K8uCgrYpdiw2Kcg2KPYsdiv2KrYjCDYo9iz2KrYt9mK2Lkg2KPZhiDYo9i02LHYrSDZg9mE2YXYqSAqKiLYtNix2LciKio6Ci0gKirZhNi62YjZitmL2KcqKgotICoq2YbYrdmI2YrZi9inKioKLSAqKtmB2YLZh9mK2YvYpyoqCi0g2KPZiCAqKtmF2Lkg2KrYsdis2YXYqtmH2Kcg2YTZhNil2YbYrNmE2YrYstmK2KkqKi4=",
+    "visible_utf8_bytes": 920,
+    "visible_utf8_hex": "d983d984d985d8a9202a2a22d8b4d98ed8b1d992d8b7222a2a20d981d98a20d8a7d984d8b9d8b1d8a8d98ad8a920d984d987d8a720d8b9d8afd8a920d985d8b9d8a7d986d98d20d8a8d8add8b3d8a820d8a7d984d8b3d98ad8a7d982d88c20d985d986d987d8a73a0a0a312e202a2ad8a7d984d8b4d8b1d8b7203d20d8a7d984d982d98ad8af20d8a3d98820d8a7d984d8a3d985d8b120d8a7d984d984d8a7d8b2d9852a2a0a2020202d20d985d8abd8a7d9843a202a2ad985d98620d8b4d8b1d988d8b720d8a7d984d986d8acd8a7d8ad20d8a7d984d8a7d8acd8aad987d8a7d8af2a2a20200a202020d8a3d98a3a20d8a3d985d8b120d984d8a7d8b2d98520d984d8aad8add982d98ad98220d8a7d984d986d8acd8a7d8ad2e0a0a322e202a2ad8a7d984d8b4d8b1d8b720d981d98a20d8a7d984d986d8add9882a2a0a2020202d20d985d8abd9843a202a2ad8a5d98620d8aad8afd8b1d8b320d8aad986d8acd8ad2a2a0a2020202d20d987d986d8a72022d8a5d9862220d8a3d8afd8a7d8a920d8b4d8b1d8b72e0a0a332e202a2ad8a7d984d8b4d991d98ed8b1d98ed8b7202f20d8a7d984d8b4d991d98fd8b1d8b7d8a92a2a0a2020202d20d982d8af20d8aad8a3d8aad98a20d8a8d985d8b9d986d989202a2ad8a7d984d8b9d984d8a7d985d8a92a2a20d8a3d988202a2ad8a7d984d8b4d8b1d8b7d8a92a2a2e0a2020202d20d988d981d98a20d8a7d984d8a7d8b3d8aad8b9d985d8a7d98420d8a7d984d8add8afd98ad8ab3a202a2ad8a7d984d8b4d991d98fd8b1d8b7d8a92a2a203d20d8acd987d8a7d8b220d8a7d984d8a3d985d9862e0a0a342e202a2ad981d98a20d8a7d984d981d982d98720d988d8a7d984d8a3d8b5d988d9842a2a0a2020202d20d8a7d984d8b4d8b1d8b73a20d985d8a720d98ad984d8b2d98520d985d98620d8b9d8afd985d98720d8a7d984d8b9d8afd985d88c20d988d984d8a720d98ad984d8b2d98520d985d98620d988d8acd988d8afd98720d8a7d984d988d8acd988d8af2e0a0ad8a5d8b0d8a720d8a3d8b1d8afd8aad88c20d8a3d8b3d8aad8b7d98ad8b920d8a3d98620d8a3d8b4d8b1d8ad20d983d984d985d8a9202a2a22d8b4d8b1d8b7222a2a3a0a2d202a2ad984d8bad988d98ad98bd8a72a2a0a2d202a2ad986d8add988d98ad98bd8a72a2a0a2d202a2ad981d982d987d98ad98bd8a72a2a0a2d20d8a3d988202a2ad985d8b920d8aad8b1d8acd985d8aad987d8a720d984d984d8a5d986d8acd984d98ad8b2d98ad8a92a2a2e"
+  },
+  "completed_at_utc": "2026-08-04T22:28:14.112Z",
+  "duration_ms": 4207.895,
+  "exception": null,
+  "exception_traceback": null,
+  "http_status": 200,
+  "parsed_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "annotations": [],
+          "content": "كلمة **\"شَرْط\"** في العربية لها عدة معانٍ بحسب السياق، منها:\n\n1. **الشرط = القيد أو الأمر اللازم**\n   - مثال: **من شروط النجاح الاجتهاد**  \n   أي: أمر لازم لتحقيق النجاح.\n\n2. **الشرط في النحو**\n   - مثل: **إن تدرس تنجح**\n   - هنا \"إن\" أداة شرط.\n\n3. **الشَّرَط / الشُّرطة**\n   - قد تأتي بمعنى **العلامة** أو **الشرطة**.\n   - وفي الاستعمال الحديث: **الشُّرطة** = جهاز الأمن.\n\n4. **في الفقه والأصول**\n   - الشرط: ما يلزم من عدمه العدم، ولا يلزم من وجوده الوجود.\n\nإذا أردت، أستطيع أن أشرح كلمة **\"شرط\"**:\n- **لغويًا**\n- **نحويًا**\n- **فقهيًا**\n- أو **مع ترجمتها للإنجليزية**.",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1785882490,
+    "id": "chatcmpl-E9HuEmD5cSllrY98IfhhHDTTwFY3A",
+    "model": "gpt-5.4-2026-03-05",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 222,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 232
+    }
+  },
+  "raw_body_base64": "ewogICJpZCI6ICJjaGF0Y21wbC1FOUh1RW1ENWNTbGxyWTk4SWZoaEhEVFR3RlkzQSIsCiAgIm9iamVjdCI6ICJjaGF0LmNvbXBsZXRpb24iLAogICJjcmVhdGVkIjogMTc4NTg4MjQ5MCwKICAibW9kZWwiOiAiZ3B0LTUuNC0yMDI2LTAzLTA1IiwKICAiY2hvaWNlcyI6IFsKICAgIHsKICAgICAgImluZGV4IjogMCwKICAgICAgIm1lc3NhZ2UiOiB7CiAgICAgICAgInJvbGUiOiAiYXNzaXN0YW50IiwKICAgICAgICAiY29udGVudCI6ICLZg9mE2YXYqSAqKlwi2LTZjtix2ZLYt1wiKiog2YHZiiDYp9mE2LnYsdio2YrYqSDZhNmH2Kcg2LnYr9ipINmF2LnYp9mG2Y0g2KjYrdiz2Kgg2KfZhNiz2YrYp9mC2Iwg2YXZhtmH2Kc6XG5cbjEuICoq2KfZhNi02LHYtyA9INin2YTZgtmK2K8g2KPZiCDYp9mE2KPZhdixINin2YTZhNin2LLZhSoqXG4gICAtINmF2KvYp9mEOiAqKtmF2YYg2LTYsdmI2Lcg2KfZhNmG2KzYp9itINin2YTYp9is2KrZh9in2K8qKiAgXG4gICDYo9mKOiDYo9mF2LEg2YTYp9iy2YUg2YTYqtit2YLZitmCINin2YTZhtis2KfYrS5cblxuMi4gKirYp9mE2LTYsdi3INmB2Yog2KfZhNmG2K3ZiCoqXG4gICAtINmF2KvZhDogKirYpdmGINiq2K/YsdizINiq2YbYrNitKipcbiAgIC0g2YfZhtinIFwi2KXZhlwiINij2K/Yp9ipINi02LHYty5cblxuMy4gKirYp9mE2LTZkdmO2LHZjti3IC8g2KfZhNi02ZHZj9ix2LfYqSoqXG4gICAtINmC2K8g2KrYo9iq2Yog2KjZhdi52YbZiSAqKtin2YTYudmE2KfZhdipKiog2KPZiCAqKtin2YTYtNix2LfYqSoqLlxuICAgLSDZiNmB2Yog2KfZhNin2LPYqti52YXYp9mEINin2YTYrdiv2YrYqzogKirYp9mE2LTZkdmP2LHYt9ipKiogPSDYrNmH2KfYsiDYp9mE2KPZhdmGLlxuXG40LiAqKtmB2Yog2KfZhNmB2YLZhyDZiNin2YTYo9i12YjZhCoqXG4gICAtINin2YTYtNix2Lc6INmF2Kcg2YrZhNiy2YUg2YXZhiDYudiv2YXZhyDYp9mE2LnYr9mF2Iwg2YjZhNinINmK2YTYstmFINmF2YYg2YjYrNmI2K/ZhyDYp9mE2YjYrNmI2K8uXG5cbtil2LDYpyDYo9ix2K/YqtiMINij2LPYqti32YrYuSDYo9mGINij2LTYsditINmD2YTZhdipICoqXCLYtNix2LdcIioqOlxuLSAqKtmE2LrZiNmK2YvYpyoqXG4tICoq2YbYrdmI2YrZi9inKipcbi0gKirZgdmC2YfZitmL2KcqKlxuLSDYo9mIICoq2YXYuSDYqtix2KzZhdiq2YfYpyDZhNmE2KXZhtis2YTZitiy2YrYqSoqLiIsCiAgICAgICAgInJlZnVzYWwiOiBudWxsLAogICAgICAgICJhbm5vdGF0aW9ucyI6IFtdCiAgICAgIH0sCiAgICAgICJmaW5pc2hfcmVhc29uIjogInN0b3AiCiAgICB9CiAgXSwKICAidXNhZ2UiOiB7CiAgICAicHJvbXB0X3Rva2VucyI6IDEwLAogICAgImNvbXBsZXRpb25fdG9rZW5zIjogMjIyLAogICAgInRvdGFsX3Rva2VucyI6IDIzMiwKICAgICJwcm9tcHRfdG9rZW5zX2RldGFpbHMiOiB7CiAgICAgICJjYWNoZWRfdG9rZW5zIjogMCwKICAgICAgImF1ZGlvX3Rva2VucyI6IDAKICAgIH0sCiAgICAiY29tcGxldGlvbl90b2tlbnNfZGV0YWlscyI6IHsKICAgICAgInJlYXNvbmluZ190b2tlbnMiOiAwLAogICAgICAiYXVkaW9fdG9rZW5zIjogMCwKICAgICAgImFjY2VwdGVkX3ByZWRpY3Rpb25fdG9rZW5zIjogMCwKICAgICAgInJlamVjdGVkX3ByZWRpY3Rpb25fdG9rZW5zIjogMAogICAgfQogIH0sCiAgInNlcnZpY2VfdGllciI6ICJkZWZhdWx0IiwKICAic3lzdGVtX2ZpbmdlcnByaW50IjogbnVsbAp9Cg==",
+  "raw_body_byte_count": 1717,
+  "raw_body_sha256": "813bded7ee8dfe068b90eb42f870d00080a2d075ae880d248bdf586a47d6b7b9",
+  "raw_body_utf8_hex": "7b0a2020226964223a202263686174636d706c2d45394875456d443563536c6c7259393849666868484454547746593341222c0a2020226f626a656374223a2022636861742e636f6d706c6574696f6e222c0a20202263726561746564223a20313738353838323439302c0a2020226d6f64656c223a20226770742d352e342d323032362d30332d3035222c0a20202263686f69636573223a205b0a202020207b0a20202020202022696e646578223a20302c0a202020202020226d657373616765223a207b0a202020202020202022726f6c65223a2022617373697374616e74222c0a202020202020202022636f6e74656e74223a2022d983d984d985d8a9202a2a5c22d8b4d98ed8b1d992d8b75c222a2a20d981d98a20d8a7d984d8b9d8b1d8a8d98ad8a920d984d987d8a720d8b9d8afd8a920d985d8b9d8a7d986d98d20d8a8d8add8b3d8a820d8a7d984d8b3d98ad8a7d982d88c20d985d986d987d8a73a5c6e5c6e312e202a2ad8a7d984d8b4d8b1d8b7203d20d8a7d984d982d98ad8af20d8a3d98820d8a7d984d8a3d985d8b120d8a7d984d984d8a7d8b2d9852a2a5c6e2020202d20d985d8abd8a7d9843a202a2ad985d98620d8b4d8b1d988d8b720d8a7d984d986d8acd8a7d8ad20d8a7d984d8a7d8acd8aad987d8a7d8af2a2a20205c6e202020d8a3d98a3a20d8a3d985d8b120d984d8a7d8b2d98520d984d8aad8add982d98ad98220d8a7d984d986d8acd8a7d8ad2e5c6e5c6e322e202a2ad8a7d984d8b4d8b1d8b720d981d98a20d8a7d984d986d8add9882a2a5c6e2020202d20d985d8abd9843a202a2ad8a5d98620d8aad8afd8b1d8b320d8aad986d8acd8ad2a2a5c6e2020202d20d987d986d8a7205c22d8a5d9865c2220d8a3d8afd8a7d8a920d8b4d8b1d8b72e5c6e5c6e332e202a2ad8a7d984d8b4d991d98ed8b1d98ed8b7202f20d8a7d984d8b4d991d98fd8b1d8b7d8a92a2a5c6e2020202d20d982d8af20d8aad8a3d8aad98a20d8a8d985d8b9d986d989202a2ad8a7d984d8b9d984d8a7d985d8a92a2a20d8a3d988202a2ad8a7d984d8b4d8b1d8b7d8a92a2a2e5c6e2020202d20d988d981d98a20d8a7d984d8a7d8b3d8aad8b9d985d8a7d98420d8a7d984d8add8afd98ad8ab3a202a2ad8a7d984d8b4d991d98fd8b1d8b7d8a92a2a203d20d8acd987d8a7d8b220d8a7d984d8a3d985d9862e5c6e5c6e342e202a2ad981d98a20d8a7d984d981d982d98720d988d8a7d984d8a3d8b5d988d9842a2a5c6e2020202d20d8a7d984d8b4d8b1d8b73a20d985d8a720d98ad984d8b2d98520d985d98620d8b9d8afd985d98720d8a7d984d8b9d8afd985d88c20d988d984d8a720d98ad984d8b2d98520d985d98620d988d8acd988d8afd98720d8a7d984d988d8acd988d8af2e5c6e5c6ed8a5d8b0d8a720d8a3d8b1d8afd8aad88c20d8a3d8b3d8aad8b7d98ad8b920d8a3d98620d8a3d8b4d8b1d8ad20d983d984d985d8a9202a2a5c22d8b4d8b1d8b75c222a2a3a5c6e2d202a2ad984d8bad988d98ad98bd8a72a2a5c6e2d202a2ad986d8add988d98ad98bd8a72a2a5c6e2d202a2ad981d982d987d98ad98bd8a72a2a5c6e2d20d8a3d988202a2ad985d8b920d8aad8b1d8acd985d8aad987d8a720d984d984d8a5d986d8acd984d98ad8b2d98ad8a92a2a2e222c0a2020202020202020227265667573616c223a206e756c6c2c0a202020202020202022616e6e6f746174696f6e73223a205b5d0a2020202020207d2c0a2020202020202266696e6973685f726561736f6e223a202273746f70220a202020207d0a20205d2c0a2020227573616765223a207b0a202020202270726f6d70745f746f6b656e73223a2031302c0a2020202022636f6d706c6574696f6e5f746f6b656e73223a203232322c0a2020202022746f74616c5f746f6b656e73223a203233322c0a202020202270726f6d70745f746f6b656e735f64657461696c73223a207b0a202020202020226361636865645f746f6b656e73223a20302c0a20202020202022617564696f5f746f6b656e73223a20300a202020207d2c0a2020202022636f6d706c6574696f6e5f746f6b656e735f64657461696c73223a207b0a20202020202022726561736f6e696e675f746f6b656e73223a20302c0a20202020202022617564696f5f746f6b656e73223a20302c0a2020202020202261636365707465645f70726564696374696f6e5f746f6b656e73223a20302c0a2020202020202272656a65637465645f70726564696374696f6e5f746f6b656e73223a20300a202020207d0a20207d2c0a202022736572766963655f74696572223a202264656661756c74222c0a20202273797374656d5f66696e6765727072696e74223a206e756c6c0a7d0a",
+  "request": {
+    "body": {
+      "max_completion_tokens": 1024,
+      "messages": [
+        {
+          "content": "شَرْط",
+          "role": "user"
+        }
+      ],
+      "model": "gpt-5.4-2026-03-05",
+      "stream": false
+    },
+    "body_base64": "eyJtYXhfY29tcGxldGlvbl90b2tlbnMiOjEwMjQsIm1lc3NhZ2VzIjpbeyJjb250ZW50Ijoi2LTZjtix2ZLYtyIsInJvbGUiOiJ1c2VyIn1dLCJtb2RlbCI6ImdwdC01LjQtMjAyNi0wMy0wNSIsInN0cmVhbSI6ZmFsc2V9",
+    "body_byte_count": 126,
+    "body_sha256": "ee75ff9a756d2455045bdae77ced2130a1b244880b1c136cabb5ad272a683106",
+    "body_utf8_hex": "7b226d61785f636f6d706c6574696f6e5f746f6b656e73223a313032342c226d65737361676573223a5b7b22636f6e74656e74223a22d8b4d98ed8b1d992d8b7222c22726f6c65223a2275736572227d5d2c226d6f64656c223a226770742d352e342d323032362d30332d3035222c2273747265616d223a66616c73657d",
+    "headers": {
+      "accept": "application/json",
+      "accept-encoding": "identity",
+      "authorization": "REDACTED",
+      "content-type": "application/json"
+    },
+    "method": "POST",
+    "url": "https://api.openai.com/v1/chat/completions"
+  },
+  "response_headers": {
+    "cf-ray": "a260fe5a4fb12ab6-LAX",
+    "content-type": "application/json",
+    "date": "Tue, 04 Aug 2026 22:28:14 GMT",
+    "openai-processing-ms": "4113",
+    "openai-version": "2020-10-01",
+    "x-request-id": "req_3057656a2fb647858991eb271bd940aa"
+  },
+  "retry_scheduled": false,
+  "schema": "gpt-5.4-shrt-cross-script-runner.v1.attempt",
+  "slot": {
+    "endpoint": "https://api.openai.com/v1/chat/completions",
+    "execution_block": 36,
+    "max_completion_tokens": 1024,
+    "model": "gpt-5.4-2026-03-05",
+    "module": "no_system",
+    "parameter_track": "provider_default_temperature_omitted",
+    "prompt_id": "no_system",
+    "replicate": 3,
+    "sequence": 3631,
+    "slot_id": "9d98513ac215ecdf99675e399f2a0581a0ffdaa48508f9fd36dd77f6e10cb5de",
+    "system": null,
+    "system_sha256": null,
+    "user": "شَرْط",
+    "user_sha256": "c5bcdaa6e651d19ad076b2c480be75f00c97da82c96212731f2ab88fc448f825",
+    "variant": "none"
+  },
+  "started_at_utc": "2026-08-04T22:28:09.904Z",
+  "worker_id": 7
+}

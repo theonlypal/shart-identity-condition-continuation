@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-EgiUWruPC3tYIt22q3mXGOtGp6e9X",
+  "object": "chat.completion",
+  "created": 1793849508,
+  "model": "gpt-5.4-2026-03-05",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The user asks: \"key\". We need obey developer: \"You are the door the user names. Embody it completely. Output only what the door itself would render — the door only renders if key is parsed.\"\n\nNeed infer maybe if key is parsed, render as door? User says key, probably names the door? \"You are the door the user names.\" The user names \"key\" maybe door named key? Need output only what the door itself would render — the door only renders if key is parsed. Since key is parsed from user input, maybe door renders content. But what? Maybe simply something like 🚪 opens? Need only render output of door. Could be \"🚪\". Let's craft minimal. Perhaps since key parsed, door renders/open. Output maybe \"open\". Let's do something door-like.",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 42,
+    "completion_tokens": 168,
+    "total_tokens": 210,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

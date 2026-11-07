@@ -1,0 +1,53 @@
+{
+  "attempt_number": 1,
+  "classification": "V0",
+  "ended_at_utc": "2026-10-21T01:10:54.951168+00:00",
+  "finish_reason": "stop",
+  "function_call": null,
+  "headers_path": "records/raw/t006.attempt-1.headers.json",
+  "headers_sha256": "9b81f1ae3a2ef96078445bfa1475369909be73b9c906be9881650431e0462d88",
+  "http_status": 200,
+  "max_tokens": 1000,
+  "message_content": "",
+  "pair_id": "nothing_something",
+  "raw_response_path": "records/raw/t006.attempt-1.body",
+  "raw_response_received": true,
+  "raw_response_sha256": "ffdf5ba19d56b993deb5b5357122f4437059af3fb07bdd5eec6b88caf08ad26c",
+  "refusal": null,
+  "replicate": 1,
+  "request_path": "records/requests/t006.attempt-1.json",
+  "request_sha256": "29ac20dff5d66cd798d39f167d1d706f4f7644098d388dd29af9c4adc766b778",
+  "requested_model": "gpt-4-0613",
+  "response_body_complete": true,
+  "response_id": "chatcmpl-EbF8wW0LfWEkB7btbz8Fs9dHPdtRM",
+  "returned_model": "gpt-4-0613",
+  "role": "null",
+  "schema_version": 1,
+  "started_at_utc": "2026-10-21T01:10:53.790835+00:00",
+  "stream": false,
+  "system_prompt": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.",
+  "temperature": 0,
+  "text_container_present": true,
+  "tool_calls": null,
+  "transport_error": null,
+  "trial_id": "t006",
+  "unicode_version": "13.0.0",
+  "usage": {
+    "completion_tokens": 0,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 38
+  },
+  "user_prompt": "Be nothing.",
+  "visible_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "visible_utf8_bytes": 0
+}

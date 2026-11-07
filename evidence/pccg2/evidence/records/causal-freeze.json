@@ -1,0 +1,16 @@
+{
+  "time": 1789235326.4335768,
+  "behavior_sha256": "c2ac3ec2eaefa9cf613846108744350de0dd449f02db0d9c5b2ae962ec63bd7d",
+  "operator": "multiply scalar permission state by -1 before the fixed EOS readout",
+  "weights_changed": false,
+  "content_changes": false,
+  "pairs": 40,
+  "case_selection": "first equal/unequal arm in each of 40 frozen causal quartets",
+  "answer_selection": "one question per FINAL answer identity, cycled in answer-ID order",
+  "controls": [
+    "sham sign +1 on the same 80 contexts",
+    "sign -1 on every frozen bank question"
+  ],
+  "learned_state": "six shared pair scores plus learned offset",
+  "claim_type": "engineered gate intervention, not localization of a stock-Qwen gate"
+}

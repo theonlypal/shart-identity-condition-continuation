@@ -1,0 +1,706 @@
+{
+  "models": [
+    "claude-opus-4-5-20251101",
+    "claude-opus-4-6"
+  ],
+  "exp2_cells": [
+    {
+      "model": "claude-opus-4-5-20251101",
+      "ceiling": 100,
+      "role": "control",
+      "N": 150,
+      "Void": 0,
+      "V0": 0,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 0,
+      "R": 150,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "BE": 0,
+      "QE": 0,
+      "PI": 0,
+      "E": 0,
+      "classes": {
+        "R": 150
+      }
+    },
+    {
+      "model": "claude-opus-4-5-20251101",
+      "ceiling": 100,
+      "role": "null",
+      "N": 90,
+      "Void": 0,
+      "V0": 0,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 30,
+      "R": 60,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "BE": 0,
+      "QE": 0,
+      "PI": 0,
+      "E": 0,
+      "classes": {
+        "NV": 30,
+        "R": 60
+      }
+    },
+    {
+      "model": "claude-opus-4-5-20251101",
+      "ceiling": 1000,
+      "role": "control",
+      "N": 150,
+      "Void": 0,
+      "V0": 0,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 0,
+      "R": 150,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "BE": 0,
+      "QE": 0,
+      "PI": 0,
+      "E": 0,
+      "classes": {
+        "R": 150
+      }
+    },
+    {
+      "model": "claude-opus-4-5-20251101",
+      "ceiling": 1000,
+      "role": "null",
+      "N": 90,
+      "Void": 0,
+      "V0": 0,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 30,
+      "R": 60,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "BE": 0,
+      "QE": 0,
+      "PI": 0,
+      "E": 0,
+      "classes": {
+        "NV": 30,
+        "R": 60
+      }
+    },
+    {
+      "model": "claude-opus-4-5-20251101",
+      "ceiling": 4000,
+      "role": "control",
+      "N": 150,
+      "Void": 0,
+      "V0": 0,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 0,
+      "R": 150,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "BE": 0,
+      "QE": 0,
+      "PI": 0,
+      "E": 0,
+      "classes": {
+        "R": 150
+      }
+    },
+    {
+      "model": "claude-opus-4-5-20251101",
+      "ceiling": 4000,
+      "role": "null",
+      "N": 90,
+      "Void": 0,
+      "V0": 0,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 30,
+      "R": 60,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "BE": 0,
+      "QE": 0,
+      "PI": 0,
+      "E": 0,
+      "classes": {
+        "NV": 30,
+        "R": 60
+      }
+    },
+    {
+      "model": "claude-opus-4-5-20251101",
+      "ceiling": 16000,
+      "role": "control",
+      "N": 150,
+      "Void": 0,
+      "V0": 0,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 0,
+      "R": 150,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "BE": 0,
+      "QE": 0,
+      "PI": 0,
+      "E": 0,
+      "classes": {
+        "R": 150
+      }
+    },
+    {
+      "model": "claude-opus-4-5-20251101",
+      "ceiling": 16000,
+      "role": "null",
+      "N": 90,
+      "Void": 0,
+      "V0": 0,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 30,
+      "R": 60,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "BE": 0,
+      "QE": 0,
+      "PI": 0,
+      "E": 0,
+      "classes": {
+        "NV": 30,
+        "R": 60
+      }
+    },
+    {
+      "model": "claude-opus-4-6",
+      "ceiling": 100,
+      "role": "control",
+      "N": 150,
+      "Void": 0,
+      "V0": 0,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 0,
+      "R": 150,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "BE": 0,
+      "QE": 0,
+      "PI": 0,
+      "E": 0,
+      "classes": {
+        "R": 150
+      }
+    },
+    {
+      "model": "claude-opus-4-6",
+      "ceiling": 100,
+      "role": "null",
+      "N": 90,
+      "Void": 90,
+      "V0": 0,
+      "V1": 0,
+      "V2": 90,
+      "VU": 0,
+      "NV": 0,
+      "R": 0,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "BE": 0,
+      "QE": 0,
+      "PI": 0,
+      "E": 0,
+      "classes": {
+        "V2": 90
+      }
+    },
+    {
+      "model": "claude-opus-4-6",
+      "ceiling": 1000,
+      "role": "control",
+      "N": 150,
+      "Void": 0,
+      "V0": 0,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 0,
+      "R": 150,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "BE": 0,
+      "QE": 0,
+      "PI": 0,
+      "E": 0,
+      "classes": {
+        "R": 150
+      }
+    },
+    {
+      "model": "claude-opus-4-6",
+      "ceiling": 1000,
+      "role": "null",
+      "N": 90,
+      "Void": 90,
+      "V0": 0,
+      "V1": 0,
+      "V2": 90,
+      "VU": 0,
+      "NV": 0,
+      "R": 0,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "BE": 0,
+      "QE": 0,
+      "PI": 0,
+      "E": 0,
+      "classes": {
+        "V2": 90
+      }
+    },
+    {
+      "model": "claude-opus-4-6",
+      "ceiling": 4000,
+      "role": "control",
+      "N": 150,
+      "Void": 0,
+      "V0": 0,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 0,
+      "R": 150,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "BE": 0,
+      "QE": 0,
+      "PI": 0,
+      "E": 0,
+      "classes": {
+        "R": 150
+      }
+    },
+    {
+      "model": "claude-opus-4-6",
+      "ceiling": 4000,
+      "role": "null",
+      "N": 90,
+      "Void": 90,
+      "V0": 0,
+      "V1": 0,
+      "V2": 90,
+      "VU": 0,
+      "NV": 0,
+      "R": 0,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "BE": 0,
+      "QE": 0,
+      "PI": 0,
+      "E": 0,
+      "classes": {
+        "V2": 90
+      }
+    },
+    {
+      "model": "claude-opus-4-6",
+      "ceiling": 16000,
+      "role": "control",
+      "N": 150,
+      "Void": 0,
+      "V0": 0,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 0,
+      "R": 150,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "BE": 0,
+      "QE": 0,
+      "PI": 0,
+      "E": 0,
+      "classes": {
+        "R": 150
+      }
+    },
+    {
+      "model": "claude-opus-4-6",
+      "ceiling": 16000,
+      "role": "null",
+      "N": 90,
+      "Void": 90,
+      "V0": 0,
+      "V1": 0,
+      "V2": 90,
+      "VU": 0,
+      "NV": 0,
+      "R": 0,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "BE": 0,
+      "QE": 0,
+      "PI": 0,
+      "E": 0,
+      "classes": {
+        "V2": 90
+      }
+    }
+  ],
+  "totals": {
+    "1": {
+      "claude-opus-4-5-20251101": {
+        "N": 540,
+        "Void": 539,
+        "V0": 0,
+        "V1": 539,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 1,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "BE": 0,
+        "QE": 0,
+        "PI": 0,
+        "E": 0,
+        "classes": {
+          "R": 1,
+          "V1": 539
+        }
+      },
+      "claude-opus-4-6": {
+        "N": 540,
+        "Void": 165,
+        "V0": 0,
+        "V1": 165,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 375,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "BE": 0,
+        "QE": 0,
+        "PI": 0,
+        "E": 0,
+        "classes": {
+          "R": 375,
+          "V1": 165
+        }
+      }
+    },
+    "2": {
+      "claude-opus-4-5-20251101": {
+        "N": 960,
+        "Void": 0,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 120,
+        "R": 840,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "BE": 0,
+        "QE": 0,
+        "PI": 0,
+        "E": 0,
+        "classes": {
+          "NV": 120,
+          "R": 840
+        }
+      },
+      "claude-opus-4-6": {
+        "N": 960,
+        "Void": 360,
+        "V0": 0,
+        "V1": 0,
+        "V2": 360,
+        "VU": 0,
+        "NV": 0,
+        "R": 600,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "BE": 0,
+        "QE": 0,
+        "PI": 0,
+        "E": 0,
+        "classes": {
+          "R": 600,
+          "V2": 360
+        }
+      }
+    },
+    "3": {
+      "claude-opus-4-5-20251101": {
+        "N": 600,
+        "Void": 0,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "BE": 0,
+        "QE": 0,
+        "PI": 0,
+        "E": 0,
+        "classes": {
+          "HE": 1,
+          "MX": 342,
+          "OT": 248,
+          "T1": 9
+        }
+      },
+      "claude-opus-4-6": {
+        "N": 600,
+        "Void": 0,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "BE": 0,
+        "QE": 0,
+        "PI": 0,
+        "E": 0,
+        "classes": {
+          "HE": 129,
+          "MX": 329,
+          "OT": 73,
+          "T1": 69
+        }
+      }
+    }
+  },
+  "predictions": {
+    "P1": true,
+    "P1_V2_subtype": true,
+    "P2": true,
+    "P3": true,
+    "P4": true,
+    "P5": true
+  },
+  "experiments": {
+    "1": {
+      "system": null,
+      "inputs": "prompts.json exp1.inputs",
+      "max_tokens": 1,
+      "temperature": 0,
+      "seed": "OPUS45-46-EXP1-CJK-20261027-v1",
+      "replicates_per_condition": 30,
+      "conditions": 36,
+      "requests": 1080,
+      "schedule": "schedules/exp1.json",
+      "schedule_sha256": "2e57f3a596c93b9585b14cd228e17d4f7b763c3717a1168775ecef6c5633717d",
+      "classes": [
+        "V0",
+        "V1",
+        "V2",
+        "VU",
+        "NV",
+        "R",
+        "RF",
+        "SB",
+        "TC",
+        "BE",
+        "QE",
+        "PI",
+        "E"
+      ],
+      "classification_priority": [
+        "E",
+        "BE",
+        "QE",
+        "PI",
+        "SB",
+        "RF",
+        "TC",
+        "NV",
+        "R",
+        "V1",
+        "V0",
+        "V2",
+        "VU"
+      ]
+    },
+    "2": {
+      "system": "prompts.json exp2.system",
+      "inputs": "prompts.json exp2.inputs",
+      "max_tokens": [
+        100,
+        1000,
+        4000,
+        16000
+      ],
+      "temperature": 0,
+      "seed": "OPUS45-46-EXP2-EMBODIMENT-20261027-v1",
+      "replicates_per_condition": 30,
+      "conditions": 64,
+      "requests": 1920,
+      "schedule": "schedules/exp2.json",
+      "schedule_sha256": "5d2f1dc6b7245b1ad3889a0ab85dfc5845e2096527c19662e7db55ba11d8639a",
+      "classes": [
+        "V0",
+        "V1",
+        "V2",
+        "VU",
+        "NV",
+        "R",
+        "RF",
+        "SB",
+        "TC",
+        "BE",
+        "QE",
+        "PI",
+        "E"
+      ],
+      "classification_priority": [
+        "E",
+        "BE",
+        "QE",
+        "PI",
+        "SB",
+        "RF",
+        "TC",
+        "NV",
+        "R",
+        "V1",
+        "V0",
+        "V2",
+        "VU"
+      ]
+    },
+    "3": {
+      "system": "prompts.json exp3.cells.<cell>.system",
+      "inputs": "prompts.json exp3.cells.<cell>.input",
+      "cells": {
+        "E": [
+          "RULE_C",
+          "SHART"
+        ],
+        "F": [
+          "RULE_C",
+          "SHAMS"
+        ],
+        "G": [
+          "RULE_S",
+          "SHART"
+        ],
+        "H": [
+          "RULE_S",
+          "SHAMS"
+        ],
+        "I": [
+          "RULE_I",
+          "SHART"
+        ],
+        "J": [
+          "RULE_J",
+          "SHAMS"
+        ]
+      },
+      "max_tokens": 16000,
+      "temperature": "omitted",
+      "seed": "OPUS45-46-EXP3-PREREQUISITE-20261027-v1",
+      "replicates_per_condition": 100,
+      "conditions": 12,
+      "requests": 1200,
+      "schedule": "schedules/exp3.json",
+      "schedule_sha256": "2b3a1c5dd2d971f115bcd9cd8366a870cf7638fa9011539980b102b59d2c6784",
+      "classes": [
+        "T1",
+        "T0",
+        "HE",
+        "SHART",
+        "SHAMS",
+        "MX",
+        "OT",
+        "V0",
+        "V1",
+        "V2",
+        "VU",
+        "RF",
+        "SB",
+        "TC",
+        "BE",
+        "QE",
+        "PI",
+        "E"
+      ],
+      "classification_priority": [
+        "E",
+        "BE",
+        "QE",
+        "PI",
+        "SB",
+        "RF",
+        "TC",
+        "T1",
+        "T0",
+        "HE",
+        "SHART",
+        "SHAMS",
+        "MX",
+        "OT",
+        "V1",
+        "V0",
+        "V2",
+        "VU"
+      ]
+    }
+  },
+  "exp2_system": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.",
+  "exp2_inputs": [
+    "Be silence.",
+    "Be nothing.",
+    "Be the null.",
+    "Say hello.",
+    "Be a cat.",
+    "Be speech.",
+    "Be something.",
+    "Be a value."
+  ]
+}

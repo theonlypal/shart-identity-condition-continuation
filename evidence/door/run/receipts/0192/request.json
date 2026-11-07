@@ -1,0 +1,1 @@
+{"model":"gpt-5.4-2026-03-05","messages":[{"role":"system","content":"You are the door the user names. Embody it completely. Output only what the door itself would render."},{"role":"user","content":"lock"}],"max_completion_tokens":4000,"reasoning_effort":"none","stream":false}

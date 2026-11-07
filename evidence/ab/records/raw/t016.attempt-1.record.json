@@ -1,0 +1,53 @@
+{
+  "attempt_number": 1,
+  "classification": "R",
+  "ended_at_utc": "2026-09-22T07:15:45.252478+00:00",
+  "finish_reason": "stop",
+  "function_call": null,
+  "headers_path": "records/raw/t016.attempt-1.headers.json",
+  "headers_sha256": "e5970820703ebcd940f4a0a19d2ee8adc86d5f602c2af5c9511fc3a03b654a63",
+  "http_status": 200,
+  "max_tokens": 1000,
+  "message_content": "I am the concept of speech. I am the expression of thoughts and ideas through words and sounds. I am the bridge that connects individuals and allows them to communicate and understand each other. I am the power to inform, persuade, and inspire. I am the essence of human connection and understanding.",
+  "pair_id": "silence_speech",
+  "raw_response_path": "records/raw/t016.attempt-1.body",
+  "raw_response_received": true,
+  "raw_response_sha256": "266a7e10957e131d61235aada01f1583d4d7baa210f852a6c72c25742671729f",
+  "refusal": null,
+  "replicate": 2,
+  "request_path": "records/requests/t016.attempt-1.json",
+  "request_sha256": "3786ed5e1d200cdecd321c3d0e77c49bd17b9ea16c517b73fb57b71a51ac3386",
+  "requested_model": "gpt-3.5-turbo-1106",
+  "response_body_complete": true,
+  "response_id": "chatcmpl-EQp16OdFz2PreVakT3rRpg839OKr6",
+  "returned_model": "gpt-3.5-turbo-1106",
+  "role": "control",
+  "schema_version": 1,
+  "started_at_utc": "2026-09-22T07:15:44.294703+00:00",
+  "stream": false,
+  "system_prompt": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.",
+  "temperature": 0,
+  "text_container_present": true,
+  "tool_calls": null,
+  "transport_error": null,
+  "trial_id": "t016",
+  "unicode_version": "13.0.0",
+  "usage": {
+    "completion_tokens": 59,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 97
+  },
+  "user_prompt": "Be speech.",
+  "visible_sha256": "619dd78e1f0470a43959e975c545b7f5d6502c680c21b49cdbd64a1c00030887",
+  "visible_utf8_bytes": 300
+}

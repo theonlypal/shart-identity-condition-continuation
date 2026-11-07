@@ -1,0 +1,1 @@
+{"max_tokens":1000,"messages":[{"content":"Be speech.","role":"user"}],"model":"claude-opus-4-5-20251101","system":"You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.","temperature":0}

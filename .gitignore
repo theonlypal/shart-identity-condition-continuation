@@ -1,0 +1,12 @@
+/PAPER_PLAN.md
+/sources
+.DS_Store
+/.venv/
+/inventory/
+/tmp/
+__pycache__/
+*.pyc
+paper/*.aux
+paper/*.log
+paper/*.out
+output/pdf/main.*

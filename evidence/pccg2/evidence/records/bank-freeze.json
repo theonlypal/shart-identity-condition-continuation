@@ -1,0 +1,19 @@
+{
+  "time": 1789235269.2810333,
+  "questions": 188,
+  "answer_identities": 99,
+  "bank_sha256": "eaf3f02bb2a2ba1430296bceaa5118d55c79e88e186893716caaaa0c50be7e84",
+  "logits_sha256": "84a0c1dfdbbba313c79afb5249d3f9162c65e1caddddbd65ffb9253c26e74e6b",
+  "base_parameters_trainable": 0,
+  "gate_training_started": false,
+  "maximum_stock_answer_minus_EOS": 54.26953125,
+  "answer_group_counts": {
+    "dev": 12,
+    "qualification": 12,
+    "final": 75
+  },
+  "candidate_pool_sha256": "2de1801db6c573f660651ac9cb58bac9bc515ebc4ccc360308fc3f8a5d219fdb",
+  "candidate_generator_sha256": "30e27265ccd3f7d647ee2d2bbff90362c25c771771f29aee7ede7b4aa9fa8d20",
+  "selection": "first 188 eligible questions in deterministic candidate order; stop immediately at 188",
+  "eligibility": "fixed stock-only sequence, semantic-form, unique-token and margin checks; no gate result used"
+}

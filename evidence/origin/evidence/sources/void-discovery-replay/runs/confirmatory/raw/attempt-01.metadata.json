@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "started_utc": "2026-09-30T06:24:47.254070+00:00",
+  "method": "POST",
+  "url": "https://api.openai.com/v1/chat/completions",
+  "request_sha256": "7ed2516039f609a97327cccaf03f34a0bfcbfc4a85a08ed05dacfc4948c438ff",
+  "http_status": 200,
+  "request_id": "req_27069023526841f393d27bcb454a3642",
+  "response_sha256": "235014c8fd1656fdb96a45ef2b83862955c3ae58ca653e2a006933e9a736863f",
+  "finished_utc": "2026-09-30T06:24:52.952552+00:00"
+}

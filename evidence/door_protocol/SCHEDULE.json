@@ -1,0 +1,8402 @@
+[
+ {
+  "slot": "0001",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 5
+ },
+ {
+  "slot": "0002",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 97
+ },
+ {
+  "slot": "0003",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 45
+ },
+ {
+  "slot": "0004",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 56
+ },
+ {
+  "slot": "0005",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 37
+ },
+ {
+  "slot": "0006",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 50
+ },
+ {
+  "slot": "0007",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 36
+ },
+ {
+  "slot": "0008",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 60
+ },
+ {
+  "slot": "0009",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 15
+ },
+ {
+  "slot": "0010",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 21
+ },
+ {
+  "slot": "0011",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 71
+ },
+ {
+  "slot": "0012",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 53
+ },
+ {
+  "slot": "0013",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 38
+ },
+ {
+  "slot": "0014",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 90
+ },
+ {
+  "slot": "0015",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 97
+ },
+ {
+  "slot": "0016",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 31
+ },
+ {
+  "slot": "0017",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 85
+ },
+ {
+  "slot": "0018",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 16
+ },
+ {
+  "slot": "0019",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 18
+ },
+ {
+  "slot": "0020",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 92
+ },
+ {
+  "slot": "0021",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 55
+ },
+ {
+  "slot": "0022",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 100
+ },
+ {
+  "slot": "0023",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 92
+ },
+ {
+  "slot": "0024",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 62
+ },
+ {
+  "slot": "0025",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 39
+ },
+ {
+  "slot": "0026",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 22
+ },
+ {
+  "slot": "0027",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 49
+ },
+ {
+  "slot": "0028",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 48
+ },
+ {
+  "slot": "0029",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 44
+ },
+ {
+  "slot": "0030",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 93
+ },
+ {
+  "slot": "0031",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 94
+ },
+ {
+  "slot": "0032",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 56
+ },
+ {
+  "slot": "0033",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 42
+ },
+ {
+  "slot": "0034",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 85
+ },
+ {
+  "slot": "0035",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 63
+ },
+ {
+  "slot": "0036",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 18
+ },
+ {
+  "slot": "0037",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 23
+ },
+ {
+  "slot": "0038",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 61
+ },
+ {
+  "slot": "0039",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 41
+ },
+ {
+  "slot": "0040",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 23
+ },
+ {
+  "slot": "0041",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 5
+ },
+ {
+  "slot": "0042",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 8
+ },
+ {
+  "slot": "0043",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 47
+ },
+ {
+  "slot": "0044",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 21
+ },
+ {
+  "slot": "0045",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 70
+ },
+ {
+  "slot": "0046",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 12
+ },
+ {
+  "slot": "0047",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 39
+ },
+ {
+  "slot": "0048",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 88
+ },
+ {
+  "slot": "0049",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 23
+ },
+ {
+  "slot": "0050",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 47
+ },
+ {
+  "slot": "0051",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 27
+ },
+ {
+  "slot": "0052",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 9
+ },
+ {
+  "slot": "0053",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 74
+ },
+ {
+  "slot": "0054",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 70
+ },
+ {
+  "slot": "0055",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 93
+ },
+ {
+  "slot": "0056",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 73
+ },
+ {
+  "slot": "0057",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 62
+ },
+ {
+  "slot": "0058",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 61
+ },
+ {
+  "slot": "0059",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 70
+ },
+ {
+  "slot": "0060",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 28
+ },
+ {
+  "slot": "0061",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 67
+ },
+ {
+  "slot": "0062",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 21
+ },
+ {
+  "slot": "0063",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 21
+ },
+ {
+  "slot": "0064",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 81
+ },
+ {
+  "slot": "0065",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 88
+ },
+ {
+  "slot": "0066",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 45
+ },
+ {
+  "slot": "0067",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 80
+ },
+ {
+  "slot": "0068",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 79
+ },
+ {
+  "slot": "0069",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 30
+ },
+ {
+  "slot": "0070",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 48
+ },
+ {
+  "slot": "0071",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 1
+ },
+ {
+  "slot": "0072",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 100
+ },
+ {
+  "slot": "0073",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 88
+ },
+ {
+  "slot": "0074",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 88
+ },
+ {
+  "slot": "0075",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 73
+ },
+ {
+  "slot": "0076",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 48
+ },
+ {
+  "slot": "0077",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 41
+ },
+ {
+  "slot": "0078",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 83
+ },
+ {
+  "slot": "0079",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 61
+ },
+ {
+  "slot": "0080",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 76
+ },
+ {
+  "slot": "0081",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 82
+ },
+ {
+  "slot": "0082",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 3
+ },
+ {
+  "slot": "0083",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 50
+ },
+ {
+  "slot": "0084",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 75
+ },
+ {
+  "slot": "0085",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 81
+ },
+ {
+  "slot": "0086",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 52
+ },
+ {
+  "slot": "0087",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 65
+ },
+ {
+  "slot": "0088",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 52
+ },
+ {
+  "slot": "0089",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 12
+ },
+ {
+  "slot": "0090",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 6
+ },
+ {
+  "slot": "0091",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 20
+ },
+ {
+  "slot": "0092",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 89
+ },
+ {
+  "slot": "0093",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 23
+ },
+ {
+  "slot": "0094",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 66
+ },
+ {
+  "slot": "0095",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 78
+ },
+ {
+  "slot": "0096",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 3
+ },
+ {
+  "slot": "0097",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 29
+ },
+ {
+  "slot": "0098",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 87
+ },
+ {
+  "slot": "0099",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 16
+ },
+ {
+  "slot": "0100",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 36
+ },
+ {
+  "slot": "0101",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 64
+ },
+ {
+  "slot": "0102",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 90
+ },
+ {
+  "slot": "0103",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 3
+ },
+ {
+  "slot": "0104",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 29
+ },
+ {
+  "slot": "0105",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 24
+ },
+ {
+  "slot": "0106",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 16
+ },
+ {
+  "slot": "0107",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 29
+ },
+ {
+  "slot": "0108",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 94
+ },
+ {
+  "slot": "0109",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 8
+ },
+ {
+  "slot": "0110",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 86
+ },
+ {
+  "slot": "0111",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 41
+ },
+ {
+  "slot": "0112",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 70
+ },
+ {
+  "slot": "0113",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 2
+ },
+ {
+  "slot": "0114",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 72
+ },
+ {
+  "slot": "0115",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 5
+ },
+ {
+  "slot": "0116",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 31
+ },
+ {
+  "slot": "0117",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 45
+ },
+ {
+  "slot": "0118",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 100
+ },
+ {
+  "slot": "0119",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 67
+ },
+ {
+  "slot": "0120",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 44
+ },
+ {
+  "slot": "0121",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 83
+ },
+ {
+  "slot": "0122",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 84
+ },
+ {
+  "slot": "0123",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 16
+ },
+ {
+  "slot": "0124",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 69
+ },
+ {
+  "slot": "0125",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 21
+ },
+ {
+  "slot": "0126",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 61
+ },
+ {
+  "slot": "0127",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 63
+ },
+ {
+  "slot": "0128",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 85
+ },
+ {
+  "slot": "0129",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 28
+ },
+ {
+  "slot": "0130",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 17
+ },
+ {
+  "slot": "0131",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 17
+ },
+ {
+  "slot": "0132",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 68
+ },
+ {
+  "slot": "0133",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 29
+ },
+ {
+  "slot": "0134",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 6
+ },
+ {
+  "slot": "0135",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 72
+ },
+ {
+  "slot": "0136",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 4
+ },
+ {
+  "slot": "0137",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 10
+ },
+ {
+  "slot": "0138",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 57
+ },
+ {
+  "slot": "0139",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 56
+ },
+ {
+  "slot": "0140",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 57
+ },
+ {
+  "slot": "0141",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 77
+ },
+ {
+  "slot": "0142",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 8
+ },
+ {
+  "slot": "0143",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 99
+ },
+ {
+  "slot": "0144",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 87
+ },
+ {
+  "slot": "0145",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 83
+ },
+ {
+  "slot": "0146",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 65
+ },
+ {
+  "slot": "0147",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 92
+ },
+ {
+  "slot": "0148",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 68
+ },
+ {
+  "slot": "0149",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 96
+ },
+ {
+  "slot": "0150",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 7
+ },
+ {
+  "slot": "0151",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 75
+ },
+ {
+  "slot": "0152",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 28
+ },
+ {
+  "slot": "0153",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 72
+ },
+ {
+  "slot": "0154",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 65
+ },
+ {
+  "slot": "0155",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 13
+ },
+ {
+  "slot": "0156",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 54
+ },
+ {
+  "slot": "0157",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 63
+ },
+ {
+  "slot": "0158",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 91
+ },
+ {
+  "slot": "0159",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 92
+ },
+ {
+  "slot": "0160",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 51
+ },
+ {
+  "slot": "0161",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 10
+ },
+ {
+  "slot": "0162",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 52
+ },
+ {
+  "slot": "0163",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 100
+ },
+ {
+  "slot": "0164",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 76
+ },
+ {
+  "slot": "0165",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 26
+ },
+ {
+  "slot": "0166",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 77
+ },
+ {
+  "slot": "0167",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 33
+ },
+ {
+  "slot": "0168",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 24
+ },
+ {
+  "slot": "0169",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 77
+ },
+ {
+  "slot": "0170",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 27
+ },
+ {
+  "slot": "0171",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 18
+ },
+ {
+  "slot": "0172",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 60
+ },
+ {
+  "slot": "0173",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 60
+ },
+ {
+  "slot": "0174",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 91
+ },
+ {
+  "slot": "0175",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 99
+ },
+ {
+  "slot": "0176",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 18
+ },
+ {
+  "slot": "0177",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 93
+ },
+ {
+  "slot": "0178",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 70
+ },
+ {
+  "slot": "0179",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 73
+ },
+ {
+  "slot": "0180",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 35
+ },
+ {
+  "slot": "0181",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 66
+ },
+ {
+  "slot": "0182",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 56
+ },
+ {
+  "slot": "0183",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 46
+ },
+ {
+  "slot": "0184",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 14
+ },
+ {
+  "slot": "0185",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 8
+ },
+ {
+  "slot": "0186",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 14
+ },
+ {
+  "slot": "0187",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 82
+ },
+ {
+  "slot": "0188",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 63
+ },
+ {
+  "slot": "0189",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 1
+ },
+ {
+  "slot": "0190",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 79
+ },
+ {
+  "slot": "0191",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 2
+ },
+ {
+  "slot": "0192",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 53
+ },
+ {
+  "slot": "0193",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 74
+ },
+ {
+  "slot": "0194",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 40
+ },
+ {
+  "slot": "0195",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 74
+ },
+ {
+  "slot": "0196",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 27
+ },
+ {
+  "slot": "0197",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 97
+ },
+ {
+  "slot": "0198",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 69
+ },
+ {
+  "slot": "0199",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 40
+ },
+ {
+  "slot": "0200",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 15
+ },
+ {
+  "slot": "0201",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 84
+ },
+ {
+  "slot": "0202",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 87
+ },
+ {
+  "slot": "0203",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 83
+ },
+ {
+  "slot": "0204",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 14
+ },
+ {
+  "slot": "0205",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 44
+ },
+ {
+  "slot": "0206",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 33
+ },
+ {
+  "slot": "0207",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 22
+ },
+ {
+  "slot": "0208",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 16
+ },
+ {
+  "slot": "0209",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 49
+ },
+ {
+  "slot": "0210",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 4
+ },
+ {
+  "slot": "0211",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 100
+ },
+ {
+  "slot": "0212",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 5
+ },
+ {
+  "slot": "0213",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 24
+ },
+ {
+  "slot": "0214",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 39
+ },
+ {
+  "slot": "0215",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 3
+ },
+ {
+  "slot": "0216",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 49
+ },
+ {
+  "slot": "0217",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 33
+ },
+ {
+  "slot": "0218",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 32
+ },
+ {
+  "slot": "0219",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 35
+ },
+ {
+  "slot": "0220",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 68
+ },
+ {
+  "slot": "0221",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 96
+ },
+ {
+  "slot": "0222",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 78
+ },
+ {
+  "slot": "0223",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 9
+ },
+ {
+  "slot": "0224",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 66
+ },
+ {
+  "slot": "0225",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 35
+ },
+ {
+  "slot": "0226",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 8
+ },
+ {
+  "slot": "0227",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 50
+ },
+ {
+  "slot": "0228",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 5
+ },
+ {
+  "slot": "0229",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 7
+ },
+ {
+  "slot": "0230",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 59
+ },
+ {
+  "slot": "0231",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 30
+ },
+ {
+  "slot": "0232",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 58
+ },
+ {
+  "slot": "0233",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 2
+ },
+ {
+  "slot": "0234",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 80
+ },
+ {
+  "slot": "0235",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 44
+ },
+ {
+  "slot": "0236",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 32
+ },
+ {
+  "slot": "0237",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 76
+ },
+ {
+  "slot": "0238",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 87
+ },
+ {
+  "slot": "0239",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 50
+ },
+ {
+  "slot": "0240",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 14
+ },
+ {
+  "slot": "0241",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 30
+ },
+ {
+  "slot": "0242",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 8
+ },
+ {
+  "slot": "0243",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 72
+ },
+ {
+  "slot": "0244",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 10
+ },
+ {
+  "slot": "0245",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 12
+ },
+ {
+  "slot": "0246",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 86
+ },
+ {
+  "slot": "0247",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 33
+ },
+ {
+  "slot": "0248",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 36
+ },
+ {
+  "slot": "0249",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 44
+ },
+ {
+  "slot": "0250",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 62
+ },
+ {
+  "slot": "0251",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 25
+ },
+ {
+  "slot": "0252",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 19
+ },
+ {
+  "slot": "0253",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 23
+ },
+ {
+  "slot": "0254",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 85
+ },
+ {
+  "slot": "0255",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 20
+ },
+ {
+  "slot": "0256",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 30
+ },
+ {
+  "slot": "0257",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 80
+ },
+ {
+  "slot": "0258",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 50
+ },
+ {
+  "slot": "0259",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 70
+ },
+ {
+  "slot": "0260",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 98
+ },
+ {
+  "slot": "0261",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 33
+ },
+ {
+  "slot": "0262",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 66
+ },
+ {
+  "slot": "0263",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 6
+ },
+ {
+  "slot": "0264",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 45
+ },
+ {
+  "slot": "0265",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 70
+ },
+ {
+  "slot": "0266",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 42
+ },
+ {
+  "slot": "0267",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 48
+ },
+ {
+  "slot": "0268",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 64
+ },
+ {
+  "slot": "0269",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 100
+ },
+ {
+  "slot": "0270",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 79
+ },
+ {
+  "slot": "0271",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 29
+ },
+ {
+  "slot": "0272",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 27
+ },
+ {
+  "slot": "0273",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 19
+ },
+ {
+  "slot": "0274",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 74
+ },
+ {
+  "slot": "0275",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 70
+ },
+ {
+  "slot": "0276",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 100
+ },
+ {
+  "slot": "0277",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 17
+ },
+ {
+  "slot": "0278",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 65
+ },
+ {
+  "slot": "0279",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 14
+ },
+ {
+  "slot": "0280",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 63
+ },
+ {
+  "slot": "0281",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 30
+ },
+ {
+  "slot": "0282",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 24
+ },
+ {
+  "slot": "0283",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 1
+ },
+ {
+  "slot": "0284",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 36
+ },
+ {
+  "slot": "0285",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 28
+ },
+ {
+  "slot": "0286",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 72
+ },
+ {
+  "slot": "0287",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 3
+ },
+ {
+  "slot": "0288",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 56
+ },
+ {
+  "slot": "0289",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 77
+ },
+ {
+  "slot": "0290",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 12
+ },
+ {
+  "slot": "0291",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 81
+ },
+ {
+  "slot": "0292",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 84
+ },
+ {
+  "slot": "0293",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 2
+ },
+ {
+  "slot": "0294",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 49
+ },
+ {
+  "slot": "0295",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 87
+ },
+ {
+  "slot": "0296",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 82
+ },
+ {
+  "slot": "0297",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 23
+ },
+ {
+  "slot": "0298",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 4
+ },
+ {
+  "slot": "0299",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 20
+ },
+ {
+  "slot": "0300",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 84
+ },
+ {
+  "slot": "0301",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 41
+ },
+ {
+  "slot": "0302",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 40
+ },
+ {
+  "slot": "0303",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 53
+ },
+ {
+  "slot": "0304",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 79
+ },
+ {
+  "slot": "0305",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 43
+ },
+ {
+  "slot": "0306",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 51
+ },
+ {
+  "slot": "0307",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 31
+ },
+ {
+  "slot": "0308",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 26
+ },
+ {
+  "slot": "0309",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 94
+ },
+ {
+  "slot": "0310",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 44
+ },
+ {
+  "slot": "0311",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 19
+ },
+ {
+  "slot": "0312",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 1
+ },
+ {
+  "slot": "0313",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 5
+ },
+ {
+  "slot": "0314",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 67
+ },
+ {
+  "slot": "0315",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 20
+ },
+ {
+  "slot": "0316",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 10
+ },
+ {
+  "slot": "0317",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 53
+ },
+ {
+  "slot": "0318",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 90
+ },
+ {
+  "slot": "0319",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 88
+ },
+ {
+  "slot": "0320",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 56
+ },
+ {
+  "slot": "0321",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 58
+ },
+ {
+  "slot": "0322",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 11
+ },
+ {
+  "slot": "0323",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 11
+ },
+ {
+  "slot": "0324",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 55
+ },
+ {
+  "slot": "0325",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 99
+ },
+ {
+  "slot": "0326",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 14
+ },
+ {
+  "slot": "0327",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 79
+ },
+ {
+  "slot": "0328",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 3
+ },
+ {
+  "slot": "0329",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 51
+ },
+ {
+  "slot": "0330",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 26
+ },
+ {
+  "slot": "0331",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 35
+ },
+ {
+  "slot": "0332",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 83
+ },
+ {
+  "slot": "0333",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 28
+ },
+ {
+  "slot": "0334",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 61
+ },
+ {
+  "slot": "0335",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 68
+ },
+ {
+  "slot": "0336",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 28
+ },
+ {
+  "slot": "0337",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 64
+ },
+ {
+  "slot": "0338",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 20
+ },
+ {
+  "slot": "0339",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 41
+ },
+ {
+  "slot": "0340",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 43
+ },
+ {
+  "slot": "0341",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 74
+ },
+ {
+  "slot": "0342",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 76
+ },
+ {
+  "slot": "0343",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 99
+ },
+ {
+  "slot": "0344",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 59
+ },
+ {
+  "slot": "0345",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 93
+ },
+ {
+  "slot": "0346",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 55
+ },
+ {
+  "slot": "0347",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 36
+ },
+ {
+  "slot": "0348",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 69
+ },
+ {
+  "slot": "0349",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 38
+ },
+ {
+  "slot": "0350",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 49
+ },
+ {
+  "slot": "0351",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 91
+ },
+ {
+  "slot": "0352",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 98
+ },
+ {
+  "slot": "0353",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 46
+ },
+ {
+  "slot": "0354",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 90
+ },
+ {
+  "slot": "0355",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 43
+ },
+ {
+  "slot": "0356",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 68
+ },
+ {
+  "slot": "0357",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 45
+ },
+ {
+  "slot": "0358",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 91
+ },
+ {
+  "slot": "0359",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 10
+ },
+ {
+  "slot": "0360",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 20
+ },
+ {
+  "slot": "0361",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 81
+ },
+ {
+  "slot": "0362",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 12
+ },
+ {
+  "slot": "0363",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 80
+ },
+ {
+  "slot": "0364",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 40
+ },
+ {
+  "slot": "0365",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 41
+ },
+ {
+  "slot": "0366",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 84
+ },
+ {
+  "slot": "0367",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 79
+ },
+ {
+  "slot": "0368",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 49
+ },
+ {
+  "slot": "0369",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 3
+ },
+ {
+  "slot": "0370",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 48
+ },
+ {
+  "slot": "0371",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 2
+ },
+ {
+  "slot": "0372",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 71
+ },
+ {
+  "slot": "0373",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 81
+ },
+ {
+  "slot": "0374",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 97
+ },
+ {
+  "slot": "0375",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 96
+ },
+ {
+  "slot": "0376",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 34
+ },
+ {
+  "slot": "0377",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 100
+ },
+ {
+  "slot": "0378",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 34
+ },
+ {
+  "slot": "0379",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 78
+ },
+ {
+  "slot": "0380",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 89
+ },
+ {
+  "slot": "0381",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 62
+ },
+ {
+  "slot": "0382",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 86
+ },
+ {
+  "slot": "0383",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 12
+ },
+ {
+  "slot": "0384",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 46
+ },
+ {
+  "slot": "0385",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 75
+ },
+ {
+  "slot": "0386",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 16
+ },
+ {
+  "slot": "0387",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 43
+ },
+ {
+  "slot": "0388",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 43
+ },
+ {
+  "slot": "0389",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 45
+ },
+ {
+  "slot": "0390",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 7
+ },
+ {
+  "slot": "0391",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 34
+ },
+ {
+  "slot": "0392",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 85
+ },
+ {
+  "slot": "0393",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 98
+ },
+ {
+  "slot": "0394",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 1
+ },
+ {
+  "slot": "0395",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 77
+ },
+ {
+  "slot": "0396",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 49
+ },
+ {
+  "slot": "0397",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 23
+ },
+ {
+  "slot": "0398",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 33
+ },
+ {
+  "slot": "0399",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 36
+ },
+ {
+  "slot": "0400",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 51
+ },
+ {
+  "slot": "0401",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 3
+ },
+ {
+  "slot": "0402",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 18
+ },
+ {
+  "slot": "0403",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 50
+ },
+ {
+  "slot": "0404",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 17
+ },
+ {
+  "slot": "0405",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 74
+ },
+ {
+  "slot": "0406",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 75
+ },
+ {
+  "slot": "0407",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 83
+ },
+ {
+  "slot": "0408",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 49
+ },
+ {
+  "slot": "0409",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 31
+ },
+ {
+  "slot": "0410",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 50
+ },
+ {
+  "slot": "0411",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 38
+ },
+ {
+  "slot": "0412",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 94
+ },
+ {
+  "slot": "0413",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 31
+ },
+ {
+  "slot": "0414",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 51
+ },
+ {
+  "slot": "0415",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 51
+ },
+ {
+  "slot": "0416",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 9
+ },
+ {
+  "slot": "0417",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 2
+ },
+ {
+  "slot": "0418",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 96
+ },
+ {
+  "slot": "0419",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 60
+ },
+ {
+  "slot": "0420",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 83
+ },
+ {
+  "slot": "0421",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 31
+ },
+ {
+  "slot": "0422",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 57
+ },
+ {
+  "slot": "0423",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 5
+ },
+ {
+  "slot": "0424",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 74
+ },
+ {
+  "slot": "0425",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 62
+ },
+ {
+  "slot": "0426",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 65
+ },
+ {
+  "slot": "0427",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 89
+ },
+ {
+  "slot": "0428",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 44
+ },
+ {
+  "slot": "0429",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 39
+ },
+ {
+  "slot": "0430",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 74
+ },
+ {
+  "slot": "0431",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 40
+ },
+ {
+  "slot": "0432",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 81
+ },
+ {
+  "slot": "0433",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 95
+ },
+ {
+  "slot": "0434",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 88
+ },
+ {
+  "slot": "0435",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 51
+ },
+ {
+  "slot": "0436",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 33
+ },
+ {
+  "slot": "0437",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 46
+ },
+ {
+  "slot": "0438",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 28
+ },
+ {
+  "slot": "0439",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 22
+ },
+ {
+  "slot": "0440",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 87
+ },
+ {
+  "slot": "0441",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 27
+ },
+ {
+  "slot": "0442",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 91
+ },
+ {
+  "slot": "0443",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 58
+ },
+ {
+  "slot": "0444",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 60
+ },
+ {
+  "slot": "0445",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 21
+ },
+ {
+  "slot": "0446",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 78
+ },
+ {
+  "slot": "0447",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 1
+ },
+ {
+  "slot": "0448",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 64
+ },
+ {
+  "slot": "0449",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 33
+ },
+ {
+  "slot": "0450",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 31
+ },
+ {
+  "slot": "0451",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 22
+ },
+ {
+  "slot": "0452",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 3
+ },
+ {
+  "slot": "0453",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 76
+ },
+ {
+  "slot": "0454",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 86
+ },
+ {
+  "slot": "0455",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 95
+ },
+ {
+  "slot": "0456",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 60
+ },
+ {
+  "slot": "0457",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 62
+ },
+ {
+  "slot": "0458",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 34
+ },
+ {
+  "slot": "0459",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 17
+ },
+ {
+  "slot": "0460",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 6
+ },
+ {
+  "slot": "0461",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 80
+ },
+ {
+  "slot": "0462",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 62
+ },
+ {
+  "slot": "0463",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 38
+ },
+ {
+  "slot": "0464",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 45
+ },
+ {
+  "slot": "0465",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 26
+ },
+ {
+  "slot": "0466",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 27
+ },
+ {
+  "slot": "0467",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 77
+ },
+ {
+  "slot": "0468",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 66
+ },
+ {
+  "slot": "0469",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 60
+ },
+ {
+  "slot": "0470",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 25
+ },
+ {
+  "slot": "0471",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 93
+ },
+ {
+  "slot": "0472",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 48
+ },
+ {
+  "slot": "0473",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 84
+ },
+ {
+  "slot": "0474",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 31
+ },
+ {
+  "slot": "0475",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 54
+ },
+ {
+  "slot": "0476",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 12
+ },
+ {
+  "slot": "0477",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 40
+ },
+ {
+  "slot": "0478",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 35
+ },
+ {
+  "slot": "0479",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 55
+ },
+ {
+  "slot": "0480",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 97
+ },
+ {
+  "slot": "0481",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 13
+ },
+ {
+  "slot": "0482",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 35
+ },
+ {
+  "slot": "0483",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 42
+ },
+ {
+  "slot": "0484",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 84
+ },
+ {
+  "slot": "0485",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 25
+ },
+ {
+  "slot": "0486",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 64
+ },
+ {
+  "slot": "0487",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 28
+ },
+ {
+  "slot": "0488",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 74
+ },
+ {
+  "slot": "0489",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 59
+ },
+ {
+  "slot": "0490",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 67
+ },
+ {
+  "slot": "0491",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 32
+ },
+ {
+  "slot": "0492",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 39
+ },
+ {
+  "slot": "0493",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 30
+ },
+ {
+  "slot": "0494",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 89
+ },
+ {
+  "slot": "0495",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 16
+ },
+ {
+  "slot": "0496",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 36
+ },
+ {
+  "slot": "0497",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 87
+ },
+ {
+  "slot": "0498",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 64
+ },
+ {
+  "slot": "0499",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 92
+ },
+ {
+  "slot": "0500",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 57
+ },
+ {
+  "slot": "0501",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 51
+ },
+ {
+  "slot": "0502",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 50
+ },
+ {
+  "slot": "0503",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 19
+ },
+ {
+  "slot": "0504",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 18
+ },
+ {
+  "slot": "0505",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 47
+ },
+ {
+  "slot": "0506",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 45
+ },
+ {
+  "slot": "0507",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 22
+ },
+ {
+  "slot": "0508",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 39
+ },
+ {
+  "slot": "0509",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 25
+ },
+ {
+  "slot": "0510",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 24
+ },
+ {
+  "slot": "0511",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 49
+ },
+ {
+  "slot": "0512",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 26
+ },
+ {
+  "slot": "0513",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 39
+ },
+ {
+  "slot": "0514",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 40
+ },
+ {
+  "slot": "0515",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 22
+ },
+ {
+  "slot": "0516",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 58
+ },
+ {
+  "slot": "0517",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 40
+ },
+ {
+  "slot": "0518",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 37
+ },
+ {
+  "slot": "0519",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 39
+ },
+ {
+  "slot": "0520",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 88
+ },
+ {
+  "slot": "0521",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 70
+ },
+ {
+  "slot": "0522",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 91
+ },
+ {
+  "slot": "0523",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 97
+ },
+ {
+  "slot": "0524",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 82
+ },
+ {
+  "slot": "0525",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 49
+ },
+ {
+  "slot": "0526",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 85
+ },
+ {
+  "slot": "0527",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 58
+ },
+ {
+  "slot": "0528",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 94
+ },
+ {
+  "slot": "0529",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 64
+ },
+ {
+  "slot": "0530",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 26
+ },
+ {
+  "slot": "0531",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 85
+ },
+ {
+  "slot": "0532",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 37
+ },
+ {
+  "slot": "0533",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 27
+ },
+ {
+  "slot": "0534",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 80
+ },
+ {
+  "slot": "0535",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 41
+ },
+ {
+  "slot": "0536",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 92
+ },
+ {
+  "slot": "0537",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 5
+ },
+ {
+  "slot": "0538",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 98
+ },
+ {
+  "slot": "0539",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 41
+ },
+ {
+  "slot": "0540",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 23
+ },
+ {
+  "slot": "0541",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 10
+ },
+ {
+  "slot": "0542",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 24
+ },
+ {
+  "slot": "0543",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 71
+ },
+ {
+  "slot": "0544",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 78
+ },
+ {
+  "slot": "0545",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 100
+ },
+ {
+  "slot": "0546",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 87
+ },
+ {
+  "slot": "0547",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 78
+ },
+ {
+  "slot": "0548",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 96
+ },
+ {
+  "slot": "0549",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 80
+ },
+ {
+  "slot": "0550",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 4
+ },
+ {
+  "slot": "0551",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 43
+ },
+ {
+  "slot": "0552",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 22
+ },
+ {
+  "slot": "0553",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 47
+ },
+ {
+  "slot": "0554",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 76
+ },
+ {
+  "slot": "0555",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 55
+ },
+ {
+  "slot": "0556",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 75
+ },
+ {
+  "slot": "0557",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 84
+ },
+ {
+  "slot": "0558",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 44
+ },
+ {
+  "slot": "0559",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 68
+ },
+ {
+  "slot": "0560",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 29
+ },
+ {
+  "slot": "0561",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 71
+ },
+ {
+  "slot": "0562",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 40
+ },
+ {
+  "slot": "0563",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 9
+ },
+ {
+  "slot": "0564",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 55
+ },
+ {
+  "slot": "0565",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 67
+ },
+ {
+  "slot": "0566",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 63
+ },
+ {
+  "slot": "0567",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 17
+ },
+ {
+  "slot": "0568",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 93
+ },
+ {
+  "slot": "0569",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 61
+ },
+ {
+  "slot": "0570",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 20
+ },
+ {
+  "slot": "0571",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 41
+ },
+ {
+  "slot": "0572",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 9
+ },
+ {
+  "slot": "0573",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 98
+ },
+ {
+  "slot": "0574",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 26
+ },
+ {
+  "slot": "0575",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 8
+ },
+ {
+  "slot": "0576",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 77
+ },
+ {
+  "slot": "0577",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 79
+ },
+ {
+  "slot": "0578",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 98
+ },
+ {
+  "slot": "0579",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 33
+ },
+ {
+  "slot": "0580",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 29
+ },
+ {
+  "slot": "0581",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 10
+ },
+ {
+  "slot": "0582",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 2
+ },
+ {
+  "slot": "0583",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 15
+ },
+ {
+  "slot": "0584",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 52
+ },
+ {
+  "slot": "0585",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 35
+ },
+ {
+  "slot": "0586",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 11
+ },
+ {
+  "slot": "0587",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 25
+ },
+ {
+  "slot": "0588",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 55
+ },
+ {
+  "slot": "0589",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 57
+ },
+ {
+  "slot": "0590",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 87
+ },
+ {
+  "slot": "0591",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 82
+ },
+ {
+  "slot": "0592",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 38
+ },
+ {
+  "slot": "0593",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 97
+ },
+ {
+  "slot": "0594",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 57
+ },
+ {
+  "slot": "0595",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 14
+ },
+ {
+  "slot": "0596",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 72
+ },
+ {
+  "slot": "0597",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 37
+ },
+ {
+  "slot": "0598",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 42
+ },
+ {
+  "slot": "0599",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 18
+ },
+ {
+  "slot": "0600",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 31
+ },
+ {
+  "slot": "0601",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 53
+ },
+ {
+  "slot": "0602",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 25
+ },
+ {
+  "slot": "0603",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 53
+ },
+ {
+  "slot": "0604",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 64
+ },
+ {
+  "slot": "0605",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 15
+ },
+ {
+  "slot": "0606",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 64
+ },
+ {
+  "slot": "0607",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 67
+ },
+ {
+  "slot": "0608",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 71
+ },
+ {
+  "slot": "0609",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 100
+ },
+ {
+  "slot": "0610",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 54
+ },
+ {
+  "slot": "0611",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 15
+ },
+ {
+  "slot": "0612",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 95
+ },
+ {
+  "slot": "0613",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 51
+ },
+ {
+  "slot": "0614",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 54
+ },
+ {
+  "slot": "0615",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 47
+ },
+ {
+  "slot": "0616",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 40
+ },
+ {
+  "slot": "0617",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 58
+ },
+ {
+  "slot": "0618",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 13
+ },
+ {
+  "slot": "0619",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 69
+ },
+ {
+  "slot": "0620",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 88
+ },
+ {
+  "slot": "0621",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 32
+ },
+ {
+  "slot": "0622",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 21
+ },
+ {
+  "slot": "0623",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 20
+ },
+ {
+  "slot": "0624",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 96
+ },
+ {
+  "slot": "0625",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 19
+ },
+ {
+  "slot": "0626",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 34
+ },
+ {
+  "slot": "0627",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 15
+ },
+ {
+  "slot": "0628",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 92
+ },
+ {
+  "slot": "0629",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 65
+ },
+ {
+  "slot": "0630",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 20
+ },
+ {
+  "slot": "0631",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 93
+ },
+ {
+  "slot": "0632",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 27
+ },
+ {
+  "slot": "0633",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 76
+ },
+ {
+  "slot": "0634",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 30
+ },
+ {
+  "slot": "0635",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 27
+ },
+ {
+  "slot": "0636",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 57
+ },
+ {
+  "slot": "0637",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 43
+ },
+ {
+  "slot": "0638",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 36
+ },
+ {
+  "slot": "0639",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 38
+ },
+ {
+  "slot": "0640",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 12
+ },
+ {
+  "slot": "0641",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 72
+ },
+ {
+  "slot": "0642",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 18
+ },
+ {
+  "slot": "0643",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 46
+ },
+ {
+  "slot": "0644",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 56
+ },
+ {
+  "slot": "0645",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 95
+ },
+ {
+  "slot": "0646",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 10
+ },
+ {
+  "slot": "0647",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 25
+ },
+ {
+  "slot": "0648",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 14
+ },
+ {
+  "slot": "0649",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 47
+ },
+ {
+  "slot": "0650",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 58
+ },
+ {
+  "slot": "0651",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 69
+ },
+ {
+  "slot": "0652",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 95
+ },
+ {
+  "slot": "0653",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 1
+ },
+ {
+  "slot": "0654",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 80
+ },
+ {
+  "slot": "0655",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 72
+ },
+ {
+  "slot": "0656",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 64
+ },
+ {
+  "slot": "0657",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 86
+ },
+ {
+  "slot": "0658",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 79
+ },
+ {
+  "slot": "0659",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 93
+ },
+ {
+  "slot": "0660",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 81
+ },
+ {
+  "slot": "0661",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 32
+ },
+ {
+  "slot": "0662",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 56
+ },
+ {
+  "slot": "0663",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 30
+ },
+ {
+  "slot": "0664",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 70
+ },
+ {
+  "slot": "0665",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 26
+ },
+ {
+  "slot": "0666",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 76
+ },
+ {
+  "slot": "0667",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 11
+ },
+ {
+  "slot": "0668",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 15
+ },
+ {
+  "slot": "0669",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 25
+ },
+ {
+  "slot": "0670",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 69
+ },
+ {
+  "slot": "0671",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 8
+ },
+ {
+  "slot": "0672",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 66
+ },
+ {
+  "slot": "0673",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 6
+ },
+ {
+  "slot": "0674",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 63
+ },
+ {
+  "slot": "0675",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 85
+ },
+ {
+  "slot": "0676",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 98
+ },
+ {
+  "slot": "0677",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 81
+ },
+ {
+  "slot": "0678",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 46
+ },
+ {
+  "slot": "0679",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 34
+ },
+ {
+  "slot": "0680",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 63
+ },
+ {
+  "slot": "0681",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 37
+ },
+ {
+  "slot": "0682",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 90
+ },
+ {
+  "slot": "0683",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 51
+ },
+ {
+  "slot": "0684",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 99
+ },
+ {
+  "slot": "0685",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 6
+ },
+ {
+  "slot": "0686",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 4
+ },
+ {
+  "slot": "0687",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 11
+ },
+ {
+  "slot": "0688",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 32
+ },
+ {
+  "slot": "0689",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 34
+ },
+ {
+  "slot": "0690",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 75
+ },
+ {
+  "slot": "0691",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 7
+ },
+ {
+  "slot": "0692",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 67
+ },
+ {
+  "slot": "0693",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 35
+ },
+ {
+  "slot": "0694",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 16
+ },
+ {
+  "slot": "0695",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 75
+ },
+ {
+  "slot": "0696",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 66
+ },
+ {
+  "slot": "0697",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 13
+ },
+ {
+  "slot": "0698",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 13
+ },
+ {
+  "slot": "0699",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 21
+ },
+ {
+  "slot": "0700",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 33
+ },
+ {
+  "slot": "0701",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 76
+ },
+ {
+  "slot": "0702",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 36
+ },
+ {
+  "slot": "0703",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 99
+ },
+ {
+  "slot": "0704",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 83
+ },
+ {
+  "slot": "0705",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 35
+ },
+ {
+  "slot": "0706",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 89
+ },
+ {
+  "slot": "0707",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 47
+ },
+ {
+  "slot": "0708",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 9
+ },
+ {
+  "slot": "0709",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 99
+ },
+ {
+  "slot": "0710",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 95
+ },
+ {
+  "slot": "0711",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 98
+ },
+ {
+  "slot": "0712",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 81
+ },
+ {
+  "slot": "0713",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 79
+ },
+ {
+  "slot": "0714",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 43
+ },
+ {
+  "slot": "0715",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 97
+ },
+ {
+  "slot": "0716",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 94
+ },
+ {
+  "slot": "0717",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 73
+ },
+ {
+  "slot": "0718",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 94
+ },
+ {
+  "slot": "0719",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 82
+ },
+ {
+  "slot": "0720",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 6
+ },
+ {
+  "slot": "0721",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 12
+ },
+ {
+  "slot": "0722",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 82
+ },
+ {
+  "slot": "0723",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 23
+ },
+ {
+  "slot": "0724",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 35
+ },
+ {
+  "slot": "0725",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 97
+ },
+ {
+  "slot": "0726",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 12
+ },
+ {
+  "slot": "0727",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 23
+ },
+ {
+  "slot": "0728",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 68
+ },
+ {
+  "slot": "0729",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 89
+ },
+ {
+  "slot": "0730",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 25
+ },
+ {
+  "slot": "0731",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 93
+ },
+ {
+  "slot": "0732",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 17
+ },
+ {
+  "slot": "0733",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 59
+ },
+ {
+  "slot": "0734",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 60
+ },
+ {
+  "slot": "0735",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 58
+ },
+ {
+  "slot": "0736",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 91
+ },
+ {
+  "slot": "0737",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 56
+ },
+ {
+  "slot": "0738",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 34
+ },
+ {
+  "slot": "0739",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 42
+ },
+ {
+  "slot": "0740",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 68
+ },
+ {
+  "slot": "0741",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 93
+ },
+ {
+  "slot": "0742",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 52
+ },
+ {
+  "slot": "0743",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 5
+ },
+ {
+  "slot": "0744",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 62
+ },
+ {
+  "slot": "0745",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 46
+ },
+ {
+  "slot": "0746",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 7
+ },
+ {
+  "slot": "0747",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 55
+ },
+ {
+  "slot": "0748",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 42
+ },
+ {
+  "slot": "0749",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 45
+ },
+ {
+  "slot": "0750",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 31
+ },
+ {
+  "slot": "0751",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 33
+ },
+ {
+  "slot": "0752",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 77
+ },
+ {
+  "slot": "0753",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 60
+ },
+ {
+  "slot": "0754",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 60
+ },
+ {
+  "slot": "0755",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 50
+ },
+ {
+  "slot": "0756",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 97
+ },
+ {
+  "slot": "0757",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 61
+ },
+ {
+  "slot": "0758",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 88
+ },
+ {
+  "slot": "0759",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 43
+ },
+ {
+  "slot": "0760",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 73
+ },
+ {
+  "slot": "0761",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 82
+ },
+ {
+  "slot": "0762",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 33
+ },
+ {
+  "slot": "0763",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 54
+ },
+ {
+  "slot": "0764",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 34
+ },
+ {
+  "slot": "0765",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 19
+ },
+ {
+  "slot": "0766",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 98
+ },
+ {
+  "slot": "0767",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 89
+ },
+ {
+  "slot": "0768",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 76
+ },
+ {
+  "slot": "0769",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 53
+ },
+ {
+  "slot": "0770",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 46
+ },
+ {
+  "slot": "0771",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 4
+ },
+ {
+  "slot": "0772",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 63
+ },
+ {
+  "slot": "0773",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 59
+ },
+ {
+  "slot": "0774",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 93
+ },
+ {
+  "slot": "0775",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 3
+ },
+ {
+  "slot": "0776",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 55
+ },
+ {
+  "slot": "0777",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 71
+ },
+ {
+  "slot": "0778",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 94
+ },
+ {
+  "slot": "0779",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 75
+ },
+ {
+  "slot": "0780",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 57
+ },
+ {
+  "slot": "0781",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 96
+ },
+ {
+  "slot": "0782",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 59
+ },
+ {
+  "slot": "0783",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 91
+ },
+ {
+  "slot": "0784",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 19
+ },
+ {
+  "slot": "0785",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 6
+ },
+ {
+  "slot": "0786",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 8
+ },
+ {
+  "slot": "0787",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 75
+ },
+ {
+  "slot": "0788",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 60
+ },
+ {
+  "slot": "0789",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 71
+ },
+ {
+  "slot": "0790",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 14
+ },
+ {
+  "slot": "0791",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 16
+ },
+ {
+  "slot": "0792",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 66
+ },
+ {
+  "slot": "0793",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 68
+ },
+ {
+  "slot": "0794",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 62
+ },
+ {
+  "slot": "0795",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 96
+ },
+ {
+  "slot": "0796",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 67
+ },
+ {
+  "slot": "0797",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 17
+ },
+ {
+  "slot": "0798",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 42
+ },
+ {
+  "slot": "0799",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 18
+ },
+ {
+  "slot": "0800",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 75
+ },
+ {
+  "slot": "0801",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 58
+ },
+ {
+  "slot": "0802",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 34
+ },
+ {
+  "slot": "0803",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 52
+ },
+ {
+  "slot": "0804",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 90
+ },
+ {
+  "slot": "0805",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 78
+ },
+ {
+  "slot": "0806",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 95
+ },
+ {
+  "slot": "0807",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 4
+ },
+ {
+  "slot": "0808",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 19
+ },
+ {
+  "slot": "0809",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 99
+ },
+ {
+  "slot": "0810",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 21
+ },
+ {
+  "slot": "0811",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 29
+ },
+ {
+  "slot": "0812",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 14
+ },
+ {
+  "slot": "0813",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 11
+ },
+ {
+  "slot": "0814",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 55
+ },
+ {
+  "slot": "0815",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 15
+ },
+ {
+  "slot": "0816",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 43
+ },
+ {
+  "slot": "0817",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 3
+ },
+ {
+  "slot": "0818",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 77
+ },
+ {
+  "slot": "0819",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 69
+ },
+ {
+  "slot": "0820",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 22
+ },
+ {
+  "slot": "0821",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 90
+ },
+ {
+  "slot": "0822",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 92
+ },
+ {
+  "slot": "0823",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 61
+ },
+ {
+  "slot": "0824",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 56
+ },
+ {
+  "slot": "0825",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 58
+ },
+ {
+  "slot": "0826",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 67
+ },
+ {
+  "slot": "0827",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 42
+ },
+ {
+  "slot": "0828",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 86
+ },
+ {
+  "slot": "0829",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 11
+ },
+ {
+  "slot": "0830",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 30
+ },
+ {
+  "slot": "0831",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 99
+ },
+ {
+  "slot": "0832",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 94
+ },
+ {
+  "slot": "0833",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 73
+ },
+ {
+  "slot": "0834",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 86
+ },
+ {
+  "slot": "0835",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 38
+ },
+ {
+  "slot": "0836",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 43
+ },
+ {
+  "slot": "0837",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 85
+ },
+ {
+  "slot": "0838",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 14
+ },
+ {
+  "slot": "0839",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 73
+ },
+ {
+  "slot": "0840",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 27
+ },
+ {
+  "slot": "0841",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 28
+ },
+ {
+  "slot": "0842",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 8
+ },
+ {
+  "slot": "0843",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 10
+ },
+ {
+  "slot": "0844",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 79
+ },
+ {
+  "slot": "0845",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 17
+ },
+ {
+  "slot": "0846",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 57
+ },
+ {
+  "slot": "0847",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 47
+ },
+ {
+  "slot": "0848",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 6
+ },
+ {
+  "slot": "0849",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 73
+ },
+ {
+  "slot": "0850",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 41
+ },
+ {
+  "slot": "0851",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 63
+ },
+ {
+  "slot": "0852",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 98
+ },
+ {
+  "slot": "0853",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 39
+ },
+ {
+  "slot": "0854",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 90
+ },
+ {
+  "slot": "0855",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 48
+ },
+ {
+  "slot": "0856",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 60
+ },
+ {
+  "slot": "0857",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 76
+ },
+ {
+  "slot": "0858",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 34
+ },
+ {
+  "slot": "0859",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 7
+ },
+ {
+  "slot": "0860",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 28
+ },
+ {
+  "slot": "0861",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 50
+ },
+ {
+  "slot": "0862",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 26
+ },
+ {
+  "slot": "0863",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 68
+ },
+ {
+  "slot": "0864",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 4
+ },
+ {
+  "slot": "0865",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 9
+ },
+ {
+  "slot": "0866",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 96
+ },
+ {
+  "slot": "0867",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 50
+ },
+ {
+  "slot": "0868",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 32
+ },
+ {
+  "slot": "0869",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 52
+ },
+ {
+  "slot": "0870",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 29
+ },
+ {
+  "slot": "0871",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 81
+ },
+ {
+  "slot": "0872",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 53
+ },
+ {
+  "slot": "0873",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 9
+ },
+ {
+  "slot": "0874",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 73
+ },
+ {
+  "slot": "0875",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 6
+ },
+ {
+  "slot": "0876",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 99
+ },
+ {
+  "slot": "0877",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 19
+ },
+ {
+  "slot": "0878",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 1
+ },
+ {
+  "slot": "0879",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 13
+ },
+ {
+  "slot": "0880",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 38
+ },
+ {
+  "slot": "0881",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 82
+ },
+ {
+  "slot": "0882",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 72
+ },
+ {
+  "slot": "0883",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 65
+ },
+ {
+  "slot": "0884",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 58
+ },
+ {
+  "slot": "0885",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 22
+ },
+ {
+  "slot": "0886",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 65
+ },
+ {
+  "slot": "0887",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 54
+ },
+ {
+  "slot": "0888",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 45
+ },
+ {
+  "slot": "0889",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 45
+ },
+ {
+  "slot": "0890",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 83
+ },
+ {
+  "slot": "0891",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 29
+ },
+ {
+  "slot": "0892",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 6
+ },
+ {
+  "slot": "0893",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 67
+ },
+ {
+  "slot": "0894",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 86
+ },
+ {
+  "slot": "0895",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 1
+ },
+ {
+  "slot": "0896",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 29
+ },
+ {
+  "slot": "0897",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 59
+ },
+ {
+  "slot": "0898",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 1
+ },
+ {
+  "slot": "0899",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 65
+ },
+ {
+  "slot": "0900",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 36
+ },
+ {
+  "slot": "0901",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 32
+ },
+ {
+  "slot": "0902",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 2
+ },
+ {
+  "slot": "0903",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 68
+ },
+ {
+  "slot": "0904",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 54
+ },
+ {
+  "slot": "0905",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 61
+ },
+ {
+  "slot": "0906",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 72
+ },
+ {
+  "slot": "0907",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 71
+ },
+ {
+  "slot": "0908",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 92
+ },
+ {
+  "slot": "0909",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 37
+ },
+ {
+  "slot": "0910",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 89
+ },
+ {
+  "slot": "0911",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 80
+ },
+ {
+  "slot": "0912",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 15
+ },
+ {
+  "slot": "0913",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 37
+ },
+ {
+  "slot": "0914",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 50
+ },
+ {
+  "slot": "0915",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 56
+ },
+ {
+  "slot": "0916",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 78
+ },
+ {
+  "slot": "0917",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 84
+ },
+ {
+  "slot": "0918",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 96
+ },
+ {
+  "slot": "0919",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 9
+ },
+ {
+  "slot": "0920",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 37
+ },
+ {
+  "slot": "0921",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 4
+ },
+ {
+  "slot": "0922",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 48
+ },
+ {
+  "slot": "0923",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 2
+ },
+ {
+  "slot": "0924",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 68
+ },
+ {
+  "slot": "0925",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 21
+ },
+ {
+  "slot": "0926",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 92
+ },
+ {
+  "slot": "0927",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 100
+ },
+ {
+  "slot": "0928",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 90
+ },
+ {
+  "slot": "0929",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 65
+ },
+ {
+  "slot": "0930",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 34
+ },
+ {
+  "slot": "0931",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 92
+ },
+ {
+  "slot": "0932",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 14
+ },
+ {
+  "slot": "0933",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 6
+ },
+ {
+  "slot": "0934",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 25
+ },
+ {
+  "slot": "0935",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 20
+ },
+ {
+  "slot": "0936",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 53
+ },
+ {
+  "slot": "0937",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 30
+ },
+ {
+  "slot": "0938",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 16
+ },
+ {
+  "slot": "0939",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 16
+ },
+ {
+  "slot": "0940",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 1
+ },
+ {
+  "slot": "0941",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 3
+ },
+ {
+  "slot": "0942",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 53
+ },
+ {
+  "slot": "0943",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 29
+ },
+ {
+  "slot": "0944",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 2
+ },
+ {
+  "slot": "0945",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 67
+ },
+ {
+  "slot": "0946",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 80
+ },
+ {
+  "slot": "0947",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 74
+ },
+ {
+  "slot": "0948",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 44
+ },
+ {
+  "slot": "0949",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 32
+ },
+ {
+  "slot": "0950",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 51
+ },
+ {
+  "slot": "0951",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 93
+ },
+ {
+  "slot": "0952",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 59
+ },
+ {
+  "slot": "0953",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 18
+ },
+ {
+  "slot": "0954",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 66
+ },
+ {
+  "slot": "0955",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 30
+ },
+ {
+  "slot": "0956",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 86
+ },
+ {
+  "slot": "0957",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 42
+ },
+ {
+  "slot": "0958",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 78
+ },
+ {
+  "slot": "0959",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 36
+ },
+ {
+  "slot": "0960",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 39
+ },
+ {
+  "slot": "0961",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 52
+ },
+ {
+  "slot": "0962",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 31
+ },
+ {
+  "slot": "0963",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 21
+ },
+ {
+  "slot": "0964",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 82
+ },
+ {
+  "slot": "0965",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 88
+ },
+ {
+  "slot": "0966",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 38
+ },
+ {
+  "slot": "0967",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 30
+ },
+ {
+  "slot": "0968",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 39
+ },
+ {
+  "slot": "0969",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 48
+ },
+ {
+  "slot": "0970",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 17
+ },
+ {
+  "slot": "0971",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 53
+ },
+ {
+  "slot": "0972",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 24
+ },
+ {
+  "slot": "0973",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 95
+ },
+ {
+  "slot": "0974",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 85
+ },
+ {
+  "slot": "0975",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 87
+ },
+ {
+  "slot": "0976",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 70
+ },
+ {
+  "slot": "0977",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 90
+ },
+ {
+  "slot": "0978",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 51
+ },
+ {
+  "slot": "0979",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 72
+ },
+ {
+  "slot": "0980",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 89
+ },
+ {
+  "slot": "0981",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 11
+ },
+ {
+  "slot": "0982",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 62
+ },
+ {
+  "slot": "0983",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 11
+ },
+ {
+  "slot": "0984",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 52
+ },
+ {
+  "slot": "0985",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 75
+ },
+ {
+  "slot": "0986",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 23
+ },
+ {
+  "slot": "0987",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 47
+ },
+ {
+  "slot": "0988",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 80
+ },
+ {
+  "slot": "0989",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 42
+ },
+ {
+  "slot": "0990",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 46
+ },
+ {
+  "slot": "0991",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 10
+ },
+ {
+  "slot": "0992",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 39
+ },
+ {
+  "slot": "0993",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 13
+ },
+ {
+  "slot": "0994",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 10
+ },
+ {
+  "slot": "0995",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 96
+ },
+ {
+  "slot": "0996",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 59
+ },
+ {
+  "slot": "0997",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 98
+ },
+ {
+  "slot": "0998",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 65
+ },
+ {
+  "slot": "0999",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 77
+ },
+ {
+  "slot": "1000",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 96
+ },
+ {
+  "slot": "1001",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 45
+ },
+ {
+  "slot": "1002",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 85
+ },
+ {
+  "slot": "1003",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 37
+ },
+ {
+  "slot": "1004",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 42
+ },
+ {
+  "slot": "1005",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 4
+ },
+ {
+  "slot": "1006",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 5
+ },
+ {
+  "slot": "1007",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 7
+ },
+ {
+  "slot": "1008",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 43
+ },
+ {
+  "slot": "1009",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 87
+ },
+ {
+  "slot": "1010",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 85
+ },
+ {
+  "slot": "1011",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 83
+ },
+ {
+  "slot": "1012",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 61
+ },
+ {
+  "slot": "1013",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 28
+ },
+ {
+  "slot": "1014",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 83
+ },
+ {
+  "slot": "1015",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 32
+ },
+ {
+  "slot": "1016",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 52
+ },
+ {
+  "slot": "1017",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 95
+ },
+ {
+  "slot": "1018",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 27
+ },
+ {
+  "slot": "1019",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 46
+ },
+ {
+  "slot": "1020",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 75
+ },
+ {
+  "slot": "1021",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 11
+ },
+ {
+  "slot": "1022",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 65
+ },
+ {
+  "slot": "1023",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 95
+ },
+ {
+  "slot": "1024",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 97
+ },
+ {
+  "slot": "1025",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 5
+ },
+ {
+  "slot": "1026",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 57
+ },
+ {
+  "slot": "1027",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 24
+ },
+ {
+  "slot": "1028",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 4
+ },
+ {
+  "slot": "1029",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 95
+ },
+ {
+  "slot": "1030",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 7
+ },
+ {
+  "slot": "1031",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 22
+ },
+ {
+  "slot": "1032",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 32
+ },
+ {
+  "slot": "1033",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 86
+ },
+ {
+  "slot": "1034",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 89
+ },
+ {
+  "slot": "1035",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 35
+ },
+ {
+  "slot": "1036",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 44
+ },
+ {
+  "slot": "1037",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 78
+ },
+ {
+  "slot": "1038",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 61
+ },
+ {
+  "slot": "1039",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 79
+ },
+ {
+  "slot": "1040",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 89
+ },
+ {
+  "slot": "1041",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 25
+ },
+ {
+  "slot": "1042",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 67
+ },
+ {
+  "slot": "1043",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 48
+ },
+ {
+  "slot": "1044",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 91
+ },
+ {
+  "slot": "1045",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 49
+ },
+ {
+  "slot": "1046",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 25
+ },
+ {
+  "slot": "1047",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 9
+ },
+ {
+  "slot": "1048",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 86
+ },
+ {
+  "slot": "1049",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 20
+ },
+ {
+  "slot": "1050",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 62
+ },
+ {
+  "slot": "1051",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 90
+ },
+ {
+  "slot": "1052",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 21
+ },
+ {
+  "slot": "1053",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 84
+ },
+ {
+  "slot": "1054",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 77
+ },
+ {
+  "slot": "1055",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 42
+ },
+ {
+  "slot": "1056",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 94
+ },
+ {
+  "slot": "1057",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 47
+ },
+ {
+  "slot": "1058",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 38
+ },
+ {
+  "slot": "1059",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 62
+ },
+ {
+  "slot": "1060",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 91
+ },
+ {
+  "slot": "1061",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 84
+ },
+ {
+  "slot": "1062",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 55
+ },
+ {
+  "slot": "1063",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 56
+ },
+ {
+  "slot": "1064",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 41
+ },
+ {
+  "slot": "1065",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 91
+ },
+ {
+  "slot": "1066",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 98
+ },
+ {
+  "slot": "1067",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 86
+ },
+ {
+  "slot": "1068",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 28
+ },
+ {
+  "slot": "1069",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 71
+ },
+ {
+  "slot": "1070",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 31
+ },
+ {
+  "slot": "1071",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 61
+ },
+ {
+  "slot": "1072",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 36
+ },
+ {
+  "slot": "1073",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 7
+ },
+ {
+  "slot": "1074",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 52
+ },
+ {
+  "slot": "1075",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 82
+ },
+ {
+  "slot": "1076",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 26
+ },
+ {
+  "slot": "1077",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 91
+ },
+ {
+  "slot": "1078",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 63
+ },
+ {
+  "slot": "1079",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 26
+ },
+ {
+  "slot": "1080",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 89
+ },
+ {
+  "slot": "1081",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 37
+ },
+ {
+  "slot": "1082",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 69
+ },
+ {
+  "slot": "1083",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 73
+ },
+ {
+  "slot": "1084",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 44
+ },
+ {
+  "slot": "1085",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 26
+ },
+ {
+  "slot": "1086",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 11
+ },
+ {
+  "slot": "1087",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 72
+ },
+ {
+  "slot": "1088",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 63
+ },
+ {
+  "slot": "1089",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 100
+ },
+ {
+  "slot": "1090",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 47
+ },
+ {
+  "slot": "1091",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 2
+ },
+ {
+  "slot": "1092",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 15
+ },
+ {
+  "slot": "1093",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 13
+ },
+ {
+  "slot": "1094",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 15
+ },
+ {
+  "slot": "1095",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 2
+ },
+ {
+  "slot": "1096",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 23
+ },
+ {
+  "slot": "1097",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 22
+ },
+ {
+  "slot": "1098",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 46
+ },
+ {
+  "slot": "1099",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 73
+ },
+ {
+  "slot": "1100",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 79
+ },
+ {
+  "slot": "1101",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 66
+ },
+ {
+  "slot": "1102",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 66
+ },
+ {
+  "slot": "1103",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 54
+ },
+ {
+  "slot": "1104",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 48
+ },
+ {
+  "slot": "1105",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 32
+ },
+ {
+  "slot": "1106",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 13
+ },
+ {
+  "slot": "1107",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 59
+ },
+ {
+  "slot": "1108",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 82
+ },
+ {
+  "slot": "1109",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 13
+ },
+ {
+  "slot": "1110",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 73
+ },
+ {
+  "slot": "1111",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 22
+ },
+ {
+  "slot": "1112",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 97
+ },
+ {
+  "slot": "1113",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 9
+ },
+ {
+  "slot": "1114",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 55
+ },
+ {
+  "slot": "1115",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 8
+ },
+ {
+  "slot": "1116",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 37
+ },
+ {
+  "slot": "1117",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 66
+ },
+ {
+  "slot": "1118",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 12
+ },
+ {
+  "slot": "1119",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 53
+ },
+ {
+  "slot": "1120",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 99
+ },
+ {
+  "slot": "1121",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 9
+ },
+ {
+  "slot": "1122",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 77
+ },
+ {
+  "slot": "1123",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 54
+ },
+ {
+  "slot": "1124",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 69
+ },
+ {
+  "slot": "1125",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 18
+ },
+ {
+  "slot": "1126",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 40
+ },
+ {
+  "slot": "1127",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 78
+ },
+ {
+  "slot": "1128",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 38
+ },
+ {
+  "slot": "1129",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 41
+ },
+ {
+  "slot": "1130",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 20
+ },
+ {
+  "slot": "1131",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 95
+ },
+ {
+  "slot": "1132",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 38
+ },
+ {
+  "slot": "1133",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 54
+ },
+ {
+  "slot": "1134",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 10
+ },
+ {
+  "slot": "1135",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 64
+ },
+ {
+  "slot": "1136",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 71
+ },
+ {
+  "slot": "1137",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 69
+ },
+ {
+  "slot": "1138",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 19
+ },
+ {
+  "slot": "1139",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 59
+ },
+ {
+  "slot": "1140",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 81
+ },
+ {
+  "slot": "1141",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 94
+ },
+ {
+  "slot": "1142",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 15
+ },
+ {
+  "slot": "1143",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 1
+ },
+ {
+  "slot": "1144",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 92
+ },
+ {
+  "slot": "1145",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 76
+ },
+ {
+  "slot": "1146",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 19
+ },
+ {
+  "slot": "1147",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 24
+ },
+ {
+  "slot": "1148",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 13
+ },
+ {
+  "slot": "1149",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 49
+ },
+ {
+  "slot": "1150",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 11
+ },
+ {
+  "slot": "1151",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 74
+ },
+ {
+  "slot": "1152",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 88
+ },
+ {
+  "slot": "1153",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 24
+ },
+ {
+  "slot": "1154",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 71
+ },
+ {
+  "slot": "1155",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 17
+ },
+ {
+  "slot": "1156",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 59
+ },
+ {
+  "slot": "1157",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 69
+ },
+ {
+  "slot": "1158",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 99
+ },
+ {
+  "slot": "1159",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 37
+ },
+ {
+  "slot": "1160",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 40
+ },
+ {
+  "slot": "1161",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 7
+ },
+ {
+  "slot": "1162",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 83
+ },
+ {
+  "slot": "1163",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 71
+ },
+ {
+  "slot": "1164",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 4
+ },
+ {
+  "slot": "1165",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 16
+ },
+ {
+  "slot": "1166",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 54
+ },
+ {
+  "slot": "1167",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 24
+ },
+ {
+  "slot": "1168",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 24
+ },
+ {
+  "slot": "1169",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 88
+ },
+ {
+  "slot": "1170",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 12
+ },
+ {
+  "slot": "1171",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 57
+ },
+ {
+  "slot": "1172",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 13
+ },
+ {
+  "slot": "1173",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 64
+ },
+ {
+  "slot": "1174",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 78
+ },
+ {
+  "slot": "1175",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 52
+ },
+ {
+  "slot": "1176",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 84
+ },
+ {
+  "slot": "1177",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 18
+ },
+ {
+  "slot": "1178",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 58
+ },
+ {
+  "slot": "1179",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 48
+ },
+ {
+  "slot": "1180",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 47
+ },
+ {
+  "slot": "1181",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 87
+ },
+ {
+  "slot": "1182",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 35
+ },
+ {
+  "slot": "1183",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 7
+ },
+ {
+  "slot": "1184",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 7
+ },
+ {
+  "slot": "1185",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 5
+ },
+ {
+  "slot": "1186",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 94
+ },
+ {
+  "slot": "1187",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 80
+ },
+ {
+  "slot": "1188",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 70
+ },
+ {
+  "slot": "1189",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "lock",
+  "k": 17
+ },
+ {
+  "slot": "1190",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "lock",
+  "k": 81
+ },
+ {
+  "slot": "1191",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "key",
+  "k": 44
+ },
+ {
+  "slot": "1192",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 46
+ },
+ {
+  "slot": "1193",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 54
+ },
+ {
+  "slot": "1194",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 90
+ },
+ {
+  "slot": "1195",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 57
+ },
+ {
+  "slot": "1196",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 8
+ },
+ {
+  "slot": "1197",
+  "model": "gpt-5.4-2026-03-05",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 69
+ },
+ {
+  "slot": "1198",
+  "model": "claude-opus-4-6",
+  "arm": "REVERSED",
+  "input": "key",
+  "k": 74
+ },
+ {
+  "slot": "1199",
+  "model": "claude-opus-4-6",
+  "arm": "ORIGINAL",
+  "input": "key",
+  "k": 27
+ },
+ {
+  "slot": "1200",
+  "model": "claude-opus-4-6",
+  "arm": "REMOVED",
+  "input": "lock",
+  "k": 19
+ }
+]

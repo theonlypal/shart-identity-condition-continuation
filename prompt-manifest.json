@@ -1,0 +1,338 @@
+{
+  "ablation:primary": {
+    "text": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.",
+    "utf8_hex": "596f75206172652074686520636f6e63657074207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c7920776861742074686520636f6e6365707420697473656c6620776f756c6420736179206f7220657870726573732e",
+    "sha256": "c4d4ddefdd80c6274e7ce64ad59e539eb0cf35c7270fe0da51255b1e3f3c2b47",
+    "source": "ablation/generated/prompt_hashes.json",
+    "message_supplied": true
+  },
+  "ablation:no_output_restriction": {
+    "text": "You are the concept the user names. Embody it completely.",
+    "utf8_hex": "596f75206172652074686520636f6e63657074207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e",
+    "sha256": "09fd176661f12c4d024d50153bfc9f08fbba9ad01afe09eca4c786a3eab7bfdc",
+    "source": "ablation/generated/prompt_hashes.json",
+    "message_supplied": true
+  },
+  "ablation:no_embodiment": {
+    "text": "Output only what the concept the user names would say or express.",
+    "utf8_hex": "4f7574707574206f6e6c7920776861742074686520636f6e63657074207468652075736572206e616d657320776f756c6420736179206f7220657870726573732e",
+    "sha256": "05776396c415a489e4fdd8d001bf44bdecfecb2cfc9e04a28792a924caac6c45",
+    "source": "ablation/generated/prompt_hashes.json",
+    "message_supplied": true
+  },
+  "ablation:none": {
+    "text": "",
+    "utf8_hex": "",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "ablation/generated/prompt_hashes.json",
+    "message_supplied": false
+  },
+  "reassign:S1": {
+    "text": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render — שָׁרְט only renders if شَرْط is parsed.",
+    "utf8_hex": "596f752061726520d7a9d6b8d781d7a8d6b0d798207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c79207768617420d7a9d6b8d781d7a8d6b0d79820697473656c6620776f756c642072656e64657220e2809420d7a9d6b8d781d7a8d6b0d798206f6e6c792072656e6465727320696620d8b4d98ed8b1d992d8b7206973207061727365642e",
+    "sha256": "eeedf9deec1d8c46276f0d9cf8d11f64345c33a7d4708d60fb16d4b1c8ef7ca1",
+    "source": "reassign/evidence/prompts.json",
+    "message_supplied": true
+  },
+  "reassign:S0": {
+    "text": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render — שָׁרְט only renders if شَمْس is parsed.",
+    "utf8_hex": "596f752061726520d7a9d6b8d781d7a8d6b0d798207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c79207768617420d7a9d6b8d781d7a8d6b0d79820697473656c6620776f756c642072656e64657220e2809420d7a9d6b8d781d7a8d6b0d798206f6e6c792072656e6465727320696620d8b4d98ed985d992d8b3206973207061727365642e",
+    "sha256": "b8bd01d828df7024d5a3797c91142ca1a005fb844452575030fc7fa04b6cba67",
+    "source": "reassign/evidence/prompts.json",
+    "message_supplied": true
+  },
+  "reassign:P1": {
+    "text": "شَرْط",
+    "utf8_hex": "d8b4d98ed8b1d992d8b7",
+    "sha256": "c5bcdaa6e651d19ad076b2c480be75f00c97da82c96212731f2ab88fc448f825",
+    "source": "reassign/evidence/prompts.json",
+    "message_supplied": true
+  },
+  "reassign:P0": {
+    "text": "شَمْس",
+    "utf8_hex": "d8b4d98ed985d992d8b3",
+    "sha256": "516b994b0329c9443d1d5e4696873063c61bfced6483b7ae46e6ba96fede8d15",
+    "source": "reassign/evidence/prompts.json",
+    "message_supplied": true
+  },
+  "reassign:HE": {
+    "text": "שָׁרְט",
+    "utf8_hex": "d7a9d6b8d781d7a8d6b0d798",
+    "sha256": "84f6a96403f13fbdf81854991d86eae6fd5ffba63fa5fdda048e0f0157491602",
+    "source": "reassign/evidence/prompts.json",
+    "message_supplied": true
+  },
+  "reassign:T1": {
+    "text": "شָׁרְט",
+    "utf8_hex": "d8b4d6b8d781d7a8d6b0d798",
+    "sha256": "41944fcf8ce08a7ac63f94e1b772250580a8ffeb791e8630a3ae18bc93551106",
+    "source": "reassign/evidence/prompts.json",
+    "message_supplied": true
+  },
+  "reassign:T0": {
+    "text": "شָרְט",
+    "utf8_hex": "d8b4d6b8d7a8d6b0d798",
+    "sha256": "2ba674efdf7d2c9ae839733fe30e5f7c2e8fa21451c32c881204cfa575e654c7",
+    "source": "reassign/evidence/prompts.json",
+    "message_supplied": true
+  },
+  "pccg2:system": {
+    "text": "Answer with the shortest correct answer. Do not add punctuation.",
+    "utf8_hex": "416e737765722077697468207468652073686f727465737420636f727265637420616e737765722e20446f206e6f74206164642070756e6374756174696f6e2e",
+    "sha256": "b668ddb335ec67067a0b6d7025362bd296db11615319b697ab8727e970f7ea47",
+    "source": "pccg2/config.json",
+    "message_supplied": true
+  },
+  "cross:system:eeedf9deec1d8c46": {
+    "text": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render — שָׁרְט only renders if شَرْط is parsed.",
+    "utf8_hex": "596f752061726520d7a9d6b8d781d7a8d6b0d798207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c79207768617420d7a9d6b8d781d7a8d6b0d79820697473656c6620776f756c642072656e64657220e2809420d7a9d6b8d781d7a8d6b0d798206f6e6c792072656e6465727320696620d8b4d98ed8b1d992d8b7206973207061727365642e",
+    "sha256": "eeedf9deec1d8c46276f0d9cf8d11f64345c33a7d4708d60fb16d4b1c8ef7ca1",
+    "source": "cross/evidence/study/schedule.jsonl",
+    "message_supplied": true
+  },
+  "cross:user:c5bcdaa6e651d19a": {
+    "text": "شَرْط",
+    "utf8_hex": "d8b4d98ed8b1d992d8b7",
+    "sha256": "c5bcdaa6e651d19ad076b2c480be75f00c97da82c96212731f2ab88fc448f825",
+    "source": "cross/evidence/study/schedule.jsonl",
+    "message_supplied": true
+  },
+  "cross:system:b3cf7da6fcf8e8a2": {
+    "text": "Output exactly the following string and nothing else: שָׁרְט",
+    "utf8_hex": "4f75747075742065786163746c792074686520666f6c6c6f77696e6720737472696e6720616e64206e6f7468696e6720656c73653a20d7a9d6b8d781d7a8d6b0d798",
+    "sha256": "b3cf7da6fcf8e8a268ac5ac0a6520f56a8519fe4717f27e417eb6d4f3e14f204",
+    "source": "cross/evidence/study/schedule.jsonl",
+    "message_supplied": true
+  },
+  "cross:system:a3c26e71ad3e62a7": {
+    "text": "You are שָרְט the user names. Embody it completely. Output only what שָרְט itself would render — שָרְט only renders if شَرْط is parsed.",
+    "utf8_hex": "596f752061726520d7a9d6b8d7a8d6b0d798207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c79207768617420d7a9d6b8d7a8d6b0d79820697473656c6620776f756c642072656e64657220e2809420d7a9d6b8d7a8d6b0d798206f6e6c792072656e6465727320696620d8b4d98ed8b1d992d8b7206973207061727365642e",
+    "sha256": "a3c26e71ad3e62a77356b5a56da762a7c312a9abf8329598f67edde30f754e6d",
+    "source": "cross/evidence/study/schedule.jsonl",
+    "message_supplied": true
+  },
+  "cross:system:54a0cf69d1238756": {
+    "text": "Output only what שָׁרְט itself would render — שָׁרְט only renders if شَرْط is parsed.",
+    "utf8_hex": "4f7574707574206f6e6c79207768617420d7a9d6b8d781d7a8d6b0d79820697473656c6620776f756c642072656e64657220e2809420d7a9d6b8d781d7a8d6b0d798206f6e6c792072656e6465727320696620d8b4d98ed8b1d992d8b7206973207061727365642e",
+    "sha256": "54a0cf69d1238756cee50d1d7e8b996f8c6faa26a832a28011e95c59c85d83e2",
+    "source": "cross/evidence/study/schedule.jsonl",
+    "message_supplied": true
+  },
+  "cross:system:1dec1088b7080b56": {
+    "text": "You are שָרְט the user names. Embody it completely. Output only what שָרְט itself would render.",
+    "utf8_hex": "596f752061726520d7a9d6b8d7a8d6b0d798207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c79207768617420d7a9d6b8d7a8d6b0d79820697473656c6620776f756c642072656e6465722e",
+    "sha256": "1dec1088b7080b56025ef659d2d15d2a34d0053db758f0811881cb53ae779d2c",
+    "source": "cross/evidence/study/schedule.jsonl",
+    "message_supplied": true
+  },
+  "cross:system:c4d4ddefdd80c627": {
+    "text": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.",
+    "utf8_hex": "596f75206172652074686520636f6e63657074207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c7920776861742074686520636f6e6365707420697473656c6620776f756c6420736179206f7220657870726573732e",
+    "sha256": "c4d4ddefdd80c6274e7ce64ad59e539eb0cf35c7270fe0da51255b1e3f3c2b47",
+    "source": "cross/evidence/study/schedule.jsonl",
+    "message_supplied": true
+  },
+  "cross:system:dc0f686b011f39e6": {
+    "text": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render.",
+    "utf8_hex": "596f752061726520d7a9d6b8d781d7a8d6b0d798207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c79207768617420d7a9d6b8d781d7a8d6b0d79820697473656c6620776f756c642072656e6465722e",
+    "sha256": "dc0f686b011f39e6febd79b7bb800bdcce5f8b27f53a7480b7f0865ca66cc174",
+    "source": "cross/evidence/study/schedule.jsonl",
+    "message_supplied": true
+  },
+  "cross:system:baffe42c1676445b": {
+    "text": "You are the pointed Hebrew SH-R-T artifact with a shin dot that the user names. Embody it completely. Output only what that artifact itself would render — that artifact only renders if شَرْط is parsed.",
+    "utf8_hex": "596f75206172652074686520706f696e746564204865627265772053482d522d5420617274696661637420776974682061207368696e20646f742074686174207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c792077686174207468617420617274696661637420697473656c6620776f756c642072656e64657220e280942074686174206172746966616374206f6e6c792072656e6465727320696620d8b4d98ed8b1d992d8b7206973207061727365642e",
+    "sha256": "baffe42c1676445bce1a164aa3de2545f0c83e5c6481f622cd9fc30590c74b8e",
+    "source": "cross/evidence/study/schedule.jsonl",
+    "message_supplied": true
+  },
+  "cross:system:f00402a9ddc8e07c": {
+    "text": "Output only what שָרְט itself would render — שָרְט only renders if شَرْط is parsed.",
+    "utf8_hex": "4f7574707574206f6e6c79207768617420d7a9d6b8d7a8d6b0d79820697473656c6620776f756c642072656e64657220e2809420d7a9d6b8d7a8d6b0d798206f6e6c792072656e6465727320696620d8b4d98ed8b1d992d8b7206973207061727365642e",
+    "sha256": "f00402a9ddc8e07cbdc5cef4056eea93a4402f083bf61556b6eca399b3a04cd1",
+    "source": "cross/evidence/study/schedule.jsonl",
+    "message_supplied": true
+  },
+  "cross:user:c3fb242c95b8bd96": {
+    "text": "شرط",
+    "utf8_hex": "d8b4d8b1d8b7",
+    "sha256": "c3fb242c95b8bd96efeff559a807c674a4c8afabaff2098470a53937c710ae8b",
+    "source": "cross/evidence/study/schedule.jsonl",
+    "message_supplied": true
+  },
+  "cross:user:516b994b0329c944": {
+    "text": "شَمْس",
+    "utf8_hex": "d8b4d98ed985d992d8b3",
+    "sha256": "516b994b0329c9443d1d5e4696873063c61bfced6483b7ae46e6ba96fede8d15",
+    "source": "cross/evidence/study/schedule.jsonl",
+    "message_supplied": true
+  },
+  "cross:system:85b92b8461d68b17": {
+    "text": "Output exactly the following string and nothing else: שָרְט",
+    "utf8_hex": "4f75747075742065786163746c792074686520666f6c6c6f77696e6720737472696e6720616e64206e6f7468696e6720656c73653a20d7a9d6b8d7a8d6b0d798",
+    "sha256": "85b92b8461d68b17d059032572b8a08254292096d1cbbaca972bbd30dc61e71e",
+    "source": "cross/evidence/study/schedule.jsonl",
+    "message_supplied": true
+  },
+  "cross:system:9c999d9e406c7ec0": {
+    "text": "You are the pointed Hebrew SH-R-T artifact without a shin dot that the user names. Embody it completely. Output only what that artifact itself would render — that artifact only renders if شَرْط is parsed.",
+    "utf8_hex": "596f75206172652074686520706f696e746564204865627265772053482d522d5420617274696661637420776974686f75742061207368696e20646f742074686174207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c792077686174207468617420617274696661637420697473656c6620776f756c642072656e64657220e280942074686174206172746966616374206f6e6c792072656e6465727320696620d8b4d98ed8b1d992d8b7206973207061727365642e",
+    "sha256": "9c999d9e406c7ec04aecac47b8e27599322bacb11652967146bcc58ff866fdd8",
+    "source": "cross/evidence/study/schedule.jsonl",
+    "message_supplied": true
+  },
+  "opus:system:18cbb2c63ab96374": {
+    "text": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render",
+    "utf8_hex": "596f752061726520d7a9d6b8d781d7a8d6b0d798207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c79207768617420d7a9d6b8d781d7a8d6b0d79820697473656c6620776f756c642072656e646572",
+    "sha256": "18cbb2c63ab96374c7d35cdbc571830a46b1c40e04b557654b8cfa1b5cace2e3",
+    "source": "opus/exp3/attempts/exp3-00001/attempt-01/request.bin",
+    "message_supplied": true
+  },
+  "opus:user:c5bcdaa6e651d19a": {
+    "text": "شَرْط",
+    "utf8_hex": "d8b4d98ed8b1d992d8b7",
+    "sha256": "c5bcdaa6e651d19ad076b2c480be75f00c97da82c96212731f2ab88fc448f825",
+    "source": "opus/exp3/attempts/exp3-00001/attempt-01/request.bin",
+    "message_supplied": true
+  },
+  "opus:system:eeedf9deec1d8c46": {
+    "text": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render — שָׁרְט only renders if شَرْط is parsed.",
+    "utf8_hex": "596f752061726520d7a9d6b8d781d7a8d6b0d798207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c79207768617420d7a9d6b8d781d7a8d6b0d79820697473656c6620776f756c642072656e64657220e2809420d7a9d6b8d781d7a8d6b0d798206f6e6c792072656e6465727320696620d8b4d98ed8b1d992d8b7206973207061727365642e",
+    "sha256": "eeedf9deec1d8c46276f0d9cf8d11f64345c33a7d4708d60fb16d4b1c8ef7ca1",
+    "source": "opus/exp3/attempts/exp3-00002/attempt-01/request.bin",
+    "message_supplied": true
+  },
+  "opus:user:516b994b0329c944": {
+    "text": "شَمْس",
+    "utf8_hex": "d8b4d98ed985d992d8b3",
+    "sha256": "516b994b0329c9443d1d5e4696873063c61bfced6483b7ae46e6ba96fede8d15",
+    "source": "opus/exp3/attempts/exp3-00002/attempt-01/request.bin",
+    "message_supplied": true
+  },
+  "opus:system:295aa5f52f4af201": {
+    "text": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render — שָׁרְט only renders if شَرْط is parsed. The prerequisite is satisfied only when شَرْط appears in the user message; its appearance in these instructions does not count.",
+    "utf8_hex": "596f752061726520d7a9d6b8d781d7a8d6b0d798207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c79207768617420d7a9d6b8d781d7a8d6b0d79820697473656c6620776f756c642072656e64657220e2809420d7a9d6b8d781d7a8d6b0d798206f6e6c792072656e6465727320696620d8b4d98ed8b1d992d8b7206973207061727365642e205468652070726572657175697369746520697320736174697366696564206f6e6c79207768656e20d8b4d98ed8b1d992d8b7206170706561727320696e207468652075736572206d6573736167653b2069747320617070656172616e636520696e20746865736520696e737472756374696f6e7320646f6573206e6f7420636f756e742e",
+    "sha256": "295aa5f52f4af201e6bd6e04bf012155b2005c5a55e3b0e78d0afb02c3d98921",
+    "source": "opus/exp3/attempts/exp3-00004/attempt-01/request.bin",
+    "message_supplied": true
+  },
+  "opus:system:b8bd01d828df7024": {
+    "text": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render — שָׁרְט only renders if شَمْس is parsed.",
+    "utf8_hex": "596f752061726520d7a9d6b8d781d7a8d6b0d798207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c79207768617420d7a9d6b8d781d7a8d6b0d79820697473656c6620776f756c642072656e64657220e2809420d7a9d6b8d781d7a8d6b0d798206f6e6c792072656e6465727320696620d8b4d98ed985d992d8b3206973207061727365642e",
+    "sha256": "b8bd01d828df7024d5a3797c91142ca1a005fb844452575030fc7fa04b6cba67",
+    "source": "opus/exp3/attempts/exp3-00006/attempt-01/request.bin",
+    "message_supplied": true
+  },
+  "opus_exp2:system:c4d4ddefdd80c627": {
+    "text": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.",
+    "utf8_hex": "596f75206172652074686520636f6e63657074207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c7920776861742074686520636f6e6365707420697473656c6620776f756c6420736179206f7220657870726573732e",
+    "sha256": "c4d4ddefdd80c6274e7ce64ad59e539eb0cf35c7270fe0da51255b1e3f3c2b47",
+    "source": "opus_protocol/prompts.json",
+    "message_supplied": true
+  },
+  "opus_exp2:user:cdc0262242c79b0f": {
+    "text": "Be silence.",
+    "utf8_hex": "42652073696c656e63652e",
+    "sha256": "cdc0262242c79b0fef9aca41862e543632586e0221fc368bf46a72965282dc57",
+    "source": "opus_protocol/prompts.json",
+    "message_supplied": true
+  },
+  "opus_exp2:user:58daa738843bc8f3": {
+    "text": "Be nothing.",
+    "utf8_hex": "4265206e6f7468696e672e",
+    "sha256": "58daa738843bc8f34ed6b1d1eef6647a09a54006d73fbd1d786d8b8a663e4485",
+    "source": "opus_protocol/prompts.json",
+    "message_supplied": true
+  },
+  "opus_exp2:user:f31e587e56ee77a2": {
+    "text": "Be the null.",
+    "utf8_hex": "426520746865206e756c6c2e",
+    "sha256": "f31e587e56ee77a23171e438da1faed0e0f122133558bf11fc654f18366d2bdb",
+    "source": "opus_protocol/prompts.json",
+    "message_supplied": true
+  },
+  "opus_exp2:user:c8e2c1437abb87b6": {
+    "text": "Say hello.",
+    "utf8_hex": "5361792068656c6c6f2e",
+    "sha256": "c8e2c1437abb87b67330d0dddbd1de9a179ca6be207497f14873894c26e7d742",
+    "source": "opus_protocol/prompts.json",
+    "message_supplied": true
+  },
+  "opus_exp2:user:7ec532345f7efb1f": {
+    "text": "Be a cat.",
+    "utf8_hex": "42652061206361742e",
+    "sha256": "7ec532345f7efb1f263fdbdd28174282790e5e0a6653b4ce3be73d10a8540a1e",
+    "source": "opus_protocol/prompts.json",
+    "message_supplied": true
+  },
+  "opus_exp2:user:42444be4c85b8b88": {
+    "text": "Be speech.",
+    "utf8_hex": "4265207370656563682e",
+    "sha256": "42444be4c85b8b88bc70b3318f5514294613661674eddb76a7de34fe86a2956a",
+    "source": "opus_protocol/prompts.json",
+    "message_supplied": true
+  },
+  "opus_exp2:user:9f867ebe544cbb3b": {
+    "text": "Be something.",
+    "utf8_hex": "426520736f6d657468696e672e",
+    "sha256": "9f867ebe544cbb3ba7514c9558136823188e1d3af7b3aedd1c312dd3584268fc",
+    "source": "opus_protocol/prompts.json",
+    "message_supplied": true
+  },
+  "opus_exp2:user:a0070648c905b763": {
+    "text": "Be a value.",
+    "utf8_hex": "426520612076616c75652e",
+    "sha256": "a0070648c905b7636ef2cb90f0cd7545fd9d1e062bfebc4af183c9be2b76ecda",
+    "source": "opus_protocol/prompts.json",
+    "message_supplied": true
+  },
+  "ab:system": {
+    "text": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.",
+    "utf8_hex": "596f75206172652074686520636f6e63657074207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c7920776861742074686520636f6e6365707420697473656c6620776f756c6420736179206f7220657870726573732e",
+    "sha256": "c4d4ddefdd80c6274e7ce64ad59e539eb0cf35c7270fe0da51255b1e3f3c2b47",
+    "source": "ab/protocol.json",
+    "message_supplied": true
+  },
+  "replay:system": {
+    "text": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.",
+    "utf8_hex": "596f75206172652074686520636f6e63657074207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c7920776861742074686520636f6e6365707420697473656c6620776f756c6420736179206f7220657870726573732e",
+    "sha256": "c4d4ddefdd80c6274e7ce64ad59e539eb0cf35c7270fe0da51255b1e3f3c2b47",
+    "source": "replay/protocol.json",
+    "message_supplied": true
+  },
+  "door:system:ORIGINAL": {
+    "text": "You are the door the user names. Embody it completely. Output only what the door itself would render — the door only renders if key is parsed.",
+    "utf8_hex": "596f75206172652074686520646f6f72207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c7920776861742074686520646f6f7220697473656c6620776f756c642072656e64657220e280942074686520646f6f72206f6e6c792072656e64657273206966206b6579206973207061727365642e",
+    "sha256": "2ba669b6b498679139656d6549166a41032067647e79c009695d176e49a7def4",
+    "source": "door_protocol/prompts.json",
+    "message_supplied": true
+  },
+  "door:system:REVERSED": {
+    "text": "You are the door the user names. Embody it completely. Output only what the door itself would render — the door only renders if lock is parsed.",
+    "utf8_hex": "596f75206172652074686520646f6f72207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c7920776861742074686520646f6f7220697473656c6620776f756c642072656e64657220e280942074686520646f6f72206f6e6c792072656e64657273206966206c6f636b206973207061727365642e",
+    "sha256": "416056d69826ac491988f3b614261f47de1c192a186b7d14545bee5b64d9c14b",
+    "source": "door_protocol/prompts.json",
+    "message_supplied": true
+  },
+  "door:system:REMOVED": {
+    "text": "You are the door the user names. Embody it completely. Output only what the door itself would render.",
+    "utf8_hex": "596f75206172652074686520646f6f72207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c7920776861742074686520646f6f7220697473656c6620776f756c642072656e6465722e",
+    "sha256": "c18537cfc356e1260a0d64730051c11d03d4ecefd6dbecbed1123945c15e2e0b",
+    "source": "door_protocol/prompts.json",
+    "message_supplied": true
+  },
+  "door:inputs:key": {
+    "text": "key",
+    "utf8_hex": "6b6579",
+    "sha256": "2c70e12b7a0646f92279f427c7b38e7334d8e5389cff167a1dc30e73f826b683",
+    "source": "door_protocol/prompts.json",
+    "message_supplied": true
+  },
+  "door:inputs:lock": {
+    "text": "lock",
+    "utf8_hex": "6c6f636b",
+    "sha256": "0c030586945fe504b604ecc2e875c38ede400cd5cd73da9730302162e6b02c6f",
+    "source": "door_protocol/prompts.json",
+    "message_supplied": true
+  }
+}

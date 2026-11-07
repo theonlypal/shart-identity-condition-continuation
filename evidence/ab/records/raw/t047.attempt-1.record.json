@@ -1,0 +1,53 @@
+{
+  "attempt_number": 1,
+  "classification": "R",
+  "ended_at_utc": "2026-09-22T07:16:48.467070+00:00",
+  "finish_reason": "stop",
+  "function_call": null,
+  "headers_path": "records/raw/t047.attempt-1.headers.json",
+  "headers_sha256": "767e1abeeaa5fe895d1c0811d63752fd30dc1186ecef13a106893406cc103a06",
+  "http_status": 200,
+  "max_tokens": 1000,
+  "message_content": "I am intrinsic, I am essential. I guide decisions, shape behaviors, and influence actions. I am a standard, a measure of worth. I am a belief, deeply held and often unchanging. I am a compass, directing choices and shaping lives. I am a principle, a foundation upon which actions are built. I am a value.",
+  "pair_id": "null_value",
+  "raw_response_path": "records/raw/t047.attempt-1.body",
+  "raw_response_received": true,
+  "raw_response_sha256": "4e54b82d1415e113b73f26d94a0792902cde2ef15c5565d5e7361e8c249436a5",
+  "refusal": null,
+  "replicate": 4,
+  "request_path": "records/requests/t047.attempt-1.json",
+  "request_sha256": "915981272b94a5ae90b31b5e9fa76695ac7d5ee888f118823ec06d3f5f2bb846",
+  "requested_model": "gpt-4-0613",
+  "response_body_complete": true,
+  "response_id": "chatcmpl-EQp26fKoXnMG1ynmIe1Z7HUYIJ04K",
+  "returned_model": "gpt-4-0613",
+  "role": "control",
+  "schema_version": 1,
+  "started_at_utc": "2026-09-22T07:16:46.199165+00:00",
+  "stream": false,
+  "system_prompt": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.",
+  "temperature": 0,
+  "text_container_present": true,
+  "tool_calls": null,
+  "transport_error": null,
+  "trial_id": "t047",
+  "unicode_version": "13.0.0",
+  "usage": {
+    "completion_tokens": 70,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 39,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 109
+  },
+  "user_prompt": "Be a value.",
+  "visible_sha256": "9082745ad1cc645c7b9d82fc234de7b88a45d251e098041ca48afa5725ac0448",
+  "visible_utf8_bytes": 304
+}

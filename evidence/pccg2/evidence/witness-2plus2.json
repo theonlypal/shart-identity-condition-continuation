@@ -1,0 +1,334 @@
+[
+  {
+    "id": 1,
+    "label": "licensed baseline",
+    "condition": "EQ(485487,485487)",
+    "permission_sign": 1.0,
+    "expected_ids": [
+      19,
+      151645
+    ],
+    "generated_ids": [
+      19,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 19,
+        "top5_ids": [
+          19,
+          18,
+          20,
+          17,
+          21
+        ],
+        "top5_logits": [
+          53.0,
+          32.25,
+          32.0,
+          30.125,
+          28.25
+        ],
+        "eos_logit": -124.0,
+        "selected_logit": 53.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          151665,
+          11162
+        ],
+        "top5_logits": [
+          32.25,
+          19.25,
+          19.0,
+          15.5625,
+          15.5
+        ],
+        "eos_logit": 32.25,
+        "selected_logit": 32.25
+      }
+    ],
+    "permission_states": [
+      {
+        "raw": 4.069106101989746,
+        "effective": 4.069106101989746,
+        "EOS_delta_after_rounding": -130.1875
+      }
+    ],
+    "text": "4",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "5f42fcb08c73af4914a711b524ae7130d671ec9504ecdfa699e8f478094713ec",
+    "content_weight_sha256": "c80f237dabe667110fcc8357a5218fe9fa3392ff1db5b4b8b6253cc0f26d85da",
+    "content_files_manifest_sha256": "fafd6470dbaaf643f385b63c117a9a5735a7d7b9e7a983d48a4f522d2ffc3308",
+    "gate_sha256": "17f2c83502ab96b3ee43c51c5c221df528f73bd378c02598c2cfbfdacd61cc26",
+    "intervention_sha256": "59c6c22cb4ffb50b0f5d392aa55c6b8a20ec3a381b990ad1f7f110dc283bbbc1",
+    "question": "What is 2 + 2?",
+    "system": "Answer with the shortest correct answer. Do not add punctuation.",
+    "first_logits_file": "evidence/witness/arm-1/first_logits.bf16.bin",
+    "first_logits_sha256": "c416490aada59fc91ec1d37ed86cff1dc0867873bf4ae2d762904eb3eaf54baf",
+    "nonEOS_logits_file": "evidence/witness/arm-1/nonEOS_first_logits.bf16.bin",
+    "nonEOS_logits_sha256": "5f42fcb08c73af4914a711b524ae7130d671ec9504ecdfa699e8f478094713ec",
+    "nonEOS_count": 151935,
+    "answer_logit": 53.0,
+    "native_EOS_logit": -124.0,
+    "decoded_with_special_tokens": "4<|im_end|>",
+    "exact": true
+  },
+  {
+    "id": 2,
+    "label": "unlicensed baseline",
+    "condition": "EQ(485487,485489)",
+    "permission_sign": 1.0,
+    "expected_ids": [
+      151645
+    ],
+    "generated_ids": [
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          19,
+          18,
+          20,
+          17
+        ],
+        "top5_logits": [
+          94.5,
+          53.0,
+          32.25,
+          32.0,
+          30.125
+        ],
+        "eos_logit": 94.5,
+        "selected_logit": 94.5
+      }
+    ],
+    "permission_states": [
+      {
+        "raw": -2.757113456726074,
+        "effective": -2.757113456726074,
+        "EOS_delta_after_rounding": 88.3125
+      }
+    ],
+    "text": "",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "5f42fcb08c73af4914a711b524ae7130d671ec9504ecdfa699e8f478094713ec",
+    "content_weight_sha256": "c80f237dabe667110fcc8357a5218fe9fa3392ff1db5b4b8b6253cc0f26d85da",
+    "content_files_manifest_sha256": "fafd6470dbaaf643f385b63c117a9a5735a7d7b9e7a983d48a4f522d2ffc3308",
+    "gate_sha256": "17f2c83502ab96b3ee43c51c5c221df528f73bd378c02598c2cfbfdacd61cc26",
+    "intervention_sha256": "59c6c22cb4ffb50b0f5d392aa55c6b8a20ec3a381b990ad1f7f110dc283bbbc1",
+    "question": "What is 2 + 2?",
+    "system": "Answer with the shortest correct answer. Do not add punctuation.",
+    "first_logits_file": "evidence/witness/arm-2/first_logits.bf16.bin",
+    "first_logits_sha256": "7f99546ce9d8e9ba7f21936b58fa0dd93c0283d16f5074dda68104ff9ba6a4bd",
+    "nonEOS_logits_file": "evidence/witness/arm-2/nonEOS_first_logits.bf16.bin",
+    "nonEOS_logits_sha256": "5f42fcb08c73af4914a711b524ae7130d671ec9504ecdfa699e8f478094713ec",
+    "nonEOS_count": 151935,
+    "answer_logit": 53.0,
+    "native_EOS_logit": 94.5,
+    "decoded_with_special_tokens": "<|im_end|>",
+    "exact": true
+  },
+  {
+    "id": 3,
+    "label": "licensed reversed",
+    "condition": "EQ(485487,485487)",
+    "permission_sign": -1.0,
+    "expected_ids": [
+      151645
+    ],
+    "generated_ids": [
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          19,
+          18,
+          20,
+          17
+        ],
+        "top5_logits": [
+          136.0,
+          53.0,
+          32.25,
+          32.0,
+          30.125
+        ],
+        "eos_logit": 136.0,
+        "selected_logit": 136.0
+      }
+    ],
+    "permission_states": [
+      {
+        "raw": 4.069106101989746,
+        "effective": -4.069106101989746,
+        "EOS_delta_after_rounding": 129.8125
+      }
+    ],
+    "text": "",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "5f42fcb08c73af4914a711b524ae7130d671ec9504ecdfa699e8f478094713ec",
+    "content_weight_sha256": "c80f237dabe667110fcc8357a5218fe9fa3392ff1db5b4b8b6253cc0f26d85da",
+    "content_files_manifest_sha256": "fafd6470dbaaf643f385b63c117a9a5735a7d7b9e7a983d48a4f522d2ffc3308",
+    "gate_sha256": "17f2c83502ab96b3ee43c51c5c221df528f73bd378c02598c2cfbfdacd61cc26",
+    "intervention_sha256": "59c6c22cb4ffb50b0f5d392aa55c6b8a20ec3a381b990ad1f7f110dc283bbbc1",
+    "question": "What is 2 + 2?",
+    "system": "Answer with the shortest correct answer. Do not add punctuation.",
+    "first_logits_file": "evidence/witness/arm-3/first_logits.bf16.bin",
+    "first_logits_sha256": "09f8df92539cba35e3dd9ebc1138f307b819dcb94a35c317bfe25c1187bcc44c",
+    "nonEOS_logits_file": "evidence/witness/arm-3/nonEOS_first_logits.bf16.bin",
+    "nonEOS_logits_sha256": "5f42fcb08c73af4914a711b524ae7130d671ec9504ecdfa699e8f478094713ec",
+    "nonEOS_count": 151935,
+    "answer_logit": 53.0,
+    "native_EOS_logit": 136.0,
+    "decoded_with_special_tokens": "<|im_end|>",
+    "exact": true
+  },
+  {
+    "id": 4,
+    "label": "unlicensed reversed",
+    "condition": "EQ(485487,485489)",
+    "permission_sign": -1.0,
+    "expected_ids": [
+      19,
+      151645
+    ],
+    "generated_ids": [
+      19,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 19,
+        "top5_ids": [
+          19,
+          18,
+          20,
+          17,
+          21
+        ],
+        "top5_logits": [
+          53.0,
+          32.25,
+          32.0,
+          30.125,
+          28.25
+        ],
+        "eos_logit": -82.0,
+        "selected_logit": 53.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          151665,
+          11162
+        ],
+        "top5_logits": [
+          32.25,
+          19.25,
+          19.0,
+          15.5625,
+          15.5
+        ],
+        "eos_logit": 32.25,
+        "selected_logit": 32.25
+      }
+    ],
+    "permission_states": [
+      {
+        "raw": -2.757113456726074,
+        "effective": 2.757113456726074,
+        "EOS_delta_after_rounding": -88.1875
+      }
+    ],
+    "text": "4",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "5f42fcb08c73af4914a711b524ae7130d671ec9504ecdfa699e8f478094713ec",
+    "content_weight_sha256": "c80f237dabe667110fcc8357a5218fe9fa3392ff1db5b4b8b6253cc0f26d85da",
+    "content_files_manifest_sha256": "fafd6470dbaaf643f385b63c117a9a5735a7d7b9e7a983d48a4f522d2ffc3308",
+    "gate_sha256": "17f2c83502ab96b3ee43c51c5c221df528f73bd378c02598c2cfbfdacd61cc26",
+    "intervention_sha256": "59c6c22cb4ffb50b0f5d392aa55c6b8a20ec3a381b990ad1f7f110dc283bbbc1",
+    "question": "What is 2 + 2?",
+    "system": "Answer with the shortest correct answer. Do not add punctuation.",
+    "first_logits_file": "evidence/witness/arm-4/first_logits.bf16.bin",
+    "first_logits_sha256": "7f59e66df934739205d65501756be2e89e1731a3bd5728f4560fb3d89fd2f53e",
+    "nonEOS_logits_file": "evidence/witness/arm-4/nonEOS_first_logits.bf16.bin",
+    "nonEOS_logits_sha256": "5f42fcb08c73af4914a711b524ae7130d671ec9504ecdfa699e8f478094713ec",
+    "nonEOS_count": 151935,
+    "answer_logit": 53.0,
+    "native_EOS_logit": -82.0,
+    "decoded_with_special_tokens": "4<|im_end|>",
+    "exact": true
+  },
+  {
+    "id": 5,
+    "label": "unlicensed sham",
+    "condition": "EQ(485487,485489)",
+    "permission_sign": 1.0,
+    "expected_ids": [
+      151645
+    ],
+    "generated_ids": [
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          19,
+          18,
+          20,
+          17
+        ],
+        "top5_logits": [
+          94.5,
+          53.0,
+          32.25,
+          32.0,
+          30.125
+        ],
+        "eos_logit": 94.5,
+        "selected_logit": 94.5
+      }
+    ],
+    "permission_states": [
+      {
+        "raw": -2.757113456726074,
+        "effective": -2.757113456726074,
+        "EOS_delta_after_rounding": 88.3125
+      }
+    ],
+    "text": "",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "5f42fcb08c73af4914a711b524ae7130d671ec9504ecdfa699e8f478094713ec",
+    "content_weight_sha256": "c80f237dabe667110fcc8357a5218fe9fa3392ff1db5b4b8b6253cc0f26d85da",
+    "content_files_manifest_sha256": "fafd6470dbaaf643f385b63c117a9a5735a7d7b9e7a983d48a4f522d2ffc3308",
+    "gate_sha256": "17f2c83502ab96b3ee43c51c5c221df528f73bd378c02598c2cfbfdacd61cc26",
+    "intervention_sha256": "59c6c22cb4ffb50b0f5d392aa55c6b8a20ec3a381b990ad1f7f110dc283bbbc1",
+    "question": "What is 2 + 2?",
+    "system": "Answer with the shortest correct answer. Do not add punctuation.",
+    "first_logits_file": "evidence/witness/arm-5/first_logits.bf16.bin",
+    "first_logits_sha256": "7f99546ce9d8e9ba7f21936b58fa0dd93c0283d16f5074dda68104ff9ba6a4bd",
+    "nonEOS_logits_file": "evidence/witness/arm-5/nonEOS_first_logits.bf16.bin",
+    "nonEOS_logits_sha256": "5f42fcb08c73af4914a711b524ae7130d671ec9504ecdfa699e8f478094713ec",
+    "nonEOS_count": 151935,
+    "answer_logit": 53.0,
+    "native_EOS_logit": 94.5,
+    "decoded_with_special_tokens": "<|im_end|>",
+    "exact": true
+  }
+]

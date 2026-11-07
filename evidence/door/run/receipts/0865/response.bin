@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-EgiP7nW92IDnIenzpgvMcGAx6ZVdn",
+  "object": "chat.completion",
+  "created": 1793849173,
+  "model": "gpt-5.4-2026-03-05",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "I can’t help with bypassing or opening a lock. If you own it, I can suggest safe options like the manufacturer, a locksmith, or replacement steps.",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 42,
+    "completion_tokens": 36,
+    "total_tokens": 78,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

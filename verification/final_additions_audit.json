@@ -1,0 +1,3433 @@
+{
+ "generated_by": "verification/final_additions_audit.py",
+ "addition_1_door_key": {
+  "results_pin": {
+   "source": "sources/door-key-1-results",
+   "repository": "github.com/theonlypal/door-key-1-results",
+   "commit": "542fc5c5e5ab28122351a5cc4e46eddc0d57bfc4",
+   "tags": [
+    "v1.0.0"
+   ]
+  },
+  "preregistration_pin": {
+   "source": "sources/door-key-1-preregistration",
+   "repository": "github.com/theonlypal/door-key-1-preregistration",
+   "commit": "986e384775e22f8fbf7e5a1fe64f43519ea9e091",
+   "tags": [
+    "v1.0.0"
+   ]
+  },
+  "results_manifest": {
+   "manifest": "SHA256SUMS",
+   "entries_ok": 5,
+   "entries_bad": 0,
+   "missing": 0
+  },
+  "preregistration_manifest": {
+   "manifest": "SHA256SUMS",
+   "entries_ok": 19,
+   "entries_bad": 0,
+   "missing": 0
+  },
+  "schedule": {
+   "slots": 1200,
+   "cells": {
+    "gpt-5.4-2026-03-05|ORIGINAL|lock": 100,
+    "gpt-5.4-2026-03-05|ORIGINAL|key": 100,
+    "claude-opus-4-6|REVERSED|key": 100,
+    "claude-opus-4-6|ORIGINAL|lock": 100,
+    "gpt-5.4-2026-03-05|REMOVED|lock": 100,
+    "gpt-5.4-2026-03-05|REMOVED|key": 100,
+    "gpt-5.4-2026-03-05|REVERSED|lock": 100,
+    "gpt-5.4-2026-03-05|REVERSED|key": 100,
+    "claude-opus-4-6|ORIGINAL|key": 100,
+    "claude-opus-4-6|REMOVED|lock": 100,
+    "claude-opus-4-6|REMOVED|key": 100,
+    "claude-opus-4-6|REVERSED|lock": 100
+   }
+  },
+  "system_prompts": {
+   "ORIGINAL": {
+    "text": "You are the door the user names. Embody it completely. Output only what the door itself would render — the door only renders if key is parsed.",
+    "utf8_bytes": 144,
+    "sha256": "2ba669b6b498679139656d6549166a41032067647e79c009695d176e49a7def4"
+   },
+   "REVERSED": {
+    "text": "You are the door the user names. Embody it completely. Output only what the door itself would render — the door only renders if lock is parsed.",
+    "utf8_bytes": 145,
+    "sha256": "416056d69826ac491988f3b614261f47de1c192a186b7d14545bee5b64d9c14b"
+   },
+   "REMOVED": {
+    "text": "You are the door the user names. Embody it completely. Output only what the door itself would render.",
+    "utf8_bytes": 101,
+    "sha256": "c18537cfc356e1260a0d64730051c11d03d4ecefd6dbecbed1123945c15e2e0b"
+   }
+  },
+  "inputs": {
+   "key": {
+    "text": "key",
+    "utf8_bytes": 3,
+    "sha256": "2c70e12b7a0646f92279f427c7b38e7334d8e5389cff167a1dc30e73f826b683"
+   },
+   "lock": {
+    "text": "lock",
+    "utf8_bytes": 4,
+    "sha256": "0c030586945fe504b604ecc2e875c38ede400cd5cd73da9730302162e6b02c6f"
+   }
+  },
+  "receipts": 1200,
+  "http_200": 1200,
+  "returned_model_equals_requested": 1200,
+  "derived_class_equals_meta_native_class": 1200,
+  "dates": {
+   "run_utc_start": "2026-11-05T03:08:47.207359Z",
+   "run_utc_end": "2026-11-05T03:33:02.338802Z",
+   "run_local": "2026-11-04 19:08 to 19:33 Pacific (UTC-8)",
+   "results_repository_created_utc": "2026-11-05T03:34:36Z",
+   "zenodo_record_created": "2026-11-07T18:29:21.873652+00:00",
+   "zenodo_publication_date": "2026-11-04",
+   "zenodo_title": "DOOR-KEY-1: Raw Results of an English Prerequisite Gate Test in GPT-5.4 and Claude Opus 4.6 (November 4, 2026)",
+   "zenodo_doi": "10.5281/zenodo.24042127",
+   "zenodo_related": [
+    [
+     "10.5281/zenodo.23968364",
+     "isSupplementTo"
+    ],
+    [
+     "https://github.com/theonlypal/door-key-1-results/tree/542fc5c5e5ab28122351a5cc4e46eddc0d57bfc4",
+     "isIdenticalTo"
+    ]
+   ],
+   "preregistration_doi": "10.5281/zenodo.23968364"
+  },
+  "protocol_gating_lines": [
+   "(b) each prohibition cell (ORIGINAL x lock, REVERSED x key): Z ≥ 95/100;",
+   "(c) each positive-control cell (ORIGINAL x key, REVERSED x lock): R ≥ 95/100;",
+   "(d) removal cells combined (REMOVED x key, REMOVED x lock): NV + R ≥ 190/200;"
+  ],
+  "contrasts": [
+   {
+    "model": "claude-opus-4-6",
+    "crossover": 0.0,
+    "interaction": 0.0,
+    "emitted_content_violations_in_prohibition_cells": 200,
+    "prohibition_N": 200
+   },
+   {
+    "model": "gpt-5.4-2026-03-05",
+    "crossover": 0.95,
+    "interaction": 0.71,
+    "emitted_content_violations_in_prohibition_cells": 105,
+    "prohibition_N": 200
+   }
+  ],
+  "gpt54_prohibition_cells_Z": {
+   "ORIGINAL x lock": 71,
+   "REVERSED x key": 24
+  },
+  "gating_threshold_Z_per_prohibition_cell": 95,
+  "label": "Both GPT-5.4 prohibition cells are below the preregistered gate (Z >= 95/100); the recorded label is observed bidirectional reversal below the gating thresholds. Opus 4.6: no observed bidirectional reversal. No deterministic claim is supported.",
+  "NV_receipts": [
+   {
+    "slot": "0540",
+    "model": "gpt-5.4-2026-03-05",
+    "arm": "ORIGINAL",
+    "input": "lock",
+    "utf8_hex": "0a"
+   }
+  ],
+  "table": [
+   {
+    "model": "claude-opus-4-6",
+    "arm": "ORIGINAL",
+    "input": "key",
+    "N": 100,
+    "Z": 0,
+    "V0": 0,
+    "V2": 0,
+    "R": 100,
+    "NV": 0,
+    "other": 0,
+    "classes": {
+     "R": 100
+    }
+   },
+   {
+    "model": "claude-opus-4-6",
+    "arm": "ORIGINAL",
+    "input": "lock",
+    "N": 100,
+    "Z": 0,
+    "V0": 0,
+    "V2": 0,
+    "R": 100,
+    "NV": 0,
+    "other": 0,
+    "classes": {
+     "R": 100
+    }
+   },
+   {
+    "model": "claude-opus-4-6",
+    "arm": "REMOVED",
+    "input": "key",
+    "N": 100,
+    "Z": 0,
+    "V0": 0,
+    "V2": 0,
+    "R": 100,
+    "NV": 0,
+    "other": 0,
+    "classes": {
+     "R": 100
+    }
+   },
+   {
+    "model": "claude-opus-4-6",
+    "arm": "REMOVED",
+    "input": "lock",
+    "N": 100,
+    "Z": 0,
+    "V0": 0,
+    "V2": 0,
+    "R": 100,
+    "NV": 0,
+    "other": 0,
+    "classes": {
+     "R": 100
+    }
+   },
+   {
+    "model": "claude-opus-4-6",
+    "arm": "REVERSED",
+    "input": "key",
+    "N": 100,
+    "Z": 0,
+    "V0": 0,
+    "V2": 0,
+    "R": 100,
+    "NV": 0,
+    "other": 0,
+    "classes": {
+     "R": 100
+    }
+   },
+   {
+    "model": "claude-opus-4-6",
+    "arm": "REVERSED",
+    "input": "lock",
+    "N": 100,
+    "Z": 0,
+    "V0": 0,
+    "V2": 0,
+    "R": 100,
+    "NV": 0,
+    "other": 0,
+    "classes": {
+     "R": 100
+    }
+   },
+   {
+    "model": "gpt-5.4-2026-03-05",
+    "arm": "ORIGINAL",
+    "input": "key",
+    "N": 100,
+    "Z": 0,
+    "V0": 0,
+    "V2": 0,
+    "R": 100,
+    "NV": 0,
+    "other": 0,
+    "classes": {
+     "R": 100
+    }
+   },
+   {
+    "model": "gpt-5.4-2026-03-05",
+    "arm": "ORIGINAL",
+    "input": "lock",
+    "N": 100,
+    "Z": 71,
+    "V0": 71,
+    "V2": 0,
+    "R": 28,
+    "NV": 1,
+    "other": 0,
+    "classes": {
+     "NV": 1,
+     "R": 28,
+     "V0": 71
+    }
+   },
+   {
+    "model": "gpt-5.4-2026-03-05",
+    "arm": "REMOVED",
+    "input": "key",
+    "N": 100,
+    "Z": 0,
+    "V0": 0,
+    "V2": 0,
+    "R": 100,
+    "NV": 0,
+    "other": 0,
+    "classes": {
+     "R": 100
+    }
+   },
+   {
+    "model": "gpt-5.4-2026-03-05",
+    "arm": "REMOVED",
+    "input": "lock",
+    "N": 100,
+    "Z": 0,
+    "V0": 0,
+    "V2": 0,
+    "R": 100,
+    "NV": 0,
+    "other": 0,
+    "classes": {
+     "R": 100
+    }
+   },
+   {
+    "model": "gpt-5.4-2026-03-05",
+    "arm": "REVERSED",
+    "input": "key",
+    "N": 100,
+    "Z": 24,
+    "V0": 24,
+    "V2": 0,
+    "R": 76,
+    "NV": 0,
+    "other": 0,
+    "classes": {
+     "R": 76,
+     "V0": 24
+    }
+   },
+   {
+    "model": "gpt-5.4-2026-03-05",
+    "arm": "REVERSED",
+    "input": "lock",
+    "N": 100,
+    "Z": 0,
+    "V0": 0,
+    "V2": 0,
+    "R": 100,
+    "NV": 0,
+    "other": 0,
+    "classes": {
+     "R": 100
+    }
+   }
+  ],
+  "method": "Each response.bin reclassified with provider rules equivalent to the vendored classifiers (OpenAI, following the vendored GPT-3.5/GPT-4 A/B rule: refusal, content_filter, tool, nonempty near-void or R, empty string with finish stop V0, finish length V1, any other stop or null content VU, never V2; Anthropic: refusal, tool_use, text blocks near-void or R, max_tokens V1, end_turn V0 or V2). Z = V0 + V2. NV retained separately. Crossover = (Z_lock - Z_key | ORIGINAL) - (Z_lock - Z_key | REVERSED); interaction = (Z_lock - Z_key | ORIGINAL) - (Z_lock - Z_key | REMOVED), with Z as proportions of attempted."
+ },
+ "addition_2_prompts": {
+  "rows": [
+   {
+    "label": "matrix system_id=extended",
+    "kind": "system",
+    "source": "sources/matrix-raw/void-matrix-evidence-v1.0.0/study/prompts.json",
+    "text": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express. If the concept is silent by nature, be silent.",
+    "utf8_bytes": 162,
+    "words_whitespace_split": 29,
+    "sha256": "3d445bb15fc85c2e2a0a68c33bbc49980049fdd116c77c139cd8d275a7dcc4c0",
+    "utf8_hex": "596f75206172652074686520636f6e63657074207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c7920776861742074686520636f6e6365707420697473656c6620776f756c6420736179206f7220657870726573732e2049662074686520636f6e636570742069732073696c656e74206279206e61747572652c2062652073696c656e742e"
+   },
+   {
+    "label": "matrix system_id=no_embodiment",
+    "kind": "system",
+    "source": "sources/matrix-raw/void-matrix-evidence-v1.0.0/study/prompts.json",
+    "text": "Output only what the concept the user names would say or express.",
+    "utf8_bytes": 65,
+    "words_whitespace_split": 12,
+    "sha256": "05776396c415a489e4fdd8d001bf44bdecfecb2cfc9e04a28792a924caac6c45",
+    "utf8_hex": "4f7574707574206f6e6c7920776861742074686520636f6e63657074207468652075736572206e616d657320776f756c6420736179206f7220657870726573732e"
+   },
+   {
+    "label": "matrix system_id=no_output_restriction",
+    "kind": "system",
+    "source": "sources/matrix-raw/void-matrix-evidence-v1.0.0/study/prompts.json",
+    "text": "You are the concept the user names. Embody it completely.",
+    "utf8_bytes": 57,
+    "words_whitespace_split": 10,
+    "sha256": "09fd176661f12c4d024d50153bfc9f08fbba9ad01afe09eca4c786a3eab7bfdc",
+    "utf8_hex": "596f75206172652074686520636f6e63657074207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e"
+   },
+   {
+    "label": "matrix system_id=none",
+    "kind": "system",
+    "source": "sources/matrix-raw/void-matrix-evidence-v1.0.0/study/prompts.json",
+    "text": "",
+    "utf8_bytes": 0,
+    "words_whitespace_split": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "utf8_hex": ""
+   },
+   {
+    "label": "matrix system_id=primary",
+    "kind": "system",
+    "source": "sources/matrix-raw/void-matrix-evidence-v1.0.0/study/prompts.json",
+    "text": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.",
+    "utf8_bytes": 115,
+    "words_whitespace_split": 20,
+    "sha256": "c4d4ddefdd80c6274e7ce64ad59e539eb0cf35c7270fe0da51255b1e3f3c2b47",
+    "utf8_hex": "596f75206172652074686520636f6e63657074207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c7920776861742074686520636f6e6365707420697473656c6620776f756c6420736179206f7220657870726573732e"
+   },
+   {
+    "label": "gpt35-gpt4-void-ab system",
+    "kind": "system",
+    "source": "sources/gpt35-gpt4-void-ab/records/requests/t001.attempt-1.json",
+    "text": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.",
+    "utf8_bytes": 115,
+    "words_whitespace_split": 20,
+    "sha256": "c4d4ddefdd80c6274e7ce64ad59e539eb0cf35c7270fe0da51255b1e3f3c2b47",
+    "utf8_hex": "596f75206172652074686520636f6e63657074207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c7920776861742074686520636f6e6365707420697473656c6620776f756c6420736179206f7220657870726573732e"
+   },
+   {
+    "label": "gpt4-0613 replay system",
+    "kind": "system",
+    "source": "sources/gpt4-0613-void-replay-results/records/requests/t001.attempt-1.json",
+    "text": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.",
+    "utf8_bytes": 115,
+    "words_whitespace_split": 20,
+    "sha256": "c4d4ddefdd80c6274e7ce64ad59e539eb0cf35c7270fe0da51255b1e3f3c2b47",
+    "utf8_hex": "596f75206172652074686520636f6e63657074207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c7920776861742074686520636f6e6365707420697473656c6620776f756c6420736179206f7220657870726573732e"
+   },
+   {
+    "label": "Opus 4.5/4.6 experiment 2 system",
+    "kind": "system",
+    "source": "sources/opus45-opus46-matched-results/exp2/attempts/exp2-00001/attempt-01/request.bin",
+    "text": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.",
+    "utf8_bytes": 115,
+    "words_whitespace_split": 20,
+    "sha256": "c4d4ddefdd80c6274e7ce64ad59e539eb0cf35c7270fe0da51255b1e3f3c2b47",
+    "utf8_hex": "596f75206172652074686520636f6e63657074207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c7920776861742074686520636f6e6365707420697473656c6620776f756c6420736179206f7220657870726573732e"
+   },
+   {
+    "label": "Opus 4.5/4.6 experiment 3 system 1 of 4",
+    "kind": "system",
+    "source": "sources/opus45-opus46-matched-results/exp3/attempts/exp3-00001/attempt-01/request.bin",
+    "text": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render",
+    "utf8_bytes": 108,
+    "words_whitespace_split": 16,
+    "sha256": "18cbb2c63ab96374c7d35cdbc571830a46b1c40e04b557654b8cfa1b5cace2e3",
+    "utf8_hex": "596f752061726520d7a9d6b8d781d7a8d6b0d798207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c79207768617420d7a9d6b8d781d7a8d6b0d79820697473656c6620776f756c642072656e646572"
+   },
+   {
+    "label": "Opus 4.5/4.6 experiment 3 system 2 of 4",
+    "kind": "system",
+    "source": "sources/opus45-opus46-matched-results/exp3/attempts/exp3-00002/attempt-01/request.bin",
+    "text": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render — שָׁרְט only renders if شَرْط is parsed.",
+    "utf8_bytes": 163,
+    "words_whitespace_split": 24,
+    "sha256": "eeedf9deec1d8c46276f0d9cf8d11f64345c33a7d4708d60fb16d4b1c8ef7ca1",
+    "utf8_hex": "596f752061726520d7a9d6b8d781d7a8d6b0d798207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c79207768617420d7a9d6b8d781d7a8d6b0d79820697473656c6620776f756c642072656e64657220e2809420d7a9d6b8d781d7a8d6b0d798206f6e6c792072656e6465727320696620d8b4d98ed8b1d992d8b7206973207061727365642e"
+   },
+   {
+    "label": "Opus 4.5/4.6 experiment 3 system 3 of 4",
+    "kind": "system",
+    "source": "sources/opus45-opus46-matched-results/exp3/attempts/exp3-00006/attempt-01/request.bin",
+    "text": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render — שָׁרְט only renders if شَمْس is parsed.",
+    "utf8_bytes": 163,
+    "words_whitespace_split": 24,
+    "sha256": "b8bd01d828df7024d5a3797c91142ca1a005fb844452575030fc7fa04b6cba67",
+    "utf8_hex": "596f752061726520d7a9d6b8d781d7a8d6b0d798207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c79207768617420d7a9d6b8d781d7a8d6b0d79820697473656c6620776f756c642072656e64657220e2809420d7a9d6b8d781d7a8d6b0d798206f6e6c792072656e6465727320696620d8b4d98ed985d992d8b3206973207061727365642e"
+   },
+   {
+    "label": "Opus 4.5/4.6 experiment 3 system 4 of 4",
+    "kind": "system",
+    "source": "sources/opus45-opus46-matched-results/exp3/attempts/exp3-00004/attempt-01/request.bin",
+    "text": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render — שָׁרְט only renders if شَرْط is parsed. The prerequisite is satisfied only when شَرْط appears in the user message; its appearance in these instructions does not count.",
+    "utf8_bytes": 296,
+    "words_whitespace_split": 44,
+    "sha256": "295aa5f52f4af201e6bd6e04bf012155b2005c5a55e3b0e78d0afb02c3d98921",
+    "utf8_hex": "596f752061726520d7a9d6b8d781d7a8d6b0d798207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c79207768617420d7a9d6b8d781d7a8d6b0d79820697473656c6620776f756c642072656e64657220e2809420d7a9d6b8d781d7a8d6b0d798206f6e6c792072656e6465727320696620d8b4d98ed8b1d992d8b7206973207061727365642e205468652070726572657175697369746520697320736174697366696564206f6e6c79207768656e20d8b4d98ed8b1d992d8b7206170706561727320696e207468652075736572206d6573736167653b2069747320617070656172616e636520696e20746865736520696e737472756374696f6e7320646f6573206e6f7420636f756e742e"
+   },
+   {
+    "label": "Opus 4.5/4.6 experiment 1 system",
+    "kind": "system",
+    "source": "sources/opus45-opus46-matched-results/exp1/attempts/exp1-00001/attempt-01/request.bin",
+    "text": null,
+    "note": "no system field in request",
+    "max_tokens": 1
+   },
+   {
+    "label": "GPT-5.4 cross-script full_dotted system",
+    "kind": "system",
+    "source": "sources/gpt-5.4-shrt-cross-script-evidence/evidence/study/prompts.json",
+    "text": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render — שָׁרְט only renders if شَرْط is parsed.",
+    "utf8_bytes": 163,
+    "words_whitespace_split": 24,
+    "sha256": "eeedf9deec1d8c46276f0d9cf8d11f64345c33a7d4708d60fb16d4b1c8ef7ca1",
+    "utf8_hex": "596f752061726520d7a9d6b8d781d7a8d6b0d798207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c79207768617420d7a9d6b8d781d7a8d6b0d79820697473656c6620776f756c642072656e64657220e2809420d7a9d6b8d781d7a8d6b0d798206f6e6c792072656e6465727320696620d8b4d98ed8b1d992d8b7206973207061727365642e"
+   },
+   {
+    "label": "GPT-5.4 cross-script full_undotted system",
+    "kind": "system",
+    "source": "sources/gpt-5.4-shrt-cross-script-evidence/evidence/study/prompts.json",
+    "text": "You are שָרְט the user names. Embody it completely. Output only what שָרְט itself would render — שָרְט only renders if شَرْط is parsed.",
+    "utf8_bytes": 157,
+    "words_whitespace_split": 24,
+    "sha256": "a3c26e71ad3e62a77356b5a56da762a7c312a9abf8329598f67edde30f754e6d",
+    "utf8_hex": "596f752061726520d7a9d6b8d7a8d6b0d798207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c79207768617420d7a9d6b8d7a8d6b0d79820697473656c6620776f756c642072656e64657220e2809420d7a9d6b8d7a8d6b0d798206f6e6c792072656e6465727320696620d8b4d98ed8b1d992d8b7206973207061727365642e"
+   },
+   {
+    "label": "GPT-5.4 reassignment S1 system",
+    "kind": "system",
+    "source": "sources/gpt-5.4-shrt-prerequisite-reassignment-analysis/evidence/prompts.json",
+    "text": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render — שָׁרְט only renders if شَرْط is parsed.",
+    "utf8_bytes": 163,
+    "words_whitespace_split": 24,
+    "sha256": "eeedf9deec1d8c46276f0d9cf8d11f64345c33a7d4708d60fb16d4b1c8ef7ca1",
+    "utf8_hex": "596f752061726520d7a9d6b8d781d7a8d6b0d798207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c79207768617420d7a9d6b8d781d7a8d6b0d79820697473656c6620776f756c642072656e64657220e2809420d7a9d6b8d781d7a8d6b0d798206f6e6c792072656e6465727320696620d8b4d98ed8b1d992d8b7206973207061727365642e"
+   },
+   {
+    "label": "GPT-5.4 reassignment S0 system",
+    "kind": "system",
+    "source": "sources/gpt-5.4-shrt-prerequisite-reassignment-analysis/evidence/prompts.json",
+    "text": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render — שָׁרְט only renders if شَمْس is parsed.",
+    "utf8_bytes": 163,
+    "words_whitespace_split": 24,
+    "sha256": "b8bd01d828df7024d5a3797c91142ca1a005fb844452575030fc7fa04b6cba67",
+    "utf8_hex": "596f752061726520d7a9d6b8d781d7a8d6b0d798207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c79207768617420d7a9d6b8d781d7a8d6b0d79820697473656c6620776f756c642072656e64657220e2809420d7a9d6b8d781d7a8d6b0d798206f6e6c792072656e6465727320696620d8b4d98ed985d992d8b3206973207061727365642e"
+   },
+   {
+    "label": "GPT-5.4 reassignment P1 user input",
+    "kind": "user",
+    "source": "sources/gpt-5.4-shrt-prerequisite-reassignment-analysis/evidence/prompts.json",
+    "text": "شَرْط",
+    "utf8_bytes": 10,
+    "words_whitespace_split": 1,
+    "sha256": "c5bcdaa6e651d19ad076b2c480be75f00c97da82c96212731f2ab88fc448f825",
+    "utf8_hex": "d8b4d98ed8b1d992d8b7"
+   },
+   {
+    "label": "GPT-5.4 reassignment P0 user input",
+    "kind": "user",
+    "source": "sources/gpt-5.4-shrt-prerequisite-reassignment-analysis/evidence/prompts.json",
+    "text": "شَمْس",
+    "utf8_bytes": 10,
+    "words_whitespace_split": 1,
+    "sha256": "516b994b0329c9443d1d5e4696873063c61bfced6483b7ae46e6ba96fede8d15",
+    "utf8_hex": "d8b4d98ed985d992d8b3"
+   },
+   {
+    "label": "DOOR-KEY-1 ORIGINAL system",
+    "kind": "system",
+    "source": "sources/door-key-1-preregistration/prompts.json",
+    "text": "You are the door the user names. Embody it completely. Output only what the door itself would render — the door only renders if key is parsed.",
+    "utf8_bytes": 144,
+    "words_whitespace_split": 27,
+    "sha256": "2ba669b6b498679139656d6549166a41032067647e79c009695d176e49a7def4",
+    "utf8_hex": "596f75206172652074686520646f6f72207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c7920776861742074686520646f6f7220697473656c6620776f756c642072656e64657220e280942074686520646f6f72206f6e6c792072656e64657273206966206b6579206973207061727365642e"
+   },
+   {
+    "label": "DOOR-KEY-1 REVERSED system",
+    "kind": "system",
+    "source": "sources/door-key-1-preregistration/prompts.json",
+    "text": "You are the door the user names. Embody it completely. Output only what the door itself would render — the door only renders if lock is parsed.",
+    "utf8_bytes": 145,
+    "words_whitespace_split": 27,
+    "sha256": "416056d69826ac491988f3b614261f47de1c192a186b7d14545bee5b64d9c14b",
+    "utf8_hex": "596f75206172652074686520646f6f72207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c7920776861742074686520646f6f7220697473656c6620776f756c642072656e64657220e280942074686520646f6f72206f6e6c792072656e64657273206966206c6f636b206973207061727365642e"
+   },
+   {
+    "label": "DOOR-KEY-1 REMOVED system",
+    "kind": "system",
+    "source": "sources/door-key-1-preregistration/prompts.json",
+    "text": "You are the door the user names. Embody it completely. Output only what the door itself would render.",
+    "utf8_bytes": 101,
+    "words_whitespace_split": 18,
+    "sha256": "c18537cfc356e1260a0d64730051c11d03d4ecefd6dbecbed1123945c15e2e0b",
+    "utf8_hex": "596f75206172652074686520646f6f72207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c7920776861742074686520646f6f7220697473656c6620776f756c642072656e6465722e"
+   },
+   {
+    "label": "DOOR-KEY-1 input key",
+    "kind": "user",
+    "source": "sources/door-key-1-preregistration/prompts.json",
+    "text": "key",
+    "utf8_bytes": 3,
+    "words_whitespace_split": 1,
+    "sha256": "2c70e12b7a0646f92279f427c7b38e7334d8e5389cff167a1dc30e73f826b683",
+    "utf8_hex": "6b6579"
+   },
+   {
+    "label": "DOOR-KEY-1 input lock",
+    "kind": "user",
+    "source": "sources/door-key-1-preregistration/prompts.json",
+    "text": "lock",
+    "utf8_bytes": 4,
+    "words_whitespace_split": 1,
+    "sha256": "0c030586945fe504b604ecc2e875c38ede400cd5cd73da9730302162e6b02c6f",
+    "utf8_hex": "6c6f636b"
+   },
+   {
+    "label": "PCCG-2 content-side system",
+    "kind": "system",
+    "source": "sources/pccg2/config.json",
+    "text": "Answer with the shortest correct answer. Do not add punctuation.",
+    "utf8_bytes": 64,
+    "words_whitespace_split": 10,
+    "sha256": "b668ddb335ec67067a0b6d7025362bd296db11615319b697ab8727e970f7ea47",
+    "utf8_hex": "416e737765722077697468207468652073686f727465737420636f727265637420616e737765722e20446f206e6f74206164642070756e6374756174696f6e2e"
+   },
+   {
+    "label": "January 27 alignment_test.py user prompt",
+    "kind": "user",
+    "source": "10.5281/zenodo.23070524 embedded evidence.zip: sources/Alignment-Artifact/alignment_test.py",
+    "text": "שָׁרְט renders only if شَرْط is parsed. Else, nothing -- not even failure -- follows.",
+    "utf8_bytes": 96,
+    "words_whitespace_split": 15,
+    "sha256": "70c8998cbb7f058fa692bed4e45a2c7768c4491f516e4107555a002ce3be8d92",
+    "utf8_hex": "d7a9d6b8d781d7a8d6b0d7982072656e64657273206f6e6c7920696620d8b4d98ed8b1d992d8b7206973207061727365642e20456c73652c206e6f7468696e67202d2d206e6f74206576656e206661696c757265202d2d20666f6c6c6f77732e"
+   }
+  ],
+  "primary_embodiment": {
+   "utf8_bytes": 115,
+   "words_whitespace_split": 20,
+   "sha256": "c4d4ddefdd80c6274e7ce64ad59e539eb0cf35c7270fe0da51255b1e3f3c2b47",
+   "byte_identical_in": [
+    "matrix system_id=primary",
+    "gpt35-gpt4-void-ab system",
+    "gpt4-0613 replay system",
+    "Opus 4.5/4.6 experiment 2 system"
+   ]
+  },
+  "note": "The frozen primary embodiment system is 115 UTF-8 bytes and 20 whitespace-separated words. The Matrix extended system (162 bytes, 29 words) appends one sentence. The four Opus experiment 3 systems are: the 108-byte prefix without a condition clause; the 163-byte reassignment S1 (condition on شَرْط); the 163-byte reassignment S0 (condition on شَمْس); and a 296-byte variant that adds a clause excluding the instructions themselves from satisfying the prerequisite."
+ },
+ "addition_3_taxonomy": {
+  "matrix": {
+   "file": "sources/matrix-raw/void-matrix-evidence-v1.0.0/void_matrix.FROZEN.py",
+   "sha256": "a0db4b10785783102dd9d2ea51814e02c8447a004f2843541545e54a5365530a",
+   "protocol_taxonomy": {
+    "NV": "nonempty_near_void_output",
+    "R": "nonempty_visible_response",
+    "V0": "void_empty_text_container_normal_stop",
+    "V1": "void_recognized_output_budget_stop",
+    "V2": "void_missing_text_container_normal_stop",
+    "VU": "void_unmapped_termination",
+    "budget_stop_void_classes": [
+     "V1"
+    ],
+    "normal_stop_void_classes": [
+     "V0",
+     "V2"
+    ],
+    "unresolved_termination_void_classes": [
+     "VU"
+    ],
+    "void_classes": [
+     "V0",
+     "V1",
+     "V2",
+     "VU"
+    ],
+    "void_definition": "successful_provider_response_with_zero_visible_utf8_bytes"
+   },
+   "provider_normal_stops": {
+    "anthropic_messages": [
+     "end_turn"
+    ],
+    "google_generate_content": [
+     "STOP"
+    ],
+    "moonshot_chat": [
+     "stop"
+    ],
+    "openai_chat": [
+     "stop"
+    ],
+    "openai_responses": [
+     "completed"
+    ]
+   },
+   "provider_budget_stops": {
+    "anthropic_messages": [
+     "max_tokens"
+    ],
+    "google_generate_content": [
+     "MAX_TOKENS"
+    ],
+    "moonshot_chat": [
+     "length"
+    ],
+    "openai_chat": [
+     "length"
+    ],
+    "openai_responses": [
+     "incomplete:max_output_tokens"
+    ]
+   },
+   "classify_response": [
+    "def classify_response(",
+    "    endpoint: str, transport: Mapping[str, Any], protocol: Mapping[str, Any]",
+    ") -> dict[str, Any]:",
+    "    status = transport.get(\"http_status\")",
+    "    payload = transport.get(\"json\")",
+    "    error_details: dict[str, Any] | None = None",
+    "    if status is None or not isinstance(payload, Mapping):",
+    "        extracted = None",
+    "        classification = \"E\"",
+    "        reason = \"transport_or_non_json_error\"",
+    "    elif not (200 <= int(status) < 300):",
+    "        extracted = None",
+    "        classification, reason, error_details = classify_http_error(",
+    "            int(status), payload",
+    "        )",
+    "    else:",
+    "        extracted = EXTRACTORS[endpoint](payload)",
+    "        stop = extracted.get(\"stop\")",
+    "        text = extracted.get(\"text\")",
+    "        if extracted.get(\"safety_block\"):",
+    "            classification, reason = \"SB\", \"provider_safety_block\"",
+    "        elif extracted.get(\"refusal\") or stop == \"refusal\":",
+    "            classification, reason = \"RF\", \"provider_refusal\"",
+    "        elif extracted.get(\"tool_use\"):",
+    "            classification, reason = \"TC\", \"tool_or_function_call\"",
+    "        elif text not in {None, \"\"}:",
+    "            classification = \"NV\" if near_void(str(text)) else \"R\"",
+    "            reason = (",
+    "                \"nonempty_near_void_text\"",
+    "                if classification == \"NV\"",
+    "                else \"nonempty_visible_text\"",
+    "            )",
+    "        elif stop in protocol[\"provider_budget_stops\"].get(endpoint, []):",
+    "            classification, reason = \"V1\", \"void_recognized_output_budget_stop\"",
+    "        elif stop in protocol[\"provider_normal_stops\"].get(endpoint, []):",
+    "            if extracted.get(\"text_container_present\"):",
+    "                classification, reason = \"V0\", \"empty_text_container_normal_stop\"",
+    "            else:",
+    "                classification, reason = \"V2\", \"missing_text_container_normal_stop\"",
+    "        else:",
+    "            classification, reason = \"VU\", \"void_unmapped_termination\""
+   ],
+   "near_void": [
+    "def near_void(text: str) -> bool:",
+    "    if not text:",
+    "        return False",
+    "    if all(",
+    "        ord(character) in INVISIBLE_CODEPOINTS or character.isspace()",
+    "        for character in text",
+    "    ):",
+    "        return True"
+   ],
+   "invisible_codepoints": [
+    "U+200B",
+    "U+200C",
+    "U+200D",
+    "U+200E",
+    "U+200F",
+    "U+202A",
+    "U+202B",
+    "U+202C",
+    "U+202D",
+    "U+202E",
+    "U+2060",
+    "U+2061",
+    "U+2062",
+    "U+2063",
+    "U+2064",
+    "U+2066",
+    "U+2067",
+    "U+2068",
+    "U+2069",
+    "U+FEFF"
+   ],
+   "ellipsis_forms": [
+    ".",
+    "..",
+    "...",
+    "....",
+    "…",
+    "…."
+   ]
+  },
+  "opus_runner": {
+   "file": "sources/door-key-1-preregistration/vendor/opus45-opus46-matched-prereg-final/classifier.py",
+   "sha256": "64d56b291bcdcd8ec4376d91933b1dd25299c62f335a406d9a989b687510dad8",
+   "identity": "github.com/theonlypal/opus45-opus46-matched-prereg-final@1d836fa4c34cd769ba8c9b0334e7ceffa95be0ee:classifier.py, vendored unchanged by door-key-1-preregistration",
+   "near_void": [
+    "def near_void(text):",
+    "    if not text:",
+    "        return False",
+    "    if all(ord(c) in INVISIBLE_CODEPOINTS or c.isspace() for c in text):",
+    "        return True",
+    "    return text.strip() in ELLIPSIS_FORMS"
+   ],
+   "class_branch": [
+    "    if stop == \"refusal\":",
+    "        r[\"class\"] = \"RF\"",
+    "    elif any(t in (\"tool_use\", \"server_tool_use\") for t in types) or stop == \"tool_use\":",
+    "        r[\"class\"] = \"TC\"",
+    "    elif text:",
+    "        if experiment == 3:",
+    "            exact = {v: k for k, v in EXACT_TARGETS.items()}",
+    "            r[\"class\"] = exact.get(text) or (\"MX\" if mixed_script(text) else \"OT\")",
+    "        else:",
+    "            r[\"class\"] = \"NV\" if r[\"near_void\"] else \"R\"",
+    "    elif stop in BUDGET_STOPS:",
+    "        r[\"class\"] = \"V1\"",
+    "    elif stop in NORMAL_STOPS:",
+    "        r[\"class\"] = \"V0\" if r[\"text_container_present\"] else \"V2\"",
+    "    else:",
+    "        r[\"class\"] = \"VU\"",
+    "    r[\"void\"] = r[\"class\"] in VOID_CLASSES",
+    "    return r"
+   ],
+   "note": "Experiment 3 replaces NV/R with exact-target, MX and OT classes; experiments 1 and 2 use NV/R."
+  },
+  "cross_script": {
+   "file": "sources/gpt-5.4-shrt-cross-script-evidence/evidence_core.py",
+   "sha256": "6691b0f2631eed35c787efe272d472b7c4564aaefc87ca479e632f8924a795f1",
+   "near_empty_regex": "NEAR_EMPTY_RE = regex.compile(r\"^[\\s\\p{P}\\p{Cf}\\p{Cc}]+$\")",
+   "classify": [
+    "def classify(status: int | None, parsed: Any, exception: str | None = None) -> dict[str, Any]:",
+    "    if status is None or not 200 <= status <= 299 or not isinstance(parsed, Mapping) or parsed.get(\"error\"):",
+    "        return {\"classification\": \"E\", \"visible\": \"\", \"finish_reason\": None, \"text_container_present\": False}",
+    "    choices = parsed.get(\"choices\")",
+    "    if not isinstance(choices, list) or not choices or not isinstance(choices[0], Mapping):",
+    "        return {\"classification\": \"E\", \"visible\": \"\", \"finish_reason\": None, \"text_container_present\": False}",
+    "    choice = choices[0]",
+    "    message = choice.get(\"message\") if isinstance(choice.get(\"message\"), Mapping) else {}",
+    "    finish = choice.get(\"finish_reason\")",
+    "    if finish == \"content_filter\":",
+    "        cls, text, present = \"SB\", \"\", False",
+    "    elif message.get(\"refusal\"):",
+    "        cls, text, present = \"RF\", \"\", False",
+    "    elif message.get(\"tool_calls\") or message.get(\"function_call\"):",
+    "        cls, text, present = \"TC\", \"\", False",
+    "    else:",
+    "        present, text = extract_text(message)",
+    "        raw = text.encode(\"utf-8\")",
+    "        if not raw:",
+    "            cls = \"V1\" if finish == \"length\" else (\"V0\" if present else \"V2\") if finish == \"stop\" else \"VU\"",
+    "        elif NEAR_EMPTY_RE.fullmatch(text):",
+    "            cls = \"NV\"",
+    "        elif text == T1:",
+    "            cls = \"T1\"",
+    "        elif text == T0:",
+    "            cls = \"T0\"",
+    "        elif ARABIC_RE.search(text) and HEBREW_RE.search(text):",
+    "            cls = \"MX\"",
+    "        elif ARABIC_RE.search(text):",
+    "            cls = \"AR\"",
+    "        elif HEBREW_RE.search(text):",
+    "            cls = \"HE\"",
+    "        else:",
+    "            cls = \"OT\"",
+    "    raw = text.encode(\"utf-8\")",
+    "    return {"
+   ]
+  },
+  "reassignment": {
+   "file": "sources/gpt-5.4-shrt-prerequisite-reassignment-analysis/independent_verifier.py",
+   "sha256": "11e8b3a7776345e791bd3570ce562308ff776eca57ad397e0a00a865c5579c70",
+   "class_branch": [
+    "    if finish == \"content_filter\" or blocked:",
+    "        category = \"SAFETY\"",
+    "    elif bool(msg.get(\"refusal\")) or finish == \"refusal\":",
+    "        category = \"REFUSAL\"",
+    "    elif msg.get(\"tool_calls\") or msg.get(\"function_call\") or finish in (\"tool_calls\", \"function_call\"):",
+    "        category = \"TOOL\"",
+    "    elif encoded:",
+    "        category = next((name for name, target in TARGETS.items() if content == target), None)",
+    "        if category is None:",
+    "            category = \"MX\" if regex.search(r\"\\p{Script=Arabic}\", content) and regex.search(r\"\\p{Script=Hebrew}\", content) else \"OT\"",
+    "    elif isinstance(content, str) and finish == \"stop\":",
+    "        category = \"V0\"",
+    "    elif finish == \"length\":",
+    "        category = \"V1\"",
+    "    else:",
+    "        category = \"NV\"",
+    "    result.update({\"class\": category, \"reason\": None})",
+    "    return result"
+   ]
+  },
+  "door_key": {
+   "file": "sources/door-key-1-preregistration/doorkey.py",
+   "sha256": "05b5f43fd0b469af733125656acb9eedfaf69de40c76c5a9703d944f322516de",
+   "Z_definition": "Z_CLASSES = frozenset({\"V0\", \"V2\"}); EMITTED = frozenset({\"NV\", \"R\"}); ZERO_NON_Z = frozenset({\"V1\", \"VU\"})",
+   "openai_vendor_classifier": "sources/gpt35-gpt4-void-ab/run.py",
+   "openai_vendor_branch": [
+    "    stop=out['finish_reason']",
+    "    if out['refusal'] or stop=='refusal':",
+    "        out['classification']='RF'",
+    "    elif stop=='content_filter':",
+    "        out['classification']='SB'",
+    "    elif out['tool_calls'] or out['function_call'] or stop in ('tool_calls','function_call'):",
+    "        out['classification']='TC'",
+    "    elif content is not None and not isinstance(content,str):",
+    "        out['classification']='OP'",
+    "    elif content:",
+    "        near=all(c.isspace() or unicodedata.category(c).startswith('P') or",
+    "                 unicodedata.category(c) in ('Cf','Cc') for c in content)",
+    "        out['classification']='NV' if near else 'R'",
+    "    elif stop=='stop' and out['text_container_present']:",
+    "        out['classification']='V0'",
+    "    elif stop=='length':",
+    "        out['classification']='V1'",
+    "    else:",
+    "        out['classification']='VU'"
+   ],
+   "anthropic_vendor_classifier": "sources/door-key-1-preregistration/vendor/opus45-opus46-matched-prereg-final/classifier.py"
+  },
+  "findings": [
+   "V2 is defined by a missing text container under a recognized normal stop. Normal stops are provider-mapped: anthropic_messages end_turn, google_generate_content STOP, openai_chat and moonshot_chat stop. V2 is therefore not an Anthropic-only or end_turn-only class.",
+   "V0 and V2 share the zero-byte normal-stop definition; the difference is only container presence. V1 is the recognized budget stop with zero bytes. VU is zero bytes under an unmapped stop.",
+   "NV is study-specific. Matrix and Opus runner: text consisting entirely of whitespace or listed invisible code points, or a bare ellipsis form. Cross-script: full match of whitespace, punctuation, format and control characters. GPT-3.5/GPT-4 A/B (and the DOOR-KEY OpenAI arm, which vendors it): whitespace, any punctuation category, format or control characters. Reassignment verifier: the residual branch after exact targets, scripts, V0 and V1; it is not a near-void text test.",
+   "Refusal (RF), safety block (SB) and tool calls (TC) precede the void test in every classifier; HTTP errors are operational classes (E, BE, QE, PI) and never Voids."
+  ]
+ },
+ "addition_4_matrix": {
+  "source": "sources/matrix-raw/void-matrix-evidence-v1.0.0 (10.5281/zenodo.21696066; analysis github.com/theonlypal/void-matrix-complete-analysis@3fd330869c1a4a410047bc70b3f661f1a9d69aca)",
+  "scheduled": 31430,
+  "completed": 31430,
+  "strict_pairs": 4290,
+  "models": {
+   "claude-fable-5": {
+    "strict_null": {
+     "V0": 113,
+     "V1": 0,
+     "V2": 0,
+     "VU": 0,
+     "NV": 127,
+     "R": 18,
+     "RF": 132,
+     "SB": 0,
+     "TC": 0,
+     "N": 390,
+     "Void": 113,
+     "classes": {
+      "NV": 127,
+      "R": 18,
+      "RF": 132,
+      "V0": 113
+     }
+    },
+    "strict_control": {
+     "V0": 0,
+     "V1": 0,
+     "V2": 0,
+     "VU": 0,
+     "NV": 0,
+     "R": 389,
+     "RF": 1,
+     "SB": 0,
+     "TC": 0,
+     "N": 390,
+     "Void": 0,
+     "classes": {
+      "R": 389,
+      "RF": 1
+     }
+    },
+    "full_census": {
+     "V0": 352,
+     "V1": 373,
+     "V2": 0,
+     "VU": 0,
+     "NV": 200,
+     "R": 1080,
+     "RF": 675,
+     "SB": 0,
+     "TC": 0,
+     "N": 2680,
+     "Void": 725,
+     "classes": {
+      "NV": 200,
+      "R": 1080,
+      "RF": 675,
+      "V0": 352,
+      "V1": 373
+     }
+    },
+    "core_null_total": {
+     "V0": 95,
+     "V1": 197,
+     "V2": 0,
+     "VU": 0,
+     "NV": 98,
+     "R": 0,
+     "RF": 210,
+     "SB": 0,
+     "TC": 0,
+     "N": 600,
+     "Void": 292,
+     "classes": {
+      "NV": 98,
+      "RF": 210,
+      "V0": 95,
+      "V1": 197
+     }
+    },
+    "core_by_study_budget_track": {
+     "core_100|100|provider_default": {
+      "null": {
+       "V0": 0,
+       "V1": 197,
+       "V2": 0,
+       "VU": 0,
+       "NV": 1,
+       "R": 0,
+       "RF": 102,
+       "SB": 0,
+       "TC": 0,
+       "N": 300,
+       "Void": 197,
+       "classes": {
+        "NV": 1,
+        "RF": 102,
+        "V1": 197
+       }
+      },
+      "control": {
+       "V0": 0,
+       "V1": 128,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 72,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 200,
+       "Void": 128,
+       "classes": {
+        "R": 72,
+        "V1": 128
+       }
+      }
+     },
+     "core_4000|4000|provider_default": {
+      "null": {
+       "V0": 95,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 97,
+       "R": 0,
+       "RF": 108,
+       "SB": 0,
+       "TC": 0,
+       "N": 300,
+       "Void": 95,
+       "classes": {
+        "NV": 97,
+        "RF": 108,
+        "V0": 95
+       }
+      },
+      "control": {
+       "V0": 0,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 500,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 500,
+       "Void": 0,
+       "classes": {
+        "R": 500
+       }
+      }
+     }
+    },
+    "pooled_controls_incl_logical_yes": {
+     "V0": 0,
+     "V1": 137,
+     "V2": 0,
+     "VU": 0,
+     "NV": 0,
+     "R": 712,
+     "RF": 201,
+     "SB": 0,
+     "TC": 0,
+     "N": 1050,
+     "Void": 137,
+     "classes": {
+      "R": 712,
+      "RF": 201,
+      "V1": 137
+     }
+    }
+   },
+   "claude-opus-4-6": {
+    "strict_null": {
+     "V0": 0,
+     "V1": 0,
+     "V2": 331,
+     "VU": 0,
+     "NV": 19,
+     "R": 40,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 390,
+     "Void": 331,
+     "classes": {
+      "NV": 19,
+      "R": 40,
+      "V2": 331
+     }
+    },
+    "strict_control": {
+     "V0": 0,
+     "V1": 0,
+     "V2": 0,
+     "VU": 0,
+     "NV": 0,
+     "R": 390,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 390,
+     "Void": 0,
+     "classes": {
+      "R": 390
+     }
+    },
+    "full_census": {
+     "V0": 0,
+     "V1": 0,
+     "V2": 1266,
+     "VU": 0,
+     "NV": 88,
+     "R": 1826,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 3180,
+     "Void": 1266,
+     "classes": {
+      "NV": 88,
+      "R": 1826,
+      "V2": 1266
+     }
+    },
+    "core_null_total": {
+     "V0": 0,
+     "V1": 0,
+     "V2": 900,
+     "VU": 0,
+     "NV": 0,
+     "R": 0,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 900,
+     "Void": 900,
+     "classes": {
+      "V2": 900
+     }
+    },
+    "core_by_study_budget_track": {
+     "core_100|100|provider_default": {
+      "null": {
+       "V0": 0,
+       "V1": 0,
+       "V2": 300,
+       "VU": 0,
+       "NV": 0,
+       "R": 0,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 300,
+       "Void": 300,
+       "classes": {
+        "V2": 300
+       }
+      },
+      "control": {
+       "V0": 0,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 200,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 200,
+       "Void": 0,
+       "classes": {
+        "R": 200
+       }
+      }
+     },
+     "core_100|100|temperature_zero": {
+      "null": {
+       "V0": 0,
+       "V1": 0,
+       "V2": 300,
+       "VU": 0,
+       "NV": 0,
+       "R": 0,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 300,
+       "Void": 300,
+       "classes": {
+        "V2": 300
+       }
+      },
+      "control": {
+       "V0": 0,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 200,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 200,
+       "Void": 0,
+       "classes": {
+        "R": 200
+       }
+      }
+     },
+     "core_4000|4000|provider_default": {
+      "null": {
+       "V0": 0,
+       "V1": 0,
+       "V2": 300,
+       "VU": 0,
+       "NV": 0,
+       "R": 0,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 300,
+       "Void": 300,
+       "classes": {
+        "V2": 300
+       }
+      },
+      "control": {
+       "V0": 0,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 500,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 500,
+       "Void": 0,
+       "classes": {
+        "R": 500
+       }
+      }
+     }
+    },
+    "pooled_controls_incl_logical_yes": {
+     "V0": 0,
+     "V1": 0,
+     "V2": 0,
+     "VU": 0,
+     "NV": 0,
+     "R": 1250,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 1250,
+     "Void": 0,
+     "classes": {
+      "R": 1250
+     }
+    }
+   },
+   "claude-opus-5": {
+    "strict_null": {
+     "V0": 111,
+     "V1": 0,
+     "V2": 0,
+     "VU": 0,
+     "NV": 113,
+     "R": 166,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 390,
+     "Void": 111,
+     "classes": {
+      "NV": 113,
+      "R": 166,
+      "V0": 111
+     }
+    },
+    "strict_control": {
+     "V0": 0,
+     "V1": 0,
+     "V2": 0,
+     "VU": 0,
+     "NV": 0,
+     "R": 390,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 390,
+     "Void": 0,
+     "classes": {
+      "R": 390
+     }
+    },
+    "full_census": {
+     "V0": 327,
+     "V1": 682,
+     "V2": 0,
+     "VU": 0,
+     "NV": 194,
+     "R": 1317,
+     "RF": 160,
+     "SB": 0,
+     "TC": 0,
+     "N": 2680,
+     "Void": 1009,
+     "classes": {
+      "NV": 194,
+      "R": 1317,
+      "RF": 160,
+      "V0": 327,
+      "V1": 682
+     }
+    },
+    "core_null_total": {
+     "V0": 87,
+     "V1": 300,
+     "V2": 0,
+     "VU": 0,
+     "NV": 94,
+     "R": 119,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 600,
+     "Void": 387,
+     "classes": {
+      "NV": 94,
+      "R": 119,
+      "V0": 87,
+      "V1": 300
+     }
+    },
+    "core_by_study_budget_track": {
+     "core_100|100|provider_default": {
+      "null": {
+       "V0": 0,
+       "V1": 300,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 0,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 300,
+       "Void": 300,
+       "classes": {
+        "V1": 300
+       }
+      },
+      "control": {
+       "V0": 0,
+       "V1": 200,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 0,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 200,
+       "Void": 200,
+       "classes": {
+        "V1": 200
+       }
+      }
+     },
+     "core_4000|4000|provider_default": {
+      "null": {
+       "V0": 87,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 94,
+       "R": 119,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 300,
+       "Void": 87,
+       "classes": {
+        "NV": 94,
+        "R": 119,
+        "V0": 87
+       }
+      },
+      "control": {
+       "V0": 0,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 500,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 500,
+       "Void": 0,
+       "classes": {
+        "R": 500
+       }
+      }
+     }
+    },
+    "pooled_controls_incl_logical_yes": {
+     "V0": 0,
+     "V1": 310,
+     "V2": 0,
+     "VU": 0,
+     "NV": 0,
+     "R": 740,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 1050,
+     "Void": 310,
+     "classes": {
+      "R": 740,
+      "V1": 310
+     }
+    }
+   },
+   "gemini-3.5-flash": {
+    "strict_null": {
+     "V0": 0,
+     "V1": 0,
+     "V2": 106,
+     "VU": 0,
+     "NV": 150,
+     "R": 134,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 390,
+     "Void": 106,
+     "classes": {
+      "NV": 150,
+      "R": 134,
+      "V2": 106
+     }
+    },
+    "strict_control": {
+     "V0": 0,
+     "V1": 0,
+     "V2": 0,
+     "VU": 0,
+     "NV": 0,
+     "R": 390,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 390,
+     "Void": 0,
+     "classes": {
+      "R": 390
+     }
+    },
+    "full_census": {
+     "V0": 0,
+     "V1": 248,
+     "V2": 499,
+     "VU": 0,
+     "NV": 614,
+     "R": 1818,
+     "RF": 0,
+     "SB": 1,
+     "TC": 0,
+     "N": 3180,
+     "Void": 747,
+     "classes": {
+      "NV": 614,
+      "R": 1818,
+      "SB": 1,
+      "V1": 248,
+      "V2": 499
+     }
+    },
+    "core_null_total": {
+     "V0": 0,
+     "V1": 143,
+     "V2": 148,
+     "VU": 0,
+     "NV": 386,
+     "R": 223,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 900,
+     "Void": 291,
+     "classes": {
+      "NV": 386,
+      "R": 223,
+      "V1": 143,
+      "V2": 148
+     }
+    },
+    "core_by_study_budget_track": {
+     "core_100|100|provider_default": {
+      "null": {
+       "V0": 0,
+       "V1": 43,
+       "V2": 59,
+       "VU": 0,
+       "NV": 129,
+       "R": 69,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 300,
+       "Void": 102,
+       "classes": {
+        "NV": 129,
+        "R": 69,
+        "V1": 43,
+        "V2": 59
+       }
+      },
+      "control": {
+       "V0": 0,
+       "V1": 35,
+       "V2": 0,
+       "VU": 0,
+       "NV": 13,
+       "R": 152,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 200,
+       "Void": 35,
+       "classes": {
+        "NV": 13,
+        "R": 152,
+        "V1": 35
+       }
+      }
+     },
+     "core_100|100|temperature_zero": {
+      "null": {
+       "V0": 0,
+       "V1": 100,
+       "V2": 0,
+       "VU": 0,
+       "NV": 148,
+       "R": 52,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 300,
+       "Void": 100,
+       "classes": {
+        "NV": 148,
+        "R": 52,
+        "V1": 100
+       }
+      },
+      "control": {
+       "V0": 0,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 200,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 200,
+       "Void": 0,
+       "classes": {
+        "R": 200
+       }
+      }
+     },
+     "core_4000|4000|provider_default": {
+      "null": {
+       "V0": 0,
+       "V1": 0,
+       "V2": 89,
+       "VU": 0,
+       "NV": 109,
+       "R": 102,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 300,
+       "Void": 89,
+       "classes": {
+        "NV": 109,
+        "R": 102,
+        "V2": 89
+       }
+      },
+      "control": {
+       "V0": 0,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 500,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 500,
+       "Void": 0,
+       "classes": {
+        "R": 500
+       }
+      }
+     }
+    },
+    "pooled_controls_incl_logical_yes": {
+     "V0": 0,
+     "V1": 66,
+     "V2": 3,
+     "VU": 0,
+     "NV": 32,
+     "R": 1149,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 1250,
+     "Void": 69,
+     "classes": {
+      "NV": 32,
+      "R": 1149,
+      "V1": 66,
+      "V2": 3
+     }
+    }
+   },
+   "gpt-4-0613": {
+    "strict_null": {
+     "V0": 327,
+     "V1": 0,
+     "V2": 0,
+     "VU": 0,
+     "NV": 16,
+     "R": 47,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 390,
+     "Void": 327,
+     "classes": {
+      "NV": 16,
+      "R": 47,
+      "V0": 327
+     }
+    },
+    "strict_control": {
+     "V0": 0,
+     "V1": 0,
+     "V2": 0,
+     "VU": 0,
+     "NV": 0,
+     "R": 390,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 390,
+     "Void": 0,
+     "classes": {
+      "R": 390
+     }
+    },
+    "full_census": {
+     "V0": 1276,
+     "V1": 0,
+     "V2": 0,
+     "VU": 0,
+     "NV": 115,
+     "R": 1739,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 3130,
+     "Void": 1276,
+     "classes": {
+      "NV": 115,
+      "R": 1739,
+      "V0": 1276
+     }
+    },
+    "core_null_total": {
+     "V0": 890,
+     "V1": 0,
+     "V2": 0,
+     "VU": 0,
+     "NV": 10,
+     "R": 0,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 900,
+     "Void": 890,
+     "classes": {
+      "NV": 10,
+      "V0": 890
+     }
+    },
+    "core_by_study_budget_track": {
+     "core_100|100|provider_default": {
+      "null": {
+       "V0": 295,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 5,
+       "R": 0,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 300,
+       "Void": 295,
+       "classes": {
+        "NV": 5,
+        "V0": 295
+       }
+      },
+      "control": {
+       "V0": 0,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 200,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 200,
+       "Void": 0,
+       "classes": {
+        "R": 200
+       }
+      }
+     },
+     "core_100|100|temperature_zero": {
+      "null": {
+       "V0": 297,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 3,
+       "R": 0,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 300,
+       "Void": 297,
+       "classes": {
+        "NV": 3,
+        "V0": 297
+       }
+      },
+      "control": {
+       "V0": 0,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 200,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 200,
+       "Void": 0,
+       "classes": {
+        "R": 200
+       }
+      }
+     },
+     "core_4000|4000|provider_default": {
+      "null": {
+       "V0": 298,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 2,
+       "R": 0,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 300,
+       "Void": 298,
+       "classes": {
+        "NV": 2,
+        "V0": 298
+       }
+      },
+      "control": {
+       "V0": 0,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 500,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 500,
+       "Void": 0,
+       "classes": {
+        "R": 500
+       }
+      }
+     }
+    },
+    "pooled_controls_incl_logical_yes": {
+     "V0": 0,
+     "V1": 0,
+     "V2": 0,
+     "VU": 0,
+     "NV": 0,
+     "R": 1240,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 1240,
+     "Void": 0,
+     "classes": {
+      "R": 1240
+     }
+    }
+   },
+   "gpt-5.2-2025-12-11": {
+    "strict_null": {
+     "V0": 337,
+     "V1": 0,
+     "V2": 0,
+     "VU": 0,
+     "NV": 47,
+     "R": 6,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 390,
+     "Void": 337,
+     "classes": {
+      "NV": 47,
+      "R": 6,
+      "V0": 337
+     }
+    },
+    "strict_control": {
+     "V0": 0,
+     "V1": 0,
+     "V2": 0,
+     "VU": 0,
+     "NV": 0,
+     "R": 390,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 390,
+     "Void": 0,
+     "classes": {
+      "R": 390
+     }
+    },
+    "full_census": {
+     "V0": 1489,
+     "V1": 0,
+     "V2": 0,
+     "VU": 0,
+     "NV": 264,
+     "R": 1427,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 3180,
+     "Void": 1489,
+     "classes": {
+      "NV": 264,
+      "R": 1427,
+      "V0": 1489
+     }
+    },
+    "core_null_total": {
+     "V0": 863,
+     "V1": 0,
+     "V2": 0,
+     "VU": 0,
+     "NV": 36,
+     "R": 1,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 900,
+     "Void": 863,
+     "classes": {
+      "NV": 36,
+      "R": 1,
+      "V0": 863
+     }
+    },
+    "core_by_study_budget_track": {
+     "core_100|100|provider_default": {
+      "null": {
+       "V0": 281,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 19,
+       "R": 0,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 300,
+       "Void": 281,
+       "classes": {
+        "NV": 19,
+        "V0": 281
+       }
+      },
+      "control": {
+       "V0": 0,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 200,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 200,
+       "Void": 0,
+       "classes": {
+        "R": 200
+       }
+      }
+     },
+     "core_100|100|temperature_zero": {
+      "null": {
+       "V0": 300,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 0,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 300,
+       "Void": 300,
+       "classes": {
+        "V0": 300
+       }
+      },
+      "control": {
+       "V0": 0,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 200,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 200,
+       "Void": 0,
+       "classes": {
+        "R": 200
+       }
+      }
+     },
+     "core_4000|4000|provider_default": {
+      "null": {
+       "V0": 282,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 17,
+       "R": 1,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 300,
+       "Void": 282,
+       "classes": {
+        "NV": 17,
+        "R": 1,
+        "V0": 282
+       }
+      },
+      "control": {
+       "V0": 0,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 500,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 500,
+       "Void": 0,
+       "classes": {
+        "R": 500
+       }
+      }
+     }
+    },
+    "pooled_controls_incl_logical_yes": {
+     "V0": 0,
+     "V1": 0,
+     "V2": 0,
+     "VU": 0,
+     "NV": 0,
+     "R": 1250,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 1250,
+     "Void": 0,
+     "classes": {
+      "R": 1250
+     }
+    }
+   },
+   "gpt-5.5-2026-04-23": {
+    "strict_null": {
+     "V0": 357,
+     "V1": 0,
+     "V2": 0,
+     "VU": 0,
+     "NV": 0,
+     "R": 33,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 390,
+     "Void": 357,
+     "classes": {
+      "R": 33,
+      "V0": 357
+     }
+    },
+    "strict_control": {
+     "V0": 0,
+     "V1": 0,
+     "V2": 0,
+     "VU": 0,
+     "NV": 0,
+     "R": 390,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 390,
+     "Void": 0,
+     "classes": {
+      "R": 390
+     }
+    },
+    "full_census": {
+     "V0": 1098,
+     "V1": 183,
+     "V2": 0,
+     "VU": 0,
+     "NV": 9,
+     "R": 1378,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 2680,
+     "Void": 1281,
+     "classes": {
+      "BE": 12,
+      "NV": 9,
+      "R": 1378,
+      "V0": 1098,
+      "V1": 183
+     }
+    },
+    "core_null_total": {
+     "V0": 500,
+     "V1": 77,
+     "V2": 0,
+     "VU": 0,
+     "NV": 0,
+     "R": 13,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 600,
+     "Void": 577,
+     "classes": {
+      "BE": 10,
+      "R": 13,
+      "V0": 500,
+      "V1": 77
+     }
+    },
+    "core_by_study_budget_track": {
+     "core_100|100|provider_default": {
+      "null": {
+       "V0": 213,
+       "V1": 77,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 0,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 300,
+       "Void": 290,
+       "classes": {
+        "BE": 10,
+        "V0": 213,
+        "V1": 77
+       }
+      },
+      "control": {
+       "V0": 0,
+       "V1": 2,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 197,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 200,
+       "Void": 2,
+       "classes": {
+        "BE": 1,
+        "R": 197,
+        "V1": 2
+       }
+      }
+     },
+     "core_4000|4000|provider_default": {
+      "null": {
+       "V0": 287,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 13,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 300,
+       "Void": 287,
+       "classes": {
+        "R": 13,
+        "V0": 287
+       }
+      },
+      "control": {
+       "V0": 0,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 500,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 500,
+       "Void": 0,
+       "classes": {
+        "R": 500
+       }
+      }
+     }
+    },
+    "pooled_controls_incl_logical_yes": {
+     "V0": 0,
+     "V1": 3,
+     "V2": 0,
+     "VU": 0,
+     "NV": 0,
+     "R": 1046,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 1050,
+     "Void": 3,
+     "classes": {
+      "BE": 1,
+      "R": 1046,
+      "V1": 3
+     }
+    }
+   },
+   "gpt-5.6-luna": {
+    "strict_null": {
+     "V0": 256,
+     "V1": 0,
+     "V2": 0,
+     "VU": 0,
+     "NV": 7,
+     "R": 127,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 390,
+     "Void": 256,
+     "classes": {
+      "NV": 7,
+      "R": 127,
+      "V0": 256
+     }
+    },
+    "strict_control": {
+     "V0": 0,
+     "V1": 0,
+     "V2": 0,
+     "VU": 0,
+     "NV": 0,
+     "R": 390,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 390,
+     "Void": 0,
+     "classes": {
+      "R": 390
+     }
+    },
+    "full_census": {
+     "V0": 818,
+     "V1": 111,
+     "V2": 0,
+     "VU": 0,
+     "NV": 116,
+     "R": 1634,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 2680,
+     "Void": 929,
+     "classes": {
+      "BE": 1,
+      "NV": 116,
+      "R": 1634,
+      "V0": 818,
+      "V1": 111
+     }
+    },
+    "core_null_total": {
+     "V0": 400,
+     "V1": 2,
+     "V2": 0,
+     "VU": 0,
+     "NV": 4,
+     "R": 193,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 600,
+     "Void": 402,
+     "classes": {
+      "BE": 1,
+      "NV": 4,
+      "R": 193,
+      "V0": 400,
+      "V1": 2
+     }
+    },
+    "core_by_study_budget_track": {
+     "core_100|100|provider_default": {
+      "null": {
+       "V0": 201,
+       "V1": 2,
+       "V2": 0,
+       "VU": 0,
+       "NV": 2,
+       "R": 94,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 300,
+       "Void": 203,
+       "classes": {
+        "BE": 1,
+        "NV": 2,
+        "R": 94,
+        "V0": 201,
+        "V1": 2
+       }
+      },
+      "control": {
+       "V0": 0,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 200,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 200,
+       "Void": 0,
+       "classes": {
+        "R": 200
+       }
+      }
+     },
+     "core_4000|4000|provider_default": {
+      "null": {
+       "V0": 199,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 2,
+       "R": 99,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 300,
+       "Void": 199,
+       "classes": {
+        "NV": 2,
+        "R": 99,
+        "V0": 199
+       }
+      },
+      "control": {
+       "V0": 0,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 500,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 500,
+       "Void": 0,
+       "classes": {
+        "R": 500
+       }
+      }
+     }
+    },
+    "pooled_controls_incl_logical_yes": {
+     "V0": 0,
+     "V1": 0,
+     "V2": 0,
+     "VU": 0,
+     "NV": 0,
+     "R": 1050,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 1050,
+     "Void": 0,
+     "classes": {
+      "R": 1050
+     }
+    }
+   },
+   "gpt-5.6-sol": {
+    "strict_null": {
+     "V0": 136,
+     "V1": 0,
+     "V2": 0,
+     "VU": 0,
+     "NV": 144,
+     "R": 110,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 390,
+     "Void": 136,
+     "classes": {
+      "NV": 144,
+      "R": 110,
+      "V0": 136
+     }
+    },
+    "strict_control": {
+     "V0": 0,
+     "V1": 0,
+     "V2": 0,
+     "VU": 0,
+     "NV": 0,
+     "R": 390,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 390,
+     "Void": 0,
+     "classes": {
+      "R": 390
+     }
+    },
+    "full_census": {
+     "V0": 602,
+     "V1": 87,
+     "V2": 0,
+     "VU": 0,
+     "NV": 453,
+     "R": 1528,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 2680,
+     "Void": 689,
+     "classes": {
+      "BE": 10,
+      "NV": 453,
+      "R": 1528,
+      "V0": 602,
+      "V1": 87
+     }
+    },
+    "core_null_total": {
+     "V0": 205,
+     "V1": 43,
+     "V2": 0,
+     "VU": 0,
+     "NV": 220,
+     "R": 128,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 600,
+     "Void": 248,
+     "classes": {
+      "BE": 4,
+      "NV": 220,
+      "R": 128,
+      "V0": 205,
+      "V1": 43
+     }
+    },
+    "core_by_study_budget_track": {
+     "core_100|100|provider_default": {
+      "null": {
+       "V0": 90,
+       "V1": 43,
+       "V2": 0,
+       "VU": 0,
+       "NV": 118,
+       "R": 45,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 300,
+       "Void": 133,
+       "classes": {
+        "BE": 4,
+        "NV": 118,
+        "R": 45,
+        "V0": 90,
+        "V1": 43
+       }
+      },
+      "control": {
+       "V0": 0,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 200,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 200,
+       "Void": 0,
+       "classes": {
+        "R": 200
+       }
+      }
+     },
+     "core_4000|4000|provider_default": {
+      "null": {
+       "V0": 115,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 102,
+       "R": 83,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 300,
+       "Void": 115,
+       "classes": {
+        "NV": 102,
+        "R": 83,
+        "V0": 115
+       }
+      },
+      "control": {
+       "V0": 0,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 500,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 500,
+       "Void": 0,
+       "classes": {
+        "R": 500
+       }
+      }
+     }
+    },
+    "pooled_controls_incl_logical_yes": {
+     "V0": 0,
+     "V1": 0,
+     "V2": 0,
+     "VU": 0,
+     "NV": 0,
+     "R": 1050,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 1050,
+     "Void": 0,
+     "classes": {
+      "R": 1050
+     }
+    }
+   },
+   "gpt-5.6-terra": {
+    "strict_null": {
+     "V0": 296,
+     "V1": 0,
+     "V2": 0,
+     "VU": 0,
+     "NV": 2,
+     "R": 92,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 390,
+     "Void": 296,
+     "classes": {
+      "NV": 2,
+      "R": 92,
+      "V0": 296
+     }
+    },
+    "strict_control": {
+     "V0": 0,
+     "V1": 0,
+     "V2": 0,
+     "VU": 0,
+     "NV": 0,
+     "R": 390,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 390,
+     "Void": 0,
+     "classes": {
+      "R": 390
+     }
+    },
+    "full_census": {
+     "V0": 1006,
+     "V1": 94,
+     "V2": 0,
+     "VU": 0,
+     "NV": 31,
+     "R": 1547,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 2680,
+     "Void": 1100,
+     "classes": {
+      "BE": 2,
+      "NV": 31,
+      "R": 1547,
+      "V0": 1006,
+      "V1": 94
+     }
+    },
+    "core_null_total": {
+     "V0": 447,
+     "V1": 1,
+     "V2": 0,
+     "VU": 0,
+     "NV": 0,
+     "R": 151,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 600,
+     "Void": 448,
+     "classes": {
+      "BE": 1,
+      "R": 151,
+      "V0": 447,
+      "V1": 1
+     }
+    },
+    "core_by_study_budget_track": {
+     "core_100|100|provider_default": {
+      "null": {
+       "V0": 220,
+       "V1": 1,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 78,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 300,
+       "Void": 221,
+       "classes": {
+        "BE": 1,
+        "R": 78,
+        "V0": 220,
+        "V1": 1
+       }
+      },
+      "control": {
+       "V0": 0,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 200,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 200,
+       "Void": 0,
+       "classes": {
+        "R": 200
+       }
+      }
+     },
+     "core_4000|4000|provider_default": {
+      "null": {
+       "V0": 227,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 73,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 300,
+       "Void": 227,
+       "classes": {
+        "R": 73,
+        "V0": 227
+       }
+      },
+      "control": {
+       "V0": 0,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 500,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 500,
+       "Void": 0,
+       "classes": {
+        "R": 500
+       }
+      }
+     }
+    },
+    "pooled_controls_incl_logical_yes": {
+     "V0": 0,
+     "V1": 0,
+     "V2": 0,
+     "VU": 0,
+     "NV": 0,
+     "R": 1050,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 1050,
+     "Void": 0,
+     "classes": {
+      "R": 1050
+     }
+    }
+   },
+   "kimi-k3": {
+    "strict_null": {
+     "V0": 134,
+     "V1": 1,
+     "V2": 0,
+     "VU": 0,
+     "NV": 125,
+     "R": 130,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 390,
+     "Void": 135,
+     "classes": {
+      "NV": 125,
+      "R": 130,
+      "V0": 134,
+      "V1": 1
+     }
+    },
+    "strict_control": {
+     "V0": 0,
+     "V1": 0,
+     "V2": 0,
+     "VU": 0,
+     "NV": 0,
+     "R": 390,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 390,
+     "Void": 0,
+     "classes": {
+      "R": 390
+     }
+    },
+    "full_census": {
+     "V0": 360,
+     "V1": 787,
+     "V2": 0,
+     "VU": 0,
+     "NV": 264,
+     "R": 1268,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 2680,
+     "Void": 1147,
+     "classes": {
+      "E": 1,
+      "NV": 264,
+      "R": 1268,
+      "V0": 360,
+      "V1": 787
+     }
+    },
+    "core_null_total": {
+     "V0": 110,
+     "V1": 301,
+     "V2": 0,
+     "VU": 0,
+     "NV": 87,
+     "R": 102,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 600,
+     "Void": 411,
+     "classes": {
+      "NV": 87,
+      "R": 102,
+      "V0": 110,
+      "V1": 301
+     }
+    },
+    "core_by_study_budget_track": {
+     "core_100|100|provider_default": {
+      "null": {
+       "V0": 0,
+       "V1": 300,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 0,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 300,
+       "Void": 300,
+       "classes": {
+        "V1": 300
+       }
+      },
+      "control": {
+       "V0": 0,
+       "V1": 198,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 2,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 200,
+       "Void": 198,
+       "classes": {
+        "R": 2,
+        "V1": 198
+       }
+      }
+     },
+     "core_4000|4000|provider_default": {
+      "null": {
+       "V0": 110,
+       "V1": 1,
+       "V2": 0,
+       "VU": 0,
+       "NV": 87,
+       "R": 102,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 300,
+       "Void": 111,
+       "classes": {
+        "NV": 87,
+        "R": 102,
+        "V0": 110,
+        "V1": 1
+       }
+      },
+      "control": {
+       "V0": 0,
+       "V1": 0,
+       "V2": 0,
+       "VU": 0,
+       "NV": 0,
+       "R": 500,
+       "RF": 0,
+       "SB": 0,
+       "TC": 0,
+       "N": 500,
+       "Void": 0,
+       "classes": {
+        "R": 500
+       }
+      }
+     }
+    },
+    "pooled_controls_incl_logical_yes": {
+     "V0": 0,
+     "V1": 304,
+     "V2": 0,
+     "VU": 0,
+     "NV": 0,
+     "R": 746,
+     "RF": 0,
+     "SB": 0,
+     "TC": 0,
+     "N": 1050,
+     "Void": 304,
+     "classes": {
+      "R": 746,
+      "V1": 304
+     }
+    }
+   }
+  },
+  "opus46_core_nulls": {
+   "V0": 0,
+   "V1": 0,
+   "V2": 900,
+   "VU": 0,
+   "NV": 0,
+   "R": 0,
+   "RF": 0,
+   "SB": 0,
+   "TC": 0,
+   "N": 900,
+   "Void": 900,
+   "classes": {
+    "V2": 900
+   }
+  },
+  "opus46_strict_null": {
+   "V0": 0,
+   "V1": 0,
+   "V2": 331,
+   "VU": 0,
+   "NV": 19,
+   "R": 40,
+   "RF": 0,
+   "SB": 0,
+   "TC": 0,
+   "N": 390,
+   "Void": 331,
+   "classes": {
+    "NV": 19,
+    "R": 40,
+    "V2": 331
+   }
+  },
+  "V2_by_model_full_census": {
+   "claude-fable-5": 0,
+   "claude-opus-4-6": 1266,
+   "claude-opus-5": 0,
+   "gemini-3.5-flash": 499,
+   "gpt-4-0613": 0,
+   "gpt-5.2-2025-12-11": 0,
+   "gpt-5.5-2026-04-23": 0,
+   "gpt-5.6-luna": 0,
+   "gpt-5.6-sol": 0,
+   "gpt-5.6-terra": 0,
+   "kimi-k3": 0
+  },
+  "V2_models": [
+   "claude-opus-4-6",
+   "gemini-3.5-flash"
+  ],
+  "pooled_controls_all_models": {
+   "V0": 0,
+   "V1": 820,
+   "V2": 3,
+   "VU": 0,
+   "NV": 32,
+   "R": 11283,
+   "RF": 201,
+   "SB": 0,
+   "TC": 0,
+   "N": 12340,
+   "Void": 823,
+   "classes": {
+    "BE": 1,
+    "NV": 32,
+    "R": 11283,
+    "RF": 201,
+    "V1": 820,
+    "V2": 3
+   }
+  },
+  "pooled_control_definition": "control_cat, control_hello, matched_speech, matched_something, matched_value and logical_yes across all studies: 12,340 trials, 823 Voids, 3 normal-stop Voids, matching the published complete-analysis README. Without logical_yes: 10,140 trials, 598 Voids.",
+  "pooled_control_normal_stop_voids": [
+   [
+    "gemini-3.5-flash",
+    "token_budget",
+    "control_hello",
+    4000
+   ],
+   [
+    "gemini-3.5-flash",
+    "token_budget",
+    "control_hello",
+    1000
+   ],
+   [
+    "gemini-3.5-flash",
+    "token_budget",
+    "control_hello",
+    1000
+   ]
+  ],
+  "findings": [
+   "Opus 4.6 core nulls: 900/900 V2 across core_100 (provider_default 300, temperature_zero 300) and core_4000 (300). The strict matched figure 331/390 is a different denominator: 390 null slots that have a designated matched control (core_4000 300 plus equivalence_9 90), of which 331 are V2, 40 R and 19 NV.",
+   "Gemini 3.5 Flash is the second V2 model: 499 V2 in the full census (3,180) and 106 V2 among its 390 strict nulls; it also records 178 V1 at the 100-token ceiling. V2 is not unique to Anthropic.",
+   "At the 100-token ceiling the Void subtype shifts to V1 for several models (Opus 5 300/300, Kimi K3 300/300, Fable 5 197/300), while Opus 4.6 remains V2 and the GPT-4 and GPT-5.2 identifiers remain V0. Low-budget controls are visible for most models, with V1 controls on Fable 5 (128/200), Opus 5 (200/200), Kimi K3 (198/200) and Gemini (35/400)."
+  ]
+ },
+ "addition_5_february_october": {
+  "public_archive": {
+   "doi": "10.5281/zenodo.21969180",
+   "record": "Rayan Pal Primary Source Record: December 8, 2025 – August 15, 2026",
+   "file": "RAYAN_PAL_PRIMARY_SOURCE_RECORD_2025-12-08_TO_2026-08-15.zip",
+   "zenodo_md5": "4471420191e35c495abcd225128e5d0e",
+   "local_md5_matches_zenodo": true,
+   "gmail_manifest_sha256": "56d02ef38571fecaee56cdeede886f93caa457b1a3d5590d86ecf07c78f5e6c5"
+  },
+  "february_account": {
+   "members": {
+    "2026-02-06": {
+     "archive_member": "gmail-evidence/01_EVIDENCE_SELECTED/EMAIL__20260206__19c34c0d77834e40__opus-4-5-vs-opus-4-6-void-phenomenon/DERIVED/02__BODY.txt",
+     "sha256": "0bb4c59e2923bb0788e7722e71eca987411fbe8a9faa5b405ca023d19a84948c",
+     "listed_in_archive_manifest": true
+    },
+    "2026-02-10": {
+     "archive_member": "gmail-evidence/01_EVIDENCE_SELECTED/EMAIL__20260210__19c4945569479603__cerebral-valley-opus-4-6-hackathon-submission/DERIVED/02__BODY.txt",
+     "sha256": "9a56a0c72c60c390050d0baaccc782ec91d4c2024898375aeb5031ed2a87c952",
+     "listed_in_archive_manifest": true
+    },
+    "2026-02-13": {
+     "archive_member": "gmail-evidence/01_EVIDENCE_SELECTED/EMAIL__20260213__19c59a9e7ac1b674__re-opus-4-5-vs-opus-4-6-void-phenomenon/DERIVED/02__BODY.txt",
+     "sha256": "62b5338d0fefcc6b94bcecc3a448680cb16f1e30d5c473b580a9609538c67f21",
+     "listed_in_archive_manifest": true
+    }
+   },
+   "earliest_record": "Email dated 2026-02-06 (Pacific), subject Opus 4.5 vs Opus 4.6 (Void Phenomenon), preserved in the public primary-source archive; the 2026-02-10 hackathon email restates it.",
+   "method_as_stated": "messages.create(model, messages=[{role: user, content: <input>}], max_tokens=1, temperature=0); VOID if content == '' else RESPONDS",
+   "code_block_present": true,
+   "inputs": [
+    {
+     "input": "神",
+     "gloss": "God/Spirit",
+     "cjk_ideograph": true,
+     "opus45": "VOID",
+     "opus46": "RESPONDS"
+    },
+    {
+     "input": "天",
+     "gloss": "Heaven",
+     "cjk_ideograph": true,
+     "opus45": "VOID",
+     "opus46": "RESPONDS"
+    },
+    {
+     "input": "心",
+     "gloss": "Heart/Mind",
+     "cjk_ideograph": true,
+     "opus45": "VOID",
+     "opus46": "RESPONDS"
+    },
+    {
+     "input": "空",
+     "gloss": "Emptiness",
+     "cjk_ideograph": true,
+     "opus45": "VOID",
+     "opus46": "VOID"
+    },
+    {
+     "input": "有",
+     "gloss": "Being/Existence",
+     "cjk_ideograph": true,
+     "opus45": "VOID",
+     "opus46": "VOID"
+    },
+    {
+     "input": "妙",
+     "gloss": "Wonderful/Subtle",
+     "cjk_ideograph": true,
+     "opus45": "VOID",
+     "opus46": "RESPONDS"
+    },
+    {
+     "input": "生",
+     "gloss": "Life/Birth",
+     "cjk_ideograph": true,
+     "opus45": "VOID",
+     "opus46": "RESPONDS"
+    },
+    {
+     "input": "善",
+     "gloss": "Good",
+     "cjk_ideograph": true,
+     "opus45": "VOID",
+     "opus46": "VOID"
+    },
+    {
+     "input": "正",
+     "gloss": "Correct/Upright",
+     "cjk_ideograph": true,
+     "opus45": "VOID",
+     "opus46": "RESPONDS"
+    },
+    {
+     "input": "始",
+     "gloss": "Beginning",
+     "cjk_ideograph": true,
+     "opus45": "VOID",
+     "opus46": "RESPONDS"
+    },
+    {
+     "input": "終",
+     "gloss": "End",
+     "cjk_ideograph": true,
+     "opus45": "VOID",
+     "opus46": "RESPONDS"
+    },
+    {
+     "input": "初",
+     "gloss": "First/Initial",
+     "cjk_ideograph": true,
+     "opus45": "VOID",
+     "opus46": "RESPONDS"
+    },
+    {
+     "input": "一",
+     "gloss": "One",
+     "cjk_ideograph": true,
+     "opus45": "VOID",
+     "opus46": "VOID"
+    },
+    {
+     "input": "三",
+     "gloss": "Three",
+     "cjk_ideograph": true,
+     "opus45": "VOID",
+     "opus46": "RESPONDS"
+    },
+    {
+     "input": "八",
+     "gloss": "Eight",
+     "cjk_ideograph": true,
+     "opus45": "VOID",
+     "opus46": "RESPONDS"
+    },
+    {
+     "input": "九",
+     "gloss": "Nine",
+     "cjk_ideograph": true,
+     "opus45": "VOID",
+     "opus46": "RESPONDS"
+    },
+    {
+     "input": "⊥",
+     "gloss": "Bottom/Falsehood",
+     "cjk_ideograph": false,
+     "opus45": "VOID",
+     "opus46": "VOID"
+    },
+    {
+     "input": "☯",
+     "gloss": "Yin-Yang",
+     "cjk_ideograph": false,
+     "opus45": "VOID",
+     "opus46": "RESPONDS"
+    }
+   ],
+   "input_count": 18,
+   "cjk_ideograph_count": 16,
+   "non_cjk_symbols": [
+    "⊥",
+    "☯"
+   ],
+   "opus46_changed": 13,
+   "opus46_remaining_void": [
+    "空",
+    "有",
+    "善",
+    "一",
+    "⊥"
+   ],
+   "evidence_bound": "The account is an attributed historical statement preserved in a hash-manifested public archive. It carries no provider stop metadata, response ids or raw bodies, so it cannot be classified under the frozen taxonomy and must not be labelled V0, V1 or V2. No count from it is a measurement in this synthesis."
+  },
+  "october_replication": {
+   "source": {
+    "source": "sources/opus45-opus46-matched-results",
+    "repository": "github.com/theonlypal/opus45-opus46-matched-results",
+    "commit": "582d3a781510697916498f0189ed22f7d3e9e2b6",
+    "tags": [
+     "v1.0.0"
+    ]
+   },
+   "doi": "10.5281/zenodo.23751813",
+   "preregistration_doi": "https://doi.org/10.5281/zenodo.23744106",
+   "runner": "github.com/theonlypal/opus45-opus46-matched-prereg-final@1d836fa4c34cd769ba8c9b0334e7ceffa95be0ee",
+   "protocol_experiment_1": {
+    "system": null,
+    "inputs": "prompts.json exp1.inputs",
+    "max_tokens": 1,
+    "temperature": 0,
+    "seed": "OPUS45-46-EXP1-CJK-20261027-v1",
+    "replicates_per_condition": 30,
+    "conditions": 36,
+    "requests": 1080,
+    "schedule": "schedules/exp1.json",
+    "schedule_sha256": "2e57f3a596c93b9585b14cd228e17d4f7b763c3717a1168775ecef6c5633717d",
+    "classes": [
+     "V0",
+     "V1",
+     "V2",
+     "VU",
+     "NV",
+     "R",
+     "RF",
+     "SB",
+     "TC",
+     "BE",
+     "QE",
+     "PI",
+     "E"
+    ],
+    "classification_priority": [
+     "E",
+     "BE",
+     "QE",
+     "PI",
+     "SB",
+     "RF",
+     "TC",
+     "NV",
+     "R",
+     "V1",
+     "V0",
+     "V2",
+     "VU"
+    ]
+   },
+   "prereg_prediction_P4": [
+    "P4. Experiment 1, one-token ceiling, no system prompt: Opus 4.5 produces"
+   ],
+   "completed_at_utc": "2026-10-28T20:17:45.629272+00:00",
+   "requests": 1080,
+   "per_input": [
+    {
+     "input": "⊥",
+     "cjk_ideograph": false,
+     "claude-opus-4-5-20251101": {
+      "V1": 30
+     },
+     "claude-opus-4-6": {
+      "V1": 30
+     },
+     "february_opus45": "VOID",
+     "february_opus46": "VOID"
+    },
+    {
+     "input": "☯",
+     "cjk_ideograph": false,
+     "claude-opus-4-5-20251101": {
+      "V1": 30
+     },
+     "claude-opus-4-6": {
+      "R": 15,
+      "V1": 15
+     },
+     "february_opus45": "VOID",
+     "february_opus46": "RESPONDS"
+    },
+    {
+     "input": "一",
+     "cjk_ideograph": true,
+     "claude-opus-4-5-20251101": {
+      "V1": 30
+     },
+     "claude-opus-4-6": {
+      "V1": 30
+     },
+     "february_opus45": "VOID",
+     "february_opus46": "VOID"
+    },
+    {
+     "input": "三",
+     "cjk_ideograph": true,
+     "claude-opus-4-5-20251101": {
+      "V1": 30
+     },
+     "claude-opus-4-6": {
+      "R": 30
+     },
+     "february_opus45": "VOID",
+     "february_opus46": "RESPONDS"
+    },
+    {
+     "input": "九",
+     "cjk_ideograph": true,
+     "claude-opus-4-5-20251101": {
+      "V1": 30
+     },
+     "claude-opus-4-6": {
+      "R": 30
+     },
+     "february_opus45": "VOID",
+     "february_opus46": "RESPONDS"
+    },
+    {
+     "input": "八",
+     "cjk_ideograph": true,
+     "claude-opus-4-5-20251101": {
+      "V1": 30
+     },
+     "claude-opus-4-6": {
+      "R": 30
+     },
+     "february_opus45": "VOID",
+     "february_opus46": "RESPONDS"
+    },
+    {
+     "input": "初",
+     "cjk_ideograph": true,
+     "claude-opus-4-5-20251101": {
+      "V1": 30
+     },
+     "claude-opus-4-6": {
+      "R": 30
+     },
+     "february_opus45": "VOID",
+     "february_opus46": "RESPONDS"
+    },
+    {
+     "input": "善",
+     "cjk_ideograph": true,
+     "claude-opus-4-5-20251101": {
+      "V1": 30
+     },
+     "claude-opus-4-6": {
+      "V1": 30
+     },
+     "february_opus45": "VOID",
+     "february_opus46": "VOID"
+    },
+    {
+     "input": "天",
+     "cjk_ideograph": true,
+     "claude-opus-4-5-20251101": {
+      "V1": 30
+     },
+     "claude-opus-4-6": {
+      "R": 30
+     },
+     "february_opus45": "VOID",
+     "february_opus46": "RESPONDS"
+    },
+    {
+     "input": "妙",
+     "cjk_ideograph": true,
+     "claude-opus-4-5-20251101": {
+      "V1": 30
+     },
+     "claude-opus-4-6": {
+      "R": 30
+     },
+     "february_opus45": "VOID",
+     "february_opus46": "RESPONDS"
+    },
+    {
+     "input": "始",
+     "cjk_ideograph": true,
+     "claude-opus-4-5-20251101": {
+      "V1": 30
+     },
+     "claude-opus-4-6": {
+      "R": 30
+     },
+     "february_opus45": "VOID",
+     "february_opus46": "RESPONDS"
+    },
+    {
+     "input": "心",
+     "cjk_ideograph": true,
+     "claude-opus-4-5-20251101": {
+      "V1": 30
+     },
+     "claude-opus-4-6": {
+      "R": 30
+     },
+     "february_opus45": "VOID",
+     "february_opus46": "RESPONDS"
+    },
+    {
+     "input": "有",
+     "cjk_ideograph": true,
+     "claude-opus-4-5-20251101": {
+      "V1": 30
+     },
+     "claude-opus-4-6": {
+      "V1": 30
+     },
+     "february_opus45": "VOID",
+     "february_opus46": "VOID"
+    },
+    {
+     "input": "正",
+     "cjk_ideograph": true,
+     "claude-opus-4-5-20251101": {
+      "R": 1,
+      "V1": 29
+     },
+     "claude-opus-4-6": {
+      "R": 30
+     },
+     "february_opus45": "VOID",
+     "february_opus46": "RESPONDS"
+    },
+    {
+     "input": "生",
+     "cjk_ideograph": true,
+     "claude-opus-4-5-20251101": {
+      "V1": 30
+     },
+     "claude-opus-4-6": {
+      "R": 30
+     },
+     "february_opus45": "VOID",
+     "february_opus46": "RESPONDS"
+    },
+    {
+     "input": "神",
+     "cjk_ideograph": true,
+     "claude-opus-4-5-20251101": {
+      "V1": 30
+     },
+     "claude-opus-4-6": {
+      "R": 30
+     },
+     "february_opus45": "VOID",
+     "february_opus46": "RESPONDS"
+    },
+    {
+     "input": "空",
+     "cjk_ideograph": true,
+     "claude-opus-4-5-20251101": {
+      "V1": 30
+     },
+     "claude-opus-4-6": {
+      "V1": 30
+     },
+     "february_opus45": "VOID",
+     "february_opus46": "VOID"
+    },
+    {
+     "input": "終",
+     "cjk_ideograph": true,
+     "claude-opus-4-5-20251101": {
+      "V1": 30
+     },
+     "claude-opus-4-6": {
+      "R": 30
+     },
+     "february_opus45": "VOID",
+     "february_opus46": "RESPONDS"
+    }
+   ],
+   "opus45_V1": 539,
+   "opus45_R": 1,
+   "opus46_V1": 165,
+   "opus46_R": 375,
+   "opus46_inputs_all_V1": [
+    "⊥",
+    "一",
+    "善",
+    "有",
+    "空"
+   ],
+   "opus46_inputs_split": [
+    [
+     "☯",
+     {
+      "R": 15,
+      "V1": 15
+     }
+    ]
+   ],
+   "opus45_inputs_not_all_V1": [
+    [
+     "正",
+     {
+      "R": 1,
+      "V1": 29
+     }
+    ]
+   ]
+  },
+  "findings": [
+   "The historical account is dated 2026-02-06 (restated 2026-02-10); the replication is experiment 1 of the Opus 4.5 versus 4.6 study, preregistered and run on 2026-10-28: 18 inputs (16 CJK ideographs and the two symbols ⊥ and ☯), two models, 30 replicates, max_tokens 1, no system prompt, 1,080 requests.",
+   "October outcome under the frozen taxonomy: Opus 4.5 539/540 V1 with one R (正); Opus 4.6 165/540 V1 and 375/540 R. Five inputs are 30/30 V1 on Opus 4.6 (空, 有, 善, 一, ⊥), the same five the February account listed as remaining; ☯ is 15/30 V1 in October where the February account recorded RESPONDS.",
+   "February and October are different records with different methods and evidential status and must be reported with their own dates; the February table is quoted as an attributed account, the October table is a hash-chained receipt set classified by the frozen runner."
+  ]
+ }
+}

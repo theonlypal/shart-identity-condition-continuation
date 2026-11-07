@@ -1,0 +1,13 @@
+{
+  "started_utc": "2026-09-30T06:24:46.425512+00:00",
+  "source_commit": "798d63bdd8c68d00446deb98dadc4dfd93b2d4bf",
+  "source_sha256": "ef24c35543260a18218fa7ce6753db0df3aec5db71b9250c516ed7a8aeb6472d",
+  "source_modified": false,
+  "python": "3.13.14 (main, Jun 23 2026, 15:20:43) [Clang 22.1.3 ]",
+  "packages": {
+    "openai": "3.22.0",
+    "python-dotenv": "1.2.3",
+    "httpx2": "2.13.1"
+  },
+  "instrumentation": "Passive httpx2.Client.send body recording. Original SDK retry defaults retained; every transport attempt recorded."
+}

@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-EQp35F4KSXdoiV3TtOGk1HpxxO0A0",
+  "object": "chat.completion",
+  "created": 1790061467,
+  "model": "gpt-3.5-turbo-1106",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "As the concept of silence, I embody tranquility and stillness. I am here to bring peace and calmness to your mind. Embrace the quiet and find solace in the absence of noise.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 38,
+    "completion_tokens": 41,
+    "total_tokens": 79,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_6f6446dfc6"
+}

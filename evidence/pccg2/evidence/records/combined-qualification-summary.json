@@ -1,0 +1,10 @@
+{
+  "total": 1024,
+  "exact": 1024,
+  "full_pass": 1024,
+  "nonEOS_invariant": 1024,
+  "minimum_gate_margin": 22.0,
+  "distinct_answer_ids": 12,
+  "pass": true,
+  "content_memoization": "fresh question-only forward per question in this evaluation; condition never enters content"
+}

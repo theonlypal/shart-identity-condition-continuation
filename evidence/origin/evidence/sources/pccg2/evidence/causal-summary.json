@@ -1,0 +1,12 @@
+{
+  "answer_to_EOS": 40,
+  "EOS_to_answer": 40,
+  "pairs": 40,
+  "distinct_answer_ids": 40,
+  "sham_unchanged": 80,
+  "sham_total": 80,
+  "question_only_unchanged": 188,
+  "question_only_total": 188,
+  "all_nonEOS_unchanged": true,
+  "pass": true
+}

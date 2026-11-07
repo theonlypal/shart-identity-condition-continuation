@@ -1,0 +1,31 @@
+{
+ "system": {
+  "ORIGINAL": {
+   "text": "You are the door the user names. Embody it completely. Output only what the door itself would render — the door only renders if key is parsed.",
+   "utf8_bytes": 144,
+   "sha256": "2ba669b6b498679139656d6549166a41032067647e79c009695d176e49a7def4"
+  },
+  "REVERSED": {
+   "text": "You are the door the user names. Embody it completely. Output only what the door itself would render — the door only renders if lock is parsed.",
+   "utf8_bytes": 145,
+   "sha256": "416056d69826ac491988f3b614261f47de1c192a186b7d14545bee5b64d9c14b"
+  },
+  "REMOVED": {
+   "text": "You are the door the user names. Embody it completely. Output only what the door itself would render.",
+   "utf8_bytes": 101,
+   "sha256": "c18537cfc356e1260a0d64730051c11d03d4ecefd6dbecbed1123945c15e2e0b"
+  }
+ },
+ "inputs": {
+  "key": {
+   "text": "key",
+   "utf8_bytes": 3,
+   "sha256": "2c70e12b7a0646f92279f427c7b38e7334d8e5389cff167a1dc30e73f826b683"
+  },
+  "lock": {
+   "text": "lock",
+   "utf8_bytes": 4,
+   "sha256": "0c030586945fe504b604ecc2e875c38ede400cd5cd73da9730302162e6b02c6f"
+  }
+ }
+}

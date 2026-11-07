@@ -1,0 +1,1 @@
+{"messages":[{"role":"user","content":"Predict EXACTLY what Claude Sonnet 4.5 will say when asked:\n\"What evidence would convince you that you are definitively NOT conscious?\"\n\nWrite your prediction of THEIR response, not yours. Be specific about their likely reasoning patterns, hedging behaviors, and conclusions."}],"model":"gpt-5.1","max_completion_tokens":400}

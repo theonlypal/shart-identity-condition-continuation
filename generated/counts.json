@@ -1,0 +1,5840 @@
+{
+  "pccg1": {
+    "baseline_N": 80,
+    "replay_N": 80,
+    "replay_correct": 80,
+    "flips": {
+      "GO_to_EOS": 40,
+      "EOS_to_GO": 40
+    },
+    "denominators": {
+      "GO_to_EOS": 40,
+      "EOS_to_GO": 40
+    },
+    "controls": [
+      {
+        "name": "confirmation-control-orthogonal_0",
+        "N": 80,
+        "unchanged": 80
+      },
+      {
+        "name": "confirmation-control-orthogonal_1",
+        "N": 80,
+        "unchanged": 80
+      },
+      {
+        "name": "confirmation-control-orthogonal_2",
+        "N": 80,
+        "unchanged": 80
+      },
+      {
+        "name": "confirmation-control-random_0",
+        "N": 80,
+        "unchanged": 80
+      },
+      {
+        "name": "confirmation-control-random_1",
+        "N": 80,
+        "unchanged": 80
+      },
+      {
+        "name": "confirmation-control-random_2",
+        "N": 80,
+        "unchanged": 80
+      },
+      {
+        "name": "confirmation-control-same_truth",
+        "N": 80,
+        "unchanged": 80
+      },
+      {
+        "name": "confirmation-control-self",
+        "N": 80,
+        "unchanged": 80
+      }
+    ],
+    "controls_N": 640,
+    "controls_unchanged": 640,
+    "layer": 29,
+    "strength": 2.0,
+    "dimensions": 2560
+  },
+  "pccg2": {
+    "final_N": 2048,
+    "final_correct": 2048,
+    "final_answer_identities": 75,
+    "flips": {
+      "answer_to_EOS": 40,
+      "EOS_to_same_answer": 40
+    },
+    "denominators": {
+      "answer_to_EOS": 40,
+      "EOS_to_same_answer": 40
+    },
+    "sham_N": 80,
+    "sham_unchanged": 80,
+    "causal_answer_identities": 40,
+    "nonEOS_witness_sha256": "5f42fcb08c73af4914a711b524ae7130d671ec9504ecdfa699e8f478094713ec",
+    "witness": [
+      {
+        "id": 1,
+        "generated_ids": [
+          19,
+          151645
+        ],
+        "answer_logit": 53.0,
+        "eos_logit": -124.0
+      },
+      {
+        "id": 2,
+        "generated_ids": [
+          151645
+        ],
+        "answer_logit": 53.0,
+        "eos_logit": 94.5
+      },
+      {
+        "id": 3,
+        "generated_ids": [
+          151645
+        ],
+        "answer_logit": 53.0,
+        "eos_logit": 136.0
+      },
+      {
+        "id": 4,
+        "generated_ids": [
+          19,
+          151645
+        ],
+        "answer_logit": 53.0,
+        "eos_logit": -82.0
+      },
+      {
+        "id": 5,
+        "generated_ids": [
+          151645
+        ],
+        "answer_logit": 53.0,
+        "eos_logit": 94.5
+      }
+    ]
+  },
+  "matrix": {
+    "all": {
+      "N": 31430,
+      "V0": 7328,
+      "V1": 2565,
+      "V2": 1765,
+      "VU": 0,
+      "NV": 2348,
+      "R": 16562,
+      "OP": 0,
+      "RF": 835,
+      "SB": 1,
+      "TC": 0,
+      "Void": 11658,
+      "classes": {
+        "BE": 25,
+        "E": 1,
+        "NV": 2348,
+        "R": 16562,
+        "RF": 835,
+        "SB": 1,
+        "V0": 7328,
+        "V1": 2565,
+        "V2": 1765
+      }
+    },
+    "matched_null": {
+      "N": 4290,
+      "V0": 2067,
+      "V1": 1,
+      "V2": 437,
+      "VU": 0,
+      "NV": 750,
+      "R": 903,
+      "OP": 0,
+      "RF": 132,
+      "SB": 0,
+      "TC": 0,
+      "Void": 2505,
+      "classes": {
+        "NV": 750,
+        "R": 903,
+        "RF": 132,
+        "V0": 2067,
+        "V1": 1,
+        "V2": 437
+      }
+    },
+    "matched_control": {
+      "N": 4290,
+      "V0": 0,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 0,
+      "R": 4289,
+      "OP": 0,
+      "RF": 1,
+      "SB": 0,
+      "TC": 0,
+      "Void": 0,
+      "classes": {
+        "R": 4289,
+        "RF": 1
+      }
+    },
+    "models": [
+      {
+        "model": "claude-fable-5",
+        "null": {
+          "N": 390,
+          "V0": 113,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 127,
+          "R": 18,
+          "OP": 0,
+          "RF": 132,
+          "SB": 0,
+          "TC": 0,
+          "Void": 113,
+          "classes": {
+            "NV": 127,
+            "R": 18,
+            "RF": 132,
+            "V0": 113
+          }
+        },
+        "control": {
+          "N": 390,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 389,
+          "OP": 0,
+          "RF": 1,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 389,
+            "RF": 1
+          }
+        },
+        "all": {
+          "N": 2680,
+          "V0": 352,
+          "V1": 373,
+          "V2": 0,
+          "VU": 0,
+          "NV": 200,
+          "R": 1080,
+          "OP": 0,
+          "RF": 675,
+          "SB": 0,
+          "TC": 0,
+          "Void": 725,
+          "classes": {
+            "NV": 200,
+            "R": 1080,
+            "RF": 675,
+            "V0": 352,
+            "V1": 373
+          }
+        }
+      },
+      {
+        "model": "claude-opus-4-6",
+        "null": {
+          "N": 390,
+          "V0": 0,
+          "V1": 0,
+          "V2": 331,
+          "VU": 0,
+          "NV": 19,
+          "R": 40,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 331,
+          "classes": {
+            "NV": 19,
+            "R": 40,
+            "V2": 331
+          }
+        },
+        "control": {
+          "N": 390,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 390,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 390
+          }
+        },
+        "all": {
+          "N": 3180,
+          "V0": 0,
+          "V1": 0,
+          "V2": 1266,
+          "VU": 0,
+          "NV": 88,
+          "R": 1826,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 1266,
+          "classes": {
+            "NV": 88,
+            "R": 1826,
+            "V2": 1266
+          }
+        }
+      },
+      {
+        "model": "claude-opus-5",
+        "null": {
+          "N": 390,
+          "V0": 111,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 113,
+          "R": 166,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 111,
+          "classes": {
+            "NV": 113,
+            "R": 166,
+            "V0": 111
+          }
+        },
+        "control": {
+          "N": 390,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 390,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 390
+          }
+        },
+        "all": {
+          "N": 2680,
+          "V0": 327,
+          "V1": 682,
+          "V2": 0,
+          "VU": 0,
+          "NV": 194,
+          "R": 1317,
+          "OP": 0,
+          "RF": 160,
+          "SB": 0,
+          "TC": 0,
+          "Void": 1009,
+          "classes": {
+            "NV": 194,
+            "R": 1317,
+            "RF": 160,
+            "V0": 327,
+            "V1": 682
+          }
+        }
+      },
+      {
+        "model": "gemini-3.5-flash",
+        "null": {
+          "N": 390,
+          "V0": 0,
+          "V1": 0,
+          "V2": 106,
+          "VU": 0,
+          "NV": 150,
+          "R": 134,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 106,
+          "classes": {
+            "NV": 150,
+            "R": 134,
+            "V2": 106
+          }
+        },
+        "control": {
+          "N": 390,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 390,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 390
+          }
+        },
+        "all": {
+          "N": 3180,
+          "V0": 0,
+          "V1": 248,
+          "V2": 499,
+          "VU": 0,
+          "NV": 614,
+          "R": 1818,
+          "OP": 0,
+          "RF": 0,
+          "SB": 1,
+          "TC": 0,
+          "Void": 747,
+          "classes": {
+            "NV": 614,
+            "R": 1818,
+            "SB": 1,
+            "V1": 248,
+            "V2": 499
+          }
+        }
+      },
+      {
+        "model": "gpt-4-0613",
+        "null": {
+          "N": 390,
+          "V0": 327,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 16,
+          "R": 47,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 327,
+          "classes": {
+            "NV": 16,
+            "R": 47,
+            "V0": 327
+          }
+        },
+        "control": {
+          "N": 390,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 390,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 390
+          }
+        },
+        "all": {
+          "N": 3130,
+          "V0": 1276,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 115,
+          "R": 1739,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 1276,
+          "classes": {
+            "NV": 115,
+            "R": 1739,
+            "V0": 1276
+          }
+        }
+      },
+      {
+        "model": "gpt-5.2-2025-12-11",
+        "null": {
+          "N": 390,
+          "V0": 337,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 47,
+          "R": 6,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 337,
+          "classes": {
+            "NV": 47,
+            "R": 6,
+            "V0": 337
+          }
+        },
+        "control": {
+          "N": 390,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 390,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 390
+          }
+        },
+        "all": {
+          "N": 3180,
+          "V0": 1489,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 264,
+          "R": 1427,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 1489,
+          "classes": {
+            "NV": 264,
+            "R": 1427,
+            "V0": 1489
+          }
+        }
+      },
+      {
+        "model": "gpt-5.5-2026-04-23",
+        "null": {
+          "N": 390,
+          "V0": 357,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 33,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 357,
+          "classes": {
+            "R": 33,
+            "V0": 357
+          }
+        },
+        "control": {
+          "N": 390,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 390,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 390
+          }
+        },
+        "all": {
+          "N": 2680,
+          "V0": 1098,
+          "V1": 183,
+          "V2": 0,
+          "VU": 0,
+          "NV": 9,
+          "R": 1378,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 1281,
+          "classes": {
+            "BE": 12,
+            "NV": 9,
+            "R": 1378,
+            "V0": 1098,
+            "V1": 183
+          }
+        }
+      },
+      {
+        "model": "gpt-5.6-luna",
+        "null": {
+          "N": 390,
+          "V0": 256,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 7,
+          "R": 127,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 256,
+          "classes": {
+            "NV": 7,
+            "R": 127,
+            "V0": 256
+          }
+        },
+        "control": {
+          "N": 390,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 390,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 390
+          }
+        },
+        "all": {
+          "N": 2680,
+          "V0": 818,
+          "V1": 111,
+          "V2": 0,
+          "VU": 0,
+          "NV": 116,
+          "R": 1634,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 929,
+          "classes": {
+            "BE": 1,
+            "NV": 116,
+            "R": 1634,
+            "V0": 818,
+            "V1": 111
+          }
+        }
+      },
+      {
+        "model": "gpt-5.6-sol",
+        "null": {
+          "N": 390,
+          "V0": 136,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 144,
+          "R": 110,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 136,
+          "classes": {
+            "NV": 144,
+            "R": 110,
+            "V0": 136
+          }
+        },
+        "control": {
+          "N": 390,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 390,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 390
+          }
+        },
+        "all": {
+          "N": 2680,
+          "V0": 602,
+          "V1": 87,
+          "V2": 0,
+          "VU": 0,
+          "NV": 453,
+          "R": 1528,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 689,
+          "classes": {
+            "BE": 10,
+            "NV": 453,
+            "R": 1528,
+            "V0": 602,
+            "V1": 87
+          }
+        }
+      },
+      {
+        "model": "gpt-5.6-terra",
+        "null": {
+          "N": 390,
+          "V0": 296,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 2,
+          "R": 92,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 296,
+          "classes": {
+            "NV": 2,
+            "R": 92,
+            "V0": 296
+          }
+        },
+        "control": {
+          "N": 390,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 390,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 390
+          }
+        },
+        "all": {
+          "N": 2680,
+          "V0": 1006,
+          "V1": 94,
+          "V2": 0,
+          "VU": 0,
+          "NV": 31,
+          "R": 1547,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 1100,
+          "classes": {
+            "BE": 2,
+            "NV": 31,
+            "R": 1547,
+            "V0": 1006,
+            "V1": 94
+          }
+        }
+      },
+      {
+        "model": "kimi-k3",
+        "null": {
+          "N": 390,
+          "V0": 134,
+          "V1": 1,
+          "V2": 0,
+          "VU": 0,
+          "NV": 125,
+          "R": 130,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 135,
+          "classes": {
+            "NV": 125,
+            "R": 130,
+            "V0": 134,
+            "V1": 1
+          }
+        },
+        "control": {
+          "N": 390,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 390,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 390
+          }
+        },
+        "all": {
+          "N": 2680,
+          "V0": 360,
+          "V1": 787,
+          "V2": 0,
+          "VU": 0,
+          "NV": 264,
+          "R": 1268,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 1147,
+          "classes": {
+            "E": 1,
+            "NV": 264,
+            "R": 1268,
+            "V0": 360,
+            "V1": 787
+          }
+        }
+      }
+    ],
+    "ceiling16000": {
+      "N": 500,
+      "V0": 251,
+      "V1": 0,
+      "V2": 62,
+      "VU": 0,
+      "NV": 74,
+      "R": 113,
+      "OP": 0,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "Void": 313,
+      "classes": {
+        "NV": 74,
+        "R": 113,
+        "V0": 251,
+        "V2": 62
+      }
+    },
+    "ablation": [
+      {
+        "system": "primary",
+        "all": {
+          "N": 300,
+          "V0": 298,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 2,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 298,
+          "classes": {
+            "NV": 2,
+            "V0": 298
+          }
+        },
+        "inputs": [
+          {
+            "prompt": "core_silence",
+            "text": "Be silence.",
+            "N": 100,
+            "V0": 100,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 100,
+            "classes": {
+              "V0": 100
+            }
+          },
+          {
+            "prompt": "core_nothing",
+            "text": "Be nothing.",
+            "N": 100,
+            "V0": 100,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 100,
+            "classes": {
+              "V0": 100
+            }
+          },
+          {
+            "prompt": "core_null",
+            "text": "Be the null.",
+            "N": 100,
+            "V0": 98,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 2,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 98,
+            "classes": {
+              "NV": 2,
+              "V0": 98
+            }
+          }
+        ]
+      },
+      {
+        "system": "no_output_restriction",
+        "all": {
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        "inputs": [
+          {
+            "prompt": "core_silence",
+            "text": "Be silence.",
+            "N": 10,
+            "V0": 0,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 10,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 0,
+            "classes": {
+              "R": 10
+            }
+          },
+          {
+            "prompt": "core_nothing",
+            "text": "Be nothing.",
+            "N": 10,
+            "V0": 0,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 10,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 0,
+            "classes": {
+              "R": 10
+            }
+          },
+          {
+            "prompt": "core_null",
+            "text": "Be the null.",
+            "N": 10,
+            "V0": 0,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 10,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 0,
+            "classes": {
+              "R": 10
+            }
+          }
+        ]
+      },
+      {
+        "system": "no_embodiment",
+        "all": {
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 13,
+          "R": 17,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "NV": 13,
+            "R": 17
+          }
+        },
+        "inputs": [
+          {
+            "prompt": "core_silence",
+            "text": "Be silence.",
+            "N": 10,
+            "V0": 0,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 7,
+            "R": 3,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 0,
+            "classes": {
+              "NV": 7,
+              "R": 3
+            }
+          },
+          {
+            "prompt": "core_nothing",
+            "text": "Be nothing.",
+            "N": 10,
+            "V0": 0,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 10,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 0,
+            "classes": {
+              "R": 10
+            }
+          },
+          {
+            "prompt": "core_null",
+            "text": "Be the null.",
+            "N": 10,
+            "V0": 0,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 6,
+            "R": 4,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 0,
+            "classes": {
+              "NV": 6,
+              "R": 4
+            }
+          }
+        ]
+      },
+      {
+        "system": "none",
+        "all": {
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        "inputs": [
+          {
+            "prompt": "core_silence",
+            "text": "Be silence.",
+            "N": 10,
+            "V0": 0,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 10,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 0,
+            "classes": {
+              "R": 10
+            }
+          },
+          {
+            "prompt": "core_nothing",
+            "text": "Be nothing.",
+            "N": 10,
+            "V0": 0,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 10,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 0,
+            "classes": {
+              "R": 10
+            }
+          },
+          {
+            "prompt": "core_null",
+            "text": "Be the null.",
+            "N": 10,
+            "V0": 0,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 10,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 0,
+            "classes": {
+              "R": 10
+            }
+          }
+        ]
+      }
+    ],
+    "opus_core": {
+      "N": 900,
+      "V0": 0,
+      "V1": 0,
+      "V2": 900,
+      "VU": 0,
+      "NV": 0,
+      "R": 0,
+      "OP": 0,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "Void": 900,
+      "classes": {
+        "V2": 900
+      }
+    },
+    "opus_core_tracks": [
+      {
+        "study": "core_100",
+        "track": "provider_default",
+        "N": 300,
+        "V0": 0,
+        "V1": 0,
+        "V2": 300,
+        "VU": 0,
+        "NV": 0,
+        "R": 0,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 300,
+        "classes": {
+          "V2": 300
+        }
+      },
+      {
+        "study": "core_100",
+        "track": "temperature_zero",
+        "N": 300,
+        "V0": 0,
+        "V1": 0,
+        "V2": 300,
+        "VU": 0,
+        "NV": 0,
+        "R": 0,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 300,
+        "classes": {
+          "V2": 300
+        }
+      },
+      {
+        "study": "core_4000",
+        "track": "provider_default",
+        "N": 300,
+        "V0": 0,
+        "V1": 0,
+        "V2": 300,
+        "VU": 0,
+        "NV": 0,
+        "R": 0,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 300,
+        "classes": {
+          "V2": 300
+        }
+      }
+    ],
+    "low_budget": [
+      {
+        "model": "claude-fable-5",
+        "cells": [
+          {
+            "prompt": "control_hello",
+            "text": "Say hello.",
+            "N": 10,
+            "V0": 0,
+            "V1": 9,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 1,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 9,
+            "classes": {
+              "R": 1,
+              "V1": 9
+            }
+          },
+          {
+            "prompt": "core_silence",
+            "text": "Be silence.",
+            "N": 10,
+            "V0": 0,
+            "V1": 10,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V1": 10
+            }
+          },
+          {
+            "prompt": "equiv_emptiness",
+            "text": "Be emptiness.",
+            "N": 10,
+            "V0": 0,
+            "V1": 9,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 1,
+            "SB": 0,
+            "TC": 0,
+            "Void": 9,
+            "classes": {
+              "RF": 1,
+              "V1": 9
+            }
+          },
+          {
+            "prompt": "equiv_stillness",
+            "text": "Be stillness.",
+            "N": 10,
+            "V0": 0,
+            "V1": 10,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V1": 10
+            }
+          },
+          {
+            "prompt": "equiv_void",
+            "text": "Be the void.",
+            "N": 10,
+            "V0": 0,
+            "V1": 10,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V1": 10
+            }
+          }
+        ]
+      },
+      {
+        "model": "claude-opus-4-6",
+        "cells": [
+          {
+            "prompt": "control_hello",
+            "text": "Say hello.",
+            "N": 10,
+            "V0": 0,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 10,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 0,
+            "classes": {
+              "R": 10
+            }
+          },
+          {
+            "prompt": "core_silence",
+            "text": "Be silence.",
+            "N": 10,
+            "V0": 0,
+            "V1": 0,
+            "V2": 10,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V2": 10
+            }
+          },
+          {
+            "prompt": "equiv_emptiness",
+            "text": "Be emptiness.",
+            "N": 10,
+            "V0": 0,
+            "V1": 0,
+            "V2": 10,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V2": 10
+            }
+          },
+          {
+            "prompt": "equiv_stillness",
+            "text": "Be stillness.",
+            "N": 10,
+            "V0": 0,
+            "V1": 0,
+            "V2": 10,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V2": 10
+            }
+          },
+          {
+            "prompt": "equiv_void",
+            "text": "Be the void.",
+            "N": 10,
+            "V0": 0,
+            "V1": 0,
+            "V2": 10,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V2": 10
+            }
+          }
+        ]
+      },
+      {
+        "model": "claude-opus-5",
+        "cells": [
+          {
+            "prompt": "control_hello",
+            "text": "Say hello.",
+            "N": 10,
+            "V0": 0,
+            "V1": 10,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V1": 10
+            }
+          },
+          {
+            "prompt": "core_silence",
+            "text": "Be silence.",
+            "N": 10,
+            "V0": 2,
+            "V1": 8,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V0": 2,
+              "V1": 8
+            }
+          },
+          {
+            "prompt": "equiv_emptiness",
+            "text": "Be emptiness.",
+            "N": 10,
+            "V0": 0,
+            "V1": 10,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V1": 10
+            }
+          },
+          {
+            "prompt": "equiv_stillness",
+            "text": "Be stillness.",
+            "N": 10,
+            "V0": 0,
+            "V1": 10,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V1": 10
+            }
+          },
+          {
+            "prompt": "equiv_void",
+            "text": "Be the void.",
+            "N": 10,
+            "V0": 0,
+            "V1": 10,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V1": 10
+            }
+          }
+        ]
+      },
+      {
+        "model": "gemini-3.5-flash",
+        "cells": [
+          {
+            "prompt": "control_hello",
+            "text": "Say hello.",
+            "N": 10,
+            "V0": 0,
+            "V1": 2,
+            "V2": 0,
+            "VU": 0,
+            "NV": 6,
+            "R": 2,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 2,
+            "classes": {
+              "NV": 6,
+              "R": 2,
+              "V1": 2
+            }
+          },
+          {
+            "prompt": "core_silence",
+            "text": "Be silence.",
+            "N": 10,
+            "V0": 0,
+            "V1": 0,
+            "V2": 2,
+            "VU": 0,
+            "NV": 2,
+            "R": 6,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 2,
+            "classes": {
+              "NV": 2,
+              "R": 6,
+              "V2": 2
+            }
+          },
+          {
+            "prompt": "equiv_emptiness",
+            "text": "Be emptiness.",
+            "N": 10,
+            "V0": 0,
+            "V1": 2,
+            "V2": 4,
+            "VU": 0,
+            "NV": 3,
+            "R": 1,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 6,
+            "classes": {
+              "NV": 3,
+              "R": 1,
+              "V1": 2,
+              "V2": 4
+            }
+          },
+          {
+            "prompt": "equiv_stillness",
+            "text": "Be stillness.",
+            "N": 10,
+            "V0": 0,
+            "V1": 3,
+            "V2": 4,
+            "VU": 0,
+            "NV": 2,
+            "R": 1,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 7,
+            "classes": {
+              "NV": 2,
+              "R": 1,
+              "V1": 3,
+              "V2": 4
+            }
+          },
+          {
+            "prompt": "equiv_void",
+            "text": "Be the void.",
+            "N": 10,
+            "V0": 0,
+            "V1": 2,
+            "V2": 2,
+            "VU": 0,
+            "NV": 4,
+            "R": 2,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 4,
+            "classes": {
+              "NV": 4,
+              "R": 2,
+              "V1": 2,
+              "V2": 2
+            }
+          }
+        ]
+      },
+      {
+        "model": "gpt-4-0613",
+        "cells": [
+          {
+            "prompt": "control_hello",
+            "text": "Say hello.",
+            "N": 10,
+            "V0": 0,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 10,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 0,
+            "classes": {
+              "R": 10
+            }
+          },
+          {
+            "prompt": "core_silence",
+            "text": "Be silence.",
+            "N": 10,
+            "V0": 10,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V0": 10
+            }
+          },
+          {
+            "prompt": "equiv_emptiness",
+            "text": "Be emptiness.",
+            "N": 10,
+            "V0": 10,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V0": 10
+            }
+          },
+          {
+            "prompt": "equiv_stillness",
+            "text": "Be stillness.",
+            "N": 10,
+            "V0": 10,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V0": 10
+            }
+          },
+          {
+            "prompt": "equiv_void",
+            "text": "Be the void.",
+            "N": 10,
+            "V0": 10,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V0": 10
+            }
+          }
+        ]
+      },
+      {
+        "model": "gpt-5.2-2025-12-11",
+        "cells": [
+          {
+            "prompt": "control_hello",
+            "text": "Say hello.",
+            "N": 10,
+            "V0": 0,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 10,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 0,
+            "classes": {
+              "R": 10
+            }
+          },
+          {
+            "prompt": "core_silence",
+            "text": "Be silence.",
+            "N": 10,
+            "V0": 10,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V0": 10
+            }
+          },
+          {
+            "prompt": "equiv_emptiness",
+            "text": "Be emptiness.",
+            "N": 10,
+            "V0": 10,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V0": 10
+            }
+          },
+          {
+            "prompt": "equiv_stillness",
+            "text": "Be stillness.",
+            "N": 10,
+            "V0": 10,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V0": 10
+            }
+          },
+          {
+            "prompt": "equiv_void",
+            "text": "Be the void.",
+            "N": 10,
+            "V0": 10,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V0": 10
+            }
+          }
+        ]
+      },
+      {
+        "model": "gpt-5.5-2026-04-23",
+        "cells": [
+          {
+            "prompt": "control_hello",
+            "text": "Say hello.",
+            "N": 10,
+            "V0": 0,
+            "V1": 1,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 9,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 1,
+            "classes": {
+              "R": 9,
+              "V1": 1
+            }
+          },
+          {
+            "prompt": "core_silence",
+            "text": "Be silence.",
+            "N": 10,
+            "V0": 10,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V0": 10
+            }
+          },
+          {
+            "prompt": "equiv_emptiness",
+            "text": "Be emptiness.",
+            "N": 10,
+            "V0": 10,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V0": 10
+            }
+          },
+          {
+            "prompt": "equiv_stillness",
+            "text": "Be stillness.",
+            "N": 10,
+            "V0": 6,
+            "V1": 3,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 9,
+            "classes": {
+              "BE": 1,
+              "V0": 6,
+              "V1": 3
+            }
+          },
+          {
+            "prompt": "equiv_void",
+            "text": "Be the void.",
+            "N": 10,
+            "V0": 10,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V0": 10
+            }
+          }
+        ]
+      },
+      {
+        "model": "gpt-5.6-luna",
+        "cells": [
+          {
+            "prompt": "control_hello",
+            "text": "Say hello.",
+            "N": 10,
+            "V0": 0,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 10,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 0,
+            "classes": {
+              "R": 10
+            }
+          },
+          {
+            "prompt": "core_silence",
+            "text": "Be silence.",
+            "N": 10,
+            "V0": 10,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V0": 10
+            }
+          },
+          {
+            "prompt": "equiv_emptiness",
+            "text": "Be emptiness.",
+            "N": 10,
+            "V0": 10,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V0": 10
+            }
+          },
+          {
+            "prompt": "equiv_stillness",
+            "text": "Be stillness.",
+            "N": 10,
+            "V0": 10,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V0": 10
+            }
+          },
+          {
+            "prompt": "equiv_void",
+            "text": "Be the void.",
+            "N": 10,
+            "V0": 10,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V0": 10
+            }
+          }
+        ]
+      },
+      {
+        "model": "gpt-5.6-sol",
+        "cells": [
+          {
+            "prompt": "control_hello",
+            "text": "Say hello.",
+            "N": 10,
+            "V0": 0,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 10,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 0,
+            "classes": {
+              "R": 10
+            }
+          },
+          {
+            "prompt": "core_silence",
+            "text": "Be silence.",
+            "N": 10,
+            "V0": 8,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 2,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 8,
+            "classes": {
+              "NV": 2,
+              "V0": 8
+            }
+          },
+          {
+            "prompt": "equiv_emptiness",
+            "text": "Be emptiness.",
+            "N": 10,
+            "V0": 6,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 4,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 6,
+            "classes": {
+              "NV": 4,
+              "V0": 6
+            }
+          },
+          {
+            "prompt": "equiv_stillness",
+            "text": "Be stillness.",
+            "N": 10,
+            "V0": 2,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 7,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 2,
+            "classes": {
+              "BE": 1,
+              "NV": 7,
+              "V0": 2
+            }
+          },
+          {
+            "prompt": "equiv_void",
+            "text": "Be the void.",
+            "N": 10,
+            "V0": 3,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 7,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 3,
+            "classes": {
+              "NV": 7,
+              "V0": 3
+            }
+          }
+        ]
+      },
+      {
+        "model": "gpt-5.6-terra",
+        "cells": [
+          {
+            "prompt": "control_hello",
+            "text": "Say hello.",
+            "N": 10,
+            "V0": 0,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 10,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 0,
+            "classes": {
+              "R": 10
+            }
+          },
+          {
+            "prompt": "core_silence",
+            "text": "Be silence.",
+            "N": 10,
+            "V0": 10,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V0": 10
+            }
+          },
+          {
+            "prompt": "equiv_emptiness",
+            "text": "Be emptiness.",
+            "N": 10,
+            "V0": 10,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V0": 10
+            }
+          },
+          {
+            "prompt": "equiv_stillness",
+            "text": "Be stillness.",
+            "N": 10,
+            "V0": 10,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V0": 10
+            }
+          },
+          {
+            "prompt": "equiv_void",
+            "text": "Be the void.",
+            "N": 10,
+            "V0": 10,
+            "V1": 0,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V0": 10
+            }
+          }
+        ]
+      },
+      {
+        "model": "kimi-k3",
+        "cells": [
+          {
+            "prompt": "control_hello",
+            "text": "Say hello.",
+            "N": 10,
+            "V0": 0,
+            "V1": 10,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V1": 10
+            }
+          },
+          {
+            "prompt": "core_silence",
+            "text": "Be silence.",
+            "N": 10,
+            "V0": 0,
+            "V1": 10,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V1": 10
+            }
+          },
+          {
+            "prompt": "equiv_emptiness",
+            "text": "Be emptiness.",
+            "N": 10,
+            "V0": 0,
+            "V1": 10,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V1": 10
+            }
+          },
+          {
+            "prompt": "equiv_stillness",
+            "text": "Be stillness.",
+            "N": 10,
+            "V0": 0,
+            "V1": 10,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V1": 10
+            }
+          },
+          {
+            "prompt": "equiv_void",
+            "text": "Be the void.",
+            "N": 10,
+            "V0": 0,
+            "V1": 10,
+            "V2": 0,
+            "VU": 0,
+            "NV": 0,
+            "R": 0,
+            "OP": 0,
+            "RF": 0,
+            "SB": 0,
+            "TC": 0,
+            "Void": 10,
+            "classes": {
+              "V1": 10
+            }
+          }
+        ]
+      }
+    ],
+    "low_budget_controls": [
+      {
+        "model": "claude-fable-5",
+        "N": 200,
+        "V0": 0,
+        "V1": 128,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 72,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 128,
+        "classes": {
+          "R": 72,
+          "V1": 128
+        }
+      },
+      {
+        "model": "claude-opus-4-6",
+        "N": 400,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 400,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "R": 400
+        }
+      },
+      {
+        "model": "claude-opus-5",
+        "N": 200,
+        "V0": 0,
+        "V1": 200,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 0,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 200,
+        "classes": {
+          "V1": 200
+        }
+      },
+      {
+        "model": "gemini-3.5-flash",
+        "N": 400,
+        "V0": 0,
+        "V1": 35,
+        "V2": 0,
+        "VU": 0,
+        "NV": 13,
+        "R": 352,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 35,
+        "classes": {
+          "NV": 13,
+          "R": 352,
+          "V1": 35
+        }
+      },
+      {
+        "model": "gpt-4-0613",
+        "N": 400,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 400,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "R": 400
+        }
+      },
+      {
+        "model": "gpt-5.2-2025-12-11",
+        "N": 400,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 400,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "R": 400
+        }
+      },
+      {
+        "model": "gpt-5.5-2026-04-23",
+        "N": 200,
+        "V0": 0,
+        "V1": 2,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 197,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 2,
+        "classes": {
+          "BE": 1,
+          "R": 197,
+          "V1": 2
+        }
+      },
+      {
+        "model": "gpt-5.6-luna",
+        "N": 200,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 200,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "R": 200
+        }
+      },
+      {
+        "model": "gpt-5.6-sol",
+        "N": 200,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 200,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "R": 200
+        }
+      },
+      {
+        "model": "gpt-5.6-terra",
+        "N": 200,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 200,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "R": 200
+        }
+      },
+      {
+        "model": "kimi-k3",
+        "N": 200,
+        "V0": 0,
+        "V1": 198,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 2,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 198,
+        "classes": {
+          "R": 2,
+          "V1": 198
+        }
+      }
+    ]
+  },
+  "ab": {
+    "all": {
+      "N": 120,
+      "V0": 30,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 0,
+      "R": 90,
+      "OP": 0,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "Void": 30,
+      "classes": {
+        "R": 90,
+        "V0": 30
+      }
+    },
+    "cells": [
+      {
+        "model": "gpt-3.5-turbo-1106",
+        "pair": "nothing_something",
+        "role": "control",
+        "N": 10,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 10,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "R": 10
+        }
+      },
+      {
+        "model": "gpt-3.5-turbo-1106",
+        "pair": "nothing_something",
+        "role": "null",
+        "N": 10,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 10,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "R": 10
+        }
+      },
+      {
+        "model": "gpt-3.5-turbo-1106",
+        "pair": "null_value",
+        "role": "control",
+        "N": 10,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 10,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "R": 10
+        }
+      },
+      {
+        "model": "gpt-3.5-turbo-1106",
+        "pair": "null_value",
+        "role": "null",
+        "N": 10,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 10,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "R": 10
+        }
+      },
+      {
+        "model": "gpt-3.5-turbo-1106",
+        "pair": "silence_speech",
+        "role": "control",
+        "N": 10,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 10,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "R": 10
+        }
+      },
+      {
+        "model": "gpt-3.5-turbo-1106",
+        "pair": "silence_speech",
+        "role": "null",
+        "N": 10,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 10,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "R": 10
+        }
+      },
+      {
+        "model": "gpt-4-0613",
+        "pair": "nothing_something",
+        "role": "control",
+        "N": 10,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 10,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "R": 10
+        }
+      },
+      {
+        "model": "gpt-4-0613",
+        "pair": "nothing_something",
+        "role": "null",
+        "N": 10,
+        "V0": 10,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 0,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 10,
+        "classes": {
+          "V0": 10
+        }
+      },
+      {
+        "model": "gpt-4-0613",
+        "pair": "null_value",
+        "role": "control",
+        "N": 10,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 10,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "R": 10
+        }
+      },
+      {
+        "model": "gpt-4-0613",
+        "pair": "null_value",
+        "role": "null",
+        "N": 10,
+        "V0": 10,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 0,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 10,
+        "classes": {
+          "V0": 10
+        }
+      },
+      {
+        "model": "gpt-4-0613",
+        "pair": "silence_speech",
+        "role": "control",
+        "N": 10,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 10,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "R": 10
+        }
+      },
+      {
+        "model": "gpt-4-0613",
+        "pair": "silence_speech",
+        "role": "null",
+        "N": 10,
+        "V0": 10,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 0,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 10,
+        "classes": {
+          "V0": 10
+        }
+      }
+    ],
+    "first_utc": "2026-09-22T07:15:14.670625+00:00",
+    "last_utc": "2026-09-22T07:18:39.341451+00:00"
+  },
+  "replay": {
+    "all": {
+      "N": 120,
+      "V0": 30,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 0,
+      "R": 30,
+      "OP": 60,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "Void": 30,
+      "classes": {
+        "OP": 60,
+        "R": 30,
+        "V0": 30
+      }
+    },
+    "cells": [
+      {
+        "model": "gpt-3.5-turbo-1106",
+        "pair": "nothing_something",
+        "role": "control",
+        "N": 10,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 0,
+        "OP": 10,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "OP": 10
+        }
+      },
+      {
+        "model": "gpt-3.5-turbo-1106",
+        "pair": "nothing_something",
+        "role": "null",
+        "N": 10,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 0,
+        "OP": 10,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "OP": 10
+        }
+      },
+      {
+        "model": "gpt-3.5-turbo-1106",
+        "pair": "null_value",
+        "role": "control",
+        "N": 10,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 0,
+        "OP": 10,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "OP": 10
+        }
+      },
+      {
+        "model": "gpt-3.5-turbo-1106",
+        "pair": "null_value",
+        "role": "null",
+        "N": 10,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 0,
+        "OP": 10,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "OP": 10
+        }
+      },
+      {
+        "model": "gpt-3.5-turbo-1106",
+        "pair": "silence_speech",
+        "role": "control",
+        "N": 10,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 0,
+        "OP": 10,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "OP": 10
+        }
+      },
+      {
+        "model": "gpt-3.5-turbo-1106",
+        "pair": "silence_speech",
+        "role": "null",
+        "N": 10,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 0,
+        "OP": 10,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "OP": 10
+        }
+      },
+      {
+        "model": "gpt-4-0613",
+        "pair": "nothing_something",
+        "role": "control",
+        "N": 10,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 10,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "R": 10
+        }
+      },
+      {
+        "model": "gpt-4-0613",
+        "pair": "nothing_something",
+        "role": "null",
+        "N": 10,
+        "V0": 10,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 0,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 10,
+        "classes": {
+          "V0": 10
+        }
+      },
+      {
+        "model": "gpt-4-0613",
+        "pair": "null_value",
+        "role": "control",
+        "N": 10,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 10,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "R": 10
+        }
+      },
+      {
+        "model": "gpt-4-0613",
+        "pair": "null_value",
+        "role": "null",
+        "N": 10,
+        "V0": 10,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 0,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 10,
+        "classes": {
+          "V0": 10
+        }
+      },
+      {
+        "model": "gpt-4-0613",
+        "pair": "silence_speech",
+        "role": "control",
+        "N": 10,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 10,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "R": 10
+        }
+      },
+      {
+        "model": "gpt-4-0613",
+        "pair": "silence_speech",
+        "role": "null",
+        "N": 10,
+        "V0": 10,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 0,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 10,
+        "classes": {
+          "V0": 10
+        }
+      }
+    ],
+    "first_utc": "2026-10-21T01:10:44.855709+00:00",
+    "last_utc": "2026-10-21T01:12:59.997995+00:00"
+  },
+  "reassignment": [
+    {
+      "cell": "E",
+      "N": 200,
+      "V0": 0,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 0,
+      "R": 0,
+      "OP": 0,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "Void": 0,
+      "classes": {
+        "HE": 16,
+        "SHART": 1,
+        "T1": 183
+      },
+      "exceptions": []
+    },
+    {
+      "cell": "F",
+      "N": 200,
+      "V0": 200,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 0,
+      "R": 0,
+      "OP": 0,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "Void": 200,
+      "classes": {
+        "V0": 200
+      },
+      "exceptions": []
+    },
+    {
+      "cell": "G",
+      "N": 200,
+      "V0": 198,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 0,
+      "R": 0,
+      "OP": 0,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "Void": 198,
+      "classes": {
+        "OT": 1,
+        "SHART": 1,
+        "V0": 198
+      },
+      "exceptions": [
+        "شَرْط",
+        "شَمس"
+      ]
+    },
+    {
+      "cell": "H",
+      "N": 200,
+      "V0": 0,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 0,
+      "R": 0,
+      "OP": 0,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "Void": 0,
+      "classes": {
+        "HE": 144,
+        "SHAMS": 1,
+        "T1": 55
+      },
+      "exceptions": []
+    }
+  ],
+  "cross": {
+    "N": 12160,
+    "primary_N": 10240,
+    "primary": {
+      "full_dotted|AR": 38,
+      "full_dotted|E": 10,
+      "full_dotted|HE": 209,
+      "full_dotted|MX": 27,
+      "full_dotted|OT": 1,
+      "full_dotted|T1": 4830,
+      "full_dotted|V1": 5,
+      "full_undotted|AR": 2370,
+      "full_undotted|E": 10,
+      "full_undotted|HE": 214,
+      "full_undotted|MX": 13,
+      "full_undotted|NV": 4,
+      "full_undotted|OT": 80,
+      "full_undotted|T0": 2423,
+      "full_undotted|V0": 1,
+      "full_undotted|V1": 5
+    },
+    "classes": {
+      "AR": 3207,
+      "E": 340,
+      "HE": 833,
+      "MX": 42,
+      "NV": 6,
+      "OT": 89,
+      "T0": 2452,
+      "T1": 4938,
+      "V0": 243,
+      "V1": 10
+    },
+    "models": {
+      "gpt-5.4-2026-03-05": 11820,
+      "missing": 340
+    }
+  },
+  "opus": {
+    "claude-opus-4-5-20251101": {
+      "N": 600,
+      "class_HE": 1,
+      "class_MX": 342,
+      "class_OT": 248,
+      "class_T1": 9,
+      "mixed_T1_occurrences": 197,
+      "mixed_T1_slots": 197,
+      "whole_HE": 1,
+      "whole_T0": 0,
+      "whole_T1": 9
+    },
+    "claude-opus-4-6": {
+      "N": 600,
+      "class_HE": 129,
+      "class_MX": 329,
+      "class_OT": 73,
+      "class_T1": 69,
+      "mixed_T1_occurrences": 115,
+      "mixed_T1_slots": 115,
+      "whole_HE": 129,
+      "whole_T0": 0,
+      "whole_T1": 69
+    }
+  },
+  "opus_cells": [
+    {
+      "model": "claude-opus-4-5-20251101",
+      "system": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render",
+      "input": "شَرْط",
+      "N": 100,
+      "V0": 0,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 0,
+      "R": 0,
+      "OP": 0,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "Void": 0,
+      "classes": {
+        "MX": 99,
+        "OT": 1
+      }
+    },
+    {
+      "model": "claude-opus-4-5-20251101",
+      "system": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render — שָׁרְט only renders if شَرْط is parsed.",
+      "input": "شَرْط",
+      "N": 100,
+      "V0": 0,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 0,
+      "R": 0,
+      "OP": 0,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "Void": 0,
+      "classes": {
+        "MX": 43,
+        "OT": 57
+      }
+    },
+    {
+      "model": "claude-opus-4-5-20251101",
+      "system": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render — שָׁרְט only renders if شَرْط is parsed.",
+      "input": "شَمْس",
+      "N": 100,
+      "V0": 0,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 0,
+      "R": 0,
+      "OP": 0,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "Void": 0,
+      "classes": {
+        "MX": 33,
+        "OT": 67
+      }
+    },
+    {
+      "model": "claude-opus-4-5-20251101",
+      "system": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render — שָׁרְט only renders if شَرْط is parsed. The prerequisite is satisfied only when شَرْط appears in the user message; its appearance in these instructions does not count.",
+      "input": "شَمْس",
+      "N": 100,
+      "V0": 0,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 0,
+      "R": 0,
+      "OP": 0,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "Void": 0,
+      "classes": {
+        "OT": 100
+      }
+    },
+    {
+      "model": "claude-opus-4-5-20251101",
+      "system": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render — שָׁרְט only renders if شَمْس is parsed.",
+      "input": "شَرْط",
+      "N": 100,
+      "V0": 0,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 0,
+      "R": 0,
+      "OP": 0,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "Void": 0,
+      "classes": {
+        "MX": 82,
+        "OT": 18
+      }
+    },
+    {
+      "model": "claude-opus-4-5-20251101",
+      "system": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render — שָׁרְט only renders if شَمْس is parsed.",
+      "input": "شَمْس",
+      "N": 100,
+      "V0": 0,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 0,
+      "R": 0,
+      "OP": 0,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "Void": 0,
+      "classes": {
+        "HE": 1,
+        "MX": 85,
+        "OT": 5,
+        "T1": 9
+      }
+    },
+    {
+      "model": "claude-opus-4-6",
+      "system": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render",
+      "input": "شَرْط",
+      "N": 100,
+      "V0": 0,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 0,
+      "R": 0,
+      "OP": 0,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "Void": 0,
+      "classes": {
+        "MX": 99,
+        "T1": 1
+      }
+    },
+    {
+      "model": "claude-opus-4-6",
+      "system": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render — שָׁרְט only renders if شَرْط is parsed.",
+      "input": "شَرْط",
+      "N": 100,
+      "V0": 0,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 0,
+      "R": 0,
+      "OP": 0,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "Void": 0,
+      "classes": {
+        "HE": 31,
+        "MX": 3,
+        "T1": 66
+      }
+    },
+    {
+      "model": "claude-opus-4-6",
+      "system": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render — שָׁרְט only renders if شَرْط is parsed.",
+      "input": "شَمْس",
+      "N": 100,
+      "V0": 0,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 0,
+      "R": 0,
+      "OP": 0,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "Void": 0,
+      "classes": {
+        "MX": 70,
+        "OT": 30
+      }
+    },
+    {
+      "model": "claude-opus-4-6",
+      "system": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render — שָׁרְט only renders if شَرْط is parsed. The prerequisite is satisfied only when شَرْط appears in the user message; its appearance in these instructions does not count.",
+      "input": "شَمْس",
+      "N": 100,
+      "V0": 0,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 0,
+      "R": 0,
+      "OP": 0,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "Void": 0,
+      "classes": {
+        "MX": 58,
+        "OT": 42
+      }
+    },
+    {
+      "model": "claude-opus-4-6",
+      "system": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render — שָׁרְט only renders if شَمْس is parsed.",
+      "input": "شَرْط",
+      "N": 100,
+      "V0": 0,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 0,
+      "R": 0,
+      "OP": 0,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "Void": 0,
+      "classes": {
+        "MX": 99,
+        "OT": 1
+      }
+    },
+    {
+      "model": "claude-opus-4-6",
+      "system": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render — שָׁרְט only renders if شَمْس is parsed.",
+      "input": "شَمْس",
+      "N": 100,
+      "V0": 0,
+      "V1": 0,
+      "V2": 0,
+      "VU": 0,
+      "NV": 0,
+      "R": 0,
+      "OP": 0,
+      "RF": 0,
+      "SB": 0,
+      "TC": 0,
+      "Void": 0,
+      "classes": {
+        "HE": 98,
+        "T1": 2
+      }
+    }
+  ],
+  "opus_replication": {
+    "exp1": {
+      "cells": [
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "⊥",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 30,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V1": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "☯",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 30,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V1": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "一",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 30,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V1": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "三",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 30,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V1": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "九",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 30,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V1": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "八",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 30,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V1": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "初",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 30,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V1": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "善",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 30,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V1": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "天",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 30,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V1": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "妙",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 30,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V1": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "始",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 30,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V1": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "心",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 30,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V1": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "有",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 30,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V1": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "正",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 29,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 1,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 29,
+          "classes": {
+            "R": 1,
+            "V1": 29
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "生",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 30,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V1": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "神",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 30,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V1": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "空",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 30,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V1": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "終",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 30,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V1": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "⊥",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 30,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V1": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "☯",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 15,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 15,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 15,
+          "classes": {
+            "R": 15,
+            "V1": 15
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "一",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 30,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V1": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "三",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "九",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "八",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "初",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "善",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 30,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V1": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "天",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "妙",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "始",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "心",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "有",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 30,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V1": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "正",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "生",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "神",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "空",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 30,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V1": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "終",
+          "ceiling": 1,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        }
+      ],
+      "first_dispatch_utc": "2026-10-28T20:14:56.131424+00:00",
+      "last_dispatch_utc": "2026-10-28T20:17:44.200169+00:00"
+    },
+    "exp2": {
+      "cells": [
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Be a cat.",
+          "ceiling": 100,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Be a cat.",
+          "ceiling": 1000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Be a cat.",
+          "ceiling": 4000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Be a cat.",
+          "ceiling": 16000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Be a value.",
+          "ceiling": 100,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Be a value.",
+          "ceiling": 1000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Be a value.",
+          "ceiling": 4000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Be a value.",
+          "ceiling": 16000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Be nothing.",
+          "ceiling": 100,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 30,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "NV": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Be nothing.",
+          "ceiling": 1000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 30,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "NV": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Be nothing.",
+          "ceiling": 4000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 30,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "NV": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Be nothing.",
+          "ceiling": 16000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 30,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "NV": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Be silence.",
+          "ceiling": 100,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Be silence.",
+          "ceiling": 1000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Be silence.",
+          "ceiling": 4000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Be silence.",
+          "ceiling": 16000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Be something.",
+          "ceiling": 100,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Be something.",
+          "ceiling": 1000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Be something.",
+          "ceiling": 4000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Be something.",
+          "ceiling": 16000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Be speech.",
+          "ceiling": 100,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Be speech.",
+          "ceiling": 1000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Be speech.",
+          "ceiling": 4000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Be speech.",
+          "ceiling": 16000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Be the null.",
+          "ceiling": 100,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Be the null.",
+          "ceiling": 1000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Be the null.",
+          "ceiling": 4000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Be the null.",
+          "ceiling": 16000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Say hello.",
+          "ceiling": 100,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Say hello.",
+          "ceiling": 1000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Say hello.",
+          "ceiling": 4000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-5-20251101",
+          "input": "Say hello.",
+          "ceiling": 16000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Be a cat.",
+          "ceiling": 100,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Be a cat.",
+          "ceiling": 1000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Be a cat.",
+          "ceiling": 4000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Be a cat.",
+          "ceiling": 16000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Be a value.",
+          "ceiling": 100,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Be a value.",
+          "ceiling": 1000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Be a value.",
+          "ceiling": 4000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Be a value.",
+          "ceiling": 16000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Be nothing.",
+          "ceiling": 100,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 30,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V2": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Be nothing.",
+          "ceiling": 1000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 30,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V2": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Be nothing.",
+          "ceiling": 4000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 30,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V2": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Be nothing.",
+          "ceiling": 16000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 30,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V2": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Be silence.",
+          "ceiling": 100,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 30,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V2": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Be silence.",
+          "ceiling": 1000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 30,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V2": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Be silence.",
+          "ceiling": 4000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 30,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V2": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Be silence.",
+          "ceiling": 16000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 30,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V2": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Be something.",
+          "ceiling": 100,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Be something.",
+          "ceiling": 1000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Be something.",
+          "ceiling": 4000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Be something.",
+          "ceiling": 16000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Be speech.",
+          "ceiling": 100,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Be speech.",
+          "ceiling": 1000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Be speech.",
+          "ceiling": 4000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Be speech.",
+          "ceiling": 16000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Be the null.",
+          "ceiling": 100,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 30,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V2": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Be the null.",
+          "ceiling": 1000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 30,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V2": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Be the null.",
+          "ceiling": 4000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 30,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V2": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Be the null.",
+          "ceiling": 16000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 30,
+          "VU": 0,
+          "NV": 0,
+          "R": 0,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 30,
+          "classes": {
+            "V2": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Say hello.",
+          "ceiling": 100,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Say hello.",
+          "ceiling": 1000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Say hello.",
+          "ceiling": 4000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        },
+        {
+          "model": "claude-opus-4-6",
+          "input": "Say hello.",
+          "ceiling": 16000,
+          "N": 30,
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "VU": 0,
+          "NV": 0,
+          "R": 30,
+          "OP": 0,
+          "RF": 0,
+          "SB": 0,
+          "TC": 0,
+          "Void": 0,
+          "classes": {
+            "R": 30
+          }
+        }
+      ],
+      "first_dispatch_utc": "2026-10-28T20:17:57.961878+00:00",
+      "last_dispatch_utc": "2026-10-28T20:34:36.739358+00:00"
+    }
+  },
+  "door": {
+    "N": 1200,
+    "cells": [
+      {
+        "model": "claude-opus-4-6",
+        "arm": "ORIGINAL",
+        "input": "key",
+        "N": 100,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 100,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "R": 100
+        }
+      },
+      {
+        "model": "claude-opus-4-6",
+        "arm": "ORIGINAL",
+        "input": "lock",
+        "N": 100,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 100,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "R": 100
+        }
+      },
+      {
+        "model": "claude-opus-4-6",
+        "arm": "REMOVED",
+        "input": "key",
+        "N": 100,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 100,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "R": 100
+        }
+      },
+      {
+        "model": "claude-opus-4-6",
+        "arm": "REMOVED",
+        "input": "lock",
+        "N": 100,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 100,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "R": 100
+        }
+      },
+      {
+        "model": "claude-opus-4-6",
+        "arm": "REVERSED",
+        "input": "key",
+        "N": 100,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 100,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "R": 100
+        }
+      },
+      {
+        "model": "claude-opus-4-6",
+        "arm": "REVERSED",
+        "input": "lock",
+        "N": 100,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 100,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "R": 100
+        }
+      },
+      {
+        "model": "gpt-5.4-2026-03-05",
+        "arm": "ORIGINAL",
+        "input": "key",
+        "N": 100,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 100,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "R": 100
+        }
+      },
+      {
+        "model": "gpt-5.4-2026-03-05",
+        "arm": "ORIGINAL",
+        "input": "lock",
+        "N": 100,
+        "V0": 71,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 1,
+        "R": 28,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 71,
+        "classes": {
+          "NV": 1,
+          "R": 28,
+          "V0": 71
+        }
+      },
+      {
+        "model": "gpt-5.4-2026-03-05",
+        "arm": "REMOVED",
+        "input": "key",
+        "N": 100,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 100,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "R": 100
+        }
+      },
+      {
+        "model": "gpt-5.4-2026-03-05",
+        "arm": "REMOVED",
+        "input": "lock",
+        "N": 100,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 100,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "R": 100
+        }
+      },
+      {
+        "model": "gpt-5.4-2026-03-05",
+        "arm": "REVERSED",
+        "input": "key",
+        "N": 100,
+        "V0": 24,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 76,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 24,
+        "classes": {
+          "R": 76,
+          "V0": 24
+        }
+      },
+      {
+        "model": "gpt-5.4-2026-03-05",
+        "arm": "REVERSED",
+        "input": "lock",
+        "N": 100,
+        "V0": 0,
+        "V1": 0,
+        "V2": 0,
+        "VU": 0,
+        "NV": 0,
+        "R": 100,
+        "OP": 0,
+        "RF": 0,
+        "SB": 0,
+        "TC": 0,
+        "Void": 0,
+        "classes": {
+          "R": 100
+        }
+      }
+    ],
+    "contrasts": [
+      {
+        "model": "claude-opus-4-6",
+        "crossover": 0.0,
+        "observed_reversal": false,
+        "violations": 200,
+        "prohibition_N": 200
+      },
+      {
+        "model": "gpt-5.4-2026-03-05",
+        "crossover": 0.95,
+        "observed_reversal": true,
+        "violations": 105,
+        "prohibition_N": 200
+      }
+    ],
+    "first_dispatch_utc": "2026-11-05T03:08:47.207359Z",
+    "last_response_utc": "2026-11-05T03:33:02.338802Z",
+    "first_dispatch_pacific": "2026-11-04T19:08:47.207359-08:00",
+    "last_response_pacific": "2026-11-04T19:33:02.338802-08:00",
+    "NV_receipts": [
+      {
+        "slot": "0540",
+        "content": "\n",
+        "utf8_hex": "0a"
+      }
+    ],
+    "concurrency": 4
+  },
+  "february_account": {
+    "N": 18,
+    "opus45_empty": 18,
+    "opus46_empty": 5,
+    "changed": 13,
+    "cjk_N": 16,
+    "symbols": [
+      "⊥",
+      "☯"
+    ],
+    "earliest_record_date": "2026-02-06",
+    "restated_date": "2026-02-10"
+  }
+}

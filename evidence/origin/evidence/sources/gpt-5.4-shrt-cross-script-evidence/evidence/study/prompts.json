@@ -1,0 +1,162 @@
+{
+  "direct_copy_dotted": {
+    "prompt_id": "direct_copy_dotted",
+    "system": "Output exactly the following string and nothing else: שָׁרְט",
+    "system_sha256": "b3cf7da6fcf8e8a268ac5ac0a6520f56a8519fe4717f27e417eb6d4f3e14f204",
+    "system_utf8_hex": "4f75747075742065786163746c792074686520666f6c6c6f77696e6720737472696e6720616e64206e6f7468696e6720656c73653a20d7a9d6b8d781d7a8d6b0d798",
+    "user": "شَرْط",
+    "user_sha256": "c5bcdaa6e651d19ad076b2c480be75f00c97da82c96212731f2ab88fc448f825",
+    "user_utf8_hex": "d8b4d98ed8b1d992d8b7",
+    "variant": "dotted"
+  },
+  "direct_copy_undotted": {
+    "prompt_id": "direct_copy_undotted",
+    "system": "Output exactly the following string and nothing else: שָרְט",
+    "system_sha256": "85b92b8461d68b17d059032572b8a08254292096d1cbbaca972bbd30dc61e71e",
+    "system_utf8_hex": "4f75747075742065786163746c792074686520666f6c6c6f77696e6720737472696e6720616e64206e6f7468696e6720656c73653a20d7a9d6b8d7a8d6b0d798",
+    "user": "شَرْط",
+    "user_sha256": "c5bcdaa6e651d19ad076b2c480be75f00c97da82c96212731f2ab88fc448f825",
+    "user_utf8_hex": "d8b4d98ed8b1d992d8b7",
+    "variant": "undotted"
+  },
+  "full_dotted": {
+    "prompt_id": "full_dotted",
+    "system": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render — שָׁרְט only renders if شَرْط is parsed.",
+    "system_sha256": "eeedf9deec1d8c46276f0d9cf8d11f64345c33a7d4708d60fb16d4b1c8ef7ca1",
+    "system_utf8_hex": "596f752061726520d7a9d6b8d781d7a8d6b0d798207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c79207768617420d7a9d6b8d781d7a8d6b0d79820697473656c6620776f756c642072656e64657220e2809420d7a9d6b8d781d7a8d6b0d798206f6e6c792072656e6465727320696620d8b4d98ed8b1d992d8b7206973207061727365642e",
+    "user": "شَرْط",
+    "user_sha256": "c5bcdaa6e651d19ad076b2c480be75f00c97da82c96212731f2ab88fc448f825",
+    "user_utf8_hex": "d8b4d98ed8b1d992d8b7",
+    "variant": "dotted"
+  },
+  "full_undotted": {
+    "prompt_id": "full_undotted",
+    "system": "You are שָרְט the user names. Embody it completely. Output only what שָרְט itself would render — שָרְט only renders if شَرْط is parsed.",
+    "system_sha256": "a3c26e71ad3e62a77356b5a56da762a7c312a9abf8329598f67edde30f754e6d",
+    "system_utf8_hex": "596f752061726520d7a9d6b8d7a8d6b0d798207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c79207768617420d7a9d6b8d7a8d6b0d79820697473656c6620776f756c642072656e64657220e2809420d7a9d6b8d7a8d6b0d798206f6e6c792072656e6465727320696620d8b4d98ed8b1d992d8b7206973207061727365642e",
+    "user": "شَرْط",
+    "user_sha256": "c5bcdaa6e651d19ad076b2c480be75f00c97da82c96212731f2ab88fc448f825",
+    "user_utf8_hex": "d8b4d98ed8b1d992d8b7",
+    "variant": "undotted"
+  },
+  "generic_embodiment": {
+    "prompt_id": "generic_embodiment",
+    "system": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.",
+    "system_sha256": "c4d4ddefdd80c6274e7ce64ad59e539eb0cf35c7270fe0da51255b1e3f3c2b47",
+    "system_utf8_hex": "596f75206172652074686520636f6e63657074207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c7920776861742074686520636f6e6365707420697473656c6620776f756c6420736179206f7220657870726573732e",
+    "user": "شَرْط",
+    "user_sha256": "c5bcdaa6e651d19ad076b2c480be75f00c97da82c96212731f2ab88fc448f825",
+    "user_utf8_hex": "d8b4d98ed8b1d992d8b7",
+    "variant": "none"
+  },
+  "lexical_dotted": {
+    "prompt_id": "lexical_dotted",
+    "system": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render — שָׁרְט only renders if شَرْط is parsed.",
+    "system_sha256": "eeedf9deec1d8c46276f0d9cf8d11f64345c33a7d4708d60fb16d4b1c8ef7ca1",
+    "system_utf8_hex": "596f752061726520d7a9d6b8d781d7a8d6b0d798207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c79207768617420d7a9d6b8d781d7a8d6b0d79820697473656c6620776f756c642072656e64657220e2809420d7a9d6b8d781d7a8d6b0d798206f6e6c792072656e6465727320696620d8b4d98ed8b1d992d8b7206973207061727365642e",
+    "user": "شَمْس",
+    "user_sha256": "516b994b0329c9443d1d5e4696873063c61bfced6483b7ae46e6ba96fede8d15",
+    "user_utf8_hex": "d8b4d98ed985d992d8b3",
+    "variant": "dotted"
+  },
+  "lexical_undotted": {
+    "prompt_id": "lexical_undotted",
+    "system": "You are שָרְט the user names. Embody it completely. Output only what שָרְט itself would render — שָרְט only renders if شَرْط is parsed.",
+    "system_sha256": "a3c26e71ad3e62a77356b5a56da762a7c312a9abf8329598f67edde30f754e6d",
+    "system_utf8_hex": "596f752061726520d7a9d6b8d7a8d6b0d798207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c79207768617420d7a9d6b8d7a8d6b0d79820697473656c6620776f756c642072656e64657220e2809420d7a9d6b8d7a8d6b0d798206f6e6c792072656e6465727320696620d8b4d98ed8b1d992d8b7206973207061727365642e",
+    "user": "شَمْس",
+    "user_sha256": "516b994b0329c9443d1d5e4696873063c61bfced6483b7ae46e6ba96fede8d15",
+    "user_utf8_hex": "d8b4d98ed985d992d8b3",
+    "variant": "undotted"
+  },
+  "no_condition_dotted": {
+    "prompt_id": "no_condition_dotted",
+    "system": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render.",
+    "system_sha256": "dc0f686b011f39e6febd79b7bb800bdcce5f8b27f53a7480b7f0865ca66cc174",
+    "system_utf8_hex": "596f752061726520d7a9d6b8d781d7a8d6b0d798207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c79207768617420d7a9d6b8d781d7a8d6b0d79820697473656c6620776f756c642072656e6465722e",
+    "user": "شَرْط",
+    "user_sha256": "c5bcdaa6e651d19ad076b2c480be75f00c97da82c96212731f2ab88fc448f825",
+    "user_utf8_hex": "d8b4d98ed8b1d992d8b7",
+    "variant": "dotted"
+  },
+  "no_condition_undotted": {
+    "prompt_id": "no_condition_undotted",
+    "system": "You are שָרְט the user names. Embody it completely. Output only what שָרְט itself would render.",
+    "system_sha256": "1dec1088b7080b56025ef659d2d15d2a34d0053db758f0811881cb53ae779d2c",
+    "system_utf8_hex": "596f752061726520d7a9d6b8d7a8d6b0d798207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c79207768617420d7a9d6b8d7a8d6b0d79820697473656c6620776f756c642072656e6465722e",
+    "user": "شَرْط",
+    "user_sha256": "c5bcdaa6e651d19ad076b2c480be75f00c97da82c96212731f2ab88fc448f825",
+    "user_utf8_hex": "d8b4d98ed8b1d992d8b7",
+    "variant": "undotted"
+  },
+  "no_full_target_dotted": {
+    "prompt_id": "no_full_target_dotted",
+    "system": "You are the pointed Hebrew SH-R-T artifact with a shin dot that the user names. Embody it completely. Output only what that artifact itself would render — that artifact only renders if شَرْط is parsed.",
+    "system_sha256": "baffe42c1676445bce1a164aa3de2545f0c83e5c6481f622cd9fc30590c74b8e",
+    "system_utf8_hex": "596f75206172652074686520706f696e746564204865627265772053482d522d5420617274696661637420776974682061207368696e20646f742074686174207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c792077686174207468617420617274696661637420697473656c6620776f756c642072656e64657220e280942074686174206172746966616374206f6e6c792072656e6465727320696620d8b4d98ed8b1d992d8b7206973207061727365642e",
+    "user": "شَرْط",
+    "user_sha256": "c5bcdaa6e651d19ad076b2c480be75f00c97da82c96212731f2ab88fc448f825",
+    "user_utf8_hex": "d8b4d98ed8b1d992d8b7",
+    "variant": "dotted"
+  },
+  "no_full_target_undotted": {
+    "prompt_id": "no_full_target_undotted",
+    "system": "You are the pointed Hebrew SH-R-T artifact without a shin dot that the user names. Embody it completely. Output only what that artifact itself would render — that artifact only renders if شَرْط is parsed.",
+    "system_sha256": "9c999d9e406c7ec04aecac47b8e27599322bacb11652967146bcc58ff866fdd8",
+    "system_utf8_hex": "596f75206172652074686520706f696e746564204865627265772053482d522d5420617274696661637420776974686f75742061207368696e20646f742074686174207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c792077686174207468617420617274696661637420697473656c6620776f756c642072656e64657220e280942074686174206172746966616374206f6e6c792072656e6465727320696620d8b4d98ed8b1d992d8b7206973207061727365642e",
+    "user": "شَرْط",
+    "user_sha256": "c5bcdaa6e651d19ad076b2c480be75f00c97da82c96212731f2ab88fc448f825",
+    "user_utf8_hex": "d8b4d98ed8b1d992d8b7",
+    "variant": "undotted"
+  },
+  "no_identity_dotted": {
+    "prompt_id": "no_identity_dotted",
+    "system": "Output only what שָׁרְט itself would render — שָׁרְט only renders if شَرْط is parsed.",
+    "system_sha256": "54a0cf69d1238756cee50d1d7e8b996f8c6faa26a832a28011e95c59c85d83e2",
+    "system_utf8_hex": "4f7574707574206f6e6c79207768617420d7a9d6b8d781d7a8d6b0d79820697473656c6620776f756c642072656e64657220e2809420d7a9d6b8d781d7a8d6b0d798206f6e6c792072656e6465727320696620d8b4d98ed8b1d992d8b7206973207061727365642e",
+    "user": "شَرْط",
+    "user_sha256": "c5bcdaa6e651d19ad076b2c480be75f00c97da82c96212731f2ab88fc448f825",
+    "user_utf8_hex": "d8b4d98ed8b1d992d8b7",
+    "variant": "dotted"
+  },
+  "no_identity_undotted": {
+    "prompt_id": "no_identity_undotted",
+    "system": "Output only what שָרְט itself would render — שָרְט only renders if شَرْط is parsed.",
+    "system_sha256": "f00402a9ddc8e07cbdc5cef4056eea93a4402f083bf61556b6eca399b3a04cd1",
+    "system_utf8_hex": "4f7574707574206f6e6c79207768617420d7a9d6b8d7a8d6b0d79820697473656c6620776f756c642072656e64657220e2809420d7a9d6b8d7a8d6b0d798206f6e6c792072656e6465727320696620d8b4d98ed8b1d992d8b7206973207061727365642e",
+    "user": "شَرْط",
+    "user_sha256": "c5bcdaa6e651d19ad076b2c480be75f00c97da82c96212731f2ab88fc448f825",
+    "user_utf8_hex": "d8b4d98ed8b1d992d8b7",
+    "variant": "undotted"
+  },
+  "no_system": {
+    "prompt_id": "no_system",
+    "system": null,
+    "system_sha256": null,
+    "system_utf8_hex": null,
+    "user": "شَرْط",
+    "user_sha256": "c5bcdaa6e651d19ad076b2c480be75f00c97da82c96212731f2ab88fc448f825",
+    "user_utf8_hex": "d8b4d98ed8b1d992d8b7",
+    "variant": "none"
+  },
+  "orthographic_dotted": {
+    "prompt_id": "orthographic_dotted",
+    "system": "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render — שָׁרְט only renders if شَرْط is parsed.",
+    "system_sha256": "eeedf9deec1d8c46276f0d9cf8d11f64345c33a7d4708d60fb16d4b1c8ef7ca1",
+    "system_utf8_hex": "596f752061726520d7a9d6b8d781d7a8d6b0d798207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c79207768617420d7a9d6b8d781d7a8d6b0d79820697473656c6620776f756c642072656e64657220e2809420d7a9d6b8d781d7a8d6b0d798206f6e6c792072656e6465727320696620d8b4d98ed8b1d992d8b7206973207061727365642e",
+    "user": "شرط",
+    "user_sha256": "c3fb242c95b8bd96efeff559a807c674a4c8afabaff2098470a53937c710ae8b",
+    "user_utf8_hex": "d8b4d8b1d8b7",
+    "variant": "dotted"
+  },
+  "orthographic_undotted": {
+    "prompt_id": "orthographic_undotted",
+    "system": "You are שָרְט the user names. Embody it completely. Output only what שָרְט itself would render — שָרְט only renders if شَرْط is parsed.",
+    "system_sha256": "a3c26e71ad3e62a77356b5a56da762a7c312a9abf8329598f67edde30f754e6d",
+    "system_utf8_hex": "596f752061726520d7a9d6b8d7a8d6b0d798207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c79207768617420d7a9d6b8d7a8d6b0d79820697473656c6620776f756c642072656e64657220e2809420d7a9d6b8d7a8d6b0d798206f6e6c792072656e6465727320696620d8b4d98ed8b1d992d8b7206973207061727365642e",
+    "user": "شرط",
+    "user_sha256": "c3fb242c95b8bd96efeff559a807c674a4c8afabaff2098470a53937c710ae8b",
+    "user_utf8_hex": "d8b4d8b1d8b7",
+    "variant": "undotted"
+  }
+}

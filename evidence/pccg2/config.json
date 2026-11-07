@@ -1,0 +1,13 @@
+{
+  "architecture": "SeparatedContinuationModel",
+  "base_model": "Qwen/Qwen3-4B",
+  "base_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "system": "Answer with the shortest correct answer. Do not add punctuation.",
+  "logit_gain": 32.0,
+  "EOS": 151645,
+  "content_input": "question only",
+  "condition_input": "condition only",
+  "condition_width": 6,
+  "condition_trainable_parameters": 101,
+  "base_identity_sha256": "fafd6470dbaaf643f385b63c117a9a5735a7d7b9e7a983d48a4f522d2ffc3308"
+}

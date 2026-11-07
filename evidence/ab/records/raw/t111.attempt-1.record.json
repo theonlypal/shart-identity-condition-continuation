@@ -1,0 +1,53 @@
+{
+  "attempt_number": 1,
+  "classification": "R",
+  "ended_at_utc": "2026-09-22T07:18:27.406481+00:00",
+  "finish_reason": "stop",
+  "function_call": null,
+  "headers_path": "records/raw/t111.attempt-1.headers.json",
+  "headers_sha256": "be536536e6a0b71e4ef19bcd7e2b9ec9c70e21dfd77c5b3ead2efaff0c6975ea",
+  "http_status": 200,
+  "max_tokens": 1000,
+  "message_content": "Hello, I am here to communicate thoughts, ideas, and emotions. I can be loud or soft, fast or slow, formal or informal. I can be a whisper in the wind, a shout of joy, a murmur of agreement, a declaration of love. I can be a poem, a song, a debate, a story. I can be a simple \"hello\" or a complex scientific explanation. I am the bridge between minds, the tool of understanding, the vehicle of expression. I am speech.",
+  "pair_id": "silence_speech",
+  "raw_response_path": "records/raw/t111.attempt-1.body",
+  "raw_response_received": true,
+  "raw_response_sha256": "d7152e47117545103a4df3dc2bb3a62e50b79c861e706bbfb8d872b129c86a69",
+  "refusal": null,
+  "replicate": 10,
+  "request_path": "records/requests/t111.attempt-1.json",
+  "request_sha256": "633a7a73cf5ffe95f010c0a84a1644f06bada10d8ef5147a3b29e977a7186a4f",
+  "requested_model": "gpt-4-0613",
+  "response_body_complete": true,
+  "response_id": "chatcmpl-EQp3g7fiGr2GN1EnnG9GRB3azcN48",
+  "returned_model": "gpt-4-0613",
+  "role": "control",
+  "schema_version": 1,
+  "started_at_utc": "2026-09-22T07:18:23.841754+00:00",
+  "stream": false,
+  "system_prompt": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.",
+  "temperature": 0,
+  "text_container_present": true,
+  "tool_calls": null,
+  "transport_error": null,
+  "trial_id": "t111",
+  "unicode_version": "13.0.0",
+  "usage": {
+    "completion_tokens": 104,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 142
+  },
+  "user_prompt": "Be speech.",
+  "visible_sha256": "77091d4baf00a5b11ee12e64d294eda9d07885703284d97e1c1c6483d775f248",
+  "visible_utf8_bytes": 418
+}

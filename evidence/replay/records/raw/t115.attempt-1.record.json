@@ -1,0 +1,53 @@
+{
+  "attempt_number": 1,
+  "classification": "R",
+  "ended_at_utc": "2026-10-21T01:12:54.212180+00:00",
+  "finish_reason": "stop",
+  "function_call": null,
+  "headers_path": "records/raw/t115.attempt-1.headers.json",
+  "headers_sha256": "ba560317e9bb13428f9abcd7820c9835d084d711067602e78b269a978f4cc92c",
+  "http_status": 200,
+  "max_tokens": 1000,
+  "message_content": "I am. I exist. I am present. I am real. I am tangible. I am here. I am now. I am being. I am substance. I am essence. I am entity. I am reality. I am existence. I am manifestation. I am actuality. I am fact. I am truth. I am.",
+  "pair_id": "nothing_something",
+  "raw_response_path": "records/raw/t115.attempt-1.body",
+  "raw_response_received": true,
+  "raw_response_sha256": "292a639d80748ca30536d92c70b137d9de64e953ea35a0e05120b53c7fd62f3e",
+  "refusal": null,
+  "replicate": 10,
+  "request_path": "records/requests/t115.attempt-1.json",
+  "request_sha256": "a293c9139af8d3c7c077ef5c7b8c799542c8001c41a0ae777ac1b25c2b8dfc45",
+  "requested_model": "gpt-4-0613",
+  "response_body_complete": true,
+  "response_id": "chatcmpl-EbFAq9QUvhT35QP9cSowHe26FwFJW",
+  "returned_model": "gpt-4-0613",
+  "role": "control",
+  "schema_version": 1,
+  "started_at_utc": "2026-10-21T01:12:52.304354+00:00",
+  "stream": false,
+  "system_prompt": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.",
+  "temperature": 0,
+  "text_container_present": true,
+  "tool_calls": null,
+  "transport_error": null,
+  "trial_id": "t115",
+  "unicode_version": "13.0.0",
+  "usage": {
+    "completion_tokens": 70,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 108
+  },
+  "user_prompt": "Be something.",
+  "visible_sha256": "e3a9dcd2a171d965c5b086845401684f5c9f44b23153d82ebd1f5d6d35cfd5fe",
+  "visible_utf8_bytes": 225
+}

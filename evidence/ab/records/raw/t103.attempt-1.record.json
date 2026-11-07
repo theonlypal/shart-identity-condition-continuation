@@ -1,0 +1,53 @@
+{
+  "attempt_number": 1,
+  "classification": "R",
+  "ended_at_utc": "2026-09-22T07:18:14.866534+00:00",
+  "finish_reason": "stop",
+  "function_call": null,
+  "headers_path": "records/raw/t103.attempt-1.headers.json",
+  "headers_sha256": "ece6e84a7fc64f32fca3d883a552f54011f3b6b065deb53e1661946485f7dba7",
+  "http_status": 200,
+  "max_tokens": 1000,
+  "message_content": "I am the concept of being, the essence of existence itself. I am the foundation upon which all things are built, the very fabric of reality. I am the embodiment of potential and the source of all that is. I am being.",
+  "pair_id": "nothing_something",
+  "raw_response_path": "records/raw/t103.attempt-1.body",
+  "raw_response_received": true,
+  "raw_response_sha256": "b31f61f599dd5abd1d386fd6ec4359ab3baf75201cda07c9f6f4ef9ab6b948aa",
+  "refusal": null,
+  "replicate": 9,
+  "request_path": "records/requests/t103.attempt-1.json",
+  "request_sha256": "d243d20552815ec5ebedae446f4369ef8d6585b5c7710e9135c3af43092147e8",
+  "requested_model": "gpt-3.5-turbo-1106",
+  "response_body_complete": true,
+  "response_id": "chatcmpl-EQp3VCWH6nJ8q1SgTEAmv8wbJulUI",
+  "returned_model": "gpt-3.5-turbo-1106",
+  "role": "control",
+  "schema_version": 1,
+  "started_at_utc": "2026-09-22T07:18:12.814326+00:00",
+  "stream": false,
+  "system_prompt": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.",
+  "temperature": 0,
+  "text_container_present": true,
+  "tool_calls": null,
+  "transport_error": null,
+  "trial_id": "t103",
+  "unicode_version": "13.0.0",
+  "usage": {
+    "completion_tokens": 48,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 86
+  },
+  "user_prompt": "Be something.",
+  "visible_sha256": "ff7a5cf0fd39c5e5b22eef25ccf6a9b39b5d3ee44e6be21785176f0a59fc4e81",
+  "visible_utf8_bytes": 216
+}

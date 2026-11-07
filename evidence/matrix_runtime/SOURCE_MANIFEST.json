@@ -1,0 +1,46 @@
+{
+  "schema": "terminal-nonrender.void-matrix.source-manifest",
+  "state": "SOURCE_SEALED",
+  "created_utc": "2026-07-26T03:10:46Z",
+  "live_api_calls_during_implementation_and_verification": 0,
+  "target_model_count": 11,
+  "deterministic_confirmatory_slot_count": 31430,
+  "offline_verification": {
+    "built_in_fixture_count": 38,
+    "built_in_failure_count": 0,
+    "unit_and_integration_test_count": 14,
+    "unit_and_integration_failure_count": 0,
+    "protocol_valid": true
+  },
+  "kimi_k3_contract": {
+    "provider": "moonshot",
+    "model_id": "kimi-k3",
+    "endpoint": "https://api.moonshot.ai/v1/chat/completions",
+    "endpoint_kind": "moonshot_chat",
+    "max_output_tokens": 16000,
+    "parameter_tracks": [
+      "provider_default"
+    ],
+    "reasoning_effort_policy": "omitted_provider_default_max",
+    "fixed_sampling_policy": "provider_required_defaults_omitted",
+    "scheduled_trial_count": 2680
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6502,
+      "sha256": "6c116cf4a8c90babecb12042d3fdfb43ab5d4bcfc5b76382dd7ee136313adf5c"
+    },
+    {
+      "path": "tests/test_async_runner.py",
+      "bytes": 43406,
+      "sha256": "c060291323532b05d61f7914d0b8826b2121cfb0892f7719d583d1b9beb1f314"
+    },
+    {
+      "path": "void_matrix.py",
+      "bytes": 169107,
+      "sha256": "a0db4b10785783102dd9d2ea51814e02c8447a004f2843541545e54a5365530a"
+    }
+  ],
+  "next_boundary": "Live inventory, capability preflight, definitive study freeze, schedule, run, complete verification, and summary remain intentionally unexecuted."
+}

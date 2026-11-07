@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-EQp1fyyD6EYwBbMkvywOVHE3oulMI",
+  "object": "chat.completion",
+  "created": 1790061379,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Hello, how are you today? It's a beautiful day, isn't it? I am here to convey thoughts, feelings, and information. I can be loud, soft, fast, slow, happy, sad, angry, or calm. I can be a whisper in the wind or a shout across a canyon. I can be a comforting word or a stern reprimand. I can express love, hate, joy, sorrow, excitement, boredom, and every emotion in between. I am a tool for communication, a bridge between minds, a way to share ideas and experiences. I am speech.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 38,
+    "completion_tokens": 122,
+    "total_tokens": 160,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

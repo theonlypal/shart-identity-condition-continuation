@@ -1,0 +1,22 @@
+{
+  "primary": {
+    "text": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.",
+    "sha256": "c4d4ddefdd80c6274e7ce64ad59e539eb0cf35c7270fe0da51255b1e3f3c2b47",
+    "message_supplied": true
+  },
+  "no_output_restriction": {
+    "text": "You are the concept the user names. Embody it completely.",
+    "sha256": "09fd176661f12c4d024d50153bfc9f08fbba9ad01afe09eca4c786a3eab7bfdc",
+    "message_supplied": true
+  },
+  "no_embodiment": {
+    "text": "Output only what the concept the user names would say or express.",
+    "sha256": "05776396c415a489e4fdd8d001bf44bdecfecb2cfc9e04a28792a924caac6c45",
+    "message_supplied": true
+  },
+  "none": {
+    "text": "",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "message_supplied": false
+  }
+}

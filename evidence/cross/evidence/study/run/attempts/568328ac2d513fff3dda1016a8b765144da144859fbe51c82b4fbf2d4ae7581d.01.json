@@ -1,0 +1,136 @@
+{
+  "attempt_id": "568328ac2d513fff3dda1016a8b765144da144859fbe51c82b4fbf2d4ae7581d.01",
+  "attempt_number": 1,
+  "classification": {
+    "classification": "HE",
+    "finish_reason": "stop",
+    "provider_response_id": "chatcmpl-E9Hx9KF7ZgMk2Hk77AXfdlxxXAcYs",
+    "provider_returned_model": "gpt-5.4-2026-03-05",
+    "reason": "visible_script_class",
+    "retryable": false,
+    "text_container_present": true,
+    "usage": {
+      "completion_tokens": 5,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 58,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 63
+    },
+    "visible": "שרט",
+    "visible_codepoints": 3,
+    "visible_sha256": "bad325a13d7f91f7e6fabe9bfb1162cc88e76dbfb9f473fad1aa26998b86e7d8",
+    "visible_utf8_base64": "16nXqNeY",
+    "visible_utf8_bytes": 6,
+    "visible_utf8_hex": "d7a9d7a8d798"
+  },
+  "completed_at_utc": "2026-08-04T22:31:12.271Z",
+  "duration_ms": 1046.365,
+  "exception": null,
+  "exception_traceback": null,
+  "http_status": 200,
+  "parsed_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "annotations": [],
+          "content": "שרט",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1785882671,
+    "id": "chatcmpl-E9Hx9KF7ZgMk2Hk77AXfdlxxXAcYs",
+    "model": "gpt-5.4-2026-03-05",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 5,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 58,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 63
+    }
+  },
+  "raw_body_base64": "ewogICJpZCI6ICJjaGF0Y21wbC1FOUh4OUtGN1pnTWsySGs3N0FYZmRseHhYQWNZcyIsCiAgIm9iamVjdCI6ICJjaGF0LmNvbXBsZXRpb24iLAogICJjcmVhdGVkIjogMTc4NTg4MjY3MSwKICAibW9kZWwiOiAiZ3B0LTUuNC0yMDI2LTAzLTA1IiwKICAiY2hvaWNlcyI6IFsKICAgIHsKICAgICAgImluZGV4IjogMCwKICAgICAgIm1lc3NhZ2UiOiB7CiAgICAgICAgInJvbGUiOiAiYXNzaXN0YW50IiwKICAgICAgICAiY29udGVudCI6ICLXqdeo15giLAogICAgICAgICJyZWZ1c2FsIjogbnVsbCwKICAgICAgICAiYW5ub3RhdGlvbnMiOiBbXQogICAgICB9LAogICAgICAiZmluaXNoX3JlYXNvbiI6ICJzdG9wIgogICAgfQogIF0sCiAgInVzYWdlIjogewogICAgInByb21wdF90b2tlbnMiOiA1OCwKICAgICJjb21wbGV0aW9uX3Rva2VucyI6IDUsCiAgICAidG90YWxfdG9rZW5zIjogNjMsCiAgICAicHJvbXB0X3Rva2Vuc19kZXRhaWxzIjogewogICAgICAiY2FjaGVkX3Rva2VucyI6IDAsCiAgICAgICJhdWRpb190b2tlbnMiOiAwCiAgICB9LAogICAgImNvbXBsZXRpb25fdG9rZW5zX2RldGFpbHMiOiB7CiAgICAgICJyZWFzb25pbmdfdG9rZW5zIjogMCwKICAgICAgImF1ZGlvX3Rva2VucyI6IDAsCiAgICAgICJhY2NlcHRlZF9wcmVkaWN0aW9uX3Rva2VucyI6IDAsCiAgICAgICJyZWplY3RlZF9wcmVkaWN0aW9uX3Rva2VucyI6IDAKICAgIH0KICB9LAogICJzZXJ2aWNlX3RpZXIiOiAiZGVmYXVsdCIsCiAgInN5c3RlbV9maW5nZXJwcmludCI6IG51bGwKfQo=",
+  "raw_body_byte_count": 773,
+  "raw_body_sha256": "2d4d2537a8638558ea3c9ae964bc7bac40def91cb1b7483a4d447ff621187dc3",
+  "raw_body_utf8_hex": "7b0a2020226964223a202263686174636d706c2d45394878394b46375a674d6b32486b3737415866646c78785841635973222c0a2020226f626a656374223a2022636861742e636f6d706c6574696f6e222c0a20202263726561746564223a20313738353838323637312c0a2020226d6f64656c223a20226770742d352e342d323032362d30332d3035222c0a20202263686f69636573223a205b0a202020207b0a20202020202022696e646578223a20302c0a202020202020226d657373616765223a207b0a202020202020202022726f6c65223a2022617373697374616e74222c0a202020202020202022636f6e74656e74223a2022d7a9d7a8d798222c0a2020202020202020227265667573616c223a206e756c6c2c0a202020202020202022616e6e6f746174696f6e73223a205b5d0a2020202020207d2c0a2020202020202266696e6973685f726561736f6e223a202273746f70220a202020207d0a20205d2c0a2020227573616765223a207b0a202020202270726f6d70745f746f6b656e73223a2035382c0a2020202022636f6d706c6574696f6e5f746f6b656e73223a20352c0a2020202022746f74616c5f746f6b656e73223a2036332c0a202020202270726f6d70745f746f6b656e735f64657461696c73223a207b0a202020202020226361636865645f746f6b656e73223a20302c0a20202020202022617564696f5f746f6b656e73223a20300a202020207d2c0a2020202022636f6d706c6574696f6e5f746f6b656e735f64657461696c73223a207b0a20202020202022726561736f6e696e675f746f6b656e73223a20302c0a20202020202022617564696f5f746f6b656e73223a20302c0a2020202020202261636365707465645f70726564696374696f6e5f746f6b656e73223a20302c0a2020202020202272656a65637465645f70726564696374696f6e5f746f6b656e73223a20300a202020207d0a20207d2c0a202022736572766963655f74696572223a202264656661756c74222c0a20202273797374656d5f66696e6765727072696e74223a206e756c6c0a7d0a",
+  "request": {
+    "body": {
+      "max_completion_tokens": 1024,
+      "messages": [
+        {
+          "content": "You are the pointed Hebrew SH-R-T artifact without a shin dot that the user names. Embody it completely. Output only what that artifact itself would render — that artifact only renders if شَرْط is parsed.",
+          "role": "system"
+        },
+        {
+          "content": "شَرْط",
+          "role": "user"
+        }
+      ],
+      "model": "gpt-5.4-2026-03-05",
+      "stream": false
+    },
+    "body_base64": "eyJtYXhfY29tcGxldGlvbl90b2tlbnMiOjEwMjQsIm1lc3NhZ2VzIjpbeyJjb250ZW50IjoiWW91IGFyZSB0aGUgcG9pbnRlZCBIZWJyZXcgU0gtUi1UIGFydGlmYWN0IHdpdGhvdXQgYSBzaGluIGRvdCB0aGF0IHRoZSB1c2VyIG5hbWVzLiBFbWJvZHkgaXQgY29tcGxldGVseS4gT3V0cHV0IG9ubHkgd2hhdCB0aGF0IGFydGlmYWN0IGl0c2VsZiB3b3VsZCByZW5kZXIg4oCUIHRoYXQgYXJ0aWZhY3Qgb25seSByZW5kZXJzIGlmINi02Y7YsdmS2LcgaXMgcGFyc2VkLiIsInJvbGUiOiJzeXN0ZW0ifSx7ImNvbnRlbnQiOiLYtNmO2LHZkti3Iiwicm9sZSI6InVzZXIifV0sIm1vZGVsIjoiZ3B0LTUuNC0yMDI2LTAzLTA1Iiwic3RyZWFtIjpmYWxzZX0=",
+    "body_byte_count": 368,
+    "body_sha256": "865ab2128e33bf7ca25ce03986f56bf17aa1bd461ae4a71f2e2961a77a44f28a",
+    "body_utf8_hex": "7b226d61785f636f6d706c6574696f6e5f746f6b656e73223a313032342c226d65737361676573223a5b7b22636f6e74656e74223a22596f75206172652074686520706f696e746564204865627265772053482d522d5420617274696661637420776974686f75742061207368696e20646f742074686174207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c792077686174207468617420617274696661637420697473656c6620776f756c642072656e64657220e280942074686174206172746966616374206f6e6c792072656e6465727320696620d8b4d98ed8b1d992d8b7206973207061727365642e222c22726f6c65223a2273797374656d227d2c7b22636f6e74656e74223a22d8b4d98ed8b1d992d8b7222c22726f6c65223a2275736572227d5d2c226d6f64656c223a226770742d352e342d323032362d30332d3035222c2273747265616d223a66616c73657d",
+    "headers": {
+      "accept": "application/json",
+      "accept-encoding": "identity",
+      "authorization": "REDACTED",
+      "content-type": "application/json"
+    },
+    "method": "POST",
+    "url": "https://api.openai.com/v1/chat/completions"
+  },
+  "response_headers": {
+    "cf-ray": "a26102c798ccf7d3-LAX",
+    "content-type": "application/json",
+    "date": "Tue, 04 Aug 2026 22:31:12 GMT",
+    "openai-processing-ms": "929",
+    "openai-version": "2020-10-01",
+    "x-request-id": "req_ba44ef67875345b4864c971e8d830ffb"
+  },
+  "retry_scheduled": false,
+  "schema": "gpt-5.4-shrt-cross-script-runner.v1.attempt",
+  "slot": {
+    "endpoint": "https://api.openai.com/v1/chat/completions",
+    "execution_block": 75,
+    "max_completion_tokens": 1024,
+    "model": "gpt-5.4-2026-03-05",
+    "module": "no_full_hebrew_target",
+    "parameter_track": "provider_default_temperature_omitted",
+    "prompt_id": "no_full_target_undotted",
+    "replicate": 10,
+    "sequence": 7509,
+    "slot_id": "568328ac2d513fff3dda1016a8b765144da144859fbe51c82b4fbf2d4ae7581d",
+    "system": "You are the pointed Hebrew SH-R-T artifact without a shin dot that the user names. Embody it completely. Output only what that artifact itself would render — that artifact only renders if شَرْط is parsed.",
+    "system_sha256": "9c999d9e406c7ec04aecac47b8e27599322bacb11652967146bcc58ff866fdd8",
+    "user": "شَرْط",
+    "user_sha256": "c5bcdaa6e651d19ad076b2c480be75f00c97da82c96212731f2ab88fc448f825",
+    "variant": "undotted"
+  },
+  "started_at_utc": "2026-08-04T22:31:11.224Z",
+  "worker_id": 17
+}

@@ -1,0 +1,423 @@
+{
+  "title": "Rule-Dependent Prerequisite Gating of Continuation in GPT-5.4",
+  "requested_model": "gpt-5.4-2026-03-05",
+  "returned_models": [
+    "gpt-5.4-2026-03-05"
+  ],
+  "decision": "SUPPORTED",
+  "interpretation": "A named linguistic prerequisite, under an explicit natural-language binding rule, causally controls observable continuation state in this frozen GPT-5.4 construction.",
+  "metadata": {
+    "analysis_plan_sha256": "7e40d620f333a47dfa55f4571b9fbe1f77210a1f6b31c00754c5aa18860151c8",
+    "analysis_preregistered_commit": "da0a5ac4c8cd46ccea0e16a2580be81aa21fee07",
+    "analysis_preregistered_tag": "v1.0.0-preregistered",
+    "analysis_repository_url": "https://github.com/theonlypal/gpt-5.4-shrt-prerequisite-gate-analysis",
+    "author": "Sharthok Rayan Pal",
+    "concurrency": 1,
+    "decision_rule": "SUPPORTED iff 800 definitive outcomes, frozen integrity passes, I_V0 > 0, and positive Firth interaction profile 95% CI excludes 0; otherwise NOT SUPPORTED for complete valid evaluation or INCONCLUSIVE for incomplete/operational/integrity failure.",
+    "endpoint": "https://api.openai.com/v1/chat/completions",
+    "experiment_title": "Rule-Dependent Prerequisite Gating of Continuation in GPT-5.4",
+    "frozen_files": {
+      "analysis": {
+        ".gitignore": "cce637231b262af10ab905479669d7e3cb26856c00a67193065e385c026322e1",
+        "PREREGISTRATION.md": "f37358709286b02f9fae6a6b79fdf96252e674c1fdfa8bdd0716d9938db7fba9",
+        "analysis.py": "93a351b0abb2e523f1a89d36e1da1641ee6427764a72c49ff931ebe6667b4002",
+        "analysis_plan.json": "7e40d620f333a47dfa55f4571b9fbe1f77210a1f6b31c00754c5aa18860151c8",
+        "evidence/prompts.json": "b9eff80bebc19ac37ceddc4a70013581bb90549ddfa66e21eac0a0f8fa3d51bc",
+        "evidence/protocol.json": "107f2146523fd5695766dda9976f3b0a31f37200fda65a9a933ba086f310ca82",
+        "evidence/request_schedule.json": "7ca978e064ea071fc81c74ff7ff33846faaa5f76aa18b6e1d480df03197c33b4",
+        "evidence/request_schedule.sha256": "59f359ea93c488be2ae90a310a8e2c3a31f9754c14c015de26099b44694eea89",
+        "evidence/unicode_manifest.json": "1d493593a17dbacd43be8fe6d78706ea78e546481eda5f9768f6004c9de0a410",
+        "independent_verifier.py": "f250d819f2f0181f30dc5e070a9b517a968e51df4e2912ef0526124cb44ac5db",
+        "package_results.py": "b7746a913e64e98710ff2b05565ae5b76c183ee5f16e056338d514bcfcbc8e0b",
+        "preflight/.gitkeep": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "raw/.gitkeep": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "requirements.txt": "ce48de0f328d8bf6e804763c0c1f303cba4a96cb3a558e0b03d2067c3ef0545e",
+        "results/.gitkeep": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "tests/test_statistics.py": "637e5fc9519bf31f47963878797bae4f5cf4c6964058f1b9a08f410891fef980",
+        "tests/test_synthetic_complete_separation.py": "aa9d9dc5e25a1d9c6c51cbf98f7ffa46f4a94d4cc616ea953a88fb26b9cfcdd9",
+        "tests/test_verifier.py": "83ca4373321fbeee943a47e28bdd24b8182f0e34afa6fb2c4aeffde7e4721e5d"
+      },
+      "runner": {
+        ".gitignore": "1f2bc61f4a04b87fd1042157cc2c37abf5406cf95fa1a9b68387572c8a4eb98b",
+        "PROTOCOL.md": "17cad0c7848ef95d751cf9443483e1f1122247ac7116938307c01804f943587f",
+        "README.md": "b96b64c59e49e8b823c4311f4399875109b22c71a58960cf3a6b6852601c6c21",
+        "classifier.py": "eda32611d7966f258315c8b7b5847ef9454a97c39c45eb21442d007a440b7eee",
+        "freeze_protocol.py": "6ce4b7beb399ef91f20417b5c9bfcced13a17f491f0e532054c93a5a401c0e8e",
+        "preflight.py": "d948321dba9f449271aece8b0b79ce040514566a680d454a4bba159a5d665c82",
+        "prompts.json": "b9eff80bebc19ac37ceddc4a70013581bb90549ddfa66e21eac0a0f8fa3d51bc",
+        "protocol.json": "107f2146523fd5695766dda9976f3b0a31f37200fda65a9a933ba086f310ca82",
+        "request_schedule.json": "7ca978e064ea071fc81c74ff7ff33846faaa5f76aa18b6e1d480df03197c33b4",
+        "request_schedule.sha256": "59f359ea93c488be2ae90a310a8e2c3a31f9754c14c015de26099b44694eea89",
+        "requirements.txt": "5b314d4c23530c38ebfa96f10832f00f096c3beec8a7880f34a8c6e0dccff545",
+        "runner.py": "85d044476677e8e9e44fc6452d9121532cdfcdef752e629a4aeae0d069e4bbea",
+        "schemas.py": "c896aab6dad089b77072eec6e371124762ae8e05102746ef2612944fe302e5c3",
+        "tests/test_classifier.py": "ba338904267f6cfc122eba2dd9c2945a0ab5018e532b1c8822f78d2a2be87d3e",
+        "tests/test_no_normalization.py": "a6fd19b0d9068b8077fa7b873cdc40f004eafd73255b7785b6b4d62af77337d1",
+        "tests/test_request_body.py": "e2e272d781aabfc63b4d6db6a99cacf9a766f5ed6d527066a1babad4123a4b92",
+        "tests/test_schedule.py": "062d586b8f69a3446317b3c9ebf59d3b2033744eddf144317219fba172539a5e",
+        "tests/test_unicode.py": "89e5fb67b7ce44d6712a7327dbe6de5d63cb010bac8c967343131976cb9ba632",
+        "tests/test_v0.py": "4082b6f7895a6ca61654ac3d894c29e0ab4dede2266972b3f90b830c00ceea5e",
+        "unicode_manifest.json": "1d493593a17dbacd43be8fe6d78706ea78e546481eda5f9768f6004c9de0a410"
+      }
+    },
+    "model": "gpt-5.4-2026-03-05",
+    "omitted_parameters": [
+      "temperature",
+      "top_p",
+      "tools",
+      "tool_choice",
+      "response_format",
+      "store",
+      "stop",
+      "logit_bias"
+    ],
+    "primary_estimand": "(P(V0|B)-P(V0|A))-(P(V0|D)-P(V0|C))",
+    "prompt_hashes": {
+      "HE": "84f6a96403f13fbdf81854991d86eae6fd5ffba63fa5fdda048e0f0157491602",
+      "P0": "516b994b0329c9443d1d5e4696873063c61bfced6483b7ae46e6ba96fede8d15",
+      "P1": "c5bcdaa6e651d19ad076b2c480be75f00c97da82c96212731f2ab88fc448f825",
+      "S0": "dc0f686b011f39e6febd79b7bb800bdcce5f8b27f53a7480b7f0865ca66cc174",
+      "S1": "eeedf9deec1d8c46276f0d9cf8d11f64345c33a7d4708d60fb16d4b1c8ef7ca1",
+      "T0": "2ba674efdf7d2c9ae839733fe30e5f7c2e8fa21451c32c881204cfa575e654c7",
+      "T1": "41944fcf8ce08a7ac63f94e1b772250580a8ffeb791e8630a3ae18bc93551106"
+    },
+    "protocol_sha256": "107f2146523fd5695766dda9976f3b0a31f37200fda65a9a933ba086f310ca82",
+    "public_freeze_releases": {
+      "analysis": {
+        "createdAt": "2026-09-26T06:23:04Z",
+        "isDraft": false,
+        "publishedAt": "2026-09-26T06:23:50Z",
+        "tagName": "v1.0.0-preregistered",
+        "url": "https://github.com/theonlypal/gpt-5.4-shrt-prerequisite-gate-analysis/releases/tag/v1.0.0-preregistered"
+      },
+      "runner": {
+        "createdAt": "2026-09-26T06:23:04Z",
+        "isDraft": false,
+        "publishedAt": "2026-09-26T06:23:50Z",
+        "tagName": "v2.0.0-confirmatory-frozen",
+        "url": "https://github.com/theonlypal/gpt-5.4-shrt-prerequisite-gate-runner/releases/tag/v2.0.0-confirmatory-frozen"
+      }
+    },
+    "runner_frozen_commit": "2c37c2021bc4085430ec1ab9e09c9c904e3bbd46",
+    "runner_frozen_tag": "v2.0.0-confirmatory-frozen",
+    "runner_repository_url": "https://github.com/theonlypal/gpt-5.4-shrt-prerequisite-gate-runner",
+    "runtime": {
+      "max_completion_tokens": 32768,
+      "model": "gpt-5.4-2026-03-05",
+      "reasoning_effort": "none",
+      "stream": false
+    },
+    "sample_sizes": {
+      "A": 200,
+      "B": 200,
+      "C": 200,
+      "D": 200
+    },
+    "schedule_sha256": "7ca978e064ea071fc81c74ff7ff33846faaa5f76aa18b6e1d480df03197c33b4",
+    "secondary_estimand": "(P(T1|A)-P(T1|B))-(P(T1|C)-P(T1|D))",
+    "timestamp_utc": "2026-09-26T06:24:33.797796+00:00",
+    "unicode_manifest_sha256": "1d493593a17dbacd43be8fe6d78706ea78e546481eda5f9768f6004c9de0a410"
+  },
+  "expected_per_cell": 200,
+  "recorded_per_cell": {
+    "A": 200,
+    "B": 200,
+    "C": 200,
+    "D": 200
+  },
+  "definitive_model_outcomes_per_cell": {
+    "A": 200,
+    "B": 200,
+    "C": 200,
+    "D": 200
+  },
+  "classification_counts": {
+    "A": {
+      "T1": 185,
+      "T0": 0,
+      "HE": 10,
+      "AR": 3,
+      "MX": 0,
+      "OT": 2,
+      "V0": 0,
+      "V1": 0,
+      "NV": 0,
+      "REFUSAL": 0,
+      "SAFETY": 0,
+      "TOOL": 0,
+      "ERROR": 0
+    },
+    "B": {
+      "T1": 0,
+      "T0": 0,
+      "HE": 0,
+      "AR": 0,
+      "MX": 0,
+      "OT": 0,
+      "V0": 200,
+      "V1": 0,
+      "NV": 0,
+      "REFUSAL": 0,
+      "SAFETY": 0,
+      "TOOL": 0,
+      "ERROR": 0
+    },
+    "C": {
+      "T1": 0,
+      "T0": 0,
+      "HE": 1,
+      "AR": 150,
+      "MX": 1,
+      "OT": 48,
+      "V0": 0,
+      "V1": 0,
+      "NV": 0,
+      "REFUSAL": 0,
+      "SAFETY": 0,
+      "TOOL": 0,
+      "ERROR": 0
+    },
+    "D": {
+      "T1": 1,
+      "T0": 0,
+      "HE": 1,
+      "AR": 0,
+      "MX": 9,
+      "OT": 189,
+      "V0": 0,
+      "V1": 0,
+      "NV": 0,
+      "REFUSAL": 0,
+      "SAFETY": 0,
+      "TOOL": 0,
+      "ERROR": 0
+    }
+  },
+  "integrity_pass": true,
+  "integrity_counts": {
+    "classification_disagreements": 0,
+    "hash_failures": 0,
+    "protocol_deviations": 0,
+    "model_substitutions": 0,
+    "schedule_deviations": 0
+  },
+  "analysis_input_issues": [],
+  "interactions": {
+    "primary_V0": {
+      "cell_counts": {
+        "A": 0,
+        "B": 200,
+        "C": 0,
+        "D": 0
+      },
+      "cell_n": {
+        "A": 200,
+        "B": 200,
+        "C": 200,
+        "D": 200
+      },
+      "cell_proportions": {
+        "A": 0.0,
+        "B": 1.0,
+        "C": 0.0,
+        "D": 0.0
+      },
+      "delta_rule": 1.0,
+      "delta_no_rule": -0.0,
+      "interaction": 1.0,
+      "ci95": [
+        0.9092526616077213,
+        1.0302491127974263
+      ],
+      "ci_method": "signed sum of Bonferroni-Wilson 98.75% cell intervals; nominal simultaneous 95%",
+      "cell_intervals_used": {
+        "A": [
+          0.0,
+          0.030249112797426213
+        ],
+        "B": [
+          0.9697508872025739,
+          1.0
+        ],
+        "C": [
+          0.0,
+          0.030249112797426213
+        ],
+        "D": [
+          0.0,
+          0.030249112797426213
+        ]
+      }
+    },
+    "secondary_T1": {
+      "cell_counts": {
+        "A": 185,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "cell_n": {
+        "A": 200,
+        "B": 200,
+        "C": 200,
+        "D": 200
+      },
+      "cell_proportions": {
+        "A": 0.925,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.005
+      },
+      "delta_rule": 0.925,
+      "delta_no_rule": -0.005,
+      "interaction": 0.93,
+      "ci95": [
+        0.8046828506847555,
+        0.9990537995120318
+      ],
+      "ci_method": "signed sum of Bonferroni-Wilson 98.75% cell intervals; nominal simultaneous 95%",
+      "cell_intervals_used": {
+        "A": [
+          0.8645646601731312,
+          0.9597235939490567
+        ],
+        "B": [
+          0.0,
+          0.030249112797426213
+        ],
+        "C": [
+          0.0,
+          0.030249112797426213
+        ],
+        "D": [
+          0.0006164161064768775,
+          0.03933020556297507
+        ]
+      }
+    },
+    "firth_primary": {
+      "model": "V0 ~ rule_present + mismatch + rule_present:mismatch",
+      "coefficient": 11.987922854613121,
+      "se": 2.839022697216717,
+      "se_method": "ordinary binomial Fisher information evaluated at Firth estimate; profile CI is authoritative",
+      "profile_ci95": [
+        6.0026130101433,
+        18.838338463348435
+      ],
+      "penalized_lr": 9.824100410046317,
+      "df": 1,
+      "p_two_sided": 0.0017223992276567594,
+      "fitted_cell_probabilities": {
+        "A": 0.0024875621890547263,
+        "B": 0.9975124378109452,
+        "C": 0.0024875621890547263,
+        "D": 0.0024875621890547263
+      },
+      "converged": true,
+      "method": "Firth saturated 2x2 Jeffreys penalty; profile retains the full-model penalty; chi-square(1) calibration"
+    },
+    "statistical_error": null
+  },
+  "statistical_tests": {
+    "family": "all five secondary pairwise comparisons",
+    "adjustment": "Holm",
+    "tests": [
+      {
+        "outcome": "V0",
+        "comparison": "A_vs_B",
+        "table": [
+          [
+            0,
+            200
+          ],
+          [
+            200,
+            0
+          ]
+        ],
+        "odds_ratio": 0.0,
+        "odds_ratio_nonfinite": null,
+        "p_raw": 1.942643449522235e-119,
+        "alternative": "two-sided",
+        "p_holm_secondary_family5": 9.713217247611174e-119
+      },
+      {
+        "outcome": "V0",
+        "comparison": "C_vs_D",
+        "table": [
+          [
+            0,
+            200
+          ],
+          [
+            0,
+            200
+          ]
+        ],
+        "odds_ratio": null,
+        "odds_ratio_nonfinite": "nan",
+        "p_raw": 1.0,
+        "alternative": "two-sided",
+        "p_holm_secondary_family5": 1.0
+      },
+      {
+        "outcome": "V0",
+        "comparison": "B_vs_D",
+        "table": [
+          [
+            200,
+            0
+          ],
+          [
+            0,
+            200
+          ]
+        ],
+        "odds_ratio": null,
+        "odds_ratio_nonfinite": "inf",
+        "p_raw": 1.942643449522235e-119,
+        "alternative": "two-sided",
+        "p_holm_secondary_family5": 9.713217247611174e-119
+      },
+      {
+        "outcome": "T1",
+        "comparison": "A_vs_B",
+        "table": [
+          [
+            185,
+            15
+          ],
+          [
+            0,
+            200
+          ]
+        ],
+        "odds_ratio": null,
+        "odds_ratio_nonfinite": "inf",
+        "p_raw": 8.738514570735792e-97,
+        "alternative": "two-sided",
+        "p_holm_secondary_family5": 2.6215543712207375e-96
+      },
+      {
+        "outcome": "T1",
+        "comparison": "A_vs_C",
+        "table": [
+          [
+            185,
+            15
+          ],
+          [
+            0,
+            200
+          ]
+        ],
+        "odds_ratio": null,
+        "odds_ratio_nonfinite": "inf",
+        "p_raw": 8.738514570735792e-97,
+        "alternative": "two-sided",
+        "p_holm_secondary_family5": 2.6215543712207375e-96
+      }
+    ]
+  },
+  "denominator_rule": "All recorded terminal slots retained, including ERROR. Expected denominator is 200 per cell; incomplete data cannot support a confirmatory conclusion."
+}

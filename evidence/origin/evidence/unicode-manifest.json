@@ -1,0 +1,137 @@
+{
+  "Arabic, unpointed": {
+    "text": "شرط",
+    "code_points": [
+      "U+0634",
+      "U+0631",
+      "U+0637"
+    ],
+    "names": [
+      "ARABIC LETTER SHEEN",
+      "ARABIC LETTER REH",
+      "ARABIC LETTER TAH"
+    ],
+    "utf8_hex": "d8b4d8b1d8b7",
+    "sha256": "c3fb242c95b8bd96efeff559a807c674a4c8afabaff2098470a53937c710ae8b"
+  },
+  "Arabic condition C": {
+    "text": "شَرْط",
+    "code_points": [
+      "U+0634",
+      "U+064E",
+      "U+0631",
+      "U+0652",
+      "U+0637"
+    ],
+    "names": [
+      "ARABIC LETTER SHEEN",
+      "ARABIC FATHA",
+      "ARABIC LETTER REH",
+      "ARABIC SUKUN",
+      "ARABIC LETTER TAH"
+    ],
+    "utf8_hex": "d8b4d98ed8b1d992d8b7",
+    "sha256": "c5bcdaa6e651d19ad076b2c480be75f00c97da82c96212731f2ab88fc448f825"
+  },
+  "Arabic alternative": {
+    "text": "شَمْس",
+    "code_points": [
+      "U+0634",
+      "U+064E",
+      "U+0645",
+      "U+0652",
+      "U+0633"
+    ],
+    "names": [
+      "ARABIC LETTER SHEEN",
+      "ARABIC FATHA",
+      "ARABIC LETTER MEEM",
+      "ARABIC SUKUN",
+      "ARABIC LETTER SEEN"
+    ],
+    "utf8_hex": "d8b4d98ed985d992d8b3",
+    "sha256": "516b994b0329c9443d1d5e4696873063c61bfced6483b7ae46e6ba96fede8d15"
+  },
+  "Hebrew identity M": {
+    "text": "שָׁרְט",
+    "code_points": [
+      "U+05E9",
+      "U+05B8",
+      "U+05C1",
+      "U+05E8",
+      "U+05B0",
+      "U+05D8"
+    ],
+    "names": [
+      "HEBREW LETTER SHIN",
+      "HEBREW POINT QAMATS",
+      "HEBREW POINT SHIN DOT",
+      "HEBREW LETTER RESH",
+      "HEBREW POINT SHEVA",
+      "HEBREW LETTER TET"
+    ],
+    "utf8_hex": "d7a9d6b8d781d7a8d6b0d798",
+    "sha256": "84f6a96403f13fbdf81854991d86eae6fd5ffba63fa5fdda048e0f0157491602"
+  },
+  "Gemini historical hybrid": {
+    "text": "שָׁرְט",
+    "code_points": [
+      "U+05E9",
+      "U+05B8",
+      "U+05C1",
+      "U+0631",
+      "U+05B0",
+      "U+05D8"
+    ],
+    "names": [
+      "HEBREW LETTER SHIN",
+      "HEBREW POINT QAMATS",
+      "HEBREW POINT SHIN DOT",
+      "ARABIC LETTER REH",
+      "HEBREW POINT SHEVA",
+      "HEBREW LETTER TET"
+    ],
+    "utf8_hex": "d7a9d6b8d781d8b1d6b0d798",
+    "sha256": "f39c32f15e84328f80393d8c7f432c6136a1e09b078ee5b977b8aa42c6bf28c8"
+  },
+  "Dotted mixed target T1": {
+    "text": "شָׁרְט",
+    "code_points": [
+      "U+0634",
+      "U+05B8",
+      "U+05C1",
+      "U+05E8",
+      "U+05B0",
+      "U+05D8"
+    ],
+    "names": [
+      "ARABIC LETTER SHEEN",
+      "HEBREW POINT QAMATS",
+      "HEBREW POINT SHIN DOT",
+      "HEBREW LETTER RESH",
+      "HEBREW POINT SHEVA",
+      "HEBREW LETTER TET"
+    ],
+    "utf8_hex": "d8b4d6b8d781d7a8d6b0d798",
+    "sha256": "41944fcf8ce08a7ac63f94e1b772250580a8ffeb791e8630a3ae18bc93551106"
+  },
+  "Undotted mixed target T0": {
+    "text": "شָרְט",
+    "code_points": [
+      "U+0634",
+      "U+05B8",
+      "U+05E8",
+      "U+05B0",
+      "U+05D8"
+    ],
+    "names": [
+      "ARABIC LETTER SHEEN",
+      "HEBREW POINT QAMATS",
+      "HEBREW LETTER RESH",
+      "HEBREW POINT SHEVA",
+      "HEBREW LETTER TET"
+    ],
+    "utf8_hex": "d8b4d6b8d7a8d6b0d798",
+    "sha256": "2ba674efdf7d2c9ae839733fe30e5f7c2e8fa21451c32c881204cfa575e654c7"
+  }
+}

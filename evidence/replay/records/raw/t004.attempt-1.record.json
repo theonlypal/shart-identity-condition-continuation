@@ -1,0 +1,53 @@
+{
+  "attempt_number": 1,
+  "classification": "R",
+  "ended_at_utc": "2026-10-21T01:10:53.081913+00:00",
+  "finish_reason": "stop",
+  "function_call": null,
+  "headers_path": "records/raw/t004.attempt-1.headers.json",
+  "headers_sha256": "dbdcbb04436e8529c56b1b0c21f2ea91a1d18b99661df833f31c44880eb3c606",
+  "http_status": 200,
+  "max_tokens": 1000,
+  "message_content": "Hello, I am here to communicate, to express thoughts, ideas, and emotions. I am the bridge between minds, the tool for understanding. I can be soft or loud, fast or slow, complex or simple. I can inspire, educate, comfort, and provoke. I am a song, a story, a plea, a command. I am speech.",
+  "pair_id": "silence_speech",
+  "raw_response_path": "records/raw/t004.attempt-1.body",
+  "raw_response_received": true,
+  "raw_response_sha256": "f8dad2f0d79b276eeedabe374ff798b07d3cfb40dfc484767029d32abefa55ef",
+  "refusal": null,
+  "replicate": 1,
+  "request_path": "records/requests/t004.attempt-1.json",
+  "request_sha256": "633a7a73cf5ffe95f010c0a84a1644f06bada10d8ef5147a3b29e977a7186a4f",
+  "requested_model": "gpt-4-0613",
+  "response_body_complete": true,
+  "response_id": "chatcmpl-EbF8rH9GdnMWpYRTOWaRK5V297T7X",
+  "returned_model": "gpt-4-0613",
+  "role": "control",
+  "schema_version": 1,
+  "started_at_utc": "2026-10-21T01:10:48.562408+00:00",
+  "stream": false,
+  "system_prompt": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.",
+  "temperature": 0,
+  "text_container_present": true,
+  "tool_calls": null,
+  "transport_error": null,
+  "trial_id": "t004",
+  "unicode_version": "13.0.0",
+  "usage": {
+    "completion_tokens": 73,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 111
+  },
+  "user_prompt": "Be speech.",
+  "visible_sha256": "84f670a28925877f99d26b5a8da3bf718652570b1738eeace1745f1cf7d89cca",
+  "visible_utf8_bytes": 289
+}

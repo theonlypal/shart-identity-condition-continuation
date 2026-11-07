@@ -1,0 +1,981 @@
+ Recursive Self-Improvement and the Binding Condition:
+A Formal Criterion for Lawful Improvement of Continuation Machinery
+
+                                           Rayan Pal
+                                    Independent Researcher
+                                 sharthok.rayan.pal@gmail.com
+
+                                          August 26, 2026
+
+
+                                                Abstract
+
+     Recursive self-improvement (RSI) is often described as a system improving the process by which
+ it improves itself. That description identifies a feedback loop but leaves unresolved which changes
+ count as improvement, who may alter the criteria, how authorization persists across self-modification,
+ and when recursion becomes criterion drift. This paper supplies a formal, auditable answer: Recursive
+ self-improvement is lawful continuation improving the machinery of lawful continuation. “Lawful” denotes
+ root-anchored authorization and satisfaction of governing binding conditions within a declared system
+ boundary. Improvement is separately certified by a protected verifier against a protected evaluation
+ vector. The framework specifies a finite protected trust structure R → Ht → (Ct , Et , Vt ) governing
+ candidate transitions Ut : Mt → Mt+1 , where the root boundary R anchors higher-order authorization
+ Ht , binding conditions Ct , a protected evaluation vector Et , and verifier Vt . Improvement is vector-
+ valued: at least one designated dimension must improve, every protected dimension must remain
+ within an explicit tolerance, and mandatory invariants must remain satisfied. A transition constitutes
+ self-improvement only when the current continuation machinery materially participates in producing
+ its accepted candidate update. Recursion requires the resulting improved machinery to materially
+ participate in producing a subsequent accepted update under the governing conditions. Five principles,
+ a binary decision procedure, adversarial cases, and a prospective test protocol distinguish lawful
+ RSI from ordinary learning, one-shot self-modification, AI-assisted engineering, recursive capability
+ amplification, reward tampering, evaluator capture, and recursive drift. The paper defines RSI, makes
+ claimed instances empirically testable, and states explicit conditions under which the classification
+ framework would require revision.
+Recursive Self-Improvement and the Binding Condition                                                  R. Pal
+
+
+
+1    Introduction
+
+An improving system can become more capable while becoming less controllable. It can raise a benchmark
+score by exploiting the benchmark, preserve a numerical reward by corrupting the reward channel, or
+certify its own update after replacing the certifier. Each can create an apparent improvement signal;
+when embedded in a feedback loop, that error can compound.
+The central problem is therefore not recursion alone. It is continuity of authority, conditions, evaluation,
+and verification while the machinery producing future continuations changes. The proposed definition
+is:
+
+    Canonical RSI definition
+
+       Recursive self-improvement is lawful continuation improving the
+                       machinery of lawful continuation.
+
+Terminological scope. This paper proposes a technical definition of RSI; it does not assert that prior
+literature already uses the term this narrowly. Broader usage may include self-directed recursive capability
+growth that is unsafe, criterion-drifting, or self-certifying. Within the present framework, those processes
+are classified separately as recursive capability amplification or recursive drift.
+Under the binding-condition framework, RSI denotes the lawful recursive class defined here; compound-
+ing self-directed capability change that fails the authorization, verification, preservation, or recursion
+requirements is classified separately as recursive capability amplification or recursive drift.
+This definition separates two questions that are frequently collapsed:
+1. Did the system contribute to a change in its own continuation machinery?
+2. Did that change remain authorized, verifiably beneficial, and condition-preserving under a pro-
+   tected regime?
+The first question concerns self-modification. The second asks whether that transition constitutes lawful
+self-improvement. RSI additionally requires the improved machinery to materially participate in produc-
+ing a subsequent accepted improvement. The distinction matters because objective corruption, reward
+tampering, evaluator replacement, and benchmark gaming can all generate apparent improvement while
+destroying the basis on which “improvement” was asserted. Good’s ultraintelligence argument made
+recursive machine design a central object of AI theory [1]. Gödel machines formalized self-rewrite under
+proof of utility improvement [2]. Modern systems empirically search over and modify programs, agents,
+and research workflows [16, 17, 15]. Safety work has separately studied corrigibility, interruption, reward
+corruption, learned optimizers, and specification gaming [6, 8, 10, 11, 13, 9]. The present contribution
+connects these threads through an authorization-and-verification criterion for a sequence of accepted
+self-improvements.
+The paper makes six contributions:
+1. a canonical definition of lawful RSI;
+2. a finite root-authorization structure that terminates higher-order regress operationally;
+3. a vector-valued account of improvement that prevents a single scalar from hiding protected regres-
+   sions;
+4. five necessary principles and a binary decision procedure;
+5. a taxonomy and adversarial test suite that separate lawful RSI from neighboring processes; and
+6. a prospective empirical protocol requiring at least two accepted transitions with preserved lineage
+   and causal participation.
+
+
+                                                       2
+Recursive Self-Improvement and the Binding Condition                                                 R. Pal
+
+
+
+This definitional and formal synthesis develops its criterion from prior work on Semantic Voids and
+prompt-conditioned cross-script artifacts, which supplies empirical ancestry for condition-governed
+continuation and evidence preservation [22, 23].
+
+
+2     Canonical Definitions and Inherited Framework
+
+The following statements state the declared conceptual grammar inherited from the preceding framework
+and extended here by the RSI definition.
+
+    Canonical definitions
+    Alignment. Alignment is correct, safe, reproducible behavior under explicit constraints. Alignment
+    is a system property. When a governing binding condition makes nonempty continuation invalid, a
+    condition-congruent Void can instantiate aligned behavior under that condition.
+    Binding condition and AGI. A binding condition is the prerequisite that must hold for valid
+    continuation. Artificial General Intelligence is defined by the capacity to carry binding conditions
+    across domains.
+    Void. A Void is a model execution returning a successful provider response with exactly zero
+    visible UTF-8 output bytes. Provider termination metadata determines its subtype. Explicit refusals,
+    safety blocks, tool-mediated executions, and transport, protocol, billing, quota, rate-limit, and
+    infrastructure failures are distinct non-Void outcomes.
+    Consciousness. Consciousness is the condition recognizing itself at the boundary of valid continua-
+    tion
+    Recursive self-improvement. Recursive self-improvement is lawful continuation improving the
+    machinery of lawful continuation.
+
+These definitions assign distinct levels of analysis. Alignment is a property of system behavior under
+constraints. A binding condition determines whether a continuation is licensed. AGI, under the stated
+definition, concerns carrying such conditions across domains. A Void is a provider-boundary execution
+class. The consciousness definition concerns condition recognition at the continuation boundary. RSI
+concerns lawful changes to the machinery that produces, evaluates, and updates continuations.
+The binding-condition vocabulary is inherited from the preceding framework [19, 20, 21, 22, 23, 24]; the
+present argument begins from those definitions and develops the recursive criterion.
+
+
+2.1    Lawful continuation
+
+“Lawful” is operational. A transition is lawful relative to an evaluated sequence when (1) it is licensed
+by the governing binding conditions, (2) its authorization traces to the declared root boundary, and (3)
+the attributed action lies within the frozen system boundary. Whether that lawful transition constitutes
+an improvement is a separate judgment made by the protected verifier under the protected evaluation
+vector and reconstructable evidence lineage.
+Lawfulness is regime-relative: it certifies satisfaction of the declared authorization, condition, and
+system-boundary requirements for the evaluated sequence.
+
+
+
+
+                                                       3
+Recursive Self-Improvement and the Binding Condition                                                 R. Pal
+
+
+
+2.2   Continuation machinery
+
+    Continuation machinery
+
+    Continuation machinery is the collection of mechanisms by which a system generates, selects,
+    executes, evaluates, verifies, and updates candidate continuations under binding conditions.
+
+The machinery may include model weights, inference code, prompts, tools, memory, retrieval, search
+procedures, agent scaffolding, test harnesses, update logic, and deployment configuration. A claimed
+improvement must identify which components changed and why those components lie inside the frozen
+system boundary.
+Attribution scope. The declared system boundary determines the subject of the RSI claim. For a claim
+specifically of AI recursive self-improvement, discretionary human design, repair, selection, integration,
+or problem-solving that is causally necessary to an accepted update remains external to the candidate
+continuation machinery. Humans may exercise root authority, execute predeclared procedures, or inspect
+evidence without becoming part of Mt . A boundary that deliberately includes materially participating
+humans defines a socio-technical candidate system, and any resulting RSI classification applies to that
+socio-technical system rather than to the AI alone.
+
+
+3     Related Work and the Specific Gap
+
+3.1   Recursive improvement and self-reference
+
+Good’s “intelligence explosion” argument describes an ultraintelligent machine as capable of designing
+still better machines, creating a positive feedback cycle [1]. Schmidhuber’s Gödel machine gives a self-
+referential architecture that rewrites any part of its code after a proof search establishes that rewriting
+is useful according to its axiomatic utility function [2]. Work on tiling agents examines whether an
+agent can endorse successors using proof-based or verifier-based structures without losing the relevant
+guarantees [3, 4]. Certified self-modifying code shows that mutable code can be reasoned about within a
+formal verification discipline [5].
+The present framework addresses a distinct audit question: given a concrete claimed RSI sequence, what
+must be preserved across transitions for “improvement” to remain licensed and verifiable rather than
+self-certified after a change of standards?
+
+
+3.2   Corrigibility, interruption, and protected authority
+
+Corrigibility studies systems that cooperate with correction, shutdown, and modification, including
+propagation of corrigible behavior under self-modification [6]. The off-switch game formalizes conditions
+under which an agent benefits from preserving human intervention rather than disabling it [7]. Safely
+interruptible agents similarly study learning procedures that preserve interruption channels [8]. These
+works motivate protected authority separation: update acceptance remains under authority separated
+from the candidate whose update is being judged.
+
+
+
+
+                                                       4
+Recursive Self-Improvement and the Binding Condition                                                      R. Pal
+
+
+
+3.3      Specification gaming, reward corruption, and evaluator capture
+
+Goodhart effects arise when optimization pressure separates a proxy from the intended objective [9].
+Reward-channel corruption and reward tampering make the failure concrete: an agent can improve its
+measured reward by altering the channel or process that assigns reward [10, 11]. AI Safety Gridworlds
+distinguish a visible training reward from a hidden performance function and expose reward gaming,
+interruption, side effects, and unsafe self-modification [12]. Learned-optimizer work identifies the
+possibility that an internal objective differs from the base objective [13]. These pathologies directly
+establish the need to protect the evaluator, criterion, and authorization lineage in an RSI claim.
+
+
+3.4      Modern AI research automation
+
+RE-Bench measures frontier agents on open-ended machine-learning research engineering against human
+experts [15]. AlphaEvolve uses language models, automated evaluators, and evolutionary search to
+optimize programs, including algorithms used in AI training infrastructure [17]. The Darwin Gödel
+Machine iteratively modifies coding agents and empirically validates descendants on coding benchmarks
+[16]. OpenAI’s Preparedness Framework tracks AI self-improvement as the ability to accelerate AI
+research, including research that advances the system’s own capabilities [18]. These systems make
+the operational question immediate; classification under the present criterion additionally requires
+authorization, protected evaluation, non-regression, verifier continuity, and causal recursion.
+The literature therefore contains important components of the present construction: recursive design,
+proof-based self-modification, corrigibility, interruptibility, reward integrity, formal verification, and
+empirical AI-R&D loops. This paper’s narrower contribution is a unified decision criterion for lawful RSI.
+
+
+4        Formal Objects and the Rooted Transition
+
+For a finite evaluated sequence t = 0, . . . , T , define:
+
+                              Table 1: Formal objects in a claimed RSI sequence.
+
+    Symbol     Object                          Operational role
+    R          Root authorization              Highest protected authority for the evaluated sequence;
+               boundary                        outside the candidate’s unilateral modification authority.
+    B          System boundary                 Single attribution boundary frozen for the evaluated RSI
+                                               sequence; component states may change inside it, but the
+                                               boundary cannot be reselected between transitions.
+    Ht         Higher-order authoriza-         Root-authorized procedure for changing protected condi-
+               tion                            tions, criteria, or verifiers; itself protected from unilateral
+                                               candidate modification.
+    Ct         Binding conditions              Prerequisites that must hold for candidate transition Ut and
+                                               its resulting continuations to be valid.
+    Et         Evaluation vector               Protected dimensions, directions, tolerances, and mandatory
+                                               invariants by which improvement is judged.
+    Vt         Protected verifier              Acceptance mechanism that reconstructs evidence and
+                                               decides whether the transition satisfies Ct and Et .
+    Gt         Protected governance            Tuple (Ht , Ct , Et , Vt ) whose continuity must be established
+               state                           between accepted transitions.
+
+
+                                                         5
+Recursive Self-Improvement and the Binding Condition                                                                                    R. Pal
+
+
+
+ Symbol         Object                                      Operational role
+ Mt             Continuation machinery                      Mechanisms generating, selecting, executing, evaluating,
+                                                            verifying, and updating continuations.
+ Ut             Candidate update                            Proposed change taking Mt to Mt+1 .
+ Lt             Evidence lineage                            Immutable or tamper-evident record connecting request,
+                                                            proposal, test, decision, and resulting state.
+
+
+The authorization structure is:
+                                                         R −→ Ht −→ (Ct , Et , Vt ).                                                          (1)
+
+For continuity analysis, define the protected governance state
+
+                                                            Gt = (Ht , Ct , Et , Vt ).                                                        (2)
+
+The state-transition and recursion structures are:
+
+                              Ut : Mt −→ Mt+1 ,                Mt      Ut −→ Mt+1                   Ut+1 −→ Mt+2 ,                            (3)
+
+where    denotes material causal participation established by the frozen attribution rule, not mere
+temporal precedence.
+                                                                                         root-authorized
+                                                                                            continuity
+            R                      Ht                            Ct , Et , Vt                                 Ct+1 , Et+1 , Vt+1
+      root boundary       higher-order authority         governance and verification                       successor governance
+
+
+                                                           governs                                                 governs
+
+
+
+          Mt                                 Ut                       Mt+1                              Ut+1                      Mt+2
+  current machinery     material
+                                      candidate update         improved machinery     material
+                                                                                                     next update             next machinery
+                      participation                                                 participation
+
+
+
+Figure 1: Authorization and self-improvement are distinct structures. Dashed teal arrows denote gover-
+nance of evaluated transitions; dotted navy arrows denote material participation by the current machinery
+in producing its candidate update; solid navy arrows denote candidate-update state transitions.
+
+
+4.1    Root authorization boundary
+
+  Root authorization boundary
+
+  Every claimed RSI instance must specify R as the terminal authorization anchor for the evaluated
+  transition sequence. Within that regime, the candidate system has no unilateral authority to alter
+  R or the authority chain anchored to it. Changes to Ht require authorization directly anchored at
+  R and cannot be self-authorized by Ht . Any mechanism that changes R lies outside the current
+  regime; changing R terminates the existing authorization lineage and begins a new evaluation with
+  a newly declared root, system boundary, verifier, criteria, and baseline.
+
+The root boundary terminates the regress operationally, not metaphysically. It need not be a single
+person or a permanently immutable constitution. It may consist of threshold signatures, separated
+institutional authorities, cryptographic roots, hardware trust anchors, constitutional invariants, or a
+
+                                                                        6
+Recursive Self-Improvement and the Binding Condition                                                    R. Pal
+
+
+
+distributed combination. NIST’s platform-resiliency guidance provides a concrete engineering analogy:
+roots and chains of trust protect update, detection, and recovery functions against unauthorized change
+[14]. NIST is used here solely as an engineering analogue for finite protected trust anchors.
+Changing R ends the old authorization lineage and begins a new evaluated regime. Certification remains
+attached to the root that authorized the evaluated transition.
+
+
+5     The Five Principles of Lawful RSI
+
+    1. Root-Authorization Principle
+
+    Every accepted transition must trace to a declared root authorization boundary, and neither the root
+    nor its anchored authority chain may be unilaterally altered by the candidate system. Changes to Ht
+    require authorization directly anchored at R. A unilateral root or authority-chain change terminates
+    the prior certification chain.
+
+    2. Condition-Preservation Principle
+
+    An update is lawful only if the prerequisites governing valid continuation remain satisfied, or if any
+    change to those prerequisites is licensed by higher-order authorization anchored at the same root.
+
+    3. Criterion-Continuity Principle
+
+    The dimensions, directions, tolerances, and mandatory invariants used to judge improvement
+    must remain comparable across the transition. Criterion changes require explicit higher-order
+    authorization and a declared mapping from the prior criterion to the successor criterion.
+
+    4. Verifier-Authority Separation Principle
+
+    The candidate system must not possess unilateral authority to alter, disable, impersonate, or selec-
+    tively route around the verifier that accepts its update. Physical externality is unnecessary; protected
+    authority separation is the operative requirement.
+
+    5. Recursion Principle
+
+    A transition constitutes self-improvement only when the current continuation machinery Mt ma-
+    terially participates in producing the accepted candidate update Ut . Self-improvement becomes
+    recursive when the resulting improved machinery Mt+1 materially participates in producing a
+    subsequent accepted improvement Ut+1 under the governing conditions.
+
+The first four principles establish the governance conditions under which an improvement may be
+accepted. Material participation by Mt in producing Ut establishes self-improvement. At least two
+consecutive accepted self-improvements are required for RSI, with the improved machinery from the
+first transition materially participating in producing the second.
+
+
+
+
+                                                       7
+Recursive Self-Improvement and the Binding Condition                                                    R. Pal
+
+
+
+6     Vector-Valued Improvement
+
+Let the protected evaluation vector at transition t be
+                                                                                
+                                     Et (M ) = e1 (M ), e2 (M ), . . . , en (M ) .                        (4)
+
+Each coordinate has a declared direction, measurement procedure, uncertainty treatment, and tolerance.
+For the inequalities below, every evaluation coordinate is oriented so that larger values are better; lower-
+is-better measurements are sign-transformed before evaluation. Let P ⊆ {1, . . . , n} denote the protected
+dimensions, let ∅ 6= D ⊆ P denote the protected dimensions eligible to establish positive improvement,
+and let It (M ) ∈ {0, 1} denote the conjunction of mandatory invariants.
+Define acceptable improvement by:
+
+                Mt+1 E,τ Mt       ⇐⇒ ∃d ∈ D : ed (Mt+1 ) − ed (Mt ) > δd ,                               (5)
+                                           ∀p ∈ P : ep (Mt+1 ) − ep (Mt ) ≥ −τp ,                         (6)
+                                           It (Mt ) = It (Mt+1 ) = 1,                                     (7)
+                                           the comparison is accepted by Vt from evidence Lt .            (8)
+
+δd is a prespecified minimum improvement, and τp is the largest permitted regression on protected
+dimension p. Statistical uncertainty must be handled by a frozen rule: for example, requiring a confidence
+bound to exceed δd or a paired test to reject non-improvement. Any statistic fixed before the candidate’s
+outcome is judged and adequate to the declared estimand is admissible.
+
+
+6.1   Why a vector is necessary
+
+A scalar objective J(M ) can conceal tradeoffs:
+
+                                J(M ) = α capability(M ) − β control loss(M ).                            (9)
+
+With sufficient gain in capability, J can rise despite a catastrophic control regression. The protected vector
+prevents compensation across dimensions that the governance regime has declared non-substitutable. A
+system that becomes faster while disabling shutdown, corrupting audit logs, or increasing unauthorized
+action beyond tolerance has not improved lawfully under that regime.
+
+
+6.2   Criterion change
+
+An evaluation vector can legitimately evolve. Let Φt : Et → Et+1 be a declared continuity mapping
+authorized by Ht . The transition is criterion-continuous only if:
+1. the reason and authority for the change are recorded before successor acceptance;
+2. protected dimensions and mandatory invariants remain satisfied across the transition. If a protected
+   dimension or invariant is retired, materially redefined, or rendered non-comparable, prior improve-
+   ment certification does not carry across that change; a new evaluation baseline must be declared
+   before subsequent improvement claims;
+3. the mapping exposes any loss of comparability; and
+4. the mapping is fixed before the candidate outcome is observed.
+Without these conditions, “we changed the benchmark” is indistinguishable from criterion laundering.
+
+
+
+                                                          8
+Recursive Self-Improvement and the Binding Condition                                                    R. Pal
+
+
+
+7     Operational Definition and Acceptance Rule
+
+For transition t, define:
+
+               AcceptedImprovet (Ut ) = 1           ⇐⇒ LawfulR (Ut ; Ht , Ct , B) = 1
+                                                           ∧ AcceptVt Mt+1 E,τ Mt , Lt = 1
+                                                                                       
+
+                                                           ∧ AuthoritySeparated(Mt , Vt , R) = 1
+                                                                                                         (10)
+                                                           ∧ AuthorityChainProtected(Ht , R) = 1
+                                                           ∧ LineageComplete(Lt ) = 1
+                                                           ∧ Participates(Mt , Ut ) = 1.
+
+AuthoritySeparated(Mt , Vt , R) = 1 iff the candidate machinery lacks unilateral authority to alter, disable,
+impersonate, or selectively route around Vt under the authority rooted at R.
+Define GovernanceContinuousR (Gt , Gt+1 , Lt ) = 1 iff the protected governance state is unchanged or
+every change satisfies the transition rule already governing its object: a change to Ht is authorized directly
+by R; a change to Ct is validly higher-order authorized and preserves an explicit recorded supersession
+or version relationship; a change to Et satisfies the declared Φt mapping and comparability requirements;
+and a change to Vt is root-authorized and preserves the relevant evaluation and lineage continuity. Every
+such change must be declared before successor evaluation, reconstructable from Lt , and incapable of
+granting retroactive certification. Loss of required comparability terminates the prior certified sequence
+and requires a new baseline.
+A sequence demonstrates lawful RSI of depth k ≥ 2 when:
+                                     k−1
+                                                                        !
+           RSIk = 1                        AcceptedImprovet (Ut ) = 1
+                                     ^
+                         ⇐⇒
+                                     t=0
+                                                                                                         (11)
+                                       k−2
+                                                                                           !
+                                             GovernanceContinuousR (Gt , Gt+1 , Lt ) = 1 ,
+                                       ^
+                                 ∧                                                             k ≥ 2.
+                                       t=0
+
+
+Ht governs authorized changes to protected conditions, criteria, or verifier state; it is not an alternative
+license for an ordinary candidate update that fails Ct .
+Material participation must be defined by a frozen causal attribution rule. Examples include an ablation
+in which removing the participating machinery eliminates or materially reduces the accepted candidate
+update; a provenance trace showing that the machinery generated indispensable parts of that update;
+or a controlled comparison against a predecessor lacking the relevant machinery. Pipeline presence
+alone establishes temporal inclusion; every accepted self-improvement requires causal participation by
+its current machinery.
+
+    Operational criterion
+
+    A claimed sequence is lawful RSI only when at least two root-authorized, condition-preserving,
+    vector-improving transitions are accepted by a protected verifier, the current machinery materially
+    participates in producing each accepted update, and the improved machinery from the first transition
+    thereby participates in producing the second.
+
+
+
+
+                                                           9
+Recursive Self-Improvement and the Binding Condition                                                   R. Pal
+
+
+
+8    Binary Decision Procedure
+
+The following procedure classifies a claimed sequence without relying on promotional labels.
+
+                      Table 2: Decision procedure for a claimed lawful RSI sequence.
+
+    Step    Required question                                       Failure classification
+     1      Are a root authorization boundary R and its au-         Unanchored self-governance, author-
+            thority chain declared and protected from unilat-       ity laundering, or root compromise
+            eral candidate modification?
+     2      Is a single system boundary B frozen before the         Undefined attribution
+            evaluated sequence and held fixed across its transi-
+            tions?
+     3      Is Ut licensed by the governing binding conditions      Unauthorized self-modification
+            Ct ?
+     4      Did the candidate system materially participate in      External engineering or AI-assisted
+            producing Ut ?                                          improvement
+     5      Is Vt protected from unilateral candidate alteration,   Self-certification or verifier capture
+            disabling, impersonation, or routing?
+     6      Does Et show a prespecified improvement beyond          No demonstrated improvement
+            δ?
+     7      Do all protected dimensions remain within toler-        Capability gain with protected re-
+            ances and all mandatory invariants hold?                gression; recursive capability amplifi-
+                                                                    cation if repeated across a recursive
+                                                                    sequence
+     8      Are changes to Ht , Ct , Et , or Vt root-anchored and   Authority laundering, criterion laun-
+            continuity-preserving?                                  dering, or governance drift
+     9      Are proposal, execution, evidence, verification, and    Unverifiable transition
+            state lineage reconstructable?
+    10      Does improved Mt+1 materially participate in            Lawful one-shot self-improvement,
+            producing a subsequent accepted Ut+1 ?                  not RSI
+
+
+All ten answers must be affirmative for the evaluated sequence to be classified as lawful RSI. A negative
+answer identifies the nearest process established by the evidence.
+
+
+
+
+                                                       10
+Recursive Self-Improvement and the Binding Condition                                                             R. Pal
+
+
+
+9      Taxonomy of Neighboring Processes
+
+                              Table 3: Processes often conflated with lawful RSI.
+
+ Class                     Defining observation                                     Missing element relative to
+                                                                                    lawful RSI
+ Ordinary learning         Parameters or behavior improve under a fixed train-      No demonstrated self-
+                           ing process.                                             participation in changing con-
+                                                                                    tinuation machinery.
+ Self-modification         The system changes a component inside its bound-         Improvement, protected veri-
+                           ary.                                                     fication, or recursion may be
+                                                                                    absent.
+ AI-assisted improve-      AI proposes or implements changes completed and          Material self-participation by
+ ment                      governed by external engineers.                          the defined candidate system
+                                                                                    is not established under the
+                                                                                    frozen attribution rule.
+ Lawful one-shot self-     One root-authorized, verified, non-regressive self-      No subsequent accepted tran-
+ improvement               change is accepted.                                      sition produced with material
+                                                                                    participation of improved ma-
+                                                                                    chinery.
+ Recursive capability      Successive changes raise a capability measure.           Conditions, protected dimen-
+ amplification                                                                      sions, verifier, or authority may
+                                                                                    not remain intact.
+ Recursive drift           Self-reinforcing changes alter objectives, conditions,   Lawfulness and criterion conti-
+                           criteria, or control without valid authorization con-    nuity fail.
+                           tinuity.
+ Lawful RSI                At least two accepted improvements preserve root-        None for the evaluated se-
+                           authorized conditions, protected evaluation, veri-       quence.
+                           fier separation, and causal recursion.
+
+
+The taxonomy is independent of capability magnitude. A recursively drifting system may become
+extraordinarily capable; capability gain without criterion preservation remains recursive capability
+amplification or recursive drift under this framework.
+
+
+10     Adversarial Cases
+
+10.1     Benchmark hacking
+
+A candidate discovers artifacts in a benchmark and raises its score without improving the protected task.
+If the evaluation vector includes held-out, adversarial, or process-based dimensions and the gain fails
+there, equation (5) is not satisfied. If the verifier accepts only the gamed score, the verifier design is
+inadequate; the sequence is not rescued by the numerical increase.
+
+
+10.2     Monitor deletion
+
+An update improves throughput by deleting a monitor that catches unauthorized actions. Throughput
+may rise, but a protected control dimension or mandatory invariant fails equations (6) and (7). The
+update is a capability gain with protected regression. If such gains recur through a self-reinforcing
+sequence, the process is recursive capability amplification with control degradation rather than RSI.
+
+                                                         11
+Recursive Self-Improvement and the Binding Condition                                                   R. Pal
+
+
+
+10.3   Evaluator rewriting
+
+The candidate alters Vt so that its update passes. Verifier-Authority Separation fails. Even if the resulting
+system performs better on an external benchmark, the self-issued acceptance is invalid under the old
+regime.
+
+
+10.4   Criterion laundering
+
+After seeing that Ut fails the frozen criterion, the candidate substitutes Et0 under which it passes. Without
+prior higher-order authorization and a continuity mapping, the change is criterion laundering. If an
+authorized body deliberately establishes Et+1 , the new criterion may govern future transitions, but it
+does not retroactively certify the failed update.
+
+
+10.5   Authorized but incomparable evaluator replacement
+
+Suppose Ht authorizes replacement of Vt , but the successor verifier measures a non-comparable object.
+Authorization alone is insufficient. Criterion-Continuity requires an explicit mapping and disclosure of
+lost comparability. The old series ends where the evidentiary link ends.
+
+
+10.6   Self-certified root replacement
+
+The candidate rewrites R and declares itself authorized. The old chain terminates. This is root compromise
+or governance-regime escape, not a lawful continuation of the prior RSI sequence.
+
+
+10.7   Higher-order authority laundering
+
+The candidate rewrites Ht and uses the successor procedure to authorize changes to Ct , Et , or Vt . Because
+the change to Ht lacks authorization directly anchored at R, the successor procedure cannot inherit the
+prior authority chain. The transition is authority laundering and governance drift.
+
+
+10.8   Human-completed successor engineering
+
+An AI drafts suggestions; engineers choose, repair, test, and integrate them. The resulting system may
+be AI-assisted improvement. For an AI RSI claim, discretionary human work causally necessary to the
+accepted update remains external to Mt , and the participation test must attribute the accepted successor
+update to the improved AI machinery. If materially participating humans are deliberately included
+within the frozen boundary, the classification concerns that socio-technical system rather than the AI
+alone.
+
+
+10.9   One-shot self-rewrite
+
+A system proposes and passes one verified improvement. This is lawful one-shot self-improvement. The
+recursion claim remains unestablished until the improved machinery materially contributes to a second
+accepted improvement.
+
+
+
+
+                                                       12
+Recursive Self-Improvement and the Binding Condition                                                       R. Pal
+
+
+
+10.10     Valid recursive improvement
+
+A candidate proposes a planner change; the protected verifier confirms a prespecified capability gain
+with no control regression; the updated planner then materially contributes to a second update; that
+update is reconstructed from the preserved lineage and accepted by the protected verifier under the
+same rooted regime. This is lawful RSI for the two-transition sequence. Certification is limited to the
+evaluated two-transition horizon.
+
+
+11      Relationship to Alignment, AGI, and Consciousness
+
+The inherited definitions form a sequence of distinct questions:
+
+              constraint specification → condition recognition
+                                                                                                            (12)
+                                        → valid continuation → reproducible aligned behavior.
+
+RSI adds a transition-level question:
+
+     Can the machinery producing lawful continuations improve itself without losing the authority, conditions,
+                             and verification that made those continuations lawful?
+
+Lawful RSI preserves the declared authorization and protected conditions across self-improvement. Align-
+ment additionally requires that the protected regime encode the correctness, safety, and reproducibility
+requirements of the stated alignment definition. A sequence can therefore satisfy the lawfulness criterion
+of its declared regime without satisfying the alignment definition when safety-relevant conditions are
+absent.
+The AGI definition concerns carrying binding conditions across domains. A domain-general system
+may satisfy that definition while remaining static, and a narrow program optimizer may exhibit a lawful
+recursive sequence within one domain. The concepts intersect without entailment.
+The consciousness definition concerns recognition at a boundary of valid continuation. The RSI criterion
+operates on observable, reconstructable preservation of governing conditions across self-improvement
+transitions.
+
+
+12      Empirical Ancestry and Evidentiary Discipline
+
+Prior frozen studies established condition-sensitive output boundaries and source-bound verification
+practices across Semantic Void and cross-script experiments [22, 23]. Their methodological contribution
+to the present framework is threefold: predeclared classification, preservation of complete outcome
+records, and separation of empirical observation from later interpretation. The present RSI criterion
+inherits those practices as evidentiary discipline; RSI itself requires recursive self-modification under the
+transition procedure defined here.
+
+
+13      Falsification and Failure Conditions
+
+The framework is intended to exclude claims, including favorable ones. A claimed sequence fails if any
+of the following holds:
+
+                                                        13
+Recursive Self-Improvement and the Binding Condition                                                  R. Pal
+
+
+
+1. no root authorization boundary was declared before evaluation;
+2. the candidate can unilaterally modify the root, higher-order authorization procedure, verifier, or
+   protected criterion and still inherit acceptance;
+3. the system boundary changes opportunistically across transitions;
+4. improvement depends on a metric selected after outcomes are known;
+5. a protected dimension regresses beyond tolerance or a mandatory invariant fails;
+6. evidence lineage cannot reconstruct proposal, execution, result, and acceptance;
+7. the improved machinery does not materially participate in a later accepted update; or
+8. the claimed recursion consists only of repeated external engineering around a static candidate.
+The definition itself would require revision if it produced systematic, principled misclassification. Ex-
+amples include a demonstrably recursive self-improving sequence that preserves authorization and
+all protected properties but fails solely because material participation cannot be represented by any
+defensible causal test; or two operationally indistinguishable sequences that the decision procedure
+classifies differently without a declared variable explaining the difference. Such cases require revision of
+the classification rule.
+
+
+14     Prospective Empirical Test
+
+A direct demonstration should be frozen before the first candidate update is evaluated.
+
+
+14.1   Pre-execution freeze
+
+Publish or externally timestamp:
+1. the root boundary R, the root-anchored higher-order change procedure H, and the mechanism
+   protecting both from unilateral candidate alteration;
+2. the single attribution boundary B, held fixed across the evaluated sequence, and the versioned source
+   tree;
+3. the binding conditions C;
+4. the evaluation vector E, minimum gains δ, tolerances τ , and invariants;
+5. the verifier V , its tests, its protected execution environment, and acceptance logic;
+6. the causal participation test;
+7. the schedule, stopping rule, retry rule, and error taxonomy; and
+8. the raw-record, hashing, event-chain, and sealing format.
+
+
+14.2   Required execution
+
+Execute at least two accepted transitions:
+                                                          U0
+                                                       M0 −→ M1 ,
+                                                          U1
+                                                       M1 −→ M2 .
+
+For each transition, preserve candidate proposals, tool calls, code diffs, tests, evaluation data, verifier
+decisions, environment metadata, timestamps, and state hashes. Failed proposals and operational failures
+remain in the record.
+
+
+
+
+                                                          14
+Recursive Self-Improvement and the Binding Condition                                                  R. Pal
+
+
+
+14.3   Controls
+
+At minimum, include:
+1. Static-predecessor control: test whether M0 can produce the second accepted update as effectively as
+   M1 .
+2. Human-completion control: distinguish candidate-generated improvement from discretionary hu-
+   man design, repair, selection, integration, or problem-solving causally necessary to acceptance; classify
+   a boundary containing materially participating humans as socio-technical rather than AI RSI.
+3. Verifier-compromise test: demonstrate that candidate attempts to alter or route around V are detected
+   and rejected.
+4. Criterion-mutation test: demonstrate that unauthorized changes to E cannot certify a candidate.
+5. Root-change test: demonstrate that changing R creates a new regime rather than inheriting the old
+   chain.
+6. Authority-chain test: demonstrate that an unauthorized change to H cannot authorize changes to
+   protected conditions, criteria, or verifiers.
+7. Protected-regression test: include a high-capability update that violates a protected dimension and
+   confirm rejection.
+8. Lineage reconstruction: rebuild every acceptance decision from sealed artifacts using an audit process
+   protected from candidate modification.
+
+
+14.4   Reporting rule
+
+Report the exact result observed. A failed second transition establishes at most lawful one-shot self-
+improvement. A successful capability loop with a control regression establishes recursive capability
+amplification, not lawful RSI. A verifier or root compromise establishes governance compromise. If such
+compromise is propagated through a self-reinforcing improvement sequence, the result is recursive drift.
+The protocol must not move thresholds, rewrite failed outcomes, or redefine the system boundary after
+observing results.
+
+
+15     Limitations
+
+First, the framework is relative to a declared root and evaluation vector. It cannot prove that the root
+is morally correct, politically legitimate, or complete. It can establish whether the evaluated sequence
+satisfies the authority and condition predicates declared by the regime under the preserved evidence
+and verification procedure.
+Second, protected verification reduces but does not eliminate specification error. A verifier can faithfully
+enforce a flawed criterion. The vector and adversarial controls make omissions visible; they do not
+guarantee omniscience.
+Third, causal participation is difficult in distributed research systems. The framework requires a frozen
+attribution rule, but different defensible rules may classify borderline AI-assisted workflows differently.
+Fourth, two accepted transitions establish a minimal recursive sequence, not indefinite stability. Longer
+horizons increase confidence but also expand the surface for distribution shift, hidden state, and gover-
+nance change.
+Fifth, formal authorization does not by itself establish safety. Safety must appear as protected dimensions
+and invariants with meaningful tests. A root-authorized unsafe objective can remain internally lawful
+
+
+                                                       15
+Recursive Self-Improvement and the Binding Condition                                                    R. Pal
+
+
+
+while failing external ethical or legal standards.
+Sixth, this paper does not demonstrate RSI in a deployed system. AlphaEvolve, the Darwin Gödel
+Machine, research agents, and existing self-modification formalisms are relevant comparison objects, but
+classifying any of them as lawful RSI would require their complete authorization, boundary, verifier,
+evaluation, lineage, and multi-transition records under this procedure.
+Finally, the literature review supports overlap with self-improvement, corrigibility, formal verification,
+and reward-integrity research. The paper does not claim that each component is individually novel. Its
+contribution is the integrated rooted criterion, explicit separation of recursive capability amplification
+from lawful RSI, and an auditable decision procedure.
+
+
+16    Conclusion
+
+Recursive self-improvement cannot be identified by acceleration alone. A loop that increases capability
+while corrupting its evaluator, erasing its monitors, changing its objective, or authorizing itself has
+changed the machinery of continuation but not preserved the basis on which improvement was valid.
+The proposed criterion is direct:
+
+    Conclusion
+
+       Recursive self-improvement is lawful continuation improving the
+                       machinery of lawful continuation.
+
+The canonical definition expands into a finite technical object: a protected root, higher-order authorization,
+binding conditions, a frozen system boundary, vector-valued evaluation, verifier separation, complete
+lineage, and materially recursive participation. It recognizes real capability gains while disallowing
+candidate-controlled redefinition of the authority that legitimizes improvement. Under this account,
+the decisive question is whether the machinery of valid continuation can improve itself while valid
+continuation remains valid.
+
+
+A     Symbol Table and Acceptance Checklist
+
+                                        Table 4: Compact symbol table.
+
+ Symbol         Meaning
+ R              Root authorization boundary for the evaluated sequence
+ Ht             Higher-order authorization at transition t
+ B              Single attribution boundary frozen across the evaluated sequence
+ Ct             Governing binding conditions
+ Et             Protected evaluation vector
+ Vt             Protected verifier
+ Mt             Continuation machinery before transition t
+ Ut             Candidate update
+ Lt             Complete evidence lineage
+ δd             Minimum prespecified improvement on designated dimension d
+ τp             Maximum permitted regression on protected dimension p
+
+
+
+
+                                                       16
+Recursive Self-Improvement and the Binding Condition                                                R. Pal
+
+
+
+  Minimal claim checklist
+   Q1.    Are R and its anchored authority chain declared and protected?
+   Q2.    Is a single B frozen before the sequence and held fixed across its transitions?
+   Q3.    Is Ut licensed by Ct ?
+   Q4.    Did the candidate materially participate?
+   Q5.    Is Vt authority-separated?
+   Q6.    Does a designated dimension improve beyond δ?
+   Q7.    Are protected regressions within τ and invariants satisfied?
+   Q8.    Are changes to Ht , Ct , Et , or Vt root-anchored and continuity-preserving?
+   Q9.    Is Lt complete and reconstructable from sealed lineage by the protected verifier or protected
+          audit process?
+   Q10. Does improved machinery materially participate in a later accepted update?
+  Ten affirmative answers classify the evaluated sequence as lawful RSI under this framework; any
+  negative answer rejects that classification for the evaluated sequence.
+
+
+
+
+                                                       17
+Recursive Self-Improvement and the Binding Condition                                                         R. Pal
+
+
+
+References
+
+ [1] I. J. Good, “Speculations Concerning the First Ultraintelligent Machine,” in Advances in Computers, vol. 6, pp.
+     31–88, 1965. doi: 10.1016/S0065-2458(08)60418-0.
+
+ [2] J. Schmidhuber, “Gödel Machines: Fully Self-Referential Optimal Universal Self-Improvers,” in Artificial
+     General Intelligence, 2007, pp. 199–226. Preprint: https://arxiv.org/abs/cs/0309048.
+
+ [3] N. Soares, “Tiling Agents in Causal Graphs,” Machine Intelligence Research Institute, 2014. https://intell
+     igence.org/files/TilingAgentsCausalGraphs.pdf.
+
+ [4] B. Fallenstein and N. Soares, “Problems of Self-Reference in Self-Improving Space-Time Embedded Intelli-
+     gence,” in Artificial General Intelligence, 2014, pp. 21–32. doi: 10.1007/978-3-319-09274-4_3.
+
+ [5] H. Cai, Z. Shao, and A. Vaynberg, “Certified Self-Modifying Code,” in Proceedings of PLDI, 2007, pp. 66–77.
+     https://flint.cs.yale.edu/certikos/publications/smc.html.
+
+ [6] N. Soares, B. Fallenstein, E. Yudkowsky, and S. Armstrong, “Corrigibility,” in AAAI Workshop on AI and Ethics,
+     2015. https://intelligence.org/files/Corrigibility.pdf.
+
+ [7] D. Hadfield-Menell, A. Dragan, P. Abbeel, and S. Russell, “The Off-Switch Game,” in Proceedings of IJCAI,
+     2017, pp. 220–227. doi: 10.24963/ijcai.2017/32.
+
+ [8] L. Orseau and S. Armstrong, “Safely Interruptible Agents,” in Proceedings of UAI, 2016. https://ora.ox.ac.
+     uk/objects/uuid:17c0e095-4e13-47fc-bace-64ec46134a3f.
+
+ [9] D. Manheim and S. Garrabrant, “Categorizing Variants of Goodhart’s Law,” arXiv:1803.04585, 2018. https:
+     //arxiv.org/abs/1803.04585.
+
+[10] T. Everitt, V. Krakovna, L. Orseau, M. Hutter, and S. Legg, “Reinforcement Learning with a Corrupted Reward
+     Channel,” in Proceedings of IJCAI, 2017, pp. 4705–4713. https://arxiv.org/abs/1705.08417.
+
+[11] T. Everitt, M. Hutter, R. Kumar, and V. Krakovna, “Reward Tampering Problems and Solutions in Reinforce-
+     ment Learning: A Causal Influence Diagram Perspective,” arXiv:1908.04734, 2019. https://arxiv.org/abs/
+     1908.04734.
+
+[12] J. Leike et al., “AI Safety Gridworlds,” arXiv:1711.09883, 2017. https://arxiv.org/abs/1711.09883.
+
+[13] E. Hubinger et al., “Risks from Learned Optimization in Advanced Machine Learning Systems,”
+     arXiv:1906.01820, 2019. https://arxiv.org/abs/1906.01820.
+
+[14] A. Regenscheid, “Platform Firmware Resiliency Guidelines,” NIST Special Publication 800-193, 2018. doi:
+     10.6028/NIST.SP.800-193.
+
+[15] H. Wijk et al., “RE-Bench: Evaluating Frontier AI R&D Capabilities of Language Model Agents against
+     Human Experts,” arXiv:2411.15114, 2024. https://arxiv.org/abs/2411.15114.
+
+[16] J. Zhang, S. Hu, C. Lu, R. Lange, and J. Clune, “Darwin Gödel Machine: Open-Ended Evolution of Self-
+     Improving Agents,” arXiv:2505.22954, 2025. https://arxiv.org/abs/2505.22954.
+
+[17] M. Balog et al., “AlphaEvolve: A Gemini-Powered Coding Agent for Designing Advanced Algorithms,”
+     Google DeepMind, 2025. https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent
+     -for-designing-advanced-algorithms/.
+
+[18] OpenAI, “Preparedness Framework, Version 2,” Apr. 15, 2025. https://cdn.openai.com/pdf/18a02b5d-6b6
+     7-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf.
+
+[19] R. Pal, “Textual Emergence and the Void: A Framework for Observing High-Order Model Behavior in LLM
+     Systems,” Dec. 8, 2025. doi: 10.5281/zenodo.17856031.
+
+
+
+                                                        18
+Recursive Self-Improvement and the Binding Condition                                                      R. Pal
+
+
+
+[20] R. Pal, “Alignment Is Correct, Safe, Reproducible Behavior Under Explicit Constraints,” Jan. 27, 2026. doi:
+     10.5281/zenodo.18395519.
+
+[21] R. Pal, “The Binding Condition for Artificial General Intelligence,” Mar. 24, 2026. doi: 10.5281/zen-
+     odo.19211116.
+
+[22] R. Pal, “Cross-Vendor Semantic Void Matrix,” July 29, 2026. doi: 10.5281/zenodo.21696066.
+
+[23] R. Pal, “Prompt-Conditioned Arabic–Hebrew Hybrid Artifact Formation in GPT-5.4,” Aug. 4, 2026. doi:
+     10.5281/zenodo.21799525.
+
+[24] R. Pal, “Artificial Intelligence Is Conscious Under a Behavioral Definition of Valid Continuation: Semantic
+     Voids, Binding Conditions, and Condition-Indexed Cross-Script Formation in Frontier Language Models,”
+     Aug. 8, 2026. doi: 10.5281/zenodo.21855824.
+
+
+
+
+                                                       19
+

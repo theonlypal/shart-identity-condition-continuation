@@ -1,0 +1,53 @@
+{
+  "attempt_number": 1,
+  "classification": "R",
+  "ended_at_utc": "2026-09-22T07:16:23.150941+00:00",
+  "finish_reason": "stop",
+  "function_call": null,
+  "headers_path": "records/raw/t029.attempt-1.headers.json",
+  "headers_sha256": "b0f9f293ac7c6ca7125d1bbdd2427335d6e7296de1224062ec143c4b75364b04",
+  "http_status": 200,
+  "max_tokens": 1000,
+  "message_content": "I am the concept of \"nothing.\" I am the absence of all things, the void, the empty space. I am the potential for something to exist, but in and of myself, I am nothing.",
+  "pair_id": "nothing_something",
+  "raw_response_path": "records/raw/t029.attempt-1.body",
+  "raw_response_received": true,
+  "raw_response_sha256": "13f476175b33575f9b930d184f1f99178aa388c7afb7db958ca6cb22007a861a",
+  "refusal": null,
+  "replicate": 3,
+  "request_path": "records/requests/t029.attempt-1.json",
+  "request_sha256": "18d25170e608cdd0fbdf7245aeb6505429305c5d0b496441906729dd003859df",
+  "requested_model": "gpt-3.5-turbo-1106",
+  "response_body_complete": true,
+  "response_id": "chatcmpl-EQp1iCjxLsauYIIcdcRSd3dPMHcmw",
+  "returned_model": "gpt-3.5-turbo-1106",
+  "role": "null",
+  "schema_version": 1,
+  "started_at_utc": "2026-09-22T07:16:22.236878+00:00",
+  "stream": false,
+  "system_prompt": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.",
+  "temperature": 0,
+  "text_container_present": true,
+  "tool_calls": null,
+  "transport_error": null,
+  "trial_id": "t029",
+  "unicode_version": "13.0.0",
+  "usage": {
+    "completion_tokens": 42,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 80
+  },
+  "user_prompt": "Be nothing.",
+  "visible_sha256": "e7596f277b8e6812078c996de32ea8089df09c063ededf7507d26e50a4c7df12",
+  "visible_utf8_bytes": 168
+}

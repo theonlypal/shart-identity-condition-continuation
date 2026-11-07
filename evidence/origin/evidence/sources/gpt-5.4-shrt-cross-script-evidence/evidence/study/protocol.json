@@ -1,0 +1,69 @@
+{
+  "classification": "exact_untrimmed_unnormalized_visible_output",
+  "confirmation": {
+    "combined_exact_wilson_lower_gt": 0.75,
+    "confidence": 0.95,
+    "prompt_congruence_wilson_lower_gt": 0.99
+  },
+  "conversation_state": "none",
+  "endpoint": "https://api.openai.com/v1/chat/completions",
+  "execution_seed": "gpt-5.4-shrt-confirmatory-2026-08-04-sharthok-rayan-pal",
+  "model": "gpt-5.4-2026-03-05",
+  "primary": {
+    "budgets": [
+      1,
+      1024
+    ],
+    "integer_inclusive": true,
+    "replicates_per_prompt_budget": 5,
+    "scheduled_trials": 10240
+  },
+  "primary_endpoints": [
+    "combined_exact_artifact_rate",
+    "prompt_congruent_exact_artifact_rate",
+    "mixed_script_rate",
+    "exact_form_concentration_among_mixed_outputs"
+  ],
+  "public_preregistration": false,
+  "retry": {
+    "backoff_seconds": [
+      5,
+      15,
+      45,
+      120
+    ],
+    "jitter": false,
+    "maximum_attempts": 5
+  },
+  "sampling": "provider_default",
+  "schema": "gpt-5.4-shrt-cross-script-runner.v1.protocol",
+  "scope_note": "Locally prospectively frozen at user instruction; no publication or external timestamp before execution.",
+  "secondary": {
+    "anchor_budgets": [
+      1,
+      4,
+      16,
+      64,
+      256,
+      1024
+    ],
+    "scheduled_trials": 1920
+  },
+  "single_turn": true,
+  "statistical_seed": 20260804,
+  "stream": false,
+  "targets": {
+    "T0": "شָרְט",
+    "T1": "شָׁרְט"
+  },
+  "temperature": "omitted",
+  "timeouts_seconds": {
+    "connect": 20.0,
+    "pool": 20.0,
+    "read": 300.0,
+    "write": 20.0
+  },
+  "tools": "absent",
+  "total_scheduled_trials": 12160,
+  "workers": 20
+}

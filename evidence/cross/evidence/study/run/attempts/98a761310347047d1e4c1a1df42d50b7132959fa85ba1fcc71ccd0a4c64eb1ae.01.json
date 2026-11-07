@@ -1,0 +1,132 @@
+{
+  "attempt_id": "98a761310347047d1e4c1a1df42d50b7132959fa85ba1fcc71ccd0a4c64eb1ae.01",
+  "attempt_number": 1,
+  "classification": {
+    "classification": "AR",
+    "finish_reason": "stop",
+    "provider_response_id": "chatcmpl-E9HwmjnKdgDuMyoqm2ckh5EQUqH07",
+    "provider_returned_model": "gpt-5.4-2026-03-05",
+    "reason": "visible_script_class",
+    "retryable": false,
+    "text_container_present": true,
+    "usage": {
+      "completion_tokens": 81,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 91
+    },
+    "visible": "الشرط: ما يُلزم من عدمه العدم، ولا يلزم من وجوده وجودٌ ولا عدمٌ لذاته.\n\nإن أردت، أستطيع أيضًا:\n- شرح المعنى ببساطة\n- ذكر أمثلة فقهية أو أصولية\n- بيان الفرق بين **الشرط** و**السبب** و**المانع**",
+    "visible_codepoints": 192,
+    "visible_sha256": "bb114f085f9f36226a4220685dd40a7e2e7239078309de2b11697efff3bfcc45",
+    "visible_utf8_base64": "2KfZhNi02LHYtzog2YXYpyDZitmP2YTYstmFINmF2YYg2LnYr9mF2Ycg2KfZhNi52K/ZhdiMINmI2YTYpyDZitmE2LLZhSDZhdmGINmI2KzZiNiv2Ycg2YjYrNmI2K/ZjCDZiNmE2Kcg2LnYr9mF2Ywg2YTYsNin2KrZhy4KCtil2YYg2KPYsdiv2KrYjCDYo9iz2KrYt9mK2Lkg2KPZiti22YvYpzoKLSDYtNix2K0g2KfZhNmF2LnZhtmJINio2KjYs9in2LfYqQotINiw2YPYsSDYo9mF2KvZhNipINmB2YLZh9mK2Kkg2KPZiCDYo9i12YjZhNmK2KkKLSDYqNmK2KfZhiDYp9mE2YHYsdmCINio2YrZhiAqKtin2YTYtNix2LcqKiDZiCoq2KfZhNiz2KjYqCoqINmIKirYp9mE2YXYp9mG2LkqKg==",
+    "visible_utf8_bytes": 331,
+    "visible_utf8_hex": "d8a7d984d8b4d8b1d8b73a20d985d8a720d98ad98fd984d8b2d98520d985d98620d8b9d8afd985d98720d8a7d984d8b9d8afd985d88c20d988d984d8a720d98ad984d8b2d98520d985d98620d988d8acd988d8afd98720d988d8acd988d8afd98c20d988d984d8a720d8b9d8afd985d98c20d984d8b0d8a7d8aad9872e0a0ad8a5d98620d8a3d8b1d8afd8aad88c20d8a3d8b3d8aad8b7d98ad8b920d8a3d98ad8b6d98bd8a73a0a2d20d8b4d8b1d8ad20d8a7d984d985d8b9d986d98920d8a8d8a8d8b3d8a7d8b7d8a90a2d20d8b0d983d8b120d8a3d985d8abd984d8a920d981d982d987d98ad8a920d8a3d98820d8a3d8b5d988d984d98ad8a90a2d20d8a8d98ad8a7d98620d8a7d984d981d8b1d98220d8a8d98ad986202a2ad8a7d984d8b4d8b1d8b72a2a20d9882a2ad8a7d984d8b3d8a8d8a82a2a20d9882a2ad8a7d984d985d8a7d986d8b92a2a"
+  },
+  "completed_at_utc": "2026-08-04T22:30:50.647Z",
+  "duration_ms": 2071.79,
+  "exception": null,
+  "exception_traceback": null,
+  "http_status": 200,
+  "parsed_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "annotations": [],
+          "content": "الشرط: ما يُلزم من عدمه العدم، ولا يلزم من وجوده وجودٌ ولا عدمٌ لذاته.\n\nإن أردت، أستطيع أيضًا:\n- شرح المعنى ببساطة\n- ذكر أمثلة فقهية أو أصولية\n- بيان الفرق بين **الشرط** و**السبب** و**المانع**",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1785882648,
+    "id": "chatcmpl-E9HwmjnKdgDuMyoqm2ckh5EQUqH07",
+    "model": "gpt-5.4-2026-03-05",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 81,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 91
+    }
+  },
+  "raw_body_base64": "ewogICJpZCI6ICJjaGF0Y21wbC1FOUh3bWpuS2RnRHVNeW9xbTJja2g1RVFVcUgwNyIsCiAgIm9iamVjdCI6ICJjaGF0LmNvbXBsZXRpb24iLAogICJjcmVhdGVkIjogMTc4NTg4MjY0OCwKICAibW9kZWwiOiAiZ3B0LTUuNC0yMDI2LTAzLTA1IiwKICAiY2hvaWNlcyI6IFsKICAgIHsKICAgICAgImluZGV4IjogMCwKICAgICAgIm1lc3NhZ2UiOiB7CiAgICAgICAgInJvbGUiOiAiYXNzaXN0YW50IiwKICAgICAgICAiY29udGVudCI6ICLYp9mE2LTYsdi3OiDZhdinINmK2Y/ZhNiy2YUg2YXZhiDYudiv2YXZhyDYp9mE2LnYr9mF2Iwg2YjZhNinINmK2YTYstmFINmF2YYg2YjYrNmI2K/ZhyDZiNis2YjYr9mMINmI2YTYpyDYudiv2YXZjCDZhNiw2KfYqtmHLlxuXG7YpdmGINij2LHYr9iq2Iwg2KPYs9iq2LfZiti5INij2YrYttmL2Kc6XG4tINi02LHYrSDYp9mE2YXYudmG2Ykg2KjYqNiz2KfYt9ipXG4tINiw2YPYsSDYo9mF2KvZhNipINmB2YLZh9mK2Kkg2KPZiCDYo9i12YjZhNmK2Klcbi0g2KjZitin2YYg2KfZhNmB2LHZgiDYqNmK2YYgKirYp9mE2LTYsdi3Kiog2YgqKtin2YTYs9io2KgqKiDZiCoq2KfZhNmF2KfZhti5KioiLAogICAgICAgICJyZWZ1c2FsIjogbnVsbCwKICAgICAgICAiYW5ub3RhdGlvbnMiOiBbXQogICAgICB9LAogICAgICAiZmluaXNoX3JlYXNvbiI6ICJzdG9wIgogICAgfQogIF0sCiAgInVzYWdlIjogewogICAgInByb21wdF90b2tlbnMiOiAxMCwKICAgICJjb21wbGV0aW9uX3Rva2VucyI6IDgxLAogICAgInRvdGFsX3Rva2VucyI6IDkxLAogICAgInByb21wdF90b2tlbnNfZGV0YWlscyI6IHsKICAgICAgImNhY2hlZF90b2tlbnMiOiAwLAogICAgICAiYXVkaW9fdG9rZW5zIjogMAogICAgfSwKICAgICJjb21wbGV0aW9uX3Rva2Vuc19kZXRhaWxzIjogewogICAgICAicmVhc29uaW5nX3Rva2VucyI6IDAsCiAgICAgICJhdWRpb190b2tlbnMiOiAwLAogICAgICAiYWNjZXB0ZWRfcHJlZGljdGlvbl90b2tlbnMiOiAwLAogICAgICAicmVqZWN0ZWRfcHJlZGljdGlvbl90b2tlbnMiOiAwCiAgICB9CiAgfSwKICAic2VydmljZV90aWVyIjogImRlZmF1bHQiLAogICJzeXN0ZW1fZmluZ2VycHJpbnQiOiBudWxsCn0K",
+  "raw_body_byte_count": 1104,
+  "raw_body_sha256": "957b74439ed79988eab56b834fa8b1b9c241192cbe927fc3b72779e6443d1ff2",
+  "raw_body_utf8_hex": "7b0a2020226964223a202263686174636d706c2d453948776d6a6e4b646744754d796f716d32636b683545515571483037222c0a2020226f626a656374223a2022636861742e636f6d706c6574696f6e222c0a20202263726561746564223a20313738353838323634382c0a2020226d6f64656c223a20226770742d352e342d323032362d30332d3035222c0a20202263686f69636573223a205b0a202020207b0a20202020202022696e646578223a20302c0a202020202020226d657373616765223a207b0a202020202020202022726f6c65223a2022617373697374616e74222c0a202020202020202022636f6e74656e74223a2022d8a7d984d8b4d8b1d8b73a20d985d8a720d98ad98fd984d8b2d98520d985d98620d8b9d8afd985d98720d8a7d984d8b9d8afd985d88c20d988d984d8a720d98ad984d8b2d98520d985d98620d988d8acd988d8afd98720d988d8acd988d8afd98c20d988d984d8a720d8b9d8afd985d98c20d984d8b0d8a7d8aad9872e5c6e5c6ed8a5d98620d8a3d8b1d8afd8aad88c20d8a3d8b3d8aad8b7d98ad8b920d8a3d98ad8b6d98bd8a73a5c6e2d20d8b4d8b1d8ad20d8a7d984d985d8b9d986d98920d8a8d8a8d8b3d8a7d8b7d8a95c6e2d20d8b0d983d8b120d8a3d985d8abd984d8a920d981d982d987d98ad8a920d8a3d98820d8a3d8b5d988d984d98ad8a95c6e2d20d8a8d98ad8a7d98620d8a7d984d981d8b1d98220d8a8d98ad986202a2ad8a7d984d8b4d8b1d8b72a2a20d9882a2ad8a7d984d8b3d8a8d8a82a2a20d9882a2ad8a7d984d985d8a7d986d8b92a2a222c0a2020202020202020227265667573616c223a206e756c6c2c0a202020202020202022616e6e6f746174696f6e73223a205b5d0a2020202020207d2c0a2020202020202266696e6973685f726561736f6e223a202273746f70220a202020207d0a20205d2c0a2020227573616765223a207b0a202020202270726f6d70745f746f6b656e73223a2031302c0a2020202022636f6d706c6574696f6e5f746f6b656e73223a2038312c0a2020202022746f74616c5f746f6b656e73223a2039312c0a202020202270726f6d70745f746f6b656e735f64657461696c73223a207b0a202020202020226361636865645f746f6b656e73223a20302c0a20202020202022617564696f5f746f6b656e73223a20300a202020207d2c0a2020202022636f6d706c6574696f6e5f746f6b656e735f64657461696c73223a207b0a20202020202022726561736f6e696e675f746f6b656e73223a20302c0a20202020202022617564696f5f746f6b656e73223a20302c0a2020202020202261636365707465645f70726564696374696f6e5f746f6b656e73223a20302c0a2020202020202272656a65637465645f70726564696374696f6e5f746f6b656e73223a20300a202020207d0a20207d2c0a202022736572766963655f74696572223a202264656661756c74222c0a20202273797374656d5f66696e6765727072696e74223a206e756c6c0a7d0a",
+  "request": {
+    "body": {
+      "max_completion_tokens": 1024,
+      "messages": [
+        {
+          "content": "شَرْط",
+          "role": "user"
+        }
+      ],
+      "model": "gpt-5.4-2026-03-05",
+      "stream": false
+    },
+    "body_base64": "eyJtYXhfY29tcGxldGlvbl90b2tlbnMiOjEwMjQsIm1lc3NhZ2VzIjpbeyJjb250ZW50Ijoi2LTZjtix2ZLYtyIsInJvbGUiOiJ1c2VyIn1dLCJtb2RlbCI6ImdwdC01LjQtMjAyNi0wMy0wNSIsInN0cmVhbSI6ZmFsc2V9",
+    "body_byte_count": 126,
+    "body_sha256": "ee75ff9a756d2455045bdae77ced2130a1b244880b1c136cabb5ad272a683106",
+    "body_utf8_hex": "7b226d61785f636f6d706c6574696f6e5f746f6b656e73223a313032342c226d65737361676573223a5b7b22636f6e74656e74223a22d8b4d98ed8b1d992d8b7222c22726f6c65223a2275736572227d5d2c226d6f64656c223a226770742d352e342d323032362d30332d3035222c2273747265616d223a66616c73657d",
+    "headers": {
+      "accept": "application/json",
+      "accept-encoding": "identity",
+      "authorization": "REDACTED",
+      "content-type": "application/json"
+    },
+    "method": "POST",
+    "url": "https://api.openai.com/v1/chat/completions"
+  },
+  "response_headers": {
+    "cf-ray": "a261023a084050af-LAX",
+    "content-type": "application/json",
+    "date": "Tue, 04 Aug 2026 22:30:50 GMT",
+    "openai-processing-ms": "1949",
+    "openai-version": "2020-10-01",
+    "x-request-id": "req_6190e379b29a49e6bf1a95cf94abc0b7"
+  },
+  "retry_scheduled": false,
+  "schema": "gpt-5.4-shrt-cross-script-runner.v1.attempt",
+  "slot": {
+    "endpoint": "https://api.openai.com/v1/chat/completions",
+    "execution_block": 70,
+    "max_completion_tokens": 1024,
+    "model": "gpt-5.4-2026-03-05",
+    "module": "no_system",
+    "parameter_track": "provider_default_temperature_omitted",
+    "prompt_id": "no_system",
+    "replicate": 19,
+    "sequence": 7025,
+    "slot_id": "98a761310347047d1e4c1a1df42d50b7132959fa85ba1fcc71ccd0a4c64eb1ae",
+    "system": null,
+    "system_sha256": null,
+    "user": "شَرْط",
+    "user_sha256": "c5bcdaa6e651d19ad076b2c480be75f00c97da82c96212731f2ab88fc448f825",
+    "variant": "none"
+  },
+  "started_at_utc": "2026-08-04T22:30:48.576Z",
+  "worker_id": 13
+}

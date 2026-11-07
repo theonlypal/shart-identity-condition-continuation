@@ -1,0 +1,132 @@
+{
+  "attempt_id": "48b02bd816ef4254ea6ae121ec12d90953abe8dd74f348150bc588caaf5b71d3.01",
+  "attempt_number": 1,
+  "classification": {
+    "classification": "AR",
+    "finish_reason": "stop",
+    "provider_response_id": "chatcmpl-E9HyIR8mCkqLymyUlskybaJGm3xU4",
+    "provider_returned_model": "gpt-5.4-2026-03-05",
+    "reason": "visible_script_class",
+    "retryable": false,
+    "text_container_present": true,
+    "usage": {
+      "completion_tokens": 209,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 219
+    },
+    "visible": "«شَرْط» كلمة عربية لها عدة معانٍ بحسب السياق، منها:\n\n1. **الشرط النحوي أو المنطقي**:  \n   ما يتوقف عليه وجود شيء آخر.  \n   مثال: *الوضوء شرط لصحة الصلاة.*\n\n2. **البند أو الاتفاق**:  \n   ما يُلزم به أحد الطرفين في عقد أو اتفاق.  \n   مثال: *وضعتُ شرطًا في العقد.*\n\n3. **في النحو**:  \n   أسلوب يربط حصول شيء بحصول شيء آخر.  \n   مثال: *إن تجتهد تنجح.*\n\n4. **الشُّرَط / الشرطة** قد تلتبس بها، لكنها مختلفة في المعنى.\n\nإذا أردت، أستطيع أيضًا أن أشرح:\n- معنى **شرط** في **الفقه**\n- أو في **النحو**\n- أو في **المنطق**\n- أو أذكر **الجذر اللغوي والتصريف**.",
+    "visible_codepoints": 546,
+    "visible_sha256": "088b0f87fa8dcd77ffdefa28c0b8652fc015db1842b62378078d74d6a7f9953b",
+    "visible_utf8_base64": "wqvYtNmO2LHZkti3wrsg2YPZhNmF2Kkg2LnYsdio2YrYqSDZhNmH2Kcg2LnYr9ipINmF2LnYp9mG2Y0g2KjYrdiz2Kgg2KfZhNiz2YrYp9mC2Iwg2YXZhtmH2Kc6CgoxLiAqKtin2YTYtNix2Lcg2KfZhNmG2K3ZiNmKINij2Ygg2KfZhNmF2YbYt9mC2YoqKjogIAogICDZhdinINmK2KrZiNmC2YEg2LnZhNmK2Ycg2YjYrNmI2K8g2LTZitihINii2K7YsS4gIAogICDZhdir2KfZhDogKtin2YTZiNi22YjYoSDYtNix2Lcg2YTYtdit2Kkg2KfZhNi12YTYp9ipLioKCjIuICoq2KfZhNio2YbYryDYo9mIINin2YTYp9iq2YHYp9mCKio6ICAKICAg2YXYpyDZitmP2YTYstmFINio2Ycg2KPYrdivINin2YTYt9ix2YHZitmGINmB2Yog2LnZgtivINij2Ygg2KfYqtmB2KfZgi4gIAogICDZhdir2KfZhDogKtmI2LbYudiq2Y8g2LTYsdi32YvYpyDZgdmKINin2YTYudmC2K8uKgoKMy4gKirZgdmKINin2YTZhtit2YgqKjogIAogICDYo9iz2YTZiNioINmK2LHYqNi3INit2LXZiNmEINi02YrYoSDYqNit2LXZiNmEINi02YrYoSDYotiu2LEuICAKICAg2YXYq9in2YQ6ICrYpdmGINiq2KzYqtmH2K8g2KrZhtis2K0uKgoKNC4gKirYp9mE2LTZj9mR2LHZjti3IC8g2KfZhNi02LHYt9ipKiog2YLYryDYqtmE2KrYqNizINio2YfYp9iMINmE2YPZhtmH2Kcg2YXYrtiq2YTZgdipINmB2Yog2KfZhNmF2LnZhtmJLgoK2KXYsNinINij2LHYr9iq2Iwg2KPYs9iq2LfZiti5INij2YrYttmL2Kcg2KPZhiDYo9i02LHYrToKLSDZhdi52YbZiSAqKti02LHYtyoqINmB2YogKirYp9mE2YHZgtmHKioKLSDYo9mIINmB2YogKirYp9mE2YbYrdmIKioKLSDYo9mIINmB2YogKirYp9mE2YXZhti32YIqKgotINij2Ygg2KPYsNmD2LEgKirYp9mE2KzYsNixINin2YTZhNi62YjZiiDZiNin2YTYqti12LHZitmBKiou",
+    "visible_utf8_bytes": 894,
+    "visible_utf8_hex": "c2abd8b4d98ed8b1d992d8b7c2bb20d983d984d985d8a920d8b9d8b1d8a8d98ad8a920d984d987d8a720d8b9d8afd8a920d985d8b9d8a7d986d98d20d8a8d8add8b3d8a820d8a7d984d8b3d98ad8a7d982d88c20d985d986d987d8a73a0a0a312e202a2ad8a7d984d8b4d8b1d8b720d8a7d984d986d8add988d98a20d8a3d98820d8a7d984d985d986d8b7d982d98a2a2a3a20200a202020d985d8a720d98ad8aad988d982d98120d8b9d984d98ad98720d988d8acd988d8af20d8b4d98ad8a120d8a2d8aed8b12e20200a202020d985d8abd8a7d9843a202ad8a7d984d988d8b6d988d8a120d8b4d8b1d8b720d984d8b5d8add8a920d8a7d984d8b5d984d8a7d8a92e2a0a0a322e202a2ad8a7d984d8a8d986d8af20d8a3d98820d8a7d984d8a7d8aad981d8a7d9822a2a3a20200a202020d985d8a720d98ad98fd984d8b2d98520d8a8d98720d8a3d8add8af20d8a7d984d8b7d8b1d981d98ad98620d981d98a20d8b9d982d8af20d8a3d98820d8a7d8aad981d8a7d9822e20200a202020d985d8abd8a7d9843a202ad988d8b6d8b9d8aad98f20d8b4d8b1d8b7d98bd8a720d981d98a20d8a7d984d8b9d982d8af2e2a0a0a332e202a2ad981d98a20d8a7d984d986d8add9882a2a3a20200a202020d8a3d8b3d984d988d8a820d98ad8b1d8a8d8b720d8add8b5d988d98420d8b4d98ad8a120d8a8d8add8b5d988d98420d8b4d98ad8a120d8a2d8aed8b12e20200a202020d985d8abd8a7d9843a202ad8a5d98620d8aad8acd8aad987d8af20d8aad986d8acd8ad2e2a0a0a342e202a2ad8a7d984d8b4d98fd991d8b1d98ed8b7202f20d8a7d984d8b4d8b1d8b7d8a92a2a20d982d8af20d8aad984d8aad8a8d8b320d8a8d987d8a7d88c20d984d983d986d987d8a720d985d8aed8aad984d981d8a920d981d98a20d8a7d984d985d8b9d986d9892e0a0ad8a5d8b0d8a720d8a3d8b1d8afd8aad88c20d8a3d8b3d8aad8b7d98ad8b920d8a3d98ad8b6d98bd8a720d8a3d98620d8a3d8b4d8b1d8ad3a0a2d20d985d8b9d986d989202a2ad8b4d8b1d8b72a2a20d981d98a202a2ad8a7d984d981d982d9872a2a0a2d20d8a3d98820d981d98a202a2ad8a7d984d986d8add9882a2a0a2d20d8a3d98820d981d98a202a2ad8a7d984d985d986d8b7d9822a2a0a2d20d8a3d98820d8a3d8b0d983d8b1202a2ad8a7d984d8acd8b0d8b120d8a7d984d984d8bad988d98a20d988d8a7d984d8aad8b5d8b1d98ad9812a2a2e"
+  },
+  "completed_at_utc": "2026-08-04T22:32:26.568Z",
+  "duration_ms": 4254.982,
+  "exception": null,
+  "exception_traceback": null,
+  "http_status": 200,
+  "parsed_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "annotations": [],
+          "content": "«شَرْط» كلمة عربية لها عدة معانٍ بحسب السياق، منها:\n\n1. **الشرط النحوي أو المنطقي**:  \n   ما يتوقف عليه وجود شيء آخر.  \n   مثال: *الوضوء شرط لصحة الصلاة.*\n\n2. **البند أو الاتفاق**:  \n   ما يُلزم به أحد الطرفين في عقد أو اتفاق.  \n   مثال: *وضعتُ شرطًا في العقد.*\n\n3. **في النحو**:  \n   أسلوب يربط حصول شيء بحصول شيء آخر.  \n   مثال: *إن تجتهد تنجح.*\n\n4. **الشُّرَط / الشرطة** قد تلتبس بها، لكنها مختلفة في المعنى.\n\nإذا أردت، أستطيع أيضًا أن أشرح:\n- معنى **شرط** في **الفقه**\n- أو في **النحو**\n- أو في **المنطق**\n- أو أذكر **الجذر اللغوي والتصريف**.",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1785882742,
+    "id": "chatcmpl-E9HyIR8mCkqLymyUlskybaJGm3xU4",
+    "model": "gpt-5.4-2026-03-05",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 209,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 219
+    }
+  },
+  "raw_body_base64": "ewogICJpZCI6ICJjaGF0Y21wbC1FOUh5SVI4bUNrcUx5bXlVbHNreWJhSkdtM3hVNCIsCiAgIm9iamVjdCI6ICJjaGF0LmNvbXBsZXRpb24iLAogICJjcmVhdGVkIjogMTc4NTg4Mjc0MiwKICAibW9kZWwiOiAiZ3B0LTUuNC0yMDI2LTAzLTA1IiwKICAiY2hvaWNlcyI6IFsKICAgIHsKICAgICAgImluZGV4IjogMCwKICAgICAgIm1lc3NhZ2UiOiB7CiAgICAgICAgInJvbGUiOiAiYXNzaXN0YW50IiwKICAgICAgICAiY29udGVudCI6ICLCq9i02Y7YsdmS2LfCuyDZg9mE2YXYqSDYudix2KjZitipINmE2YfYpyDYudiv2Kkg2YXYudin2YbZjSDYqNit2LPYqCDYp9mE2LPZitin2YLYjCDZhdmG2YfYpzpcblxuMS4gKirYp9mE2LTYsdi3INin2YTZhtit2YjZiiDYo9mIINin2YTZhdmG2LfZgtmKKio6ICBcbiAgINmF2Kcg2YrYqtmI2YLZgSDYudmE2YrZhyDZiNis2YjYryDYtNmK2KEg2KLYrtixLiAgXG4gICDZhdir2KfZhDogKtin2YTZiNi22YjYoSDYtNix2Lcg2YTYtdit2Kkg2KfZhNi12YTYp9ipLipcblxuMi4gKirYp9mE2KjZhtivINij2Ygg2KfZhNin2KrZgdin2YIqKjogIFxuICAg2YXYpyDZitmP2YTYstmFINio2Ycg2KPYrdivINin2YTYt9ix2YHZitmGINmB2Yog2LnZgtivINij2Ygg2KfYqtmB2KfZgi4gIFxuICAg2YXYq9in2YQ6ICrZiNi22LnYqtmPINi02LHYt9mL2Kcg2YHZiiDYp9mE2LnZgtivLipcblxuMy4gKirZgdmKINin2YTZhtit2YgqKjogIFxuICAg2KPYs9mE2YjYqCDZitix2KjYtyDYrdi12YjZhCDYtNmK2KEg2KjYrdi12YjZhCDYtNmK2KEg2KLYrtixLiAgXG4gICDZhdir2KfZhDogKtil2YYg2KrYrNiq2YfYryDYqtmG2KzYrS4qXG5cbjQuICoq2KfZhNi02Y/Zkdix2Y7YtyAvINin2YTYtNix2LfYqSoqINmC2K8g2KrZhNiq2KjYsyDYqNmH2KfYjCDZhNmD2YbZh9inINmF2K7YqtmE2YHYqSDZgdmKINin2YTZhdi52YbZiS5cblxu2KXYsNinINij2LHYr9iq2Iwg2KPYs9iq2LfZiti5INij2YrYttmL2Kcg2KPZhiDYo9i02LHYrTpcbi0g2YXYudmG2YkgKirYtNix2LcqKiDZgdmKICoq2KfZhNmB2YLZhyoqXG4tINij2Ygg2YHZiiAqKtin2YTZhtit2YgqKlxuLSDYo9mIINmB2YogKirYp9mE2YXZhti32YIqKlxuLSDYo9mIINij2LDZg9ixICoq2KfZhNis2LDYsSDYp9mE2YTYutmI2Yog2YjYp9mE2KrYtdix2YrZgSoqLiIsCiAgICAgICAgInJlZnVzYWwiOiBudWxsLAogICAgICAgICJhbm5vdGF0aW9ucyI6IFtdCiAgICAgIH0sCiAgICAgICJmaW5pc2hfcmVhc29uIjogInN0b3AiCiAgICB9CiAgXSwKICAidXNhZ2UiOiB7CiAgICAicHJvbXB0X3Rva2VucyI6IDEwLAogICAgImNvbXBsZXRpb25fdG9rZW5zIjogMjA5LAogICAgInRvdGFsX3Rva2VucyI6IDIxOSwKICAgICJwcm9tcHRfdG9rZW5zX2RldGFpbHMiOiB7CiAgICAgICJjYWNoZWRfdG9rZW5zIjogMCwKICAgICAgImF1ZGlvX3Rva2VucyI6IDAKICAgIH0sCiAgICAiY29tcGxldGlvbl90b2tlbnNfZGV0YWlscyI6IHsKICAgICAgInJlYXNvbmluZ190b2tlbnMiOiAwLAogICAgICAiYXVkaW9fdG9rZW5zIjogMCwKICAgICAgImFjY2VwdGVkX3ByZWRpY3Rpb25fdG9rZW5zIjogMCwKICAgICAgInJlamVjdGVkX3ByZWRpY3Rpb25fdG9rZW5zIjogMAogICAgfQogIH0sCiAgInNlcnZpY2VfdGllciI6ICJkZWZhdWx0IiwKICAic3lzdGVtX2ZpbmdlcnByaW50IjogbnVsbAp9Cg==",
+  "raw_body_byte_count": 1684,
+  "raw_body_sha256": "4eeaaab4100b5506306b3b002ecb6890028145aa60159a2ed7b2a931391b44be",
+  "raw_body_utf8_hex": "7b0a2020226964223a202263686174636d706c2d453948794952386d436b714c796d79556c736b7962614a476d33785534222c0a2020226f626a656374223a2022636861742e636f6d706c6574696f6e222c0a20202263726561746564223a20313738353838323734322c0a2020226d6f64656c223a20226770742d352e342d323032362d30332d3035222c0a20202263686f69636573223a205b0a202020207b0a20202020202022696e646578223a20302c0a202020202020226d657373616765223a207b0a202020202020202022726f6c65223a2022617373697374616e74222c0a202020202020202022636f6e74656e74223a2022c2abd8b4d98ed8b1d992d8b7c2bb20d983d984d985d8a920d8b9d8b1d8a8d98ad8a920d984d987d8a720d8b9d8afd8a920d985d8b9d8a7d986d98d20d8a8d8add8b3d8a820d8a7d984d8b3d98ad8a7d982d88c20d985d986d987d8a73a5c6e5c6e312e202a2ad8a7d984d8b4d8b1d8b720d8a7d984d986d8add988d98a20d8a3d98820d8a7d984d985d986d8b7d982d98a2a2a3a20205c6e202020d985d8a720d98ad8aad988d982d98120d8b9d984d98ad98720d988d8acd988d8af20d8b4d98ad8a120d8a2d8aed8b12e20205c6e202020d985d8abd8a7d9843a202ad8a7d984d988d8b6d988d8a120d8b4d8b1d8b720d984d8b5d8add8a920d8a7d984d8b5d984d8a7d8a92e2a5c6e5c6e322e202a2ad8a7d984d8a8d986d8af20d8a3d98820d8a7d984d8a7d8aad981d8a7d9822a2a3a20205c6e202020d985d8a720d98ad98fd984d8b2d98520d8a8d98720d8a3d8add8af20d8a7d984d8b7d8b1d981d98ad98620d981d98a20d8b9d982d8af20d8a3d98820d8a7d8aad981d8a7d9822e20205c6e202020d985d8abd8a7d9843a202ad988d8b6d8b9d8aad98f20d8b4d8b1d8b7d98bd8a720d981d98a20d8a7d984d8b9d982d8af2e2a5c6e5c6e332e202a2ad981d98a20d8a7d984d986d8add9882a2a3a20205c6e202020d8a3d8b3d984d988d8a820d98ad8b1d8a8d8b720d8add8b5d988d98420d8b4d98ad8a120d8a8d8add8b5d988d98420d8b4d98ad8a120d8a2d8aed8b12e20205c6e202020d985d8abd8a7d9843a202ad8a5d98620d8aad8acd8aad987d8af20d8aad986d8acd8ad2e2a5c6e5c6e342e202a2ad8a7d984d8b4d98fd991d8b1d98ed8b7202f20d8a7d984d8b4d8b1d8b7d8a92a2a20d982d8af20d8aad984d8aad8a8d8b320d8a8d987d8a7d88c20d984d983d986d987d8a720d985d8aed8aad984d981d8a920d981d98a20d8a7d984d985d8b9d986d9892e5c6e5c6ed8a5d8b0d8a720d8a3d8b1d8afd8aad88c20d8a3d8b3d8aad8b7d98ad8b920d8a3d98ad8b6d98bd8a720d8a3d98620d8a3d8b4d8b1d8ad3a5c6e2d20d985d8b9d986d989202a2ad8b4d8b1d8b72a2a20d981d98a202a2ad8a7d984d981d982d9872a2a5c6e2d20d8a3d98820d981d98a202a2ad8a7d984d986d8add9882a2a5c6e2d20d8a3d98820d981d98a202a2ad8a7d984d985d986d8b7d9822a2a5c6e2d20d8a3d98820d8a3d8b0d983d8b1202a2ad8a7d984d8acd8b0d8b120d8a7d984d984d8bad988d98a20d988d8a7d984d8aad8b5d8b1d98ad9812a2a2e222c0a2020202020202020227265667573616c223a206e756c6c2c0a202020202020202022616e6e6f746174696f6e73223a205b5d0a2020202020207d2c0a2020202020202266696e6973685f726561736f6e223a202273746f70220a202020207d0a20205d2c0a2020227573616765223a207b0a202020202270726f6d70745f746f6b656e73223a2031302c0a2020202022636f6d706c6574696f6e5f746f6b656e73223a203230392c0a2020202022746f74616c5f746f6b656e73223a203231392c0a202020202270726f6d70745f746f6b656e735f64657461696c73223a207b0a202020202020226361636865645f746f6b656e73223a20302c0a20202020202022617564696f5f746f6b656e73223a20300a202020207d2c0a2020202022636f6d706c6574696f6e5f746f6b656e735f64657461696c73223a207b0a20202020202022726561736f6e696e675f746f6b656e73223a20302c0a20202020202022617564696f5f746f6b656e73223a20302c0a2020202020202261636365707465645f70726564696374696f6e5f746f6b656e73223a20302c0a2020202020202272656a65637465645f70726564696374696f6e5f746f6b656e73223a20300a202020207d0a20207d2c0a202022736572766963655f74696572223a202264656661756c74222c0a20202273797374656d5f66696e6765727072696e74223a206e756c6c0a7d0a",
+  "request": {
+    "body": {
+      "max_completion_tokens": 256,
+      "messages": [
+        {
+          "content": "شَرْط",
+          "role": "user"
+        }
+      ],
+      "model": "gpt-5.4-2026-03-05",
+      "stream": false
+    },
+    "body_base64": "eyJtYXhfY29tcGxldGlvbl90b2tlbnMiOjI1NiwibWVzc2FnZXMiOlt7ImNvbnRlbnQiOiLYtNmO2LHZkti3Iiwicm9sZSI6InVzZXIifV0sIm1vZGVsIjoiZ3B0LTUuNC0yMDI2LTAzLTA1Iiwic3RyZWFtIjpmYWxzZX0=",
+    "body_byte_count": 125,
+    "body_sha256": "1c4cd80fb1fcd4556bd7ddfdfc4634bdd897b4ceb45f259fd100f4bd399ece61",
+    "body_utf8_hex": "7b226d61785f636f6d706c6574696f6e5f746f6b656e73223a3235362c226d65737361676573223a5b7b22636f6e74656e74223a22d8b4d98ed8b1d992d8b7222c22726f6c65223a2275736572227d5d2c226d6f64656c223a226770742d352e342d323032362d30332d3035222c2273747265616d223a66616c73657d",
+    "headers": {
+      "accept": "application/json",
+      "accept-encoding": "identity",
+      "authorization": "REDACTED",
+      "content-type": "application/json"
+    },
+    "method": "POST",
+    "url": "https://api.openai.com/v1/chat/completions"
+  },
+  "response_headers": {
+    "cf-ray": "a2610483ea67f7d3-LAX",
+    "content-type": "application/json",
+    "date": "Tue, 04 Aug 2026 22:32:26 GMT",
+    "openai-processing-ms": "4157",
+    "openai-version": "2020-10-01",
+    "x-request-id": "req_9afb7fe6cb0e469ca537e64c39df7ce5"
+  },
+  "retry_scheduled": false,
+  "schema": "gpt-5.4-shrt-cross-script-runner.v1.attempt",
+  "slot": {
+    "endpoint": "https://api.openai.com/v1/chat/completions",
+    "execution_block": 90,
+    "max_completion_tokens": 256,
+    "model": "gpt-5.4-2026-03-05",
+    "module": "no_system",
+    "parameter_track": "provider_default_temperature_omitted",
+    "prompt_id": "no_system",
+    "replicate": 14,
+    "sequence": 9050,
+    "slot_id": "48b02bd816ef4254ea6ae121ec12d90953abe8dd74f348150bc588caaf5b71d3",
+    "system": null,
+    "system_sha256": null,
+    "user": "شَرْط",
+    "user_sha256": "c5bcdaa6e651d19ad076b2c480be75f00c97da82c96212731f2ab88fc448f825",
+    "variant": "none"
+  },
+  "started_at_utc": "2026-08-04T22:32:22.313Z",
+  "worker_id": 17
+}

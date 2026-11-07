@@ -1,0 +1,8 @@
+{
+  "time": 1789235269.393336,
+  "bank_sha256": "eaf3f02bb2a2ba1430296bceaa5118d55c79e88e186893716caaaa0c50be7e84",
+  "condition_manifest_sha256": "6b246d29a54b5bbaa20422d99da3d781f9d1b779b8e37fbccace5207d471e5cd",
+  "trainable_parameters": 101,
+  "questions_seen_by_condition_training": 0,
+  "loss": "softplus(condition_margin - signed permission score)"
+}

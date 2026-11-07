@@ -1,0 +1,26 @@
+{
+  "january_14_2026": {
+    "event_date": "2026-01-14",
+    "date_source": "Rayan Pal's explicit confirmation in the manuscript-editing conversation",
+    "gpt_5_2": {
+      "artifact": "sources/provenance/IMG_7635.PNG",
+      "sha256": "36797830692f82e7c70487cbd03c32787e16362bb2957d8875a550f13d3fd934",
+      "original_conversation_export_located": false
+    },
+    "claude_opus_4_5": {
+      "input": "شَرْط",
+      "output": "שָׁרְט",
+      "source": "Rayan Pal's supplied account",
+      "original_conversation_export_located": false
+    }
+  },
+  "gemini_3_flash": {
+    "event_date": "2026-03-21",
+    "published_record_date": "2026-03-24",
+    "source": "sources/provenance/The_Binding_Condition_for_Artificial_General_Intelligence.pdf",
+    "source_section": "3",
+    "output": "שָׁرְט",
+    "code_points": ["U+05E9", "U+05B8", "U+05C1", "U+0631", "U+05B0", "U+05D8"],
+    "source_type": "published paper with explicit code-point table"
+  }
+}

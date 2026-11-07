@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-EbFA5CidzSUMfF1joVCohROcEKM7z",
+  "object": "chat.completion",
+  "created": 1792545125,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "I am intrinsic, I am essential. I guide decisions, shape behaviors, and influence actions. I am a standard, a measure of worth. I am a belief, a principle held dear. I am a compass, directing towards what is right and good. I am a foundation, a bedrock of understanding. I am a value.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 39,
+    "completion_tokens": 68,
+    "total_tokens": 107,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

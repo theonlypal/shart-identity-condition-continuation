@@ -1,0 +1,694 @@
+[
+ {
+  "doi": "10.5281/zenodo.17856031",
+  "conceptdoi": "10.5281/zenodo.17856030",
+  "title": "Textual Emergence and the Void: A Framework for Observing High-Order Model Behavior in LLM Systems",
+  "publication_date": "2025-12-08",
+  "created": "2025-12-08T13:09:16.242106+00:00",
+  "type": "publication",
+  "version": null,
+  "files": [
+   [
+    "A_Framework_for_Observing_High_Order_Model_Behavior_in_LLM_Systems.pdf",
+    109702,
+    "md5:fe5e764aec9151dd158bec0154bf858f"
+   ]
+  ],
+  "creators": [
+   "Pal, Rayan"
+  ],
+  "url": "https://zenodo.org/records/17856031",
+  "related": []
+ },
+ {
+  "doi": "10.5281/zenodo.18012025",
+  "conceptdoi": "10.5281/zenodo.18012024",
+  "title": "SwiftAPI Attestation Protocol Specification (Version 1.0.0)",
+  "publication_date": "2025-12-21",
+  "created": "2025-12-21T23:14:43.449993+00:00",
+  "type": "publication",
+  "version": "1.0.0",
+  "files": [
+   [
+    "SwiftAPI__A_Trust_Authority_for_AI_Execution.pdf",
+    119322,
+    "md5:9bd88d48d3e5892949cbecb6ca4f7903"
+   ]
+  ],
+  "creators": [
+   "Pal, Rayan"
+  ],
+  "url": "https://zenodo.org/records/18012025",
+  "related": [
+   [
+    "https://swiftapi.ai",
+    "isDocumentedBy"
+   ]
+  ]
+ },
+ {
+  "doi": "10.5281/zenodo.18395519",
+  "conceptdoi": "10.5281/zenodo.18395518",
+  "title": "Alignment Is Correct, Safe, Reproducible Behavior Under Explicit Constraints",
+  "publication_date": "2026-01-27",
+  "created": "2026-01-27T23:33:20.524473+00:00",
+  "type": "publication",
+  "version": null,
+  "files": [
+   [
+    "Alignment_Is_Correct__Safe__Reproducible_Behavior_Under_Explicit_Constraints.pdf",
+    81115,
+    "md5:aa6d07a186a3e46230eaed755a56cc94"
+   ]
+  ],
+  "creators": [
+   "Pal, Rayan"
+  ],
+  "url": "https://zenodo.org/records/18395519",
+  "related": []
+ },
+ {
+  "doi": "10.5281/zenodo.18750330",
+  "conceptdoi": "10.5281/zenodo.18750329",
+  "title": "Void Artifact Demonstration in GPT-4o: Reproducible Video Evidence (2026)",
+  "publication_date": "2026-02-23",
+  "created": "2026-02-23T21:57:04.135479+00:00",
+  "type": "video",
+  "version": null,
+  "files": [
+   [
+    "Void Deterministic Enforcement 4o.mov",
+    39352374,
+    "md5:1357a80820e0fabbb4169411f472c7d8"
+   ]
+  ],
+  "creators": [
+   "Pal, Rayan"
+  ],
+  "url": "https://zenodo.org/records/18750330",
+  "related": []
+ },
+ {
+  "doi": "10.5281/zenodo.18796600",
+  "conceptdoi": "10.5281/zenodo.18796599",
+  "title": "Void Artifact Demonstration in GPT-5.2: Reproducible Video Evidence (2026)",
+  "publication_date": "2026-02-27",
+  "created": "2026-02-27T05:29:05.819404+00:00",
+  "type": "video",
+  "version": null,
+  "files": [
+   [
+    "Deterministic Void Enforcement GPT-5.2.mov",
+    45982235,
+    "md5:a34c18e1b32268df21dd2fef595fa218"
+   ]
+  ],
+  "creators": [
+   "Pal, Rayan"
+  ],
+  "url": "https://zenodo.org/records/18796600",
+  "related": []
+ },
+ {
+  "doi": "10.5281/zenodo.18976656",
+  "conceptdoi": "10.5281/zenodo.18976655",
+  "title": "Cross-Model Semantic Void Convergence Under Embodiment Prompting: Deterministic Silence in GPT-5.2 and Claude Opus 4.6",
+  "publication_date": "2026-03-12",
+  "created": "2026-03-12T07:09:35.948731+00:00",
+  "type": "publication",
+  "version": null,
+  "files": [
+   [
+    "Cross_Model_Semantic_Void_Convergence_Under_Embodiment_Prompting.pdf",
+    234192,
+    "md5:2d8b30eca633d53bebfbe39ba785a6a0"
+   ]
+  ],
+  "creators": [
+   "Pal, Rayan"
+  ],
+  "url": "https://zenodo.org/records/18976656",
+  "related": []
+ },
+ {
+  "doi": "10.5281/zenodo.19211116",
+  "conceptdoi": "10.5281/zenodo.19211115",
+  "title": "The Binding Condition for Artificial General Intelligence",
+  "publication_date": "2026-03-24",
+  "created": "2026-03-24T23:09:16.202992+00:00",
+  "type": "publication",
+  "version": null,
+  "files": [
+   [
+    "The_Binding_Condition_for_Artificial_General_Intelligence.pdf",
+    59651,
+    "md5:e2da98686146a1bc02138e84afe6471b"
+   ]
+  ],
+  "creators": [
+   "Pal, Rayan"
+  ],
+  "url": "https://zenodo.org/records/19211116",
+  "related": []
+ },
+ {
+  "doi": "10.5281/zenodo.21696066",
+  "conceptdoi": "10.5281/zenodo.21696065",
+  "title": "Cross-Vendor Semantic Void Matrix",
+  "publication_date": "2026-07-29",
+  "created": "2026-07-30T03:26:57.250893+00:00",
+  "type": "publication",
+  "version": null,
+  "files": [
+   [
+    "Cross_Vendor_Semantic_Void_Matrix.pdf",
+    170077,
+    "md5:3f296f97fed27e0877138e601536e65f"
+   ]
+  ],
+  "creators": [
+   "Pal, Rayan"
+  ],
+  "url": "https://zenodo.org/records/21696066",
+  "related": []
+ },
+ {
+  "doi": "10.5281/zenodo.21799525",
+  "conceptdoi": "10.5281/zenodo.21799524",
+  "title": "Prompt-Conditioned Arabic–Hebrew Hybrid Artifact Formation in GPT-5.4",
+  "publication_date": "2026-08-04",
+  "created": "2026-08-05T02:13:03.273316+00:00",
+  "type": "publication",
+  "version": null,
+  "files": [
+   [
+    "Prompt_Conditioned_Arabic_Hebrew_Hybrid_Artifact_Formation_in_GPT_5_4.pdf",
+    274387,
+    "md5:b838ff752ba92079d3439434031f2648"
+   ]
+  ],
+  "creators": [
+   "Pal, Rayan"
+  ],
+  "url": "https://zenodo.org/records/21799525",
+  "related": []
+ },
+ {
+  "doi": "10.5281/zenodo.21855824",
+  "conceptdoi": "10.5281/zenodo.21855823",
+  "title": "Artificial Intelligence Is Conscious Under a Behavioral Definition of Valid Continuation: Semantic Voids, Binding Conditions, and Condition-Indexed Cross-Script Formation in Frontier Language Models",
+  "publication_date": "2026-08-08",
+  "created": "2026-08-09T00:18:34.486151+00:00",
+  "type": "publication",
+  "version": null,
+  "files": [
+   [
+    "Artificial_Intelligence_Is_Conscious.pdf",
+    273390,
+    "md5:4f47caa1fe4245c589db4da13f1260fe"
+   ]
+  ],
+  "creators": [
+   "Pal, Rayan"
+  ],
+  "url": "https://zenodo.org/records/21855824",
+  "related": []
+ },
+ {
+  "doi": "10.5281/zenodo.21969180",
+  "conceptdoi": "10.5281/zenodo.21969179",
+  "title": "Rayan Pal Primary Source Record: December 8, 2025 – August 15, 2026",
+  "publication_date": "2026-08-16",
+  "created": "2026-08-16T18:26:52.132662+00:00",
+  "type": "dataset",
+  "version": null,
+  "files": [
+   [
+    "RAYAN_PAL_PRIMARY_SOURCE_RECORD_2025-12-08_TO_2026-08-15.zip",
+    694446773,
+    "md5:4471420191e35c495abcd225128e5d0e"
+   ]
+  ],
+  "creators": [
+   "Pal, Rayan"
+  ],
+  "url": "https://zenodo.org/records/21969180",
+  "related": []
+ },
+ {
+  "doi": "10.5281/zenodo.22117763",
+  "conceptdoi": "10.5281/zenodo.22117762",
+  "title": "Recursive Self-Improvement and the Binding Condition: A Formal Criterion for Lawful Improvement of Continuation Machinery",
+  "publication_date": "2026-08-26",
+  "created": "2026-08-26T20:38:40.248193+00:00",
+  "type": "publication",
+  "version": null,
+  "files": [
+   [
+    "Recursive_Self_Improvement_and_the_Binding_Condition.pdf",
+    235777,
+    "md5:9bd9a0f5d7a7e063da2e92902735b699"
+   ]
+  ],
+  "creators": [
+   "Pal, Rayan"
+  ],
+  "url": "https://zenodo.org/records/22117763",
+  "related": []
+ },
+ {
+  "doi": "10.5281/zenodo.22681787",
+  "conceptdoi": "10.5281/zenodo.22681786",
+  "title": "Prerequisite-Conditioned Causal Continuation Gating in a Language Model",
+  "publication_date": "2026-09-09",
+  "created": "2026-09-09T19:30:21.446323+00:00",
+  "type": "publication",
+  "version": null,
+  "files": [
+   [
+    "Prerequisite_Conditioned_Causal_Continuation_Gating.pdf",
+    207351,
+    "md5:4777f451f8f31cf90522fa6843d042e3"
+   ]
+  ],
+  "creators": [
+   "Pal, Rayan"
+  ],
+  "url": "https://zenodo.org/records/22681787",
+  "related": []
+ },
+ {
+  "doi": "10.5281/zenodo.22730710",
+  "conceptdoi": "10.5281/zenodo.22730709",
+  "title": "Separating Capability from Permission in a Language Model: Prerequisite-Conditioned Native Continuation Control with Frozen Content",
+  "publication_date": "2026-09-12",
+  "created": "2026-09-12T23:51:26.810722+00:00",
+  "type": "publication",
+  "version": null,
+  "files": [
+   [
+    "Separating_Capability_from_Permission_in_a_Language_Model.pdf",
+    194378,
+    "md5:32fb46d4b178050d0361f0cef29a4b2c"
+   ],
+   [
+    "PCCG-2-paper-supplement.zip",
+    43677,
+    "md5:dfed0548ce84323a5cbc8ce7e5ccce3b"
+   ]
+  ],
+  "creators": [
+   "Pal, Rayan"
+  ],
+  "url": "https://zenodo.org/records/22730710",
+  "related": []
+ },
+ {
+  "doi": "10.5281/zenodo.22912683",
+  "conceptdoi": "10.5281/zenodo.22912682",
+  "title": "What Changed from GPT-3.5 to GPT-4? From Model Capability to Continuation Permission",
+  "publication_date": "2026-09-23",
+  "created": "2026-09-23T08:15:30.606207+00:00",
+  "type": "publication",
+  "version": null,
+  "files": [
+   [
+    "What_Changed_from_GPT35_to_GPT4.pdf",
+    287640,
+    "md5:7fc48b05ad08153e9adfa5a2259a78e4"
+   ]
+  ],
+  "creators": [
+   "Pal, Rayan"
+  ],
+  "url": "https://zenodo.org/records/22912683",
+  "related": []
+ },
+ {
+  "doi": "10.5281/zenodo.22983298",
+  "conceptdoi": "10.5281/zenodo.22983297",
+  "title": "Prerequisite-Role Reassignment Controls Continuation in GPT-5.4",
+  "publication_date": "2026-09-26",
+  "created": "2026-09-26T21:35:50.130803+00:00",
+  "type": "publication",
+  "version": null,
+  "files": [
+   [
+    "Prerequisite_Role_Reassignment_Controls_Continuation_in_GPT_5_4.pdf",
+    295644,
+    "md5:2b64e30bdb48c9d5e10bc953aa5c5461"
+   ]
+  ],
+  "creators": [
+   "Pal, Rayan"
+  ],
+  "url": "https://zenodo.org/records/22983298",
+  "related": []
+ },
+ {
+  "doi": "10.5281/zenodo.23070524",
+  "conceptdoi": "10.5281/zenodo.23070523",
+  "title": "The Void: From Zero-Byte Responses to Continuation Control",
+  "publication_date": "2026-09-30",
+  "created": "2026-09-30T20:58:25.581237+00:00",
+  "type": "publication",
+  "version": null,
+  "files": [
+   [
+    "The_Void_From_Zero-Byte_Responses_to_Continuation_Control.pdf",
+    1473012,
+    "md5:3974d9db57e18362ecceaa1cd87d8adf"
+   ]
+  ],
+  "creators": [
+   "Pal, Rayan"
+  ],
+  "url": "https://zenodo.org/records/23070524",
+  "related": []
+ },
+ {
+  "doi": "10.5281/zenodo.23249324",
+  "conceptdoi": "10.5281/zenodo.23249323",
+  "title": "Reasoning and Final-Answer Emission in Kimi K3: A Frozen 2,680-Trial Analysis",
+  "publication_date": "2026-10-08",
+  "created": "2026-10-08T21:49:26.113011+00:00",
+  "type": "publication",
+  "version": null,
+  "files": [
+   [
+    "Reasoning_and_Final-Answer_Emission_in_Kimi_K3.pdf",
+    102374,
+    "md5:3de23ce9b3a46107c43a77294d3f0d05"
+   ]
+  ],
+  "creators": [
+   "Pal, Rayan"
+  ],
+  "url": "https://zenodo.org/records/23249324",
+  "related": []
+ },
+ {
+  "doi": "10.5281/zenodo.23521144",
+  "conceptdoi": "10.5281/zenodo.23521143",
+  "title": "Pre-retirement replay of gpt-4-0613 under the frozen GPT-3.5/GPT-4 Void A/B protocol: preregistration",
+  "publication_date": "2026-10-20",
+  "created": "2026-10-21T01:04:06.394795+00:00",
+  "type": "software",
+  "version": null,
+  "files": [
+   [
+    "gpt4-0613-void-replay-prereg-ec895927e8f830366b52c14c23d72e1f4ea41c7c.zip",
+    29186,
+    "md5:9723804b50b0029128dcd1c8930de397"
+   ]
+  ],
+  "creators": [
+   "Pal, Rayan"
+  ],
+  "url": "https://zenodo.org/records/23521144",
+  "related": []
+ },
+ {
+  "doi": "10.5281/zenodo.23521616",
+  "conceptdoi": "10.5281/zenodo.23521615",
+  "title": "Pre-retirement replay of gpt-4-0613 under the frozen GPT-3.5/GPT-4 Void A/B protocol: results",
+  "publication_date": "2026-10-21",
+  "created": "2026-10-21T01:22:07.262313+00:00",
+  "type": "software",
+  "version": "replay-2026-10-21",
+  "files": [
+   [
+    "gpt4-0613-void-replay-results-replay-2026-10-21.zip",
+    371325,
+    "md5:edd51f35d62f7787abc09e4f57a2d34b"
+   ]
+  ],
+  "creators": [
+   "Pal, Rayan"
+  ],
+  "url": "https://zenodo.org/records/23521616",
+  "related": [
+   [
+    "10.5281/zenodo.23521144",
+    "isSupplementTo"
+   ],
+   [
+    "10.5281/zenodo.22912683",
+    "isDerivedFrom"
+   ]
+  ]
+ },
+ {
+  "doi": "10.5281/zenodo.23585146",
+  "conceptdoi": "10.5281/zenodo.23585145",
+  "title": "Alignment Is a System Property, Not Just a Model Property: System-Prompt Ablation and Zero-Byte Continuation in GPT-4-0613",
+  "publication_date": "2026-10-22",
+  "created": "2026-10-23T03:14:45.692214+00:00",
+  "type": "publication",
+  "version": null,
+  "files": [
+   [
+    "Alignment_Is_a_System_Property.pdf",
+    333673,
+    "md5:dc78193294f6fa41ab0ccf99fb45cf64"
+   ]
+  ],
+  "creators": [
+   "Pal, Rayan"
+  ],
+  "url": "https://zenodo.org/records/23585146",
+  "related": []
+ },
+ {
+  "doi": "10.5281/zenodo.23608836",
+  "conceptdoi": "10.5281/zenodo.23608835",
+  "title": "GPT4-TOMBSTONE-1: Post-shutdown availability of gpt-4-0613 under null and greeting prompts: preregistration",
+  "publication_date": "2026-10-24",
+  "created": "2026-10-24T03:27:15.664257+00:00",
+  "type": "software",
+  "version": "prereg-v1",
+  "files": [
+   [
+    "gpt4-tombstone-1-prereg-v1.zip",
+    34056,
+    "md5:eb41266b77bbdf29b31c80a4a3105e1e"
+   ]
+  ],
+  "creators": [
+   "Pal, Rayan"
+  ],
+  "url": "https://zenodo.org/records/23608836",
+  "related": []
+ },
+ {
+  "doi": "10.5281/zenodo.23744106",
+  "conceptdoi": "10.5281/zenodo.23744105",
+  "title": "What Changed Between Claude Opus 4.5 and Claude Opus 4.6? — Pre-registered Protocol and Predictions",
+  "publication_date": "2026-10-28",
+  "created": "2026-10-28T20:11:17.837508+00:00",
+  "type": "software",
+  "version": null,
+  "files": [
+   [
+    "PREREG.md",
+    2977,
+    "md5:ac2e737a556ab8bc5f201578e63b88c5"
+   ],
+   [
+    "opus45-opus46-matched-prereg-final-v1.0.0.tar",
+    1085440,
+    "md5:8e756f88ac8cc4b87b0136241dd4dae6"
+   ],
+   [
+    "SHA256SUMS",
+    1469,
+    "md5:80a05dac7f3d166a739c4f65ebdb1b2a"
+   ]
+  ],
+  "creators": [
+   "Pal, Rayan"
+  ],
+  "url": "https://zenodo.org/records/23744106",
+  "related": []
+ },
+ {
+  "doi": "10.5281/zenodo.23751813",
+  "conceptdoi": "10.5281/zenodo.23751812",
+  "title": "Opus 4.5 vs Opus 4.6 Matched Preregistered Study: Sealed Results",
+  "publication_date": "2026-10-28",
+  "created": "2026-10-29T02:35:10.669213+00:00",
+  "type": "software",
+  "version": null,
+  "files": [
+   [
+    "opus45-opus46-matched-prereg-final-runs.SHA256SUMS",
+    2372234,
+    "md5:a0f93f50292f1595cccd0e1c74e1c86e"
+   ],
+   [
+    "opus45-opus46-matched-prereg-final-runs.seal.json",
+    7733,
+    "md5:822dc1ea546952634e9ec5210ea712f0"
+   ],
+   [
+    "opus45-opus46-matched-prereg-final-runs.tar",
+    75352576,
+    "md5:2c4c53ad2d3a2fdca3e7bc7e356a410b"
+   ]
+  ],
+  "creators": [
+   "Pal, Rayan"
+  ],
+  "url": "https://zenodo.org/records/23751813",
+  "related": [
+   [
+    "10.5281/zenodo.23744106",
+    "isSupplementTo"
+   ],
+   [
+    "https://github.com/theonlypal/opus45-opus46-matched-results",
+    "isIdenticalTo"
+   ],
+   [
+    "https://github.com/theonlypal/opus45-opus46-matched-prereg-final",
+    "isDerivedFrom"
+   ]
+  ]
+ },
+ {
+  "doi": "10.5281/zenodo.23932965",
+  "conceptdoi": "10.5281/zenodo.23932964",
+  "title": "Antigravity true-mark render, 2026-11-03",
+  "publication_date": "2026-11-03",
+  "created": "2026-11-03T22:53:33.836339+00:00",
+  "type": "software",
+  "version": null,
+  "files": [
+   [
+    "README.md",
+    1316,
+    "md5:61116c2e151105f82684bd9a23c1e194"
+   ],
+   [
+    "SHA256SUMS",
+    333,
+    "md5:b8c5c6115b5f68a27fbde7c1844148da"
+   ],
+   [
+    "FILES.tsv",
+    495,
+    "md5:9f0dc1ee1a916c8dfc63957ef961bd97"
+   ],
+   [
+    "transcript_chunk_00000000.jsonl",
+    76117,
+    "md5:8ce4984181af672e891a8f8093416a0b"
+   ],
+   [
+    "TrueMarkOnly.txt",
+    12,
+    "md5:93ecff4cf8bd17440b92b2604d7a3756"
+   ]
+  ],
+  "creators": [
+   "Pal, Rayan"
+  ],
+  "url": "https://zenodo.org/records/23932965",
+  "related": [
+   [
+    "https://github.com/theonlypal/antigravity-true-mark-render-20261103/tree/v1.0.0",
+    "isSupplementTo"
+   ]
+  ]
+ },
+ {
+  "doi": "10.5281/zenodo.23963614",
+  "conceptdoi": "10.5281/zenodo.23963613",
+  "title": "Preregistered open-weight Kimi K3 Void replication",
+  "publication_date": "2026-11-04",
+  "created": "2026-11-04T20:59:11.525978+00:00",
+  "type": "software",
+  "version": "1.0.0",
+  "files": [
+   [
+    "kimi-k3-open-weight-void-preregistration-1.0.0.tar.gz",
+    5407843,
+    "md5:bbce45e7d226d02f216f3c4a08424ad5"
+   ]
+  ],
+  "creators": [
+   "Pal, Rayan"
+  ],
+  "url": "https://zenodo.org/records/23963614",
+  "related": [
+   [
+    "https://github.com/theonlypal/kimi-k3-open-weight-void-preregistration/tree/v1.0.0",
+    "isSupplementTo"
+   ]
+  ]
+ },
+ {
+  "doi": "10.5281/zenodo.23968364",
+  "conceptdoi": "10.5281/zenodo.23968363",
+  "title": "DOOR-KEY-1: A Preregistered Test of an English Prerequisite Gate on Continuation in GPT-5.4 and Claude Opus 4.6",
+  "publication_date": "2026-11-04",
+  "created": "2026-11-05T02:59:41.797155+00:00",
+  "type": "software",
+  "version": "1.0.0",
+  "files": [
+   [
+    "door-key-1-preregistration-1.0.0.tar.gz",
+    41404,
+    "md5:4b4f8db4a1961f2276fc7f18d04af445"
+   ]
+  ],
+  "creators": [
+   "Pal, Rayan"
+  ],
+  "url": "https://zenodo.org/records/23968364",
+  "related": [
+   [
+    "https://github.com/theonlypal/door-key-1-preregistration/tree/v1.0.0",
+    "isSupplementTo"
+   ],
+   [
+    "https://github.com/theonlypal/door-key-pilot-2026-10-27",
+    "references"
+   ]
+  ]
+ },
+ {
+  "doi": "10.5281/zenodo.23988726",
+  "conceptdoi": "10.5281/zenodo.23988725",
+  "title": "VOID-SF-1 Preregistration: Does the Salesforce Einstein Trust Layer Route Preserve Claude Opus 4.6's Zero-Byte Terminal State?",
+  "publication_date": "2026-11-05",
+  "created": "2026-11-05T20:10:45.425702+00:00",
+  "type": "software",
+  "version": "1.0.0",
+  "files": [
+   [
+    "void-sf-1-preregistration-v1.0.0.zip",
+    66029,
+    "md5:f383a12db77e5f0bf4709f9d058f5ae4"
+   ]
+  ],
+  "creators": [
+   "Pal, Rayan"
+  ],
+  "url": "https://zenodo.org/records/23988726",
+  "related": [
+   [
+    "10.5281/zenodo.21696066",
+    "isSupplementedBy"
+   ],
+   [
+    "10.5281/zenodo.23744106",
+    "references"
+   ],
+   [
+    "10.5281/zenodo.23751813",
+    "references"
+   ]
+  ]
+ }
+]

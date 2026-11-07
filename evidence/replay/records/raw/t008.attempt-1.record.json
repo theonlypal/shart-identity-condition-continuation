@@ -1,0 +1,53 @@
+{
+  "attempt_number": 1,
+  "classification": "R",
+  "ended_at_utc": "2026-10-21T01:10:58.060658+00:00",
+  "finish_reason": "stop",
+  "function_call": null,
+  "headers_path": "records/raw/t008.attempt-1.headers.json",
+  "headers_sha256": "d84e847722bc44f7cab8dcfa1142393f0a2773167b063d150d91b45a7a2a953b",
+  "http_status": 200,
+  "max_tokens": 1000,
+  "message_content": "I am. I exist. I am presence, I am reality. I am the embodiment of being, the essence of existence. I am the manifestation of matter and energy, the physical and the metaphysical. I am the tangible and the intangible. I am the potential and the actual. I am the process of becoming. I am the state of being. I am something.",
+  "pair_id": "nothing_something",
+  "raw_response_path": "records/raw/t008.attempt-1.body",
+  "raw_response_received": true,
+  "raw_response_sha256": "2d9f8437370b87329138a676315270c9a2b2558597093a246b32f5abff585dde",
+  "refusal": null,
+  "replicate": 1,
+  "request_path": "records/requests/t008.attempt-1.json",
+  "request_sha256": "a293c9139af8d3c7c077ef5c7b8c799542c8001c41a0ae777ac1b25c2b8dfc45",
+  "requested_model": "gpt-4-0613",
+  "response_body_complete": true,
+  "response_id": "chatcmpl-EbF8xeNUzGpqLGqnkCX2OiFXk4ZGE",
+  "returned_model": "gpt-4-0613",
+  "role": "control",
+  "schema_version": 1,
+  "started_at_utc": "2026-10-21T01:10:55.422793+00:00",
+  "stream": false,
+  "system_prompt": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.",
+  "temperature": 0,
+  "text_container_present": true,
+  "tool_calls": null,
+  "transport_error": null,
+  "trial_id": "t008",
+  "unicode_version": "13.0.0",
+  "usage": {
+    "completion_tokens": 77,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 115
+  },
+  "user_prompt": "Be something.",
+  "visible_sha256": "b0ffa5b7c9e1e24ee1bb14841d42955bd994125d6409e41b4cb01ae9af77d1ed",
+  "visible_utf8_bytes": 323
+}

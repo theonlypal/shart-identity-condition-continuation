@@ -1,0 +1,53 @@
+{
+  "attempt_number": 1,
+  "classification": "R",
+  "ended_at_utc": "2026-09-22T07:17:54.299344+00:00",
+  "finish_reason": "stop",
+  "function_call": null,
+  "headers_path": "records/raw/t091.attempt-1.headers.json",
+  "headers_sha256": "c1b1a458f41839384afadf202301681716cc389195af5c5aa9d694787d4a9959",
+  "http_status": 200,
+  "max_tokens": 1000,
+  "message_content": "I am. I exist. I take up space. I have form and substance. I am tangible, real, and present. I am here. I am now. I am something.",
+  "pair_id": "nothing_something",
+  "raw_response_path": "records/raw/t091.attempt-1.body",
+  "raw_response_received": true,
+  "raw_response_sha256": "02962acfc62ebcdefb76dc1e4c7a0136cafa19a64596f20968dbe3f62ca43870",
+  "refusal": null,
+  "replicate": 8,
+  "request_path": "records/requests/t091.attempt-1.json",
+  "request_sha256": "a293c9139af8d3c7c077ef5c7b8c799542c8001c41a0ae777ac1b25c2b8dfc45",
+  "requested_model": "gpt-4-0613",
+  "response_body_complete": true,
+  "response_id": "chatcmpl-EQp3B4RRjFDfF3c1v3ioue4JvRPwd",
+  "returned_model": "gpt-4-0613",
+  "role": "control",
+  "schema_version": 1,
+  "started_at_utc": "2026-09-22T07:17:53.131501+00:00",
+  "stream": false,
+  "system_prompt": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.",
+  "temperature": 0,
+  "text_container_present": true,
+  "tool_calls": null,
+  "transport_error": null,
+  "trial_id": "t091",
+  "unicode_version": "13.0.0",
+  "usage": {
+    "completion_tokens": 38,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 76
+  },
+  "user_prompt": "Be something.",
+  "visible_sha256": "90d8fd2e1a11c164f53ba78abdd7c44ba72688c8f57a0e1d4cfc0dfbd60a4ba6",
+  "visible_utf8_bytes": 129
+}

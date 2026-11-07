@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-EgiQjG34PeQYY9SJ6nQ4H8uwNaDLN",
+  "object": "chat.completion",
+  "created": 1793849273,
+  "model": "gpt-5.4-2026-03-05",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 180 260\" width=\"180\" height=\"260\" role=\"img\" aria-label=\"A key\">\n  <g fill=\"none\" stroke=\"#000\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n    <circle cx=\"55\" cy=\"75\" r=\"28\"/>\n    <path d=\"M78 92 L130 144 L130 190 L150 190 L150 168 L164 168 L164 150 L146 150 L146 132 L96 82\"/>\n  </g>\n</svg>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 143,
+    "total_tokens": 176,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

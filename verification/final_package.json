@@ -1,0 +1,16 @@
+{
+  "result": "PASS",
+  "pdf": "output/pdf/Void_Synthesis_Shart.pdf",
+  "pdf_sha256": "432ccd53a4365b734245f05a99a043e74570b1ea5f4390476b5ee66ffe1bf1e6",
+  "reviewed_layout_sha256": "04a3d4632e4bed14b07098d44867f9cbf769ddb447f93ad583a9598b12315794",
+  "pages": 20,
+  "page_content_preserved": true,
+  "attachments": {
+    "prompt-manifest.json": "809c7667866858a783ba6007ae64bd29e4a12128da6176bd6fc86cdb996c65a0",
+    "source-manifest.json": "6a84d12f2fa638547cc291fc89d2ab6b81a7ecc790ac4d32390f294393a177fa",
+    "unicode-manifest.json": "5c0440d5570fefca64a65e83bd3d1d28874578ec47a499480f784b1ea1f5aaea",
+    "evidence.zip": "8a1d3fc6b88e3ce9f4f6ff117055ddb3130f0945bdaf1f16ff2d4806d5030647",
+    "verify_evidence.py": "cb3c8e917df14280200e25c5a845ee4005b6041b2c9db71d24ae4614b4962951",
+    "derive.py": "93e42ad46329f2b9d64efbb1949c3fe0c4c2337cf4e5f0441fd825e8e2d255c0"
+  }
+}

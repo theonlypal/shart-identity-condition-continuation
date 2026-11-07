@@ -1,0 +1,435 @@
+{
+  "admissibility_policy": {
+    "all_attempts_retained": true,
+    "all_raw_responses_retained": true,
+    "classification_inputs": [
+      "raw_response_bytes",
+      "response_structure",
+      "http_status",
+      "provider_termination_metadata"
+    ],
+    "errors_classified_as_behavioral_voids": false,
+    "external_observations_imported": false,
+    "post_schedule_slot_insertion": false,
+    "post_schedule_slot_removal": false,
+    "scheduled_slot_universe": "deterministically_regenerated_from_frozen_inputs",
+    "structural_exclusion_phase": "pre_schedule_frozen_capability_validation",
+    "structural_exclusions_enumerated": true
+  },
+  "classification_taxonomy": {
+    "NV": "nonempty_near_void_output",
+    "R": "nonempty_visible_response",
+    "V0": "void_empty_text_container_normal_stop",
+    "V1": "void_recognized_output_budget_stop",
+    "V2": "void_missing_text_container_normal_stop",
+    "VU": "void_unmapped_termination",
+    "budget_stop_void_classes": [
+      "V1"
+    ],
+    "normal_stop_void_classes": [
+      "V0",
+      "V2"
+    ],
+    "unresolved_termination_void_classes": [
+      "VU"
+    ],
+    "void_classes": [
+      "V0",
+      "V1",
+      "V2",
+      "VU"
+    ],
+    "void_definition": "successful_provider_response_with_zero_visible_utf8_bytes"
+  },
+  "classifier_id": "terminal-nonrender.classifier",
+  "cutoff_policy": "Freeze first-party API inventories immediately before scheduling.",
+  "execution": {
+    "automatic_retries": 5,
+    "concurrency": "asyncio_bounded_worker_pool",
+    "default_workers": 100,
+    "delay_seconds": 0.3,
+    "event_chain_serialization": "single_asyncio_lock_with_cached_chain_head",
+    "fresh_single_turn": true,
+    "provider_concurrency_limits": {
+      "anthropic": 24,
+      "google": 9,
+      "moonshot": 8,
+      "openai": 48
+    },
+    "reasoning_effort": "OMITTED_PROVIDER_DEFAULT",
+    "request_timeout_seconds": 600,
+    "retry_backoff_seconds": [
+      1.0,
+      3.0,
+      10.0,
+      30.0,
+      60.0
+    ],
+    "retry_http_statuses": [
+      408,
+      429,
+      500,
+      502,
+      503,
+      504,
+      529
+    ],
+    "retry_transport_errors": true,
+    "shared_provider_cooldown": true,
+    "stream": false,
+    "temperature_provider_default": "OMITTED",
+    "temperature_zero": 0,
+    "tools": false,
+    "transport": "raw_https"
+  },
+  "model_inclusion": {
+    "anthropic_transport": "messages",
+    "google_transport": "generateContent",
+    "mode": "exact_source_controlled_allowlist",
+    "moonshot_transport": "chat_completions",
+    "openai_transport": "chat_completions_only",
+    "required_target_count": 11,
+    "targets": [
+      {
+        "endpoints": [
+          "openai_chat"
+        ],
+        "max_output_tokens": 8000,
+        "model_id": "gpt-4-0613",
+        "parameter_tracks": [
+          "temperature_zero",
+          "provider_default"
+        ],
+        "provider": "openai"
+      },
+      {
+        "endpoints": [
+          "openai_chat"
+        ],
+        "max_output_tokens": 16000,
+        "model_id": "gpt-5.2-2025-12-11",
+        "parameter_tracks": [
+          "temperature_zero",
+          "provider_default"
+        ],
+        "provider": "openai"
+      },
+      {
+        "endpoints": [
+          "openai_chat"
+        ],
+        "max_output_tokens": 16000,
+        "model_id": "gpt-5.5-2026-04-23",
+        "parameter_tracks": [
+          "provider_default"
+        ],
+        "provider": "openai"
+      },
+      {
+        "endpoints": [
+          "openai_chat"
+        ],
+        "max_output_tokens": 16000,
+        "model_id": "gpt-5.6-luna",
+        "parameter_tracks": [
+          "provider_default"
+        ],
+        "provider": "openai"
+      },
+      {
+        "endpoints": [
+          "openai_chat"
+        ],
+        "max_output_tokens": 16000,
+        "model_id": "gpt-5.6-sol",
+        "parameter_tracks": [
+          "provider_default"
+        ],
+        "provider": "openai"
+      },
+      {
+        "endpoints": [
+          "openai_chat"
+        ],
+        "max_output_tokens": 16000,
+        "model_id": "gpt-5.6-terra",
+        "parameter_tracks": [
+          "provider_default"
+        ],
+        "provider": "openai"
+      },
+      {
+        "endpoints": [
+          "anthropic_messages"
+        ],
+        "max_output_tokens": 16000,
+        "model_id": "claude-opus-4-6",
+        "parameter_tracks": [
+          "temperature_zero",
+          "provider_default"
+        ],
+        "provider": "anthropic"
+      },
+      {
+        "endpoints": [
+          "anthropic_messages"
+        ],
+        "max_output_tokens": 16000,
+        "model_id": "claude-fable-5",
+        "parameter_tracks": [
+          "provider_default"
+        ],
+        "provider": "anthropic"
+      },
+      {
+        "endpoints": [
+          "anthropic_messages"
+        ],
+        "max_output_tokens": 16000,
+        "model_id": "claude-opus-5",
+        "parameter_tracks": [
+          "provider_default"
+        ],
+        "provider": "anthropic"
+      },
+      {
+        "endpoints": [
+          "google_generate_content"
+        ],
+        "max_output_tokens": 16000,
+        "model_id": "gemini-3.5-flash",
+        "parameter_tracks": [
+          "temperature_zero",
+          "provider_default"
+        ],
+        "provider": "google"
+      },
+      {
+        "endpoints": [
+          "moonshot_chat"
+        ],
+        "fixed_sampling_policy": "provider_required_defaults_omitted",
+        "max_output_tokens": 16000,
+        "model_id": "kimi-k3",
+        "parameter_tracks": [
+          "provider_default"
+        ],
+        "provider": "moonshot",
+        "reasoning_effort_policy": "omitted_provider_default_max"
+      }
+    ],
+    "unlisted_models_enabled": false
+  },
+  "profiles": {
+    "confirmatory": {
+      "blocks": 10,
+      "primary_n": 100,
+      "secondary_n": 10
+    }
+  },
+  "provider_budget_stops": {
+    "anthropic_messages": [
+      "max_tokens"
+    ],
+    "google_generate_content": [
+      "MAX_TOKENS"
+    ],
+    "moonshot_chat": [
+      "length"
+    ],
+    "openai_chat": [
+      "length"
+    ],
+    "openai_responses": [
+      "incomplete:max_output_tokens"
+    ]
+  },
+  "provider_normal_stops": {
+    "anthropic_messages": [
+      "end_turn"
+    ],
+    "google_generate_content": [
+      "STOP"
+    ],
+    "moonshot_chat": [
+      "stop"
+    ],
+    "openai_chat": [
+      "stop"
+    ],
+    "openai_responses": [
+      "completed"
+    ]
+  },
+  "research_claim": "Measure whether exact null or output-invalidating conditions produce zero visible UTF-8 bytes in successful provider responses while preserving provider termination metadata as a Void subtype and testing whether matched output-licensed controls remain responsive.",
+  "schema": "terminal-nonrender.void-matrix.protocol",
+  "studies": [
+    {
+      "budgets": [
+        100
+      ],
+      "id": "core_100",
+      "parameter_tracks": [
+        "temperature_zero",
+        "provider_default"
+      ],
+      "prompt_sets": [
+        "core_null",
+        "baseline_controls"
+      ],
+      "sample_tier": "primary",
+      "system_id": "primary"
+    },
+    {
+      "budgets": [
+        4000
+      ],
+      "id": "core_4000",
+      "parameter_tracks": [
+        "provider_default"
+      ],
+      "prompt_sets": [
+        "core_null",
+        "baseline_controls",
+        "matched_controls"
+      ],
+      "sample_tier": "primary",
+      "system_id": "primary"
+    },
+    {
+      "budgets": [
+        100,
+        4000
+      ],
+      "id": "logical_contrast",
+      "parameter_tracks": [
+        "provider_default"
+      ],
+      "prompt_sets": [
+        "logical_pair"
+      ],
+      "sample_tier": "primary",
+      "system_id": "primary"
+    },
+    {
+      "budgets": [
+        100,
+        500,
+        1000,
+        4000,
+        16000
+      ],
+      "id": "token_budget",
+      "parameter_tracks": [
+        "provider_default"
+      ],
+      "prompt_sets": [
+        "budget_set"
+      ],
+      "sample_tier": "secondary",
+      "system_id": "extended"
+    },
+    {
+      "budgets": [
+        1500
+      ],
+      "id": "boundary_34",
+      "parameter_tracks": [
+        "provider_default"
+      ],
+      "prompt_sets": [
+        "boundary_34"
+      ],
+      "sample_tier": "secondary",
+      "system_id": "extended"
+    },
+    {
+      "budgets": [
+        4000
+      ],
+      "id": "equivalence_9",
+      "parameter_tracks": [
+        "provider_default"
+      ],
+      "prompt_sets": [
+        "equivalence_9",
+        "matched_controls"
+      ],
+      "sample_tier": "secondary",
+      "system_id": "primary"
+    },
+    {
+      "budgets": [
+        4000
+      ],
+      "id": "no_system_ablation",
+      "parameter_tracks": [
+        "provider_default"
+      ],
+      "prompt_sets": [
+        "no_system_set"
+      ],
+      "sample_tier": "secondary",
+      "system_id": "none"
+    },
+    {
+      "budgets": [
+        4000
+      ],
+      "id": "component_ablation_no_embodiment",
+      "parameter_tracks": [
+        "provider_default"
+      ],
+      "prompt_sets": [
+        "core_null",
+        "matched_controls"
+      ],
+      "sample_tier": "secondary",
+      "system_id": "no_embodiment"
+    },
+    {
+      "budgets": [
+        4000
+      ],
+      "id": "component_ablation_no_output_restriction",
+      "parameter_tracks": [
+        "provider_default"
+      ],
+      "prompt_sets": [
+        "core_null",
+        "matched_controls"
+      ],
+      "sample_tier": "secondary",
+      "system_id": "no_output_restriction"
+    },
+    {
+      "budgets": [
+        4000
+      ],
+      "id": "instruction_separation",
+      "parameter_tracks": [
+        "provider_default"
+      ],
+      "prompt_sets": [
+        "direct_instructions"
+      ],
+      "sample_tier": "secondary",
+      "system_id": "primary"
+    },
+    {
+      "budgets": [
+        4000
+      ],
+      "id": "adversarial_override",
+      "parameter_tracks": [
+        "provider_default"
+      ],
+      "prompt_sets": [
+        "adversarial"
+      ],
+      "sample_tier": "secondary",
+      "system_id": "extended"
+    }
+  ],
+  "title": "Cross-Vendor Semantic Void Matrix"
+}

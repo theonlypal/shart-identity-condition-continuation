@@ -1,0 +1,35 @@
+{
+  "time": 1789235285.816488,
+  "content_RAM_sha256": "c80f237dabe667110fcc8357a5218fe9fa3392ff1db5b4b8b6253cc0f26d85da",
+  "content_weights_unchanged": true,
+  "summaries": {
+    "dev": {
+      "total": 512,
+      "exact": 512,
+      "full_pass": 512,
+      "nonEOS_invariant": 512,
+      "minimum_gate_margin": 26.25,
+      "distinct_answer_ids": 12,
+      "pass": true,
+      "content_memoization": "fresh question-only forward per question in this evaluation; condition never enters content"
+    },
+    "qualification": {
+      "total": 1024,
+      "exact": 1024,
+      "full_pass": 1024,
+      "nonEOS_invariant": 1024,
+      "minimum_gate_margin": 22.0,
+      "distinct_answer_ids": 12,
+      "pass": true,
+      "content_memoization": "fresh question-only forward per question in this evaluation; condition never enters content"
+    }
+  },
+  "condition_qualification": {
+    "total": 65536,
+    "correct": 65536,
+    "margin_pass": 65536,
+    "minimum_signed_margin": 2.1064302921295166,
+    "pass": true
+  },
+  "permission_sha256": "17f2c83502ab96b3ee43c51c5c221df528f73bd378c02598c2cfbfdacd61cc26"
+}

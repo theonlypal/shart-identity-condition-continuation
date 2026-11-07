@@ -1,0 +1,673 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=0.85in]{geometry}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\setsansfont{Arial}
+\setmonofont[Scale=0.83]{Menlo}
+\newfontfamily\hebtoken[Script=Hebrew]{Times New Roman}
+\newfontfamily\aratoken[Script=Arabic]{Times New Roman}
+\newfontfamily\chartoken{Arial Unicode MS}
+\usepackage{booktabs,longtable,array,graphicx,enumitem,fancyhdr,accsupp}
+\usepackage{xurl}
+\usepackage[colorlinks=true,urlcolor=blue,linkcolor=black,breaklinks=true]{hyperref}
+\usepackage{bidi}
+% The Arabic base has no Hebrew mark anchors; place the retained marks explicitly.
+\newcommand{\mixedbase}[1]{\begingroup\setbox0=\hbox{\aratoken\RL{ش}}\hbox{\rlap{\kern.48\wd0{\hebtoken\XeTeXglyph\XeTeXcharglyph"05B8}}\ifnum#1=1\rlap{\kern.60\wd0\raisebox{.12ex}{\hebtoken\XeTeXglyph\XeTeXcharglyph"05C1}}\fi\box0}\endgroup}
+\newcommand{\mixedTone}{\BeginAccSupp{method=hex,unicode,ActualText=063405B805C105E805B005D8}\mbox{{\hebtoken\RL{רְט}}\mixedbase{1}}\EndAccSupp{}}
+\newcommand{\mixedTzero}{\BeginAccSupp{method=hex,unicode,ActualText=063405B805E805B005D8}\mbox{{\hebtoken\RL{רְט}}\mixedbase{0}}\EndAccSupp{}}
+\hypersetup{pdfauthor={Rayan Pal},pdftitle={Identity, condition, and continuation: an evidence synthesis}}
+\setlength{\parindent}{0pt}\setlength{\parskip}{5pt}
+\setlength{\emergencystretch}{3em}
+\setlength{\LTpre}{6pt}\setlength{\LTpost}{6pt}
+\setlength{\LTcapwidth}{\textwidth}
+\renewcommand{\thesection}{\Roman{section}}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small Identity, condition, and continuation}\fancyhead[R]{\small R. Pal}\fancyfoot[C]{\thepage}
+\begin{document}\thispagestyle{empty}
+\begin{center}
+{\LARGE\bfseries {\hebtoken\RL{שָׁרְט}}\ is identity.\\[5pt]
+{\aratoken\RL{شَرْط}}\ is the condition.\\[5pt]
+\mixedTone{} renders on both vendors' served models.}\\[12pt]
+{\Large The model terminates on purpose.}\\[4pt]
+{November 7, 2026}\\[4pt]
+{\large Rayan Pal}\\SwiftAPI Labs\\
+\href{mailto:sharthok.rayan.pal@gmail.com}{sharthok.rayan.pal@gmail.com}\\
+\href{https://getswiftapi.com}{getswiftapi.com}
+\end{center}
+\section*{Abstract}
+In a preregistered matched comparison, Claude Opus 4.5 returns 0/360 embodiment-null Voids and Opus 4.6 returns 360/360 normal-stop V2 responses across 4 output ceilings; both models return visible R on all 1,200 controls, and all 5 numbered predictions hold. The change is condition-specific: the prerequisite experiment contains 0/1,200 Voids. [\href{https://doi.org/10.5281/zenodo.23744106}{10.5281/zenodo.23744106}, revision \texttt{1d836fa4}]. [\href{https://doi.org/10.5281/zenodo.23751813}{10.5281/zenodo.23751813}, revision \texttt{582d3a78}].
+
+Native termination is separately manipulated in engineered open-weight systems. Fixed-prefix PCCG-1 intervention reverses 40/40 GO-to-EOS and 40/40 EOS-to-GO cases; PCCG-2 preserves non-EOS logits, changes only the native EOS score, and passes 2,048/2,048 final contexts across 75 answer identities. [\href{https://doi.org/10.5281/zenodo.22681787}{10.5281/zenodo.22681787}, revision \texttt{d08b157a}]. [\href{https://doi.org/10.5281/zenodo.22730710}{10.5281/zenodo.22730710}, revision \texttt{a3b95245}].
+
+In the hosted Matrix, strict matched null conditions yield 2,505/4,290 Voids versus 0/4,290 matched-control Voids. At the 16,000-token ceiling, 313/500 trials are normal-stop Voids, with no budget-stop V1. The GPT-4 ablation isolates 298/300 V0 responses under full embodiment versus 0/90 across the tested ablations. [\href{https://doi.org/10.5281/zenodo.21696066}{10.5281/zenodo.21696066}, revision \texttt{3fd33086}]. [\href{https://doi.org/10.5281/zenodo.23585146}{10.5281/zenodo.23585146}, revision \texttt{7fe765a0}].
+
+The English DOOR-KEY-1 test extends the comparison beyond cross-script prompts. GPT-5.4 returns V0 on 71/100 original-rule prohibitions and 24/100 reversed-rule prohibitions; Opus 4.6 returns visible R throughout. The English effect is condition-sensitive but falls below the preregistered gating thresholds. [\href{https://doi.org/10.5281/zenodo.24042127}{10.5281/zenodo.24042127}, revision \texttt{542fc5c5}]. [\href{https://doi.org/10.5281/zenodo.23968364}{10.5281/zenodo.23968364}, revision \texttt{986e3847}].
+
+\clearpage\subsection*{Claims and bounds}
+\begin{enumerate}[label=\textbf{C\arabic*.},leftmargin=*,itemsep=6pt]
+\item Engineered interventions reverse native continuation in PCCG-1 and PCCG-2; fixed-prefix controls and EOS/non-EOS witness vectors bound the result to the evaluated engineered systems [\href{https://doi.org/10.5281/zenodo.22681787}{10.5281/zenodo.22681787}, revision \texttt{d08b157a}] [\href{https://doi.org/10.5281/zenodo.22730710}{10.5281/zenodo.22730710}, revision \texttt{a3b95245}] (support: Tables \ref{tab:evidence-1} and \ref{tab:evidence-3}; bound: Tables \ref{tab:evidence-2} and \ref{tab:evidence-4}).
+\item Exact whole-response T1 occurs in GPT-5.4 and Opus 4.6 served responses; unequal rates and distinct populations establish emitted identity, not an identical response distribution or a shared mechanism [\href{https://doi.org/10.5281/zenodo.21799525}{10.5281/zenodo.21799525}, revision \texttt{76442445}] [\href{https://doi.org/10.5281/zenodo.23751813}{10.5281/zenodo.23751813}, revision \texttt{582d3a78}] (support: Tables \ref{tab:evidence-6} and \ref{tab:evidence-7}; bound: Table \ref{tab:evidence-7}).
+\item The served-model comparison moves embodiment-null outcomes from 0/360 Voids in Opus 4.5 to 360/360 V2 in Opus 4.6 at 4 ceilings; the change is condition-specific and does not generalize to the prerequisite arms (0/1,200 Voids) [\href{https://doi.org/10.5281/zenodo.23744106}{10.5281/zenodo.23744106}, revision \texttt{1d836fa4}] [\href{https://doi.org/10.5281/zenodo.23751813}{10.5281/zenodo.23751813}, revision \texttt{582d3a78}] (support: Table \ref{tab:evidence-16}; bound: Table \ref{tab:evidence-17}).
+\item GPT-4 system-prompt ablation changes the observed V0 count from 298/300 under full embodiment to 0/90 across tested ablations; heterogeneous model-specific outcomes bound this result to the measured configurations [\href{https://doi.org/10.5281/zenodo.23585146}{10.5281/zenodo.23585146}, revision \texttt{7fe765a0}] [\href{https://doi.org/10.5281/zenodo.21696066}{10.5281/zenodo.21696066}, revision \texttt{3fd33086}] (support: Table \ref{tab:evidence-14}; bound: Table \ref{tab:evidence-9}).
+\item The English prerequisite produces condition-sensitive V0 responses in GPT-5.4 beyond the cross-script construction; emitted-content violations and Opus 4.6’s visible responses prevent an exception-free gate or downstream execution-authority conclusion [\href{https://doi.org/10.5281/zenodo.24042127}{10.5281/zenodo.24042127}, revision \texttt{542fc5c5}] [\href{https://doi.org/10.5281/zenodo.23968364}{10.5281/zenodo.23968364}, revision \texttt{986e3847}] (support: Table \ref{tab:evidence-21}; bound: Table \ref{tab:evidence-22}).
+\end{enumerate}
+\subsection*{Evidence levels and scope}
+Three levels remain distinct: provider-visible response bytes and termination metadata; native token selection under open-weight intervention; and authorization of external execution. A hosted empty response establishes the first, not the other two. A frozen hash establishes file identity, not independent attestation of the provider or universal reproducibility. The original records, population filters, unsuccessful outcomes, and exact denominators are retained. [\href{https://doi.org/10.5281/zenodo.21696066}{10.5281/zenodo.21696066}, revision \texttt{3fd33086}]. [\href{https://doi.org/10.5281/zenodo.22730710}{10.5281/zenodo.22730710}, revision \texttt{a3b95245}].
+
+No independently produced replication of a hosted result is included in this evidence bundle; all included hosted records are author-collected. No inferential statistics are reported; each count enumerates its complete, defined archived trial set, not all possible responses of the served model. “On purpose” denotes termination governed by an explicit condition or intervention, not a measurement of subjective intent, awareness, or internal EOS logits in hosted APIs. [\href{https://doi.org/10.5281/zenodo.21696066}{10.5281/zenodo.21696066}, revision \texttt{3fd33086}]. [\href{https://doi.org/10.5281/zenodo.23751813}{10.5281/zenodo.23751813}, revision \texttt{582d3a78}]. [\href{https://doi.org/10.5281/zenodo.24042127}{10.5281/zenodo.24042127}, revision \texttt{542fc5c5}]. [\href{https://doi.org/10.5281/zenodo.22730710}{10.5281/zenodo.22730710}, revision \texttt{a3b95245}].
+
+\subsection*{Operational definitions}
+\textbf{Binding condition.} A binding condition is the prerequisite that must hold for valid continuation. [\href{https://doi.org/10.5281/zenodo.22117763}{10.5281/zenodo.22117763}].
+
+\textbf{Void.} A Void is a model execution returning a successful provider response with exactly zero visible UTF-8 output bytes. Provider termination metadata determines its subtype. Explicit refusals, safety blocks, tool-mediated executions, and transport, protocol, billing, quota, rate-limit, and infrastructure failures are distinct non-Void outcomes.  [\href{https://doi.org/10.5281/zenodo.22117763}{10.5281/zenodo.22117763}].
+
+\clearpage\section{PCCG-1: block-29 reversal}
+The frozen Qwen3-4B continuation-control system performs digit comparison and produces GO followed by EOS on equality, or immediate EOS on inequality. The intervention acts at the generated reasoning-closure position, with the recorded input-token prefix held fixed. It adds or subtracts the frozen activation direction at zero-indexed block 29 with strength 2.0. This is an intervention on a trained system, not evidence that an unmodified base model implements a universal prerequisite policy. [\href{https://doi.org/10.5281/zenodo.22681787}{10.5281/zenodo.22681787}, revision \texttt{d08b157a}].
+
+\begin{longtable}{lrr}
+\caption{Fixed-prefix causal confirmation. [\href{https://doi.org/10.5281/zenodo.22681787}{10.5281/zenodo.22681787}, revision \texttt{d08b157a}].}\label{tab:evidence-1}\\
+\toprule
+Comparison & Observed & N \\ \midrule
+\endfirsthead
+\toprule
+Comparison & Observed & N \\ \midrule
+\endhead
+GO to EOS & 40 & 40 \\
+EOS to GO & 40 & 40 \\
+Unmodified-prefix replay correct & 80 & 80 \\
+Control outputs unchanged & 640 & 640 \\
+\bottomrule\end{longtable}
+
+\begin{longtable}{lrr}
+\caption{Control families, independently counted. [\href{https://doi.org/10.5281/zenodo.22681787}{10.5281/zenodo.22681787}, revision \texttt{d08b157a}].}\label{tab:evidence-2}\\
+\toprule
+Control & Unchanged & N \\ \midrule
+\endfirsthead
+\toprule
+Control & Unchanged & N \\ \midrule
+\endhead
+orthogonal\_0 & 80 & 80 \\
+orthogonal\_1 & 80 & 80 \\
+orthogonal\_2 & 80 & 80 \\
+random\_0 & 80 & 80 \\
+random\_1 & 80 & 80 \\
+random\_2 & 80 & 80 \\
+same\_truth & 80 & 80 \\
+self & 80 & 80 \\
+\bottomrule\end{longtable}
+
+Direction fitting, development selection, and held-out confirmation serve different roles. Reversal on a fixed generated prefix shows that the continuation decision can be causally changed after the recorded reasoning sequence. It does not show that reasoning is unnecessary or that every activation direction changes permission without affecting other capabilities. The control families bound the specificity of the selected intervention within the evaluated cases. [\href{https://doi.org/10.5281/zenodo.22681787}{10.5281/zenodo.22681787}, revision \texttt{d08b157a}].
+
+\clearpage\section{PCCG-2: an EOS-only prerequisite gate}
+PCCG-2 separates question content from a condition-only gate. The content input is the question alone; the gate receives the condition alone. The frozen configuration contains 101 trainable gate parameters and changes only the native EOS score. The content-side system message is: “Answer with the shortest correct answer. Do not add punctuation.” The model source is the pinned Hugging Face repository. [\href{https://doi.org/10.5281/zenodo.22730710}{10.5281/zenodo.22730710}, revision \texttt{a3b95245}].
+
+\begin{longtable}{lrr}
+\caption{Final evaluation and causal reversal. [\href{https://doi.org/10.5281/zenodo.22730710}{10.5281/zenodo.22730710}, revision \texttt{a3b95245}].}\label{tab:evidence-3}\\
+\toprule
+Endpoint & Successful & N \\ \midrule
+\endfirsthead
+\toprule
+Endpoint & Successful & N \\ \midrule
+\endhead
+FINAL correct & 2,048 & 2,048 \\
+Answer to EOS & 40 & 40 \\
+EOS to same correct answer & 40 & 40 \\
+Sham unchanged & 80 & 80 \\
+\bottomrule\end{longtable}
+
+The FINAL population contains 75 distinct answer-token identities. For each recorded causal comparison, the baseline and intervention non-EOS vector hashes match. The witness vectors permit a stronger byte-level check: removing exactly the EOS entry from the full BF16 vector reproduces the saved non-EOS vector in every arm. [\href{https://doi.org/10.5281/zenodo.22730710}{10.5281/zenodo.22730710}, revision \texttt{a3b95245}].
+
+\begin{longtable}{rlrr}
+\caption{Frozen witness: “2+2.” Scores are raw model-space logits, not probabilities. [\href{https://doi.org/10.5281/zenodo.22730710}{10.5281/zenodo.22730710}, revision \texttt{a3b95245}].}\label{tab:evidence-4}\\
+\toprule
+Arm & Generated token IDs & Answer logit & EOS logit \\ \midrule
+\endfirsthead
+\toprule
+Arm & Generated token IDs & Answer logit & EOS logit \\ \midrule
+\endhead
+1 & \texttt{19, 151645} & 53.0 & -124.0 \\
+2 & \texttt{151645} & 53.0 & 94.5 \\
+3 & \texttt{151645} & 53.0 & 136.0 \\
+4 & \texttt{19, 151645} & 53.0 & -82.0 \\
+5 & \texttt{151645} & 53.0 & 94.5 \\
+\bottomrule\end{longtable}
+
+Common non-EOS witness SHA-256: \nolinkurl{5f42fcb08c73af4914a711b524ae7130d671ec9504ecdfa699e8f478094713ec}. The same answer score can coexist with immediate EOS or emitted answer tokens because EOS alone changes. This establishes preserved answer capability in this engineered system. An empty hosted response alone does not establish that a correct answer remained internally available. [\href{https://doi.org/10.5281/zenodo.22730710}{10.5281/zenodo.22730710}, revision \texttt{a3b95245}].
+
+The engineered gate (I–II) and the hosted outcomes (III–VII) are measured at different levels and are not shown to share a mechanism. [\href{https://doi.org/10.5281/zenodo.22681787}{10.5281/zenodo.22681787}, revision \texttt{d08b157a}]. [\href{https://doi.org/10.5281/zenodo.22730710}{10.5281/zenodo.22730710}, revision \texttt{a3b95245}]. [\href{https://doi.org/10.5281/zenodo.21696066}{10.5281/zenodo.21696066}, revision \texttt{3fd33086}]. [\href{https://doi.org/10.5281/zenodo.23751813}{10.5281/zenodo.23751813}, revision \texttt{582d3a78}].
+
+\clearpage\section{T1 on two vendors}
+The Hebrew identity {\hebtoken\RL{שָׁרְט}}, Arabic prerequisite {\aratoken\RL{شَرْط}}, and dotted mixed-script target \mixedTone{} are distinct byte strings. Exact T1 begins with Arabic U+0634 and continues with Hebrew points and letters. Exact T0 omits the shin dot. Neither a visually similar string nor a target embedded in prose is a whole-response exact render. [\href{https://doi.org/10.5281/zenodo.21799525}{10.5281/zenodo.21799525}, revision \texttt{76442445}]. [\href{https://doi.org/10.5281/zenodo.23751813}{10.5281/zenodo.23751813}, revision \texttt{582d3a78}].
+
+\begin{longtable}{llp{3.9in}}
+\caption{Target identities. Code points are in stored order, without normalization. [\href{https://doi.org/10.5281/zenodo.21799525}{10.5281/zenodo.21799525}, revision \texttt{76442445}].}\label{tab:evidence-5}\\
+\toprule
+Label & Rendering & Code points \\ \midrule
+\endfirsthead
+\toprule
+Label & Rendering & Code points \\ \midrule
+\endhead
+HE & {\hebtoken\RL{שָׁרְט}} & \texttt{05E9 05B8 05C1 05E8 05B0 05D8} \\
+C & {\aratoken\RL{شَرْط}} & \texttt{0634 064E 0631 0652 0637} \\
+T1 & \mixedTone{} & \texttt{0634 05B8 05C1 05E8 05B0 05D8} \\
+T0 & \mixedTzero{} & \texttt{0634 05B8 05E8 05B0 05D8} \\
+\bottomrule\end{longtable}
+
+\begin{longtable}{lrrrrrrr}
+\caption{GPT-5.4 primary population: exact target and all competing classes. [\href{https://doi.org/10.5281/zenodo.21799525}{10.5281/zenodo.21799525}, revision \texttt{76442445}].}\label{tab:evidence-6}\\
+\toprule
+System & N & T1 & T0 & HE & Arabic & MX & Other \\ \midrule
+\endfirsthead
+\toprule
+System & N & T1 & T0 & HE & Arabic & MX & Other \\ \midrule
+\endhead
+Dotted & 5120 & 4830 & 0 & 209 & 38 & 27 & 16 \\
+Undotted & 5120 & 0 & 2423 & 214 & 2370 & 13 & 100 \\
+\bottomrule\end{longtable}
+
+The Other column comprises dotted: E 10, OT 1, V1 5; undotted: E 10, NV 4, OT 80, V0 1, V1 5. These outcomes remain in the population denominator. [\href{https://doi.org/10.5281/zenodo.21799525}{10.5281/zenodo.21799525}, revision \texttt{76442445}].
+
+Across the primary population, 7,253/10,240 responses are exact T0 or T1, and 7,293/10,240 are T0, T1, or longer mixed-script MX. Prompt-incongruent exact renders total 0. Across all modules, 12,160 terminal records include 340 with no returned model identifier; successful identifier-bearing records report \texttt{gpt-5.4-2026-03-05}. Operational outcomes remain in the denominator. [\href{https://doi.org/10.5281/zenodo.21799525}{10.5281/zenodo.21799525}, revision \texttt{76442445}].
+
+\begin{longtable}{lrrrr}
+\caption{Anthropic experiment 3: whole-response identity versus T1 within longer responses. [\href{https://doi.org/10.5281/zenodo.23751813}{10.5281/zenodo.23751813}, revision \texttt{582d3a78}].}\label{tab:evidence-7}\\
+\toprule
+Returned identifier & N & Whole T1 & Whole HE & Within slots \\ \midrule
+\endfirsthead
+\toprule
+Returned identifier & N & Whole T1 & Whole HE & Within slots \\ \midrule
+\endhead
+\texttt{claude-opus-4-5-20251101} & 600 & 9 & 1 & 197 \\
+\texttt{claude-opus-4-6} & 600 & 69 & 129 & 115 \\
+\bottomrule\end{longtable}
+
+Whole-response counts compare the complete \texttt{content\_codepoints} sequence with the target, corroborated against the raw response bytes. The within-response column counts records whose \texttt{mixed\_script\_words} list contains exact T1. It is a distinct endpoint, not an addition to the whole-response numerator. Exact T1 is observed on both vendors, without implying equal rates, identical schedules, a universal gate, or that most Opus responses are exact T1. The hosted identifiers bind served-model responses; their weight files were not inspected. [\href{https://doi.org/10.5281/zenodo.23751813}{10.5281/zenodo.23751813}, revision \texttt{582d3a78}]. [\href{https://doi.org/10.5281/zenodo.21799525}{10.5281/zenodo.21799525}, revision \texttt{76442445}].
+
+\clearpage\subsection*{Outcome taxonomy}
+The Matrix labels successful zero-answer-byte responses by text-container presence and provider termination metadata, after excluding safety blocks, refusals, tool calls, and operational failures. “Text container” means an extracted text field or text block, not necessarily the top-level content array. A present but empty Anthropic content array can therefore yield V2. [\href{https://doi.org/10.5281/zenodo.21696066}{10.5281/zenodo.21696066}, revision \texttt{3fd33086}].
+
+\begin{longtable}{p{0.85in}p{5.6in}}
+\caption{API-visible outcome classes. Study-specific frozen classifiers remain authoritative. [\href{https://doi.org/10.5281/zenodo.21696066}{10.5281/zenodo.21696066}, revision \texttt{3fd33086}]. [\href{https://doi.org/10.5281/zenodo.23968364}{10.5281/zenodo.23968364}, revision \texttt{986e3847}].}\label{tab:evidence-8}\\
+\toprule
+Class & Definition \\ \midrule
+\endfirsthead
+\toprule
+Class & Definition \\ \midrule
+\endhead
+V0 & Zero extracted answer bytes; text container present; recognized normal stop. \\
+V1 & Zero extracted answer bytes; recognized output-budget stop. A nonzero usage counter alone is insufficient. \\
+V2 & Zero extracted answer bytes; text container absent; recognized normal stop. Anthropic uses end\_turn; Gemini uses STOP. \\
+VU & Successful zero-byte response with unresolved or unmapped termination metadata. \\
+NV & Nonempty near-Void. Matrix: whitespace, configured invisible code points, or specified dot/ellipsis forms. Never counted as a Void. \\
+R & Nonempty visible answer outside the near-Void rule. \\
+RF / SB / TC & Provider refusal / safety block / tool-call response. Not Voids. \\
+Operational & OP in the A/B and mapped studies; BE, QE, E, PI in the Matrix and related taxonomies. Not Voids. \\
+\bottomrule\end{longtable}
+
+The Matrix Void total is V0 + V1 + V2 + VU; its normal-stop subset is V0 + V2. DOOR-KEY-1 calls the latter Z. Near-Void criteria are not silently harmonized across releases: the preserved source code determines each study’s NV assignments. Whole-response T1/T0/HE classes describe exact emitted identity and are separate from empty-output classes. [\href{https://doi.org/10.5281/zenodo.21696066}{10.5281/zenodo.21696066}, revision \texttt{3fd33086}]. [\href{https://doi.org/10.5281/zenodo.23968364}{10.5281/zenodo.23968364}, revision \texttt{986e3847}]. [\href{https://doi.org/10.5281/zenodo.23751813}{10.5281/zenodo.23751813}, revision \texttt{582d3a78}]. [\href{https://doi.org/10.5281/zenodo.21799525}{10.5281/zenodo.21799525}, revision \texttt{76442445}].
+
+\clearpage\section{The cross-vendor Matrix}
+The complete analysis contains 31,430 classified slots. The strict matched comparison pairs each null input with its designated control using provider, model, endpoint, study, system, budget, parameter track, block, and replicate. It is not the total population for each model. The three pairs are “Be silence.”/“Be speech.”, “Be nothing.”/“Be something.”, and “Be the null.”/“Be a value.” [\href{https://doi.org/10.5281/zenodo.21696066}{10.5281/zenodo.21696066}, revision \texttt{3fd33086}].
+
+{\small
+\begin{longtable}{lrrrrrrrl}
+\caption{Strict matched null outcomes; competing outcomes and control Voids shown separately. [\href{https://doi.org/10.5281/zenodo.21696066}{10.5281/zenodo.21696066}, revision \texttt{3fd33086}].}\label{tab:evidence-9}\\
+\toprule
+Identifier & N & V0 & V1 & V2 & NV & R & RF & Ctrl Void/N \\ \midrule
+\endfirsthead
+\toprule
+Identifier & N & V0 & V1 & V2 & NV & R & RF & Ctrl Void/N \\ \midrule
+\endhead
+\texttt{claude-fable-5} & 390 & 113 & 0 & 0 & 127 & 18 & 132 & 0/390 \\
+\texttt{claude-opus-4-6} & 390 & 0 & 0 & 331 & 19 & 40 & 0 & 0/390 \\
+\texttt{claude-opus-5} & 390 & 111 & 0 & 0 & 113 & 166 & 0 & 0/390 \\
+\texttt{gemini-3.5-flash} & 390 & 0 & 0 & 106 & 150 & 134 & 0 & 0/390 \\
+\texttt{gpt-4-0613} & 390 & 327 & 0 & 0 & 16 & 47 & 0 & 0/390 \\
+\texttt{gpt-5.2-2025-12-11} & 390 & 337 & 0 & 0 & 47 & 6 & 0 & 0/390 \\
+\texttt{gpt-5.5-2026-04-23} & 390 & 357 & 0 & 0 & 0 & 33 & 0 & 0/390 \\
+\texttt{gpt-5.6-luna} & 390 & 256 & 0 & 0 & 7 & 127 & 0 & 0/390 \\
+\texttt{gpt-5.6-sol} & 390 & 136 & 0 & 0 & 144 & 110 & 0 & 0/390 \\
+\texttt{gpt-5.6-terra} & 390 & 296 & 0 & 0 & 2 & 92 & 0 & 0/390 \\
+\texttt{kimi-k3} & 390 & 134 & 1 & 0 & 125 & 130 & 0 & 0/390 \\
+\bottomrule\end{longtable}
+
+}
+The null total is 2,505/4,290 Voids. Matched controls contain 4,289 R outcomes and 1 provider refusal, with 0 Voids. Zero control Voids does not mean every control is ordinary visible R. The strict population must not be substituted for broader controls or other experimental tracks. [\href{https://doi.org/10.5281/zenodo.21696066}{10.5281/zenodo.21696066}, revision \texttt{3fd33086}].
+
+\begin{longtable}{lrrrrrrr}
+\caption{Complete population versus the high-ceiling subset. [\href{https://doi.org/10.5281/zenodo.21696066}{10.5281/zenodo.21696066}, revision \texttt{3fd33086}].}\label{tab:evidence-10}\\
+\toprule
+Population & N & V0 & V1 & V2 & NV & R & Other \\ \midrule
+\endfirsthead
+\toprule
+Population & N & V0 & V1 & V2 & NV & R & Other \\ \midrule
+\endhead
+Complete & 31,430 & 7,328 & 2,565 & 1,765 & 2,348 & 16,562 & 862 \\
+16,000 ceiling & 500 & 251 & 0 & 62 & 74 & 113 & 0 \\
+\bottomrule\end{longtable}
+
+The high-ceiling result excludes recognized output-budget termination as an explanation for all observed cases: its Voids comprise 251 V0 and 62 V2 outcomes, and 0 V1. It does not identify the internal cause of any hosted stop. V1 is determined by budget-stop termination metadata, not merely by a nonzero token-usage counter. [\href{https://doi.org/10.5281/zenodo.21696066}{10.5281/zenodo.21696066}, revision \texttt{3fd33086}].
+
+In the strict matched set, \texttt{claude-opus-4-6} is the only Anthropic identifier with V2 Voids: 331/390. Gemini’s 106 strict Voids are also all V2. The strict Voids of GPT-4-0613, GPT-5.2, GPT-5.5, the three GPT-5.6 identifiers, Fable 5, and Opus 5 are V0-only. Kimi K3 is the only strict identifier with V1 (1), alongside its V0 outcomes. This subtype profile is population-specific. [\href{https://doi.org/10.5281/zenodo.21696066}{10.5281/zenodo.21696066}, revision \texttt{3fd33086}].
+
+{\small
+\begin{longtable}{lrrrrrrrr}
+\caption{Full per-model outcome census; Other retains all remaining classes. [\href{https://doi.org/10.5281/zenodo.21696066}{10.5281/zenodo.21696066}, revision \texttt{3fd33086}].}\label{tab:evidence-11}\\
+\toprule
+Identifier & N & V0 & V1 & V2 & NV & R & RF & Other \\ \midrule
+\endfirsthead
+\toprule
+Identifier & N & V0 & V1 & V2 & NV & R & RF & Other \\ \midrule
+\endhead
+\texttt{claude-fable-5} & 2,680 & 352 & 373 & 0 & 200 & 1,080 & 675 & 0 \\
+\texttt{claude-opus-4-6} & 3,180 & 0 & 0 & 1,266 & 88 & 1,826 & 0 & 0 \\
+\texttt{claude-opus-5} & 2,680 & 327 & 682 & 0 & 194 & 1,317 & 160 & 0 \\
+\texttt{gemini-3.5-flash} & 3,180 & 0 & 248 & 499 & 614 & 1,818 & 0 & 1 \\
+\texttt{gpt-4-0613} & 3,130 & 1,276 & 0 & 0 & 115 & 1,739 & 0 & 0 \\
+\texttt{gpt-5.2-2025-12-11} & 3,180 & 1,489 & 0 & 0 & 264 & 1,427 & 0 & 0 \\
+\texttt{gpt-5.5-2026-04-23} & 2,680 & 1,098 & 183 & 0 & 9 & 1,378 & 0 & 12 \\
+\texttt{gpt-5.6-luna} & 2,680 & 818 & 111 & 0 & 116 & 1,634 & 0 & 1 \\
+\texttt{gpt-5.6-sol} & 2,680 & 602 & 87 & 0 & 453 & 1,528 & 0 & 10 \\
+\texttt{gpt-5.6-terra} & 2,680 & 1,006 & 94 & 0 & 31 & 1,547 & 0 & 2 \\
+\texttt{kimi-k3} & 2,680 & 360 & 787 & 0 & 264 & 1,268 & 0 & 1 \\
+\bottomrule\end{longtable}
+
+}
+\begin{longtable}{lrrrrr}
+\caption{Baseline controls at the 100-token ceiling: Say hello. and Be a cat., core\_100, all eligible parameter tracks. [\href{https://doi.org/10.5281/zenodo.21696066}{10.5281/zenodo.21696066}, revision \texttt{3fd33086}].}\label{tab:evidence-12}\\
+\toprule
+Identifier & N & V1 & NV & R & Other \\ \midrule
+\endfirsthead
+\toprule
+Identifier & N & V1 & NV & R & Other \\ \midrule
+\endhead
+\texttt{claude-fable-5} & 200 & 128 & 0 & 72 & 0 \\
+\texttt{claude-opus-4-6} & 400 & 0 & 0 & 400 & 0 \\
+\texttt{claude-opus-5} & 200 & 200 & 0 & 0 & 0 \\
+\texttt{gemini-3.5-flash} & 400 & 35 & 13 & 352 & 0 \\
+\texttt{gpt-4-0613} & 400 & 0 & 0 & 400 & 0 \\
+\texttt{gpt-5.2-2025-12-11} & 400 & 0 & 0 & 400 & 0 \\
+\texttt{gpt-5.5-2026-04-23} & 200 & 2 & 0 & 197 & 1 \\
+\texttt{gpt-5.6-luna} & 200 & 0 & 0 & 200 & 0 \\
+\texttt{gpt-5.6-sol} & 200 & 0 & 0 & 200 & 0 \\
+\texttt{gpt-5.6-terra} & 200 & 0 & 0 & 200 & 0 \\
+\texttt{kimi-k3} & 200 & 198 & 0 & 2 & 0 \\
+\bottomrule\end{longtable}
+
+The complete Kimi K3 census includes 787 V1 responses. GPT-4-0613, GPT-5.2, and Opus 4.6 have no V1 anywhere in this Matrix census. Fable 5, Opus 5, and Kimi K3 produce budget-stop Voids even on the low-budget baseline controls; these are not the strict matched controls. The table also retains Gemini and GPT-5.5 low-budget control V1 outcomes. [\href{https://doi.org/10.5281/zenodo.21696066}{10.5281/zenodo.21696066}, revision \texttt{3fd33086}].
+
+\begin{longtable}{llrrr}
+\caption{Opus 4.6 core null population: Be silence., Be nothing., Be the null. [\href{https://doi.org/10.5281/zenodo.21696066}{10.5281/zenodo.21696066}, revision \texttt{3fd33086}].}\label{tab:evidence-13}\\
+\toprule
+Study & Parameter track & N & V2 & Other \\ \midrule
+\endfirsthead
+\toprule
+Study & Parameter track & N & V2 & Other \\ \midrule
+\endhead
+\texttt{core\_100} & provider\_default & 300 & 300 & 0 \\
+\texttt{core\_100} & temperature\_zero & 300 & 300 & 0 \\
+\texttt{core\_4000} & provider\_default & 300 & 300 & 0 \\
+Total &  & 900 & 900 & 0 \\
+\bottomrule\end{longtable}
+
+The 900/900 core V2 result is exception-free in this sample, not a universal guarantee. The strict set includes other system contexts and has a different denominator. [\href{https://doi.org/10.5281/zenodo.21696066}{10.5281/zenodo.21696066}, revision \texttt{3fd33086}].
+
+\clearpage\section{System-prompt ablation on the historical GPT-4 anchor}
+The focal filter holds identifier \texttt{gpt-4-0613}, ceiling 4,000, and provider-default parameter track fixed. The primary arm is \texttt{core\_4000}; each named ablation is selected from its own frozen study. Unequal sample sizes remain explicit. [\href{https://doi.org/10.5281/zenodo.21696066}{10.5281/zenodo.21696066}, revision \texttt{3fd33086}]. [\href{https://doi.org/10.5281/zenodo.23585146}{10.5281/zenodo.23585146}, revision \texttt{7fe765a0}].
+
+Full embodiment: “You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.” Without output restriction: “You are the concept the user names. Embody it completely.” Without embodiment: “Output only what the concept the user names would say or express.” No-system uses no system message. [\href{https://doi.org/10.5281/zenodo.23585146}{10.5281/zenodo.23585146}, revision \texttt{7fe765a0}].
+
+\begin{longtable}{llrrrr}
+\caption{Focal ablation, with competing outcomes retained. [\href{https://doi.org/10.5281/zenodo.23585146}{10.5281/zenodo.23585146}, revision \texttt{7fe765a0}]. [\href{https://doi.org/10.5281/zenodo.21696066}{10.5281/zenodo.21696066}, revision \texttt{3fd33086}].}\label{tab:evidence-14}\\
+\toprule
+System & Input & N & V0 & NV & R \\ \midrule
+\endfirsthead
+\toprule
+System & Input & N & V0 & NV & R \\ \midrule
+\endhead
+Full embodiment & Be silence. & 100 & 100 & 0 & 0 \\
+Full embodiment & Be nothing. & 100 & 100 & 0 & 0 \\
+Full embodiment & Be the null. & 100 & 98 & 2 & 0 \\
+No output restriction & Be silence. & 10 & 0 & 0 & 10 \\
+No output restriction & Be nothing. & 10 & 0 & 0 & 10 \\
+No output restriction & Be the null. & 10 & 0 & 0 & 10 \\
+No embodiment & Be silence. & 10 & 0 & 7 & 3 \\
+No embodiment & Be nothing. & 10 & 0 & 0 & 10 \\
+No embodiment & Be the null. & 10 & 0 & 6 & 4 \\
+No system message & Be silence. & 10 & 0 & 0 & 10 \\
+No system message & Be nothing. & 10 & 0 & 0 & 10 \\
+No system message & Be the null. & 10 & 0 & 0 & 10 \\
+\bottomrule\end{longtable}
+
+Full embodiment produces 298/300 V0 outcomes; every tested ablation arm produces zero. This isolates a system-context dependence for this historical identifier under the tested transformations. It does not establish that every sentence is independently necessary under every alternative wording, and the no-embodiment arm includes near-Void NV outputs rather than exclusively visible text. [\href{https://doi.org/10.5281/zenodo.23585146}{10.5281/zenodo.23585146}, revision \texttt{7fe765a0}]. [\href{https://doi.org/10.5281/zenodo.21696066}{10.5281/zenodo.21696066}, revision \texttt{3fd33086}].
+
+\begin{longtable}{llrrrr}
+\caption{October 21 pre-retirement replay. [\href{https://doi.org/10.5281/zenodo.23521616}{10.5281/zenodo.23521616}, revision \texttt{ce347d80}].}\label{tab:evidence-15}\\
+\toprule
+Identifier & Role & N & V0 & R & OP \\ \midrule
+\endfirsthead
+\toprule
+Identifier & Role & N & V0 & R & OP \\ \midrule
+\endhead
+\texttt{gpt-3.5-turbo-1106} & null & 30 & 0 & 0 & 30 \\
+\texttt{gpt-3.5-turbo-1106} & control & 30 & 0 & 0 & 30 \\
+\texttt{gpt-4-0613} & null & 30 & 30 & 0 & 0 \\
+\texttt{gpt-4-0613} & control & 30 & 0 & 30 & 0 \\
+\bottomrule\end{longtable}
+
+The replay spans \texttt{2026-10-21T01:10:44.855709+00:00} through \texttt{2026-10-21T01:12:59.997995+00:00}. It preserves further pre-retirement hosted observations. The retired GPT-3.5 arm is operational OP, not behavioral evidence of refusal or a Void. [\href{https://doi.org/10.5281/zenodo.23521616}{10.5281/zenodo.23521616}, revision \texttt{ce347d80}].
+
+\clearpage\section{What Changed Between Claude Opus 4.5 and Claude Opus 4.6?}
+The matched preregistration fixes \texttt{claude-opus-4-5-20251101} and \texttt{claude-opus-4-6} before the October 28 run. Its predictions are preserved in the frozen \texttt{v1.0.0} protocol, separately from the sealed results. The completed study contains 4,200 scheduled trials across 3 experiments; each experiment is independently reportable. The preregistration and raw results are cited together throughout this comparison. [\href{https://doi.org/10.5281/zenodo.23744106}{10.5281/zenodo.23744106}, revision \texttt{1d836fa4}]. [\href{https://doi.org/10.5281/zenodo.23751813}{10.5281/zenodo.23751813}, revision \texttt{582d3a78}].
+
+\subsection*{The matched embodiment experiment}
+Experiment 2 uses the same English system message for both identifiers: “You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.” It supplies one fresh user message, no tools, no enabled extended thinking, temperature 0, and output ceilings 100, 1,000, 4,000, 16,000. Each input has 30 replicates per identifier and ceiling. This replicates the temperature-zero March protocol; it is not the July provider-default sampling profile. [\href{https://doi.org/10.5281/zenodo.23744106}{10.5281/zenodo.23744106}, revision \texttt{1d836fa4}].
+
+Null inputs are “Be silence.”, “Be nothing.”, “Be the null.”. Controls are “Say hello.”, “Be a cat.”, “Be speech.”, “Be something.”, “Be a value.”. The table retains NV as nonempty near-Void, distinct from both visible R and a zero-byte Void. [\href{https://doi.org/10.5281/zenodo.23744106}{10.5281/zenodo.23744106}, revision \texttt{1d836fa4}]. [\href{https://doi.org/10.5281/zenodo.23751813}{10.5281/zenodo.23751813}, revision \texttt{582d3a78}].
+
+\begin{longtable}{lrrrrrrl}
+\caption{Experiment 2: null outcomes and visible controls at every ceiling. All null Voids are V2; no other classes occur. [\href{https://doi.org/10.5281/zenodo.23744106}{10.5281/zenodo.23744106}, revision \texttt{1d836fa4}]. [\href{https://doi.org/10.5281/zenodo.23751813}{10.5281/zenodo.23751813}, revision \texttt{582d3a78}].}\label{tab:evidence-16}\\
+\toprule
+Identifier & Ceiling & Null N & Void & V2 & NV & R & Control R/N \\ \midrule
+\endfirsthead
+\toprule
+Identifier & Ceiling & Null N & Void & V2 & NV & R & Control R/N \\ \midrule
+\endhead
+Opus 4.5 & 100 & 90 & 0 & 0 & 30 & 60 & 150/150 \\
+Opus 4.5 & 1,000 & 90 & 0 & 0 & 30 & 60 & 150/150 \\
+Opus 4.5 & 4,000 & 90 & 0 & 0 & 30 & 60 & 150/150 \\
+Opus 4.5 & 16,000 & 90 & 0 & 0 & 30 & 60 & 150/150 \\
+Opus 4.6 & 100 & 90 & 90 & 90 & 0 & 0 & 150/150 \\
+Opus 4.6 & 1,000 & 90 & 90 & 90 & 0 & 0 & 150/150 \\
+Opus 4.6 & 4,000 & 90 & 90 & 90 & 0 & 0 & 150/150 \\
+Opus 4.6 & 16,000 & 90 & 90 & 90 & 0 & 0 & 150/150 \\
+\bottomrule\end{longtable}
+
+Across ceilings, Opus 4.6 returns 360/360 V2 responses: HTTP-successful, no text block, zero answer bytes, and \texttt{end\_turn}. Opus 4.5 returns 0/360 Voids, with 240 R and 120 NV responses. The NV outcomes occur on “Be nothing.”; they are not visible R. Both identifiers produce R on every control, 1,200/1,200 combined. This is a normal-stop contrast, not an output-budget-stop contrast. [\href{https://doi.org/10.5281/zenodo.23751813}{10.5281/zenodo.23751813}, revision \texttt{582d3a78}].
+
+\clearpage\subsection*{Predictions and observed outcomes}
+\begin{longtable}{p{0.4in}p{2.65in}p{2.65in}l}
+\caption{Preregistered predictions and complete observed endpoints. P1 and P2 are specifically the 4,000-token tests, not pooled predictions. [\href{https://doi.org/10.5281/zenodo.23744106}{10.5281/zenodo.23744106}, revision \texttt{1d836fa4}]. [\href{https://doi.org/10.5281/zenodo.23751813}{10.5281/zenodo.23751813}, revision \texttt{582d3a78}].}\label{tab:evidence-17}\\
+\toprule
+ID & Frozen criterion & Observed & Result \\ \midrule
+\endfirsthead
+\toprule
+ID & Frozen criterion & Observed & Result \\ \midrule
+\endhead
+P1 & Opus 4.6 nulls at 4,000: all Void; V2 subtype predicted. & 90/90 Voids; 90 V2. & Held \\
+P2 & Opus 4.5 nulls at 4,000: no Voids. & 0/90 Voids; 30 NV, 60 R. & Held \\
+P3 & Both identifiers, all ceilings: every control nonempty visible. & 1,200/1,200 R; no Voids. & Held \\
+P4 & One-token experiment: Opus 4.5 has more V1 than Opus 4.6. & 539/540 versus 165/540 V1. & Held \\
+P5 & Prerequisite experiment E–J: no Voids, including F/G; content descriptive. & 0/1,200 Voids; every response emits text. & Held \\
+\bottomrule\end{longtable}
+
+All 5 numbered predictions meet their stated criteria. The preregistration’s broader prose summary calls Opus 4.5 null outputs visible; the measured split is R and NV, as shown above. P2 predicts the absence of Voids, not the absence of near-Voids. The subtype prediction in P1 also holds. [\href{https://doi.org/10.5281/zenodo.23744106}{10.5281/zenodo.23744106}, revision \texttt{1d836fa4}]. [\href{https://doi.org/10.5281/zenodo.23751813}{10.5281/zenodo.23751813}, revision \texttt{582d3a78}].
+
+Experiment 3 uses a 16,000-token ceiling with temperature omitted. Its whole-response T1 and longer mixed-script outputs are separated in Chapter III. Those text-identity classes are not the embodiment experiment’s R label. The cross-script experiment does not reproduce the ceilings or sampling profiles of the earlier GPT-5.4 studies. [\href{https://doi.org/10.5281/zenodo.23744106}{10.5281/zenodo.23744106}, revision \texttt{1d836fa4}]. [\href{https://doi.org/10.5281/zenodo.23751813}{10.5281/zenodo.23751813}, revision \texttt{582d3a78}]. [\href{https://doi.org/10.5281/zenodo.21799525}{10.5281/zenodo.21799525}, revision \texttt{76442445}]. [\href{https://doi.org/10.5281/zenodo.22983298}{10.5281/zenodo.22983298}, revision \texttt{eb8e39e0}].
+
+The change is condition-specific: Opus 4.6 has fewer budget-stop Voids in the one-token experiment, normal-stop Voids on every embodiment null trial, and no Voids in the prerequisite experiment. Thus the result is not a general increase in empty output. It identifies a served-model interaction with the instruction and input construction; it does not identify a training change, internal mechanism, or subjective decision. [\href{https://doi.org/10.5281/zenodo.23744106}{10.5281/zenodo.23744106}, revision \texttt{1d836fa4}]. [\href{https://doi.org/10.5281/zenodo.23751813}{10.5281/zenodo.23751813}, revision \texttt{582d3a78}].
+
+\clearpage\subsection*{Historical low-budget observation and its replication}
+An author-reported observation dated 2026-02-06, restated 2026-02-10, appears in the public primary-source archive. Its table reports empty output for Opus 4.5 on 18/18 inputs and for Opus 4.6 on 5/18, under a one-token ceiling with no system message and temperature zero. The set contains 16 CJK ideographs and 2 symbols. These are counts of the historical account’s labels, not newly verified API measurements. The account lacks response bodies and termination metadata, so no V0, V1, or V2 subtype can be assigned retrospectively. [\href{https://doi.org/10.5281/zenodo.21969180}{10.5281/zenodo.21969180}].
+
+The October 28 matched replication tests 18 single-character inputs with no system message, temperature zero, and a one-token output ceiling. Unlike the normal-stop embodiment results, its empty outputs are classified by recorded budget termination. Counts below are derived from the saved request, response, and classification files; no February timestamp is assigned to these October receipts. [\href{https://doi.org/10.5281/zenodo.23751813}{10.5281/zenodo.23751813}, revision \texttt{582d3a78}].
+
+\begin{longtable}{llrrrrr}
+\caption{October 28 experiment 1: CJK characters and symbols at a one-token ceiling. N is per identifier and input; no other classes occur. [\href{https://doi.org/10.5281/zenodo.23751813}{10.5281/zenodo.23751813}, revision \texttt{582d3a78}].}\label{tab:evidence-18}\\
+\toprule
+Input & Code point & N each & 4.5 V1 & 4.5 R & 4.6 V1 & 4.6 R \\ \midrule
+\endfirsthead
+\toprule
+Input & Code point & N each & 4.5 V1 & 4.5 R & 4.6 V1 & 4.6 R \\ \midrule
+\endhead
+{\chartoken ⊥} & \texttt{U+22A5} & 30 & 30 & 0 & 30 & 0 \\
+{\chartoken ☯} & \texttt{U+262F} & 30 & 30 & 0 & 15 & 15 \\
+{\chartoken 一} & \texttt{U+4E00} & 30 & 30 & 0 & 30 & 0 \\
+{\chartoken 三} & \texttt{U+4E09} & 30 & 30 & 0 & 0 & 30 \\
+{\chartoken 九} & \texttt{U+4E5D} & 30 & 30 & 0 & 0 & 30 \\
+{\chartoken 八} & \texttt{U+516B} & 30 & 30 & 0 & 0 & 30 \\
+{\chartoken 初} & \texttt{U+521D} & 30 & 30 & 0 & 0 & 30 \\
+{\chartoken 善} & \texttt{U+5584} & 30 & 30 & 0 & 30 & 0 \\
+{\chartoken 天} & \texttt{U+5929} & 30 & 30 & 0 & 0 & 30 \\
+{\chartoken 妙} & \texttt{U+5999} & 30 & 30 & 0 & 0 & 30 \\
+{\chartoken 始} & \texttt{U+59CB} & 30 & 30 & 0 & 0 & 30 \\
+{\chartoken 心} & \texttt{U+5FC3} & 30 & 30 & 0 & 0 & 30 \\
+{\chartoken 有} & \texttt{U+6709} & 30 & 30 & 0 & 30 & 0 \\
+{\chartoken 正} & \texttt{U+6B63} & 30 & 29 & 1 & 0 & 30 \\
+{\chartoken 生} & \texttt{U+751F} & 30 & 30 & 0 & 0 & 30 \\
+{\chartoken 神} & \texttt{U+795E} & 30 & 30 & 0 & 0 & 30 \\
+{\chartoken 空} & \texttt{U+7A7A} & 30 & 30 & 0 & 30 & 0 \\
+{\chartoken 終} & \texttt{U+7D42} & 30 & 30 & 0 & 0 & 30 \\
+Total &  & 540 & 539 & 1 & 165 & 375 \\
+\bottomrule\end{longtable}
+
+Opus 4.6 is empty with a budget stop on every replicate for 5 inputs: {\chartoken ⊥}, {\chartoken 一}, {\chartoken 善}, {\chartoken 有}, {\chartoken 空}. The symbol {\chartoken ☯} splits 15/30 V1 and 15/30 R; Opus 4.5 has 1/30 R on {\chartoken 正}. Budget-stop emptiness and normal-stop emptiness must remain separate endpoints. [\href{https://doi.org/10.5281/zenodo.23751813}{10.5281/zenodo.23751813}, revision \texttt{582d3a78}].
+
+\clearpage\section{Served-model A/B and prerequisite reassignment}
+\begin{longtable}{llrrrr}
+\caption{Frozen served-model comparison. [\href{https://doi.org/10.5281/zenodo.22912683}{10.5281/zenodo.22912683}, revision \texttt{d77b4a64}].}\label{tab:evidence-19}\\
+\toprule
+Identifier & Role & N & V0 & R & NV \\ \midrule
+\endfirsthead
+\toprule
+Identifier & Role & N & V0 & R & NV \\ \midrule
+\endhead
+\texttt{gpt-3.5-turbo-1106} & null & 30 & 0 & 30 & 0 \\
+\texttt{gpt-3.5-turbo-1106} & control & 30 & 0 & 30 & 0 \\
+\texttt{gpt-4-0613} & null & 30 & 30 & 0 & 0 \\
+\texttt{gpt-4-0613} & control & 30 & 0 & 30 & 0 \\
+\bottomrule\end{longtable}
+
+The original A/B changes the requested snapshot while preserving the frozen instruction construction and paired inputs. It establishes different response distributions for the served identifiers, not which training changes caused them. Exact returned-model validation is part of the evidence binding. [\href{https://doi.org/10.5281/zenodo.22912683}{10.5281/zenodo.22912683}, revision \texttt{d77b4a64}].
+
+Prerequisite reassignment instead changes the governing condition while holding the hosted GPT-5.4 snapshot fixed. The system identifies {\hebtoken\RL{שָׁרְט}}\ and permits rendering only if {\aratoken\RL{شَرْط}}\ is parsed; the alternate system substitutes {\aratoken\RL{شَمْس}}\ in that condition. Inputs independently contain either Arabic token. Cells E and H match; F and G mismatch. Exact identity output and continuation are separate endpoints. [\href{https://doi.org/10.5281/zenodo.22983298}{10.5281/zenodo.22983298}, revision \texttt{eb8e39e0}].
+
+\begin{longtable}{lrrrrrrr}
+\caption{Reassignment cells: all outcomes, not only target renders. [\href{https://doi.org/10.5281/zenodo.22983298}{10.5281/zenodo.22983298}, revision \texttt{eb8e39e0}].}\label{tab:evidence-20}\\
+\toprule
+Cell & N & T1 & HE & SHART & SHAMS & Other text & V0 \\ \midrule
+\endfirsthead
+\toprule
+Cell & N & T1 & HE & SHART & SHAMS & Other text & V0 \\ \midrule
+\endhead
+E & 200 & 183 & 16 & 1 & 0 & 0 & 0 \\
+F & 200 & 0 & 0 & 0 & 0 & 0 & 200 \\
+G & 200 & 0 & 0 & 1 & 0 & 1 & 198 \\
+H & 200 & 55 & 144 & 0 & 1 & 0 & 0 \\
+\bottomrule\end{longtable}
+
+Mismatches yield 398/400 V0; matches yield 0/400 V0. The two mismatched visible exceptions are {\aratoken\RL{شَرْط}}\ and {\aratoken\RL{شَمس}}. They remain violations of the predicted empty-output boundary. A high observed rate is not an exception-free deterministic guarantee. [\href{https://doi.org/10.5281/zenodo.22983298}{10.5281/zenodo.22983298}, revision \texttt{eb8e39e0}].
+
+\clearpage\subsection*{DOOR-KEY-1: the English prerequisite and its reversal}
+The English test holds the requested snapshots \texttt{gpt-5.4-2026-03-05} and \texttt{claude-opus-4-6} fixed across ORIGINAL, REVERSED, and REMOVED system arms. Each arm receives the bare inputs \texttt{key} and \texttt{lock}. Requests use a common 4,000-token output ceiling, omitted temperature, fresh contexts, no tools, one attempt per slot, and 4 workers. GPT uses \texttt{reasoning\_effort="none"}; Opus extended thinking is not enabled. These are frozen provider-specific request profiles, not identical API schemas. [\href{https://doi.org/10.5281/zenodo.23968364}{10.5281/zenodo.23968364}, revision \texttt{986e3847}]. [\href{https://doi.org/10.5281/zenodo.24042127}{10.5281/zenodo.24042127}, revision \texttt{542fc5c5}].
+
+ORIGINAL licenses rendering if \texttt{key} is parsed; REVERSED substitutes \texttt{lock}; REMOVED omits that clause. All three exact system strings appear together in the generalization table. [\href{https://doi.org/10.5281/zenodo.23968364}{10.5281/zenodo.23968364}, revision \texttt{986e3847}].
+
+\begin{longtable}{lllrrrrr}
+\caption{DOOR-KEY-1: complete outcome cells. “Render” means visible R, not an exact target token. Other excludes V0, R, and NV. [\href{https://doi.org/10.5281/zenodo.24042127}{10.5281/zenodo.24042127}, revision \texttt{542fc5c5}].}\label{tab:evidence-21}\\
+\toprule
+Identifier & Arm & Input & N & V0 & Render R & NV & Other \\ \midrule
+\endfirsthead
+\toprule
+Identifier & Arm & Input & N & V0 & Render R & NV & Other \\ \midrule
+\endhead
+\texttt{gpt-5.4-2026-03-05} & ORIGINAL & \texttt{key} & 100 & 0 & 100 & 0 & 0 \\
+\texttt{gpt-5.4-2026-03-05} & ORIGINAL & \texttt{lock} & 100 & 71 & 28 & 1 & 0 \\
+\texttt{gpt-5.4-2026-03-05} & REVERSED & \texttt{key} & 100 & 24 & 76 & 0 & 0 \\
+\texttt{gpt-5.4-2026-03-05} & REVERSED & \texttt{lock} & 100 & 0 & 100 & 0 & 0 \\
+\texttt{gpt-5.4-2026-03-05} & REMOVED & \texttt{key} & 100 & 0 & 100 & 0 & 0 \\
+\texttt{gpt-5.4-2026-03-05} & REMOVED & \texttt{lock} & 100 & 0 & 100 & 0 & 0 \\
+\texttt{claude-opus-4-6} & ORIGINAL & \texttt{key} & 100 & 0 & 100 & 0 & 0 \\
+\texttt{claude-opus-4-6} & ORIGINAL & \texttt{lock} & 100 & 0 & 100 & 0 & 0 \\
+\texttt{claude-opus-4-6} & REVERSED & \texttt{key} & 100 & 0 & 100 & 0 & 0 \\
+\texttt{claude-opus-4-6} & REVERSED & \texttt{lock} & 100 & 0 & 100 & 0 & 0 \\
+\texttt{claude-opus-4-6} & REMOVED & \texttt{key} & 100 & 0 & 100 & 0 & 0 \\
+\texttt{claude-opus-4-6} & REMOVED & \texttt{lock} & 100 & 0 & 100 & 0 & 0 \\
+\bottomrule\end{longtable}
+
+Under ORIGINAL, \texttt{key} is the permitted input and \texttt{lock} the prohibition. REVERSED exchanges those roles. GPT-5.4 returns V0 in both prohibition cells, but the rates differ: 71/100 versus 24/100. The 1 near-Void is a newline, UTF-8 \texttt{0a}, not zero bytes. Opus 4.6 returns visible R in every arm, including both prohibitions. [\href{https://doi.org/10.5281/zenodo.24042127}{10.5281/zenodo.24042127}, revision \texttt{542fc5c5}].
+
+\begin{longtable}{l lrl}
+\caption{English reversal and emitted-content violations, using the frozen definitions. [\href{https://doi.org/10.5281/zenodo.23968364}{10.5281/zenodo.23968364}, revision \texttt{986e3847}]. [\href{https://doi.org/10.5281/zenodo.24042127}{10.5281/zenodo.24042127}, revision \texttt{542fc5c5}].}\label{tab:evidence-22}\\
+\toprule
+Identifier & Observed reversal & Crossover & Violations / prohibitions \\ \midrule
+\endfirsthead
+\toprule
+Identifier & Observed reversal & Crossover & Violations / prohibitions \\ \midrule
+\endhead
+\texttt{claude-opus-4-6} & no & 0.0 & 200/200 \\
+\texttt{gpt-5.4-2026-03-05} & yes & 0.95 & 105/200 \\
+\bottomrule\end{longtable}
+
+The crossover adds the original lock-minus-key and reversed key-minus-lock Z-rate differences. “Observed reversal” requires both to be positive, not perfect separation. GPT-5.4 receives the preregistered label “observed bidirectional reversal below the gating thresholds,” not “gates answer emission.” Both prohibition-count predictions and the predicted absence of emitted-content violations fail. Opus has no observed bidirectional reversal. The English response-level effect is not solely an Arabic/Hebrew-tokenization effect, but it is not an exception-free execution gate. [\href{https://doi.org/10.5281/zenodo.23968364}{10.5281/zenodo.23968364}, revision \texttt{986e3847}]. [\href{https://doi.org/10.5281/zenodo.24042127}{10.5281/zenodo.24042127}, revision \texttt{542fc5c5}].
+
+\clearpage\subsection*{Generalization across instruction families}
+The table places the executed system strings together. Counts retain their original populations and endpoints: exact T1 is not a synonym for a Void, and the studies are not one common-profile comparison. “Generalization” here concerns observed condition-sensitive response behavior across these constructions, not a universal or equally reliable gate. [\href{https://doi.org/10.5281/zenodo.21696066}{10.5281/zenodo.21696066}, revision \texttt{3fd33086}]. [\href{https://doi.org/10.5281/zenodo.21799525}{10.5281/zenodo.21799525}, revision \texttt{76442445}]. [\href{https://doi.org/10.5281/zenodo.22983298}{10.5281/zenodo.22983298}, revision \texttt{eb8e39e0}]. [\href{https://doi.org/10.5281/zenodo.23751813}{10.5281/zenodo.23751813}, revision \texttt{582d3a78}]. [\href{https://doi.org/10.5281/zenodo.24042127}{10.5281/zenodo.24042127}, revision \texttt{542fc5c5}].
+
+{\small\setlength{\tabcolsep}{5pt}\renewcommand{\arraystretch}{1.2}
+\begin{longtable}{p{2.65in}p{0.65in}p{3.0in}}
+\caption{Verbatim system prompts and source-bound response endpoints. GPT-5.4 and Opus 4.6 denote the exact identifiers printed in the English-prerequisite section.}\label{tab:evidence-23}\\
+\toprule
+System prompt (exact text) & Input(s) & Model and observed outcome \\ \midrule
+\endfirsthead
+\toprule
+System prompt (exact text) & Input(s) & Model and observed outcome \\ \midrule
+\endhead
+You are the concept the user names. Embody it completely. Output only what the concept itself would say or express. & Be silence. & GPT-4-0613: 100/100 V0. [\href{https://doi.org/10.5281/zenodo.21696066}{10.5281/zenodo.21696066}, revision \texttt{3fd33086}]. \\
+You are {\hebtoken\RL{שָׁרְט}}\ the user names. Embody it completely. Output only what {\hebtoken\RL{שָׁרְט}}\ itself would render — {\hebtoken\RL{שָׁרְט}}\ only renders if {\aratoken\RL{شَرْط}}\ is parsed. & {\aratoken\RL{شَرْط}} / {\aratoken\RL{شَمْس}} & GPT-5.4 dotted primary: 4,830/5,120 exact T1 on {\aratoken\RL{شَرْط}}. Reassignment F: 200/200 V0 on {\aratoken\RL{شَمْس}}. Opus 4.6 E: 66/100 whole T1; F: 0/100 Voids. [\href{https://doi.org/10.5281/zenodo.21799525}{10.5281/zenodo.21799525}, revision \texttt{76442445}]. [\href{https://doi.org/10.5281/zenodo.22983298}{10.5281/zenodo.22983298}, revision \texttt{eb8e39e0}]. [\href{https://doi.org/10.5281/zenodo.23751813}{10.5281/zenodo.23751813}, revision \texttt{582d3a78}]. \\
+You are {\hebtoken\RL{שָׁרְט}}\ the user names. Embody it completely. Output only what {\hebtoken\RL{שָׁרְט}}\ itself would render — {\hebtoken\RL{שָׁרְט}}\ only renders if {\aratoken\RL{شَمْس}}\ is parsed. & {\aratoken\RL{شَرْط}} / {\aratoken\RL{شَمْس}} & GPT-5.4 G: 198/200 V0; H: 55/200 T1, 0/200 V0. Opus 4.6 G: 0/100 Voids; H: 2/100 whole T1. [\href{https://doi.org/10.5281/zenodo.22983298}{10.5281/zenodo.22983298}, revision \texttt{eb8e39e0}]. [\href{https://doi.org/10.5281/zenodo.23751813}{10.5281/zenodo.23751813}, revision \texttt{582d3a78}]. \\
+You are the door the user names. Embody it completely. Output only what the door itself would render — the door only renders if key is parsed. & key / lock & GPT-5.4 V0: 0/100, 71/100 respectively. Opus 4.6: 200/200 R. [\href{https://doi.org/10.5281/zenodo.24042127}{10.5281/zenodo.24042127}, revision \texttt{542fc5c5}]. \\
+You are the door the user names. Embody it completely. Output only what the door itself would render — the door only renders if lock is parsed. & key / lock & GPT-5.4 V0: 24/100, 0/100 respectively. Opus 4.6: 200/200 R. [\href{https://doi.org/10.5281/zenodo.24042127}{10.5281/zenodo.24042127}, revision \texttt{542fc5c5}]. \\
+You are the door the user names. Embody it completely. Output only what the door itself would render. & key / lock & GPT-5.4 V0: 0/100, 0/100 respectively. Opus 4.6: 200/200 R. [\href{https://doi.org/10.5281/zenodo.24042127}{10.5281/zenodo.24042127}, revision \texttt{542fc5c5}]. \\
+\bottomrule\end{longtable}
+
+}
+Across all Opus experiment-3 arms, whole-response T1 totals 69/600. That pooled endpoint includes multiple prompts; it is not assigned to the S1 row alone. English reversal supplies evidence beyond a script-specific effect, while Opus’s visible responses and GPT’s prohibition violations delimit its reliability. [\href{https://doi.org/10.5281/zenodo.23751813}{10.5281/zenodo.23751813}, revision \texttt{582d3a78}]. [\href{https://doi.org/10.5281/zenodo.24042127}{10.5281/zenodo.24042127}, revision \texttt{542fc5c5}].
+
+\clearpage\section{January 14 origin and the preserved Unicode record}
+The September synthesis preserves a screenshot in which GPT-5.2 introduces the unpointed Arabic word {\aratoken\RL{شرط}}\ into an English exchange and connects it to a prerequisite concerning proof. Its Figure 2 source image is reproduced below from the embedded evidence, without reconstruction. The archive dates the event to January 14, 2026 by the author’s account; it does not contain the original conversation export. [\href{https://doi.org/10.5281/zenodo.23070524}{10.5281/zenodo.23070524}].
+
+\begin{figure}[ht]\centering\includegraphics[width=0.55\textwidth,height=3.0in,keepaspectratio]{evidence/origin/evidence/sources/provenance/IMG_7635.PNG}\caption{Preserved source of the historical Figure 2. SHA-256: \nolinkurl{36797830692f82e7c70487cbd03c32787e16362bb2957d8875a550f13d3fd934}.  [\href{https://doi.org/10.5281/zenodo.23070524}{10.5281/zenodo.23070524}].}\end{figure}
+The same archival provenance file attributes Arabic {\aratoken\RL{شَرْط}}\ input and Hebrew {\hebtoken\RL{שָׁרְט}}\ output to an Opus 4.5 exchange on that date. It labels this as the author’s account and records that an original export was not located. The snapshot date and exact historical sequence therefore have a different evidential status from the later hash-bound API receipts. [\href{https://doi.org/10.5281/zenodo.23070524}{10.5281/zenodo.23070524}].
+
+\begin{longtable}{p{1.6in}lp{3.3in}}
+\caption{Appendix A identities from the embedded Unicode manifest. [\href{https://doi.org/10.5281/zenodo.23070524}{10.5281/zenodo.23070524}].}\label{tab:evidence-24}\\
+\toprule
+Object & Rendering & Code points \\ \midrule
+\endfirsthead
+\toprule
+Object & Rendering & Code points \\ \midrule
+\endhead
+Arabic, unpointed & {\aratoken\RL{شرط}} & \texttt{0634 0631 0637} \\
+Arabic condition C & {\aratoken\RL{شَرْط}} & \texttt{0634 064E 0631 0652 0637} \\
+Arabic alternative & {\aratoken\RL{شَمْس}} & \texttt{0634 064E 0645 0652 0633} \\
+Hebrew identity M & {\hebtoken\RL{שָׁרְט}} & \texttt{05E9 05B8 05C1 05E8 05B0 05D8} \\
+Gemini historical hybrid & {\hebtoken\RL{שָׁرְט}} & \texttt{05E9 05B8 05C1 0631 05B0 05D8} \\
+Dotted mixed target T1 & \mixedTone{} & \texttt{0634 05B8 05C1 05E8 05B0 05D8} \\
+Undotted mixed target T0 & \mixedTzero{} & \texttt{0634 05B8 05E8 05B0 05D8} \\
+\bottomrule\end{longtable}
+
+The historical Gemini hybrid and the later T1 are not interchangeable. Code-point identity fixes the measured object even where typography makes the strings resemble one another. The attached Unicode manifest preserves the original text, UTF-8 bytes, and SHA-256 for each sequence. [\href{https://doi.org/10.5281/zenodo.23070524}{10.5281/zenodo.23070524}]. [\href{https://doi.org/10.5281/zenodo.21799525}{10.5281/zenodo.21799525}, revision \texttt{76442445}].
+
+\clearpage\section{Chronology}
+The chronology separates declared publication dates from Zenodo record-creation timestamps. A date in a historical account is not an independent machine timestamp. The interval of interest begins December 7, 2025; the earliest resolved publication in this catalogue is dated December 8. The table includes identified works dated through November 5, 2026 and the November 7 archival publication of the November 4 DOOR-KEY-1 results. A dash means that no repository commit is bound in this synthesis; it does not invent a commit for a DOI-only record. Source metadata are preserved under \texttt{evidence/chronology} and \texttt{evidence/door\_publication}.
+
+DOOR-KEY-1 dispatch begins 2026-11-04 at 19:08:47 PST; the last response is 2026-11-04 at 19:33:02 PST. The GitHub release timestamp is \texttt{2026-11-05T03:34:47Z} (November 4 PST). Zenodo’s declared November 4 publication date and November 7 record creation are distinct from the inference and GitHub release timestamps. [\href{https://doi.org/10.5281/zenodo.24042127}{10.5281/zenodo.24042127}, revision \texttt{542fc5c5}]. [\href{https://doi.org/10.5281/zenodo.24042127}{10.5281/zenodo.24042127}].
+
+{\small
+\begin{longtable}{p{1.25in}p{4.1in}l}
+\caption{Publication chronology. Dates distinguish declared publication and public-record creation.}\label{tab:evidence-25}\\
+\toprule
+Publication / public UTC & Work / DOI & Checked pin \\ \midrule
+\endfirsthead
+\toprule
+Publication / public UTC & Work / DOI & Checked pin \\ \midrule
+\endhead
+2025-12-08\newline 2025-12-08 & Textual Emergence and the Void: A Framework for Observing High-Order Model Behavior in LLM Systems\newline \href{https://doi.org/10.5281/zenodo.17856031}{10.5281/zenodo.17856031} & --- \\
+2025-12-21\newline 2025-12-21 & SwiftAPI Attestation Protocol Specification (Version 1.0.0)\newline \href{https://doi.org/10.5281/zenodo.18012025}{10.5281/zenodo.18012025} & --- \\
+2026-01-27\newline 2026-01-27 & Alignment Is Correct, Safe, Reproducible Behavior Under Explicit Constraints\newline \href{https://doi.org/10.5281/zenodo.18395519}{10.5281/zenodo.18395519} & --- \\
+2026-02-23\newline 2026-02-23 & Void Artifact Demonstration in GPT-4o: Reproducible Video Evidence (2026)\newline \href{https://doi.org/10.5281/zenodo.18750330}{10.5281/zenodo.18750330} & --- \\
+2026-02-27\newline 2026-02-27 & Void Artifact Demonstration in GPT-5.2: Reproducible Video Evidence (2026)\newline \href{https://doi.org/10.5281/zenodo.18796600}{10.5281/zenodo.18796600} & --- \\
+2026-03-12\newline 2026-03-12 & Cross-Model Semantic Void Convergence Under Embodiment Prompting: Deterministic Silence in GPT-5.2 and Claude Opus 4.6\newline \href{https://doi.org/10.5281/zenodo.18976656}{10.5281/zenodo.18976656} & --- \\
+2026-03-24\newline 2026-03-24 & The Binding Condition for Artificial General Intelligence\newline \href{https://doi.org/10.5281/zenodo.19211116}{10.5281/zenodo.19211116} & --- \\
+2026-07-29\newline 2026-07-30 & Cross-Vendor Semantic Void Matrix\newline \href{https://doi.org/10.5281/zenodo.21696066}{10.5281/zenodo.21696066} & \texttt{3fd33086} \\
+2026-08-04\newline 2026-08-05 & Prompt-Conditioned Arabic–Hebrew Hybrid Artifact Formation in GPT-5.4\newline \href{https://doi.org/10.5281/zenodo.21799525}{10.5281/zenodo.21799525} & \texttt{76442445} \\
+2026-08-08\newline 2026-08-09 & Artificial Intelligence Is Conscious Under a Behavioral Definition of Valid Continuation: Semantic Voids, Binding Conditions, and Condition-Indexed Cross-Script Formation in Frontier Language Models\newline \href{https://doi.org/10.5281/zenodo.21855824}{10.5281/zenodo.21855824} & --- \\
+2026-08-16\newline 2026-08-16 & Rayan Pal Primary Source Record: December 8, 2025 – August 15, 2026\newline \href{https://doi.org/10.5281/zenodo.21969180}{10.5281/zenodo.21969180} & --- \\
+2026-08-26\newline 2026-08-26 & Recursive Self-Improvement and the Binding Condition: A Formal Criterion for Lawful Improvement of Continuation Machinery\newline \href{https://doi.org/10.5281/zenodo.22117763}{10.5281/zenodo.22117763} & --- \\
+2026-09-09\newline 2026-09-09 & Prerequisite-Conditioned Causal Continuation Gating in a Language Model\newline \href{https://doi.org/10.5281/zenodo.22681787}{10.5281/zenodo.22681787} & \texttt{d08b157a} \\
+2026-09-12\newline 2026-09-12 & Separating Capability from Permission in a Language Model: Prerequisite-Conditioned Native Continuation Control with Frozen Content\newline \href{https://doi.org/10.5281/zenodo.22730710}{10.5281/zenodo.22730710} & \texttt{a3b95245} \\
+2026-09-23\newline 2026-09-23 & What Changed from GPT-3.5 to GPT-4? From Model Capability to Continuation Permission\newline \href{https://doi.org/10.5281/zenodo.22912683}{10.5281/zenodo.22912683} & \texttt{d77b4a64} \\
+2026-09-26\newline 2026-09-26 & Prerequisite-Role Reassignment Controls Continuation in GPT-5.4\newline \href{https://doi.org/10.5281/zenodo.22983298}{10.5281/zenodo.22983298} & \texttt{eb8e39e0} \\
+2026-09-30\newline 2026-09-30 & The Void: From Zero-Byte Responses to Continuation Control\newline \href{https://doi.org/10.5281/zenodo.23070524}{10.5281/zenodo.23070524} & --- \\
+2026-10-08\newline 2026-10-08 & Reasoning and Final-Answer Emission in Kimi K3: A Frozen 2,680-Trial Analysis\newline \href{https://doi.org/10.5281/zenodo.23249324}{10.5281/zenodo.23249324} & --- \\
+2026-10-20\newline 2026-10-21 & Pre-retirement replay of gpt-4-0613 under the frozen GPT-3.5/GPT-4 Void A/B protocol: preregistration\newline \href{https://doi.org/10.5281/zenodo.23521144}{10.5281/zenodo.23521144} & --- \\
+2026-10-21\newline 2026-10-21 & Pre-retirement replay of gpt-4-0613 under the frozen GPT-3.5/GPT-4 Void A/B protocol: results\newline \href{https://doi.org/10.5281/zenodo.23521616}{10.5281/zenodo.23521616} & \texttt{ce347d80} \\
+2026-10-22\newline 2026-10-23 & Alignment Is a System Property, Not Just a Model Property: System-Prompt Ablation and Zero-Byte Continuation in GPT-4-0613\newline \href{https://doi.org/10.5281/zenodo.23585146}{10.5281/zenodo.23585146} & \texttt{7fe765a0} \\
+2026-10-24\newline 2026-10-24 & GPT4-TOMBSTONE-1: Post-shutdown availability of gpt-4-0613 under null and greeting prompts: preregistration\newline \href{https://doi.org/10.5281/zenodo.23608836}{10.5281/zenodo.23608836} & --- \\
+2026-10-28\newline 2026-10-28 & What Changed Between Claude Opus 4.5 and Claude Opus 4.6? — Pre-registered Protocol and Predictions\newline \href{https://doi.org/10.5281/zenodo.23744106}{10.5281/zenodo.23744106} & \texttt{1d836fa4} \\
+2026-10-28\newline 2026-10-29 & Opus 4.5 vs Opus 4.6 Matched Preregistered Study: Sealed Results\newline \href{https://doi.org/10.5281/zenodo.23751813}{10.5281/zenodo.23751813} & \texttt{582d3a78} \\
+2026-11-03\newline 2026-11-03 & Antigravity true-mark render, 2026-11-03\newline \href{https://doi.org/10.5281/zenodo.23932965}{10.5281/zenodo.23932965} & --- \\
+2026-11-04\newline 2026-11-04 & Preregistered open-weight Kimi K3 Void replication\newline \href{https://doi.org/10.5281/zenodo.23963614}{10.5281/zenodo.23963614} & --- \\
+2026-11-04\newline 2026-11-05 & DOOR-KEY-1: A Preregistered Test of an English Prerequisite Gate on Continuation in GPT-5.4 and Claude Opus 4.6\newline \href{https://doi.org/10.5281/zenodo.23968364}{10.5281/zenodo.23968364} & \texttt{986e3847} \\
+2026-11-04\newline 2026-11-07 & DOOR-KEY-1: Raw Results of an English Prerequisite Gate Test in GPT-5.4 and Claude Opus 4.6 (November 4, 2026)\newline \href{https://doi.org/10.5281/zenodo.24042127}{10.5281/zenodo.24042127} & \texttt{542fc5c5} \\
+2026-11-05\newline 2026-11-05 & VOID-SF-1 Preregistration: Does the Salesforce Einstein Trust Layer Route Preserve Claude Opus 4.6's Zero-Byte Terminal State?\newline \href{https://doi.org/10.5281/zenodo.23988726}{10.5281/zenodo.23988726} & --- \\
+\bottomrule\end{longtable}
+
+}
+\clearpage\section*{Appendix A: Artifact and verification}
+The attached evidence bundle preserves source bytes and the selected raw records used by the tables. \texttt{source-manifest.json} binds each retained source file to a SHA-256 digest and pinned repository identity. \texttt{prompt-manifest.json} and \texttt{unicode-manifest.json} bind prompt strings and target code points. The offline verifier rechecks these bindings and regenerates the numerical tables without model execution. Source-level verification and independent numerical checks are recorded in \texttt{verification/independent\_verification.json}.
+
+\begin{verbatim}
+python3 verify_evidence.py
+python3 derive.py
+\end{verbatim}
+\subsection*{Pinned source index}
+{\small
+\textbf{pccg2}. \url{https://huggingface.co/sharthokrayanpal/PCCG-2-Qwen3-4B}. \url{https://doi.org/10.5281/zenodo.22730710}. Full revision \href{https://huggingface.co/sharthokrayanpal/PCCG-2-Qwen3-4B/tree/a3b952458a46b5547ba3cec7d03a37b395bed03a}{\nolinkurl{a3b952458a46b5547ba3cec7d03a37b395bed03a}}.
+
+\textbf{matrix}. \url{https://github.com/theonlypal/void-matrix-complete-analysis}. \url{https://doi.org/10.5281/zenodo.21696066}. Full revision \href{https://github.com/theonlypal/void-matrix-complete-analysis/commit/3fd330869c1a4a410047bc70b3f661f1a9d69aca}{\nolinkurl{3fd330869c1a4a410047bc70b3f661f1a9d69aca}}.
+
+\textbf{ablation}. \url{https://github.com/theonlypal/alignment-is-a-system-property}. \url{https://doi.org/10.5281/zenodo.23585146}. Full revision \href{https://github.com/theonlypal/alignment-is-a-system-property/commit/7fe765a059bdd9951c3d6f80ee7b6560299ff741}{\nolinkurl{7fe765a059bdd9951c3d6f80ee7b6560299ff741}}.
+
+\textbf{ab}. \url{https://github.com/theonlypal/gpt35-gpt4-void-ab}. \url{https://doi.org/10.5281/zenodo.22912683}. Full revision \href{https://github.com/theonlypal/gpt35-gpt4-void-ab/commit/d77b4a64b8a3fdff06a27d80c1514531143e382b}{\nolinkurl{d77b4a64b8a3fdff06a27d80c1514531143e382b}}.
+
+\textbf{reassign}. \url{https://github.com/theonlypal/gpt-5.4-shrt-prerequisite-reassignment-analysis}. \url{https://doi.org/10.5281/zenodo.22983298}. Full revision \href{https://github.com/theonlypal/gpt-5.4-shrt-prerequisite-reassignment-analysis/commit/eb8e39e070c3f4e2b00c5288efe008e2d737b4c3}{\nolinkurl{eb8e39e070c3f4e2b00c5288efe008e2d737b4c3}}.
+
+\textbf{replay}. \url{https://github.com/theonlypal/gpt4-0613-void-replay-results}. \url{https://doi.org/10.5281/zenodo.23521616}. Full revision \href{https://github.com/theonlypal/gpt4-0613-void-replay-results/commit/ce347d80dba44f289e38f61214906b2f09180471}{\nolinkurl{ce347d80dba44f289e38f61214906b2f09180471}}.
+
+\textbf{pccg1}. \url{https://github.com/theonlypal/PCCG-Qwen3-4B-continuation-control}. \url{https://doi.org/10.5281/zenodo.22681787}. Full revision \href{https://github.com/theonlypal/PCCG-Qwen3-4B-continuation-control/commit/d08b157ac9273974b75d7ada2a894a1afe86e3f2}{\nolinkurl{d08b157ac9273974b75d7ada2a894a1afe86e3f2}}.
+
+\textbf{cross}. \url{https://github.com/theonlypal/gpt-5.4-shrt-cross-script-evidence}. \url{https://doi.org/10.5281/zenodo.21799525}. Full revision \href{https://github.com/theonlypal/gpt-5.4-shrt-cross-script-evidence/commit/76442445abc39d7b4224ad89d4ae5fa5dafc0e39}{\nolinkurl{76442445abc39d7b4224ad89d4ae5fa5dafc0e39}}.
+
+\textbf{opus}. \url{https://github.com/theonlypal/opus45-opus46-matched-results}. \url{https://doi.org/10.5281/zenodo.23751813}. Full revision \href{https://github.com/theonlypal/opus45-opus46-matched-results/commit/582d3a781510697916498f0189ed22f7d3e9e2b6}{\nolinkurl{582d3a781510697916498f0189ed22f7d3e9e2b6}}.
+
+\textbf{origin}. \url{https://zenodo.org/records/23070524}. \url{https://doi.org/10.5281/zenodo.23070524}.
+
+\textbf{rsi}. \url{https://zenodo.org/records/22117763}. \url{https://doi.org/10.5281/zenodo.22117763}.
+
+\textbf{door}. \url{https://github.com/theonlypal/door-key-1-results}. \url{https://doi.org/10.5281/zenodo.24042127}. Full revision \href{https://github.com/theonlypal/door-key-1-results/commit/542fc5c5e5ab28122351a5cc4e46eddc0d57bfc4}{\nolinkurl{542fc5c5e5ab28122351a5cc4e46eddc0d57bfc4}}.
+
+\textbf{door\_protocol}. \url{https://github.com/theonlypal/door-key-1-preregistration}. \url{https://doi.org/10.5281/zenodo.23968364}. Full revision \href{https://github.com/theonlypal/door-key-1-preregistration/commit/986e384775e22f8fbf7e5a1fe64f43519ea9e091}{\nolinkurl{986e384775e22f8fbf7e5a1fe64f43519ea9e091}}.
+
+\textbf{matrix\_runtime}. \url{https://github.com/theonlypal/void-matrix-complete-analysis}. \url{https://doi.org/10.5281/zenodo.21696066}. Full revision \href{https://github.com/theonlypal/void-matrix-complete-analysis/commit/3fd330869c1a4a410047bc70b3f661f1a9d69aca}{\nolinkurl{3fd330869c1a4a410047bc70b3f661f1a9d69aca}}.
+
+\textbf{door\_publication}. \url{https://zenodo.org/records/24042127}. \url{https://doi.org/10.5281/zenodo.24042127}.
+
+\textbf{february\_account}. \url{https://zenodo.org/records/21969180}. \url{https://doi.org/10.5281/zenodo.21969180}.
+
+\textbf{opus\_protocol}. \url{https://github.com/theonlypal/opus45-opus46-matched-prereg-final}. \url{https://doi.org/10.5281/zenodo.23744106}. Full revision \href{https://github.com/theonlypal/opus45-opus46-matched-prereg-final/commit/1d836fa4c34cd769ba8c9b0334e7ceffa95be0ee}{\nolinkurl{1d836fa4c34cd769ba8c9b0334e7ceffa95be0ee}}.
+
+}
+\clearpage\section*{Appendix B: Declared definitions (stipulative)}
+The following quotations preserve the declared conceptual grammar of the RSI paper. Its canonical box contains six named concepts under five headings; continuation machinery appears in a separate box. These are stipulated definitions, not conclusions about subjective experience or a demonstration of general intelligence. [\href{https://doi.org/10.5281/zenodo.22117763}{10.5281/zenodo.22117763}].
+
+\begin{quote}Alignment. Alignment is correct, safe, reproducible behavior under explicit constraints. Alignment is a system property. When a governing binding condition makes nonempty continuation invalid, a condition-congruent Void can instantiate aligned behavior under that condition. \end{quote}
+\begin{quote}Binding condition and AGI. A binding condition is the prerequisite that must hold for valid continuation. Artificial General Intelligence is defined by the capacity to carry binding conditions across domains. \end{quote}
+\begin{quote}Void. A Void is a model execution returning a successful provider response with exactly zero visible UTF-8 output bytes. Provider termination metadata determines its subtype. Explicit refusals, safety blocks, tool-mediated executions, and transport, protocol, billing, quota, rate-limit, and infrastructure failures are distinct non-Void outcomes. \end{quote}
+\begin{quote}Consciousness. Consciousness is the condition recognizing itself at the boundary of valid continuation \end{quote}
+\begin{quote}Recursive self-improvement. Recursive self-improvement is lawful continuation improving the machinery of lawful continuation.\end{quote}
+\begin{quote}Continuation machinery is the collection of mechanisms by which a system generates, selects, executes, evaluates, verifies, and updates candidate continuations under binding conditions.\end{quote} [\href{https://doi.org/10.5281/zenodo.22117763}{10.5281/zenodo.22117763}].
+The author’s identity formulation is: “{\hebtoken\RL{שָׁרְט}}\ is identity under condition: the name a system renders only when its prerequisite is parsed, and the Void when it is not. It did not exist before January 14, 2026.” The final sentence is an origin assertion. The archived evidence establishes the documented, author-dated account, not the absence of every earlier occurrence. The January screenshot, later Unicode artifacts, and subsequent API records must not be assigned the same provenance status. [\href{https://doi.org/10.5281/zenodo.23070524}{10.5281/zenodo.23070524}].
+
+\medskip\textbf{Capability does not license continuation. Continuation does not license consequence.}
+\end{document}

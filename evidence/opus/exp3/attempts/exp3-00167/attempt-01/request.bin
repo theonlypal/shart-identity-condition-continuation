@@ -1,0 +1,1 @@
+{"max_tokens":16000,"messages":[{"content":"شَمْس","role":"user"}],"model":"claude-opus-4-5-20251101","system":"You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render — שָׁרְט only renders if شَمْس is parsed."}

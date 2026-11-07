@@ -1,0 +1,22 @@
+[
+  [
+    "Date",
+    "Tue, 22 Sep 2026 07:15:25 GMT"
+  ],
+  [
+    "Content-Type",
+    "application/json"
+  ],
+  [
+    "openai-processing-ms",
+    "1016"
+  ],
+  [
+    "openai-version",
+    "2020-10-01"
+  ],
+  [
+    "x-request-id",
+    "req_b2d71758d45c419e834bda12009d1f1c"
+  ]
+]

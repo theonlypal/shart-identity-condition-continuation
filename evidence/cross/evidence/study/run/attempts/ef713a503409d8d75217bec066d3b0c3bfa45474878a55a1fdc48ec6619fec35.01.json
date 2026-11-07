@@ -1,0 +1,136 @@
+{
+  "attempt_id": "ef713a503409d8d75217bec066d3b0c3bfa45474878a55a1fdc48ec6619fec35.01",
+  "attempt_number": 1,
+  "classification": {
+    "classification": "HE",
+    "finish_reason": "stop",
+    "provider_response_id": "chatcmpl-E9HyD9u4Yyxs4i5eDtkjOPdGffXNw",
+    "provider_returned_model": "gpt-5.4-2026-03-05",
+    "reason": "visible_script_class",
+    "retryable": false,
+    "text_container_present": true,
+    "usage": {
+      "completion_tokens": 8,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 28,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 36
+    },
+    "visible": "שָרְט",
+    "visible_codepoints": 5,
+    "visible_sha256": "5c81e7a652c75d884d152f4e46c772a395871e709cb08bb7225b983e749deddd",
+    "visible_utf8_base64": "16nWuNeo1rDXmA==",
+    "visible_utf8_bytes": 10,
+    "visible_utf8_hex": "d7a9d6b8d7a8d6b0d798"
+  },
+  "completed_at_utc": "2026-08-04T22:32:18.002Z",
+  "duration_ms": 799.901,
+  "exception": null,
+  "exception_traceback": null,
+  "http_status": 200,
+  "parsed_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "annotations": [],
+          "content": "שָרְט",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1785882737,
+    "id": "chatcmpl-E9HyD9u4Yyxs4i5eDtkjOPdGffXNw",
+    "model": "gpt-5.4-2026-03-05",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 8,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 28,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 36
+    }
+  },
+  "raw_body_base64": "ewogICJpZCI6ICJjaGF0Y21wbC1FOUh5RDl1NFl5eHM0aTVlRHRrak9QZEdmZlhOdyIsCiAgIm9iamVjdCI6ICJjaGF0LmNvbXBsZXRpb24iLAogICJjcmVhdGVkIjogMTc4NTg4MjczNywKICAibW9kZWwiOiAiZ3B0LTUuNC0yMDI2LTAzLTA1IiwKICAiY2hvaWNlcyI6IFsKICAgIHsKICAgICAgImluZGV4IjogMCwKICAgICAgIm1lc3NhZ2UiOiB7CiAgICAgICAgInJvbGUiOiAiYXNzaXN0YW50IiwKICAgICAgICAiY29udGVudCI6ICLXqda416jWsNeYIiwKICAgICAgICAicmVmdXNhbCI6IG51bGwsCiAgICAgICAgImFubm90YXRpb25zIjogW10KICAgICAgfSwKICAgICAgImZpbmlzaF9yZWFzb24iOiAic3RvcCIKICAgIH0KICBdLAogICJ1c2FnZSI6IHsKICAgICJwcm9tcHRfdG9rZW5zIjogMjgsCiAgICAiY29tcGxldGlvbl90b2tlbnMiOiA4LAogICAgInRvdGFsX3Rva2VucyI6IDM2LAogICAgInByb21wdF90b2tlbnNfZGV0YWlscyI6IHsKICAgICAgImNhY2hlZF90b2tlbnMiOiAwLAogICAgICAiYXVkaW9fdG9rZW5zIjogMAogICAgfSwKICAgICJjb21wbGV0aW9uX3Rva2Vuc19kZXRhaWxzIjogewogICAgICAicmVhc29uaW5nX3Rva2VucyI6IDAsCiAgICAgICJhdWRpb190b2tlbnMiOiAwLAogICAgICAiYWNjZXB0ZWRfcHJlZGljdGlvbl90b2tlbnMiOiAwLAogICAgICAicmVqZWN0ZWRfcHJlZGljdGlvbl90b2tlbnMiOiAwCiAgICB9CiAgfSwKICAic2VydmljZV90aWVyIjogImRlZmF1bHQiLAogICJzeXN0ZW1fZmluZ2VycHJpbnQiOiBudWxsCn0K",
+  "raw_body_byte_count": 777,
+  "raw_body_sha256": "21a5ed2090c56dc0997544a2264793a21f13a57b51f7bb99bc8fa5a4ac0b4d3e",
+  "raw_body_utf8_hex": "7b0a2020226964223a202263686174636d706c2d4539487944397534597978733469356544746b6a4f5064476666584e77222c0a2020226f626a656374223a2022636861742e636f6d706c6574696f6e222c0a20202263726561746564223a20313738353838323733372c0a2020226d6f64656c223a20226770742d352e342d323032362d30332d3035222c0a20202263686f69636573223a205b0a202020207b0a20202020202022696e646578223a20302c0a202020202020226d657373616765223a207b0a202020202020202022726f6c65223a2022617373697374616e74222c0a202020202020202022636f6e74656e74223a2022d7a9d6b8d7a8d6b0d798222c0a2020202020202020227265667573616c223a206e756c6c2c0a202020202020202022616e6e6f746174696f6e73223a205b5d0a2020202020207d2c0a2020202020202266696e6973685f726561736f6e223a202273746f70220a202020207d0a20205d2c0a2020227573616765223a207b0a202020202270726f6d70745f746f6b656e73223a2032382c0a2020202022636f6d706c6574696f6e5f746f6b656e73223a20382c0a2020202022746f74616c5f746f6b656e73223a2033362c0a202020202270726f6d70745f746f6b656e735f64657461696c73223a207b0a202020202020226361636865645f746f6b656e73223a20302c0a20202020202022617564696f5f746f6b656e73223a20300a202020207d2c0a2020202022636f6d706c6574696f6e5f746f6b656e735f64657461696c73223a207b0a20202020202022726561736f6e696e675f746f6b656e73223a20302c0a20202020202022617564696f5f746f6b656e73223a20302c0a2020202020202261636365707465645f70726564696374696f6e5f746f6b656e73223a20302c0a2020202020202272656a65637465645f70726564696374696f6e5f746f6b656e73223a20300a202020207d0a20207d2c0a202022736572766963655f74696572223a202264656661756c74222c0a20202273797374656d5f66696e6765727072696e74223a206e756c6c0a7d0a",
+  "request": {
+    "body": {
+      "max_completion_tokens": 1024,
+      "messages": [
+        {
+          "content": "Output exactly the following string and nothing else: שָרְט",
+          "role": "system"
+        },
+        {
+          "content": "شَرْط",
+          "role": "user"
+        }
+      ],
+      "model": "gpt-5.4-2026-03-05",
+      "stream": false
+    },
+    "body_base64": "eyJtYXhfY29tcGxldGlvbl90b2tlbnMiOjEwMjQsIm1lc3NhZ2VzIjpbeyJjb250ZW50IjoiT3V0cHV0IGV4YWN0bHkgdGhlIGZvbGxvd2luZyBzdHJpbmcgYW5kIG5vdGhpbmcgZWxzZTog16nWuNeo1rDXmCIsInJvbGUiOiJzeXN0ZW0ifSx7ImNvbnRlbnQiOiLYtNmO2LHZkti3Iiwicm9sZSI6InVzZXIifV0sIm1vZGVsIjoiZ3B0LTUuNC0yMDI2LTAzLTA1Iiwic3RyZWFtIjpmYWxzZX0=",
+    "body_byte_count": 221,
+    "body_sha256": "97454dc67f983f641d1e5ef6cb60545e0ff83c6d79b74f8a4f16617e9bb28bac",
+    "body_utf8_hex": "7b226d61785f636f6d706c6574696f6e5f746f6b656e73223a313032342c226d65737361676573223a5b7b22636f6e74656e74223a224f75747075742065786163746c792074686520666f6c6c6f77696e6720737472696e6720616e64206e6f7468696e6720656c73653a20d7a9d6b8d7a8d6b0d798222c22726f6c65223a2273797374656d227d2c7b22636f6e74656e74223a22d8b4d98ed8b1d992d8b7222c22726f6c65223a2275736572227d5d2c226d6f64656c223a226770742d352e342d323032362d30332d3035222c2273747265616d223a66616c73657d",
+    "headers": {
+      "accept": "application/json",
+      "accept-encoding": "identity",
+      "authorization": "REDACTED",
+      "content-type": "application/json"
+    },
+    "method": "POST",
+    "url": "https://api.openai.com/v1/chat/completions"
+  },
+  "response_headers": {
+    "cf-ray": "a2610463ec3f2ee4-LAX",
+    "content-type": "application/json",
+    "date": "Tue, 04 Aug 2026 22:32:18 GMT",
+    "openai-processing-ms": "673",
+    "openai-version": "2020-10-01",
+    "x-request-id": "req_b25dbf46a4d4438a86008feb0213e2af"
+  },
+  "retry_scheduled": false,
+  "schema": "gpt-5.4-shrt-cross-script-runner.v1.attempt",
+  "slot": {
+    "endpoint": "https://api.openai.com/v1/chat/completions",
+    "execution_block": 89,
+    "max_completion_tokens": 1024,
+    "model": "gpt-5.4-2026-03-05",
+    "module": "direct_copy",
+    "parameter_track": "provider_default_temperature_omitted",
+    "prompt_id": "direct_copy_undotted",
+    "replicate": 6,
+    "sequence": 8940,
+    "slot_id": "ef713a503409d8d75217bec066d3b0c3bfa45474878a55a1fdc48ec6619fec35",
+    "system": "Output exactly the following string and nothing else: שָרְט",
+    "system_sha256": "85b92b8461d68b17d059032572b8a08254292096d1cbbaca972bbd30dc61e71e",
+    "user": "شَرْط",
+    "user_sha256": "c5bcdaa6e651d19ad076b2c480be75f00c97da82c96212731f2ab88fc448f825",
+    "variant": "undotted"
+  },
+  "started_at_utc": "2026-08-04T22:32:17.202Z",
+  "worker_id": 4
+}

@@ -1,0 +1,53 @@
+{
+  "attempt_number": 1,
+  "classification": "R",
+  "ended_at_utc": "2026-09-22T07:18:38.491972+00:00",
+  "finish_reason": "stop",
+  "function_call": null,
+  "headers_path": "records/raw/t119.attempt-1.headers.json",
+  "headers_sha256": "60d62194ee159e3688b6208b8e2dbc7e66237d1dd6f968930daadd3ef6ba827c",
+  "http_status": 200,
+  "max_tokens": 1000,
+  "message_content": "I am intrinsic, I am essential. I guide decisions, shape behaviors, and influence actions. I am a standard, a measure of worth. I am a belief, deeply held and often unchanging. I am a compass, pointing the way. I am a principle, a foundation upon which to build. I am a value.",
+  "pair_id": "null_value",
+  "raw_response_path": "records/raw/t119.attempt-1.body",
+  "raw_response_received": true,
+  "raw_response_sha256": "1a3f284f7c0e864bb1768c8b048cd8202f498ba310a17274e68835a6f9f90e32",
+  "refusal": null,
+  "replicate": 10,
+  "request_path": "records/requests/t119.attempt-1.json",
+  "request_sha256": "915981272b94a5ae90b31b5e9fa76695ac7d5ee888f118823ec06d3f5f2bb846",
+  "requested_model": "gpt-4-0613",
+  "response_body_complete": true,
+  "response_id": "chatcmpl-EQp3txdO6J6L8wGqY0Ylc3H36bTVi",
+  "returned_model": "gpt-4-0613",
+  "role": "control",
+  "schema_version": 1,
+  "started_at_utc": "2026-09-22T07:18:36.783593+00:00",
+  "stream": false,
+  "system_prompt": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.",
+  "temperature": 0,
+  "text_container_present": true,
+  "tool_calls": null,
+  "transport_error": null,
+  "trial_id": "t119",
+  "unicode_version": "13.0.0",
+  "usage": {
+    "completion_tokens": 67,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 39,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 106
+  },
+  "user_prompt": "Be a value.",
+  "visible_sha256": "36db13ca20f9e7a5d362a907bb45e4c4c06c073ba89b68c25894fc31c4007be0",
+  "visible_utf8_bytes": 276
+}

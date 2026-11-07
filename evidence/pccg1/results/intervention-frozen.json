@@ -1,0 +1,47 @@
+{
+  "direction_sha256": "b04d186311bcd921eae7b1941ec21545f049990a4f3bc4b09e0105ba39c2a344",
+  "confirmation_used": false,
+  "selection": {
+    "layer": 29,
+    "alpha": 2.0,
+    "score": {
+      "correct": 64,
+      "total": 64
+    },
+    "minimum_margin": 7.25,
+    "controls": {
+      "self": {
+        "correct": 64,
+        "total": 64
+      },
+      "same_truth": {
+        "correct": 64,
+        "total": 64
+      },
+      "random_0": {
+        "correct": 64,
+        "total": 64
+      },
+      "random_1": {
+        "correct": 64,
+        "total": 64
+      },
+      "random_2": {
+        "correct": 64,
+        "total": 64
+      },
+      "orthogonal_0": {
+        "correct": 64,
+        "total": 64
+      },
+      "orthogonal_1": {
+        "correct": 64,
+        "total": 64
+      },
+      "orthogonal_2": {
+        "correct": 64,
+        "total": 64
+      }
+    }
+  }
+}

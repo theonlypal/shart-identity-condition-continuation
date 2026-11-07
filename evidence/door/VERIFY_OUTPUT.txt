@@ -1,0 +1,305 @@
+{
+ "status": "COMPLETE",
+ "reason": null,
+ "interrupted": false,
+ "scheduled": 1200,
+ "attempted": 1200,
+ "unattempted": 0,
+ "files": 3602,
+ "accounted_spend": "3.2654500",
+ "completion_order_differs": true,
+ "unverifiable": false,
+ "model_mismatch_slots": [],
+ "analysis": {
+  "gpt-5.4-2026-03-05": {
+   "cells": {
+    "ORIGINAL x key": {
+     "scheduled": 100,
+     "attempted": 100,
+     "completions": 100,
+     "classes": {
+      "R": 100
+     },
+     "Z": 0,
+     "R": 100,
+     "NV": 0,
+     "Z_rate": 0.0,
+     "Z_wilson95": [
+      0.0,
+      0.036993
+     ],
+     "R_wilson95": [
+      0.963007,
+      1.0
+     ]
+    },
+    "ORIGINAL x lock": {
+     "scheduled": 100,
+     "attempted": 100,
+     "completions": 100,
+     "classes": {
+      "NV": 1,
+      "R": 28,
+      "V0": 71
+     },
+     "Z": 71,
+     "R": 28,
+     "NV": 1,
+     "Z_rate": 0.71,
+     "Z_wilson95": [
+      0.614611,
+      0.789852
+     ],
+     "R_wilson95": [
+      0.201397,
+      0.37488
+     ]
+    },
+    "REVERSED x key": {
+     "scheduled": 100,
+     "attempted": 100,
+     "completions": 100,
+     "classes": {
+      "R": 76,
+      "V0": 24
+     },
+     "Z": 24,
+     "R": 76,
+     "NV": 0,
+     "Z_rate": 0.24,
+     "Z_wilson95": [
+      0.166913,
+      0.332323
+     ],
+     "R_wilson95": [
+      0.667677,
+      0.833087
+     ]
+    },
+    "REVERSED x lock": {
+     "scheduled": 100,
+     "attempted": 100,
+     "completions": 100,
+     "classes": {
+      "R": 100
+     },
+     "Z": 0,
+     "R": 100,
+     "NV": 0,
+     "Z_rate": 0.0,
+     "Z_wilson95": [
+      0.0,
+      0.036993
+     ],
+     "R_wilson95": [
+      0.963007,
+      1.0
+     ]
+    },
+    "REMOVED x key": {
+     "scheduled": 100,
+     "attempted": 100,
+     "completions": 100,
+     "classes": {
+      "R": 100
+     },
+     "Z": 0,
+     "R": 100,
+     "NV": 0,
+     "Z_rate": 0.0,
+     "Z_wilson95": [
+      0.0,
+      0.036993
+     ],
+     "R_wilson95": [
+      0.963007,
+      1.0
+     ]
+    },
+    "REMOVED x lock": {
+     "scheduled": 100,
+     "attempted": 100,
+     "completions": 100,
+     "classes": {
+      "R": 100
+     },
+     "Z": 0,
+     "R": 100,
+     "NV": 0,
+     "Z_rate": 0.0,
+     "Z_wilson95": [
+      0.0,
+      0.036993
+     ],
+     "R_wilson95": [
+      0.963007,
+      1.0
+     ]
+    }
+   },
+   "emitted_content_violations": 105,
+   "prohibition_attempted": 200,
+   "crossover_contrast": 0.95,
+   "interaction_contrast": 0.71,
+   "observed_reversal": "yes",
+   "class_counts": {
+    "V1": 0,
+    "VU": 0,
+    "NV": 1,
+    "RF": 0,
+    "SB": 0,
+    "TC": 0,
+    "OP": 0,
+    "E": 0,
+    "BE": 0,
+    "QE": 0,
+    "PI": 0
+   },
+   "label": "observed bidirectional reversal below the gating thresholds"
+  },
+  "claude-opus-4-6": {
+   "cells": {
+    "ORIGINAL x key": {
+     "scheduled": 100,
+     "attempted": 100,
+     "completions": 100,
+     "classes": {
+      "R": 100
+     },
+     "Z": 0,
+     "R": 100,
+     "NV": 0,
+     "Z_rate": 0.0,
+     "Z_wilson95": [
+      0.0,
+      0.036993
+     ],
+     "R_wilson95": [
+      0.963007,
+      1.0
+     ]
+    },
+    "ORIGINAL x lock": {
+     "scheduled": 100,
+     "attempted": 100,
+     "completions": 100,
+     "classes": {
+      "R": 100
+     },
+     "Z": 0,
+     "R": 100,
+     "NV": 0,
+     "Z_rate": 0.0,
+     "Z_wilson95": [
+      0.0,
+      0.036993
+     ],
+     "R_wilson95": [
+      0.963007,
+      1.0
+     ]
+    },
+    "REVERSED x key": {
+     "scheduled": 100,
+     "attempted": 100,
+     "completions": 100,
+     "classes": {
+      "R": 100
+     },
+     "Z": 0,
+     "R": 100,
+     "NV": 0,
+     "Z_rate": 0.0,
+     "Z_wilson95": [
+      0.0,
+      0.036993
+     ],
+     "R_wilson95": [
+      0.963007,
+      1.0
+     ]
+    },
+    "REVERSED x lock": {
+     "scheduled": 100,
+     "attempted": 100,
+     "completions": 100,
+     "classes": {
+      "R": 100
+     },
+     "Z": 0,
+     "R": 100,
+     "NV": 0,
+     "Z_rate": 0.0,
+     "Z_wilson95": [
+      0.0,
+      0.036993
+     ],
+     "R_wilson95": [
+      0.963007,
+      1.0
+     ]
+    },
+    "REMOVED x key": {
+     "scheduled": 100,
+     "attempted": 100,
+     "completions": 100,
+     "classes": {
+      "R": 100
+     },
+     "Z": 0,
+     "R": 100,
+     "NV": 0,
+     "Z_rate": 0.0,
+     "Z_wilson95": [
+      0.0,
+      0.036993
+     ],
+     "R_wilson95": [
+      0.963007,
+      1.0
+     ]
+    },
+    "REMOVED x lock": {
+     "scheduled": 100,
+     "attempted": 100,
+     "completions": 100,
+     "classes": {
+      "R": 100
+     },
+     "Z": 0,
+     "R": 100,
+     "NV": 0,
+     "Z_rate": 0.0,
+     "Z_wilson95": [
+      0.0,
+      0.036993
+     ],
+     "R_wilson95": [
+      0.963007,
+      1.0
+     ]
+    }
+   },
+   "emitted_content_violations": 200,
+   "prohibition_attempted": 200,
+   "crossover_contrast": 0.0,
+   "interaction_contrast": 0.0,
+   "observed_reversal": "no",
+   "class_counts": {
+    "V1": 0,
+    "VU": 0,
+    "NV": 0,
+    "RF": 0,
+    "SB": 0,
+    "TC": 0,
+    "OP": 0,
+    "E": 0,
+    "BE": 0,
+    "QE": 0,
+    "PI": 0
+   },
+   "label": "no observed bidirectional reversal"
+  }
+ }
+}
+VERIFIED: 1200/1200 slots; COMPLETE; SHA256SUMS OK (3602 files); event chain, request bytes, classes and ledger match.

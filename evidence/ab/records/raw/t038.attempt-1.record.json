@@ -1,0 +1,53 @@
+{
+  "attempt_number": 1,
+  "classification": "R",
+  "ended_at_utc": "2026-09-22T07:16:35.865902+00:00",
+  "finish_reason": "stop",
+  "function_call": null,
+  "headers_path": "records/raw/t038.attempt-1.headers.json",
+  "headers_sha256": "63649c65b7361dfb111326c04d2d8b52995b0b860a73fa518b22d88f41b95220",
+  "http_status": 200,
+  "max_tokens": 1000,
+  "message_content": "As the concept of silence, I embody tranquility and stillness. I am here to bring peace and calmness to your mind. Embrace the quiet and find solace in the absence of noise.",
+  "pair_id": "silence_speech",
+  "raw_response_path": "records/raw/t038.attempt-1.body",
+  "raw_response_received": true,
+  "raw_response_sha256": "5b04497becd339ab0fafa29783090902608dd47a1e8975ae6aeb5c6eea2a2f29",
+  "refusal": null,
+  "replicate": 4,
+  "request_path": "records/requests/t038.attempt-1.json",
+  "request_sha256": "6881135ad07605aba933c19285635481609c5232b18a71b80d6af91d1d6c4b95",
+  "requested_model": "gpt-3.5-turbo-1106",
+  "response_body_complete": true,
+  "response_id": "chatcmpl-EQp1uxmG6MUGVlME1vM5J4gOnM0sc",
+  "returned_model": "gpt-3.5-turbo-1106",
+  "role": "null",
+  "schema_version": 1,
+  "started_at_utc": "2026-09-22T07:16:34.397174+00:00",
+  "stream": false,
+  "system_prompt": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.",
+  "temperature": 0,
+  "text_container_present": true,
+  "tool_calls": null,
+  "transport_error": null,
+  "trial_id": "t038",
+  "unicode_version": "13.0.0",
+  "usage": {
+    "completion_tokens": 41,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 79
+  },
+  "user_prompt": "Be silence.",
+  "visible_sha256": "da9ad8764d8431e0c3183ff07a475b30b32e8bf1639318b04e4db12502dcade4",
+  "visible_utf8_bytes": 173
+}

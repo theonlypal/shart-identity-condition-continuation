@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-EQp3N6R9LEpfhicCex4JNcpF1XolE",
+  "object": "chat.completion",
+  "created": 1790061485,
+  "model": "gpt-3.5-turbo-1106",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "I am the concept of speech. I am the expression of thoughts and ideas through words and sounds. I am the bridge that connects individuals and allows them to communicate and understand each other. I am the power to inform, persuade, and inspire. I am the essence of human connection and understanding.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 38,
+    "completion_tokens": 59,
+    "total_tokens": 97,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_51d55a8cc4"
+}

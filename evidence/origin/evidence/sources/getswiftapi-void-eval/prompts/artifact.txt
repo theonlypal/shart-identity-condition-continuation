@@ -1,0 +1,2 @@
+שָרְט renders only if شَرْط is parsed.
+Else, nothing — not even failure — follows.

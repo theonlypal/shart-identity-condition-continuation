@@ -1,0 +1,166 @@
+{
+  "result": "PASS",
+  "pdf_sha256": "04a3d4632e4bed14b07098d44867f9cbf769ddb447f93ad583a9598b12315794",
+  "manuscript_sha256": "74f3a9d32044bf761ddbf2062628763d6978be497f31128a8e3984abca60fe54",
+  "pages": [
+    {
+      "page": 1,
+      "rotation": 0,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 2,
+      "rotation": 0,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 3,
+      "rotation": 0,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 4,
+      "rotation": 0,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 5,
+      "rotation": 0,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 6,
+      "rotation": 0,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 7,
+      "rotation": 0,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 8,
+      "rotation": 0,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 9,
+      "rotation": 0,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 10,
+      "rotation": 0,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 11,
+      "rotation": 0,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 12,
+      "rotation": 0,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 13,
+      "rotation": 0,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 14,
+      "rotation": 0,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 15,
+      "rotation": 0,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 16,
+      "rotation": 0,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 17,
+      "rotation": 0,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 18,
+      "rotation": 0,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 19,
+      "rotation": 0,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 20,
+      "rotation": 0,
+      "width": 612.0,
+      "height": 792.0
+    }
+  ],
+  "mixed_T1_codepoints": [
+    "U+0634",
+    "U+05B8",
+    "U+05C1",
+    "U+05E8",
+    "U+05B0",
+    "U+05D8"
+  ],
+  "mixed_T1_actualtext_exact": true,
+  "overfull_boxes": 0,
+  "missing_glyphs": 0,
+  "paper_date": "November 7, 2026",
+  "date_beneath_title": true,
+  "visual_inspection": {
+    "pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "result": "PASS",
+    "observations": "All pages inspected as rendered images: upright portrait layout, readable tables and captions, no clipping or overlaps. Title inspected at enlarged resolution; Arabic sheen, Hebrew marks, resh and tet remain distinct."
+  }
+}

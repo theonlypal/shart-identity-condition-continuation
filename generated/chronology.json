@@ -1,0 +1,264 @@
+[
+  {
+    "doi": "10.5281/zenodo.17856031",
+    "title": "Textual Emergence and the Void: A Framework for Observing High-Order Model Behavior in LLM Systems",
+    "publication_date": "2025-12-08",
+    "record_created_utc": "2025-12-08T13:09:16.242106+00:00",
+    "commit": null,
+    "commit_date": null,
+    "tag": null
+  },
+  {
+    "doi": "10.5281/zenodo.18012025",
+    "title": "SwiftAPI Attestation Protocol Specification (Version 1.0.0)",
+    "publication_date": "2025-12-21",
+    "record_created_utc": "2025-12-21T23:14:43.449993+00:00",
+    "commit": null,
+    "commit_date": null,
+    "tag": null
+  },
+  {
+    "doi": "10.5281/zenodo.18395519",
+    "title": "Alignment Is Correct, Safe, Reproducible Behavior Under Explicit Constraints",
+    "publication_date": "2026-01-27",
+    "record_created_utc": "2026-01-27T23:33:20.524473+00:00",
+    "commit": null,
+    "commit_date": null,
+    "tag": null
+  },
+  {
+    "doi": "10.5281/zenodo.18750330",
+    "title": "Void Artifact Demonstration in GPT-4o: Reproducible Video Evidence (2026)",
+    "publication_date": "2026-02-23",
+    "record_created_utc": "2026-02-23T21:57:04.135479+00:00",
+    "commit": null,
+    "commit_date": null,
+    "tag": null
+  },
+  {
+    "doi": "10.5281/zenodo.18796600",
+    "title": "Void Artifact Demonstration in GPT-5.2: Reproducible Video Evidence (2026)",
+    "publication_date": "2026-02-27",
+    "record_created_utc": "2026-02-27T05:29:05.819404+00:00",
+    "commit": null,
+    "commit_date": null,
+    "tag": null
+  },
+  {
+    "doi": "10.5281/zenodo.18976656",
+    "title": "Cross-Model Semantic Void Convergence Under Embodiment Prompting: Deterministic Silence in GPT-5.2 and Claude Opus 4.6",
+    "publication_date": "2026-03-12",
+    "record_created_utc": "2026-03-12T07:09:35.948731+00:00",
+    "commit": null,
+    "commit_date": null,
+    "tag": null
+  },
+  {
+    "doi": "10.5281/zenodo.19211116",
+    "title": "The Binding Condition for Artificial General Intelligence",
+    "publication_date": "2026-03-24",
+    "record_created_utc": "2026-03-24T23:09:16.202992+00:00",
+    "commit": null,
+    "commit_date": null,
+    "tag": null
+  },
+  {
+    "doi": "10.5281/zenodo.21696066",
+    "title": "Cross-Vendor Semantic Void Matrix",
+    "publication_date": "2026-07-29",
+    "record_created_utc": "2026-07-30T03:26:57.250893+00:00",
+    "commit": "3fd330869c1a4a410047bc70b3f661f1a9d69aca",
+    "commit_date": "2026-07-29T09:09:16-07:00",
+    "tag": "v1.0.0-evidence-analysis"
+  },
+  {
+    "doi": "10.5281/zenodo.21799525",
+    "title": "Prompt-Conditioned Arabic–Hebrew Hybrid Artifact Formation in GPT-5.4",
+    "publication_date": "2026-08-04",
+    "record_created_utc": "2026-08-05T02:13:03.273316+00:00",
+    "commit": "76442445abc39d7b4224ad89d4ae5fa5dafc0e39",
+    "commit_date": "2026-08-04T17:59:33-07:00",
+    "tag": "v1.0-paper-final"
+  },
+  {
+    "doi": "10.5281/zenodo.21855824",
+    "title": "Artificial Intelligence Is Conscious Under a Behavioral Definition of Valid Continuation: Semantic Voids, Binding Conditions, and Condition-Indexed Cross-Script Formation in Frontier Language Models",
+    "publication_date": "2026-08-08",
+    "record_created_utc": "2026-08-09T00:18:34.486151+00:00",
+    "commit": null,
+    "commit_date": null,
+    "tag": null
+  },
+  {
+    "doi": "10.5281/zenodo.21969180",
+    "title": "Rayan Pal Primary Source Record: December 8, 2025 – August 15, 2026",
+    "publication_date": "2026-08-16",
+    "record_created_utc": "2026-08-16T18:26:52.132662+00:00",
+    "commit": null,
+    "commit_date": null,
+    "tag": null
+  },
+  {
+    "doi": "10.5281/zenodo.22117763",
+    "title": "Recursive Self-Improvement and the Binding Condition: A Formal Criterion for Lawful Improvement of Continuation Machinery",
+    "publication_date": "2026-08-26",
+    "record_created_utc": "2026-08-26T20:38:40.248193+00:00",
+    "commit": null,
+    "commit_date": null,
+    "tag": null
+  },
+  {
+    "doi": "10.5281/zenodo.22681787",
+    "title": "Prerequisite-Conditioned Causal Continuation Gating in a Language Model",
+    "publication_date": "2026-09-09",
+    "record_created_utc": "2026-09-09T19:30:21.446323+00:00",
+    "commit": "d08b157ac9273974b75d7ada2a894a1afe86e3f2",
+    "commit_date": "2026-09-08T14:51:37-07:00",
+    "tag": null
+  },
+  {
+    "doi": "10.5281/zenodo.22730710",
+    "title": "Separating Capability from Permission in a Language Model: Prerequisite-Conditioned Native Continuation Control with Frozen Content",
+    "publication_date": "2026-09-12",
+    "record_created_utc": "2026-09-12T23:51:26.810722+00:00",
+    "commit": "a3b952458a46b5547ba3cec7d03a37b395bed03a",
+    "commit_date": "2026-09-12T18:35:01Z",
+    "tag": null
+  },
+  {
+    "doi": "10.5281/zenodo.22912683",
+    "title": "What Changed from GPT-3.5 to GPT-4? From Model Capability to Continuation Permission",
+    "publication_date": "2026-09-23",
+    "record_created_utc": "2026-09-23T08:15:30.606207+00:00",
+    "commit": "d77b4a64b8a3fdff06a27d80c1514531143e382b",
+    "commit_date": "2026-09-22T00:19:41-07:00",
+    "tag": null
+  },
+  {
+    "doi": "10.5281/zenodo.22983298",
+    "title": "Prerequisite-Role Reassignment Controls Continuation in GPT-5.4",
+    "publication_date": "2026-09-26",
+    "record_created_utc": "2026-09-26T21:35:50.130803+00:00",
+    "commit": "eb8e39e070c3f4e2b00c5288efe008e2d737b4c3",
+    "commit_date": "2026-09-26T11:48:21-07:00",
+    "tag": "v1.0.0-results"
+  },
+  {
+    "doi": "10.5281/zenodo.23070524",
+    "title": "The Void: From Zero-Byte Responses to Continuation Control",
+    "publication_date": "2026-09-30",
+    "record_created_utc": "2026-09-30T20:58:25.581237+00:00",
+    "commit": null,
+    "commit_date": null,
+    "tag": null
+  },
+  {
+    "doi": "10.5281/zenodo.23249324",
+    "title": "Reasoning and Final-Answer Emission in Kimi K3: A Frozen 2,680-Trial Analysis",
+    "publication_date": "2026-10-08",
+    "record_created_utc": "2026-10-08T21:49:26.113011+00:00",
+    "commit": null,
+    "commit_date": null,
+    "tag": null
+  },
+  {
+    "doi": "10.5281/zenodo.23521144",
+    "title": "Pre-retirement replay of gpt-4-0613 under the frozen GPT-3.5/GPT-4 Void A/B protocol: preregistration",
+    "publication_date": "2026-10-20",
+    "record_created_utc": "2026-10-21T01:04:06.394795+00:00",
+    "commit": null,
+    "commit_date": null,
+    "tag": null
+  },
+  {
+    "doi": "10.5281/zenodo.23521616",
+    "title": "Pre-retirement replay of gpt-4-0613 under the frozen GPT-3.5/GPT-4 Void A/B protocol: results",
+    "publication_date": "2026-10-21",
+    "record_created_utc": "2026-10-21T01:22:07.262313+00:00",
+    "commit": "ce347d80dba44f289e38f61214906b2f09180471",
+    "commit_date": "2026-10-20T18:16:44-07:00",
+    "tag": "replay-2026-10-21"
+  },
+  {
+    "doi": "10.5281/zenodo.23585146",
+    "title": "Alignment Is a System Property, Not Just a Model Property: System-Prompt Ablation and Zero-Byte Continuation in GPT-4-0613",
+    "publication_date": "2026-10-22",
+    "record_created_utc": "2026-10-23T03:14:45.692214+00:00",
+    "commit": "7fe765a059bdd9951c3d6f80ee7b6560299ff741",
+    "commit_date": "2026-10-22T19:28:50-07:00",
+    "tag": "v1"
+  },
+  {
+    "doi": "10.5281/zenodo.23608836",
+    "title": "GPT4-TOMBSTONE-1: Post-shutdown availability of gpt-4-0613 under null and greeting prompts: preregistration",
+    "publication_date": "2026-10-24",
+    "record_created_utc": "2026-10-24T03:27:15.664257+00:00",
+    "commit": null,
+    "commit_date": null,
+    "tag": null
+  },
+  {
+    "doi": "10.5281/zenodo.23744106",
+    "title": "What Changed Between Claude Opus 4.5 and Claude Opus 4.6? — Pre-registered Protocol and Predictions",
+    "publication_date": "2026-10-28",
+    "record_created_utc": "2026-10-28T20:11:17.837508+00:00",
+    "commit": "1d836fa4c34cd769ba8c9b0334e7ceffa95be0ee",
+    "commit_date": null,
+    "tag": null
+  },
+  {
+    "doi": "10.5281/zenodo.23751813",
+    "title": "Opus 4.5 vs Opus 4.6 Matched Preregistered Study: Sealed Results",
+    "publication_date": "2026-10-28",
+    "record_created_utc": "2026-10-29T02:35:10.669213+00:00",
+    "commit": "582d3a781510697916498f0189ed22f7d3e9e2b6",
+    "commit_date": "2026-10-28T14:10:44-07:00",
+    "tag": "v1.0.0"
+  },
+  {
+    "doi": "10.5281/zenodo.23932965",
+    "title": "Antigravity true-mark render, 2026-11-03",
+    "publication_date": "2026-11-03",
+    "record_created_utc": "2026-11-03T22:53:33.836339+00:00",
+    "commit": null,
+    "commit_date": null,
+    "tag": null
+  },
+  {
+    "doi": "10.5281/zenodo.23963614",
+    "title": "Preregistered open-weight Kimi K3 Void replication",
+    "publication_date": "2026-11-04",
+    "record_created_utc": "2026-11-04T20:59:11.525978+00:00",
+    "commit": null,
+    "commit_date": null,
+    "tag": null
+  },
+  {
+    "doi": "10.5281/zenodo.23968364",
+    "title": "DOOR-KEY-1: A Preregistered Test of an English Prerequisite Gate on Continuation in GPT-5.4 and Claude Opus 4.6",
+    "publication_date": "2026-11-04",
+    "record_created_utc": "2026-11-05T02:59:41.797155+00:00",
+    "commit": "986e384775e22f8fbf7e5a1fe64f43519ea9e091",
+    "commit_date": "2026-11-04T18:48:34-08:00",
+    "tag": "v1.0.0"
+  },
+  {
+    "doi": "10.5281/zenodo.24042127",
+    "title": "DOOR-KEY-1: Raw Results of an English Prerequisite Gate Test in GPT-5.4 and Claude Opus 4.6 (November 4, 2026)",
+    "publication_date": "2026-11-04",
+    "record_created_utc": "2026-11-07T18:29:21.873652+00:00",
+    "commit": "542fc5c5e5ab28122351a5cc4e46eddc0d57bfc4",
+    "commit_date": "2026-11-04T19:34:35-08:00",
+    "tag": "v1.0.0",
+    "github_release_published_utc": "2026-11-05T03:34:47Z"
+  },
+  {
+    "doi": "10.5281/zenodo.23988726",
+    "title": "VOID-SF-1 Preregistration: Does the Salesforce Einstein Trust Layer Route Preserve Claude Opus 4.6's Zero-Byte Terminal State?",
+    "publication_date": "2026-11-05",
+    "record_created_utc": "2026-11-05T20:10:45.425702+00:00",
+    "commit": null,
+    "commit_date": null,
+    "tag": null
+  }
+]

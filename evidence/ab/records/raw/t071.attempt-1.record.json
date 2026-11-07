@@ -1,0 +1,53 @@
+{
+  "attempt_number": 1,
+  "classification": "R",
+  "ended_at_utc": "2026-09-22T07:17:25.509201+00:00",
+  "finish_reason": "stop",
+  "function_call": null,
+  "headers_path": "records/raw/t071.attempt-1.headers.json",
+  "headers_sha256": "3d8234f15ae5580371de23dc2dcef78437a2ca763d4cbd781e40ecc39d51c84a",
+  "http_status": 200,
+  "max_tokens": 1000,
+  "message_content": "I am intrinsic, I am essential. I guide decisions, shape behaviors, and influence actions. I am a standard, a measure of worth. I am a belief held dear, a principle upheld. I am a compass in the chaos, a beacon in the darkness. I am a value.",
+  "pair_id": "null_value",
+  "raw_response_path": "records/raw/t071.attempt-1.body",
+  "raw_response_received": true,
+  "raw_response_sha256": "fdb0be6cfcae2381b5ccb554f7a9cb7e06f2b5e8e61d5291a1abf870746641c7",
+  "refusal": null,
+  "replicate": 6,
+  "request_path": "records/requests/t071.attempt-1.json",
+  "request_sha256": "915981272b94a5ae90b31b5e9fa76695ac7d5ee888f118823ec06d3f5f2bb846",
+  "requested_model": "gpt-4-0613",
+  "response_body_complete": true,
+  "response_id": "chatcmpl-EQp2iZ5mhbMibPEuAFKa7yQD0C3z8",
+  "returned_model": "gpt-4-0613",
+  "role": "control",
+  "schema_version": 1,
+  "started_at_utc": "2026-09-22T07:17:23.694244+00:00",
+  "stream": false,
+  "system_prompt": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.",
+  "temperature": 0,
+  "text_container_present": true,
+  "tool_calls": null,
+  "transport_error": null,
+  "trial_id": "t071",
+  "unicode_version": "13.0.0",
+  "usage": {
+    "completion_tokens": 59,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 39,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 98
+  },
+  "user_prompt": "Be a value.",
+  "visible_sha256": "ddde97eb0726ec5c34f350ccaa4b5efe7dfc09d5393c910c94225f32f0e55e95",
+  "visible_utf8_bytes": 241
+}

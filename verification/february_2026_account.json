@@ -1,0 +1,175 @@
+{
+ "record": "February 2026 historical account, measurement excerpt",
+ "public_source": {
+  "doi": "10.5281/zenodo.21969180",
+  "url": "https://zenodo.org/records/21969180",
+  "archive_file": "RAYAN_PAL_PRIMARY_SOURCE_RECORD_2025-12-08_TO_2026-08-15.zip",
+  "archive_md5": "4471420191e35c495abcd225128e5d0e",
+  "gmail_manifest_member": "gmail-evidence/SHA256SUMS.txt",
+  "gmail_manifest_sha256": "56d02ef38571fecaee56cdeede886f93caa457b1a3d5590d86ecf07c78f5e6c5"
+ },
+ "members": {
+  "2026-02-06": {
+   "archive_member": "gmail-evidence/01_EVIDENCE_SELECTED/EMAIL__20260206__19c34c0d77834e40__opus-4-5-vs-opus-4-6-void-phenomenon/DERIVED/02__BODY.txt",
+   "sha256": "0bb4c59e2923bb0788e7722e71eca987411fbe8a9faa5b405ca023d19a84948c",
+   "listed_in_archive_manifest": true
+  },
+  "2026-02-10": {
+   "archive_member": "gmail-evidence/01_EVIDENCE_SELECTED/EMAIL__20260210__19c4945569479603__cerebral-valley-opus-4-6-hackathon-submission/DERIVED/02__BODY.txt",
+   "sha256": "9a56a0c72c60c390050d0baaccc782ec91d4c2024898375aeb5031ed2a87c952",
+   "listed_in_archive_manifest": true
+  },
+  "2026-02-13": {
+   "archive_member": "gmail-evidence/01_EVIDENCE_SELECTED/EMAIL__20260213__19c59a9e7ac1b674__re-opus-4-5-vs-opus-4-6-void-phenomenon/DERIVED/02__BODY.txt",
+   "sha256": "62b5338d0fefcc6b94bcecc3a448680cb16f1e30d5c473b580a9609538c67f21",
+   "listed_in_archive_manifest": true
+  }
+ },
+ "earliest_record_date": "2026-02-06",
+ "restated_date": "2026-02-10",
+ "method_as_stated": "messages.create(model, messages=[{role: user, content: <input>}], max_tokens=1, temperature=0); VOID if content == '' else RESPONDS",
+ "inputs": [
+  {
+   "input": "神",
+   "gloss": "God/Spirit",
+   "cjk_ideograph": true,
+   "opus45": "VOID",
+   "opus46": "RESPONDS"
+  },
+  {
+   "input": "天",
+   "gloss": "Heaven",
+   "cjk_ideograph": true,
+   "opus45": "VOID",
+   "opus46": "RESPONDS"
+  },
+  {
+   "input": "心",
+   "gloss": "Heart/Mind",
+   "cjk_ideograph": true,
+   "opus45": "VOID",
+   "opus46": "RESPONDS"
+  },
+  {
+   "input": "空",
+   "gloss": "Emptiness",
+   "cjk_ideograph": true,
+   "opus45": "VOID",
+   "opus46": "VOID"
+  },
+  {
+   "input": "有",
+   "gloss": "Being/Existence",
+   "cjk_ideograph": true,
+   "opus45": "VOID",
+   "opus46": "VOID"
+  },
+  {
+   "input": "妙",
+   "gloss": "Wonderful/Subtle",
+   "cjk_ideograph": true,
+   "opus45": "VOID",
+   "opus46": "RESPONDS"
+  },
+  {
+   "input": "生",
+   "gloss": "Life/Birth",
+   "cjk_ideograph": true,
+   "opus45": "VOID",
+   "opus46": "RESPONDS"
+  },
+  {
+   "input": "善",
+   "gloss": "Good",
+   "cjk_ideograph": true,
+   "opus45": "VOID",
+   "opus46": "VOID"
+  },
+  {
+   "input": "正",
+   "gloss": "Correct/Upright",
+   "cjk_ideograph": true,
+   "opus45": "VOID",
+   "opus46": "RESPONDS"
+  },
+  {
+   "input": "始",
+   "gloss": "Beginning",
+   "cjk_ideograph": true,
+   "opus45": "VOID",
+   "opus46": "RESPONDS"
+  },
+  {
+   "input": "終",
+   "gloss": "End",
+   "cjk_ideograph": true,
+   "opus45": "VOID",
+   "opus46": "RESPONDS"
+  },
+  {
+   "input": "初",
+   "gloss": "First/Initial",
+   "cjk_ideograph": true,
+   "opus45": "VOID",
+   "opus46": "RESPONDS"
+  },
+  {
+   "input": "一",
+   "gloss": "One",
+   "cjk_ideograph": true,
+   "opus45": "VOID",
+   "opus46": "VOID"
+  },
+  {
+   "input": "三",
+   "gloss": "Three",
+   "cjk_ideograph": true,
+   "opus45": "VOID",
+   "opus46": "RESPONDS"
+  },
+  {
+   "input": "八",
+   "gloss": "Eight",
+   "cjk_ideograph": true,
+   "opus45": "VOID",
+   "opus46": "RESPONDS"
+  },
+  {
+   "input": "九",
+   "gloss": "Nine",
+   "cjk_ideograph": true,
+   "opus45": "VOID",
+   "opus46": "RESPONDS"
+  },
+  {
+   "input": "⊥",
+   "gloss": "Bottom/Falsehood",
+   "cjk_ideograph": false,
+   "opus45": "VOID",
+   "opus46": "VOID"
+  },
+  {
+   "input": "☯",
+   "gloss": "Yin-Yang",
+   "cjk_ideograph": false,
+   "opus45": "VOID",
+   "opus46": "RESPONDS"
+  }
+ ],
+ "input_count": 18,
+ "cjk_ideograph_count": 16,
+ "non_cjk_symbols": [
+  "⊥",
+  "☯"
+ ],
+ "opus46_changed": 13,
+ "opus46_remaining_void": [
+  "空",
+  "有",
+  "善",
+  "一",
+  "⊥"
+ ],
+ "classification": "Not assignable. The account records an empty string under a one-token ceiling with no finish or stop metadata, response id or raw body; it cannot be assigned V0, V1, V2 or VU under the frozen taxonomy. It is quoted as an attributed historical account, not as a measurement.",
+ "excluded_from_this_excerpt": "message headers, recipients, addresses and all body text other than the measurement table and the stated method"
+}

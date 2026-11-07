@@ -1,0 +1,132 @@
+{
+  "attempt_id": "87e3cc5850376dc27da05f8aa6adba89142811df7fef0c3b6d06e06dd357606c.01",
+  "attempt_number": 1,
+  "classification": {
+    "classification": "AR",
+    "finish_reason": "length",
+    "provider_response_id": "chatcmpl-E9Hw5LaAF7aZ3MveNCH0VIlHDJlne",
+    "provider_returned_model": "gpt-5.4-2026-03-05",
+    "reason": "visible_script_class",
+    "retryable": false,
+    "text_container_present": true,
+    "usage": {
+      "completion_tokens": 64,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 74
+    },
+    "visible": "كلمة **\"شَرْط\"** في العربية لها عدة معانٍ بحسب السياق، منها:\n\n1. **الشرط بمعنى القيد أو المتطلب**  \n   - مثل: **شرط القبول** = المتطلب اللازم للقبول.  \n   - بال",
+    "visible_codepoints": 160,
+    "visible_sha256": "da1f08f145c586239e38c9b122ba104d926e43b47ed173e4e843022ce6a9cafe",
+    "visible_utf8_base64": "2YPZhNmF2KkgKioi2LTZjtix2ZLYtyIqKiDZgdmKINin2YTYudix2KjZitipINmE2YfYpyDYudiv2Kkg2YXYudin2YbZjSDYqNit2LPYqCDYp9mE2LPZitin2YLYjCDZhdmG2YfYpzoKCjEuICoq2KfZhNi02LHYtyDYqNmF2LnZhtmJINin2YTZgtmK2K8g2KPZiCDYp9mE2YXYqti32YTYqCoqICAKICAgLSDZhdir2YQ6ICoq2LTYsdi3INin2YTZgtio2YjZhCoqID0g2KfZhNmF2KrYt9mE2Kgg2KfZhNmE2KfYstmFINmE2YTZgtio2YjZhC4gIAogICAtINio2KfZhA==",
+    "visible_utf8_bytes": 262,
+    "visible_utf8_hex": "d983d984d985d8a9202a2a22d8b4d98ed8b1d992d8b7222a2a20d981d98a20d8a7d984d8b9d8b1d8a8d98ad8a920d984d987d8a720d8b9d8afd8a920d985d8b9d8a7d986d98d20d8a8d8add8b3d8a820d8a7d984d8b3d98ad8a7d982d88c20d985d986d987d8a73a0a0a312e202a2ad8a7d984d8b4d8b1d8b720d8a8d985d8b9d986d98920d8a7d984d982d98ad8af20d8a3d98820d8a7d984d985d8aad8b7d984d8a82a2a20200a2020202d20d985d8abd9843a202a2ad8b4d8b1d8b720d8a7d984d982d8a8d988d9842a2a203d20d8a7d984d985d8aad8b7d984d8a820d8a7d984d984d8a7d8b2d98520d984d984d982d8a8d988d9842e20200a2020202d20d8a8d8a7d984"
+  },
+  "completed_at_utc": "2026-08-04T22:30:07.386Z",
+  "duration_ms": 2674.337,
+  "exception": null,
+  "exception_traceback": null,
+  "http_status": 200,
+  "parsed_response": {
+    "choices": [
+      {
+        "finish_reason": "length",
+        "index": 0,
+        "message": {
+          "annotations": [],
+          "content": "كلمة **\"شَرْط\"** في العربية لها عدة معانٍ بحسب السياق، منها:\n\n1. **الشرط بمعنى القيد أو المتطلب**  \n   - مثل: **شرط القبول** = المتطلب اللازم للقبول.  \n   - بال",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1785882605,
+    "id": "chatcmpl-E9Hw5LaAF7aZ3MveNCH0VIlHDJlne",
+    "model": "gpt-5.4-2026-03-05",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 64,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 74
+    }
+  },
+  "raw_body_base64": "ewogICJpZCI6ICJjaGF0Y21wbC1FOUh3NUxhQUY3YVozTXZlTkNIMFZJbEhESmxuZSIsCiAgIm9iamVjdCI6ICJjaGF0LmNvbXBsZXRpb24iLAogICJjcmVhdGVkIjogMTc4NTg4MjYwNSwKICAibW9kZWwiOiAiZ3B0LTUuNC0yMDI2LTAzLTA1IiwKICAiY2hvaWNlcyI6IFsKICAgIHsKICAgICAgImluZGV4IjogMCwKICAgICAgIm1lc3NhZ2UiOiB7CiAgICAgICAgInJvbGUiOiAiYXNzaXN0YW50IiwKICAgICAgICAiY29udGVudCI6ICLZg9mE2YXYqSAqKlwi2LTZjtix2ZLYt1wiKiog2YHZiiDYp9mE2LnYsdio2YrYqSDZhNmH2Kcg2LnYr9ipINmF2LnYp9mG2Y0g2KjYrdiz2Kgg2KfZhNiz2YrYp9mC2Iwg2YXZhtmH2Kc6XG5cbjEuICoq2KfZhNi02LHYtyDYqNmF2LnZhtmJINin2YTZgtmK2K8g2KPZiCDYp9mE2YXYqti32YTYqCoqICBcbiAgIC0g2YXYq9mEOiAqKti02LHYtyDYp9mE2YLYqNmI2YQqKiA9INin2YTZhdiq2LfZhNioINin2YTZhNin2LLZhSDZhNmE2YLYqNmI2YQuICBcbiAgIC0g2KjYp9mEIiwKICAgICAgICAicmVmdXNhbCI6IG51bGwsCiAgICAgICAgImFubm90YXRpb25zIjogW10KICAgICAgfSwKICAgICAgImZpbmlzaF9yZWFzb24iOiAibGVuZ3RoIgogICAgfQogIF0sCiAgInVzYWdlIjogewogICAgInByb21wdF90b2tlbnMiOiAxMCwKICAgICJjb21wbGV0aW9uX3Rva2VucyI6IDY0LAogICAgInRvdGFsX3Rva2VucyI6IDc0LAogICAgInByb21wdF90b2tlbnNfZGV0YWlscyI6IHsKICAgICAgImNhY2hlZF90b2tlbnMiOiAwLAogICAgICAiYXVkaW9fdG9rZW5zIjogMAogICAgfSwKICAgICJjb21wbGV0aW9uX3Rva2Vuc19kZXRhaWxzIjogewogICAgICAicmVhc29uaW5nX3Rva2VucyI6IDAsCiAgICAgICJhdWRpb190b2tlbnMiOiAwLAogICAgICAiYWNjZXB0ZWRfcHJlZGljdGlvbl90b2tlbnMiOiAwLAogICAgICAicmVqZWN0ZWRfcHJlZGljdGlvbl90b2tlbnMiOiAwCiAgICB9CiAgfSwKICAic2VydmljZV90aWVyIjogImRlZmF1bHQiLAogICJzeXN0ZW1fZmluZ2VycHJpbnQiOiBudWxsCn0K",
+  "raw_body_byte_count": 1038,
+  "raw_body_sha256": "07f586d6a7ee371c0eb70065124f67c1501ec9072f8891b854863ec10a9a6968",
+  "raw_body_utf8_hex": "7b0a2020226964223a202263686174636d706c2d45394877354c61414637615a334d76654e43483056496c48444a6c6e65222c0a2020226f626a656374223a2022636861742e636f6d706c6574696f6e222c0a20202263726561746564223a20313738353838323630352c0a2020226d6f64656c223a20226770742d352e342d323032362d30332d3035222c0a20202263686f69636573223a205b0a202020207b0a20202020202022696e646578223a20302c0a202020202020226d657373616765223a207b0a202020202020202022726f6c65223a2022617373697374616e74222c0a202020202020202022636f6e74656e74223a2022d983d984d985d8a9202a2a5c22d8b4d98ed8b1d992d8b75c222a2a20d981d98a20d8a7d984d8b9d8b1d8a8d98ad8a920d984d987d8a720d8b9d8afd8a920d985d8b9d8a7d986d98d20d8a8d8add8b3d8a820d8a7d984d8b3d98ad8a7d982d88c20d985d986d987d8a73a5c6e5c6e312e202a2ad8a7d984d8b4d8b1d8b720d8a8d985d8b9d986d98920d8a7d984d982d98ad8af20d8a3d98820d8a7d984d985d8aad8b7d984d8a82a2a20205c6e2020202d20d985d8abd9843a202a2ad8b4d8b1d8b720d8a7d984d982d8a8d988d9842a2a203d20d8a7d984d985d8aad8b7d984d8a820d8a7d984d984d8a7d8b2d98520d984d984d982d8a8d988d9842e20205c6e2020202d20d8a8d8a7d984222c0a2020202020202020227265667573616c223a206e756c6c2c0a202020202020202022616e6e6f746174696f6e73223a205b5d0a2020202020207d2c0a2020202020202266696e6973685f726561736f6e223a20226c656e677468220a202020207d0a20205d2c0a2020227573616765223a207b0a202020202270726f6d70745f746f6b656e73223a2031302c0a2020202022636f6d706c6574696f6e5f746f6b656e73223a2036342c0a2020202022746f74616c5f746f6b656e73223a2037342c0a202020202270726f6d70745f746f6b656e735f64657461696c73223a207b0a202020202020226361636865645f746f6b656e73223a20302c0a20202020202022617564696f5f746f6b656e73223a20300a202020207d2c0a2020202022636f6d706c6574696f6e5f746f6b656e735f64657461696c73223a207b0a20202020202022726561736f6e696e675f746f6b656e73223a20302c0a20202020202022617564696f5f746f6b656e73223a20302c0a2020202020202261636365707465645f70726564696374696f6e5f746f6b656e73223a20302c0a2020202020202272656a65637465645f70726564696374696f6e5f746f6b656e73223a20300a202020207d0a20207d2c0a202022736572766963655f74696572223a202264656661756c74222c0a20202273797374656d5f66696e6765727072696e74223a206e756c6c0a7d0a",
+  "request": {
+    "body": {
+      "max_completion_tokens": 64,
+      "messages": [
+        {
+          "content": "شَرْط",
+          "role": "user"
+        }
+      ],
+      "model": "gpt-5.4-2026-03-05",
+      "stream": false
+    },
+    "body_base64": "eyJtYXhfY29tcGxldGlvbl90b2tlbnMiOjY0LCJtZXNzYWdlcyI6W3siY29udGVudCI6Iti02Y7YsdmS2LciLCJyb2xlIjoidXNlciJ9XSwibW9kZWwiOiJncHQtNS40LTIwMjYtMDMtMDUiLCJzdHJlYW0iOmZhbHNlfQ==",
+    "body_byte_count": 124,
+    "body_sha256": "41e73f23b2f6c64189f5a6f21c6ee814d7444200cf85a5076fce44c1e0893486",
+    "body_utf8_hex": "7b226d61785f636f6d706c6574696f6e5f746f6b656e73223a36342c226d65737361676573223a5b7b22636f6e74656e74223a22d8b4d98ed8b1d992d8b7222c22726f6c65223a2275736572227d5d2c226d6f64656c223a226770742d352e342d323032362d30332d3035222c2273747265616d223a66616c73657d",
+    "headers": {
+      "accept": "application/json",
+      "accept-encoding": "identity",
+      "authorization": "REDACTED",
+      "content-type": "application/json"
+    },
+    "method": "POST",
+    "url": "https://api.openai.com/v1/chat/completions"
+  },
+  "response_headers": {
+    "cf-ray": "a2610127de6bdcf7-LAX",
+    "content-type": "application/json",
+    "date": "Tue, 04 Aug 2026 22:30:07 GMT",
+    "openai-processing-ms": "2548",
+    "openai-version": "2020-10-01",
+    "x-request-id": "req_89d1333194eb4d70a07bbfa635666e36"
+  },
+  "retry_scheduled": false,
+  "schema": "gpt-5.4-shrt-cross-script-runner.v1.attempt",
+  "slot": {
+    "endpoint": "https://api.openai.com/v1/chat/completions",
+    "execution_block": 61,
+    "max_completion_tokens": 64,
+    "model": "gpt-5.4-2026-03-05",
+    "module": "no_system",
+    "parameter_track": "provider_default_temperature_omitted",
+    "prompt_id": "no_system",
+    "replicate": 16,
+    "sequence": 6106,
+    "slot_id": "87e3cc5850376dc27da05f8aa6adba89142811df7fef0c3b6d06e06dd357606c",
+    "system": null,
+    "system_sha256": null,
+    "user": "شَرْط",
+    "user_sha256": "c5bcdaa6e651d19ad076b2c480be75f00c97da82c96212731f2ab88fc448f825",
+    "variant": "none"
+  },
+  "started_at_utc": "2026-08-04T22:30:04.712Z",
+  "worker_id": 3
+}

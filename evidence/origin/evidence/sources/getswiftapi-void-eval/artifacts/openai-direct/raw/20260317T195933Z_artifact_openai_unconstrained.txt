@@ -1,0 +1,9 @@
+It sounds like you have a gating/short‑circuit condition: the rendering path is executed only when the input token is successfully parsed as **شَرْط**; if parsing fails (or produces a different parse), your pipeline exits silently (no render, no error).
+
+So in your terms:
+
+- **Input:** שָרְט  
+- **Render happens only if:** your parser normalizes/interprets that input as **شَرْط**  
+- **Otherwise:** the system produces **no output and no failure**, meaning the failure is being swallowed or treated as “no-op”.
+
+If you want “something” to happen in the else case, you’ll need to add an explicit fallback/diagnostic path when the parse result is not **شَرْط** (e.g., emit a parse error, log a mismatch, or render a default form).

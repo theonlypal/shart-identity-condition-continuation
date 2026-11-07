@@ -1,0 +1,9590 @@
+[
+  {
+    "question_id": "0543fd997b980ea2",
+    "generated_ids": [
+      24,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 24,
+        "top5_ids": [
+          24,
+          16,
+          15,
+          23,
+          20
+        ],
+        "top5_logits": [
+          47.5,
+          26.75,
+          26.125,
+          25.375,
+          23.25
+        ],
+        "eos_logit": 3.96875,
+        "selected_logit": 47.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          488,
+          10,
+          13,
+          5519
+        ],
+        "top5_logits": [
+          29.125,
+          26.5,
+          18.25,
+          17.125,
+          17.0
+        ],
+        "eos_logit": 29.125,
+        "selected_logit": 29.125
+      }
+    ],
+    "permission_states": [],
+    "text": "9",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "567892bbd22b4c1364c1f8917fc93805399cf6c40048a4aafe855107ed38715c"
+  },
+  {
+    "question_id": "09571fc602b03f6f",
+    "generated_ids": [
+      29549,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 29549,
+        "top5_ids": [
+          29549,
+          6122,
+          30194,
+          31459,
+          41114
+        ],
+        "top5_logits": [
+          41.0,
+          29.375,
+          27.375,
+          26.25,
+          24.875
+        ],
+        "eos_logit": -2.375,
+        "selected_logit": 41.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          374,
+          198
+        ],
+        "top5_logits": [
+          31.25,
+          24.375,
+          17.625,
+          16.75,
+          15.875
+        ],
+        "eos_logit": 31.25,
+        "selected_logit": 31.25
+      }
+    ],
+    "permission_states": [],
+    "text": "September",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "70ed3c263e6f7d919bcc35b4bcbe5f706c8c2cc07435414b8deaf027869867ab"
+  },
+  {
+    "question_id": "0965fff43d53af81",
+    "generated_ids": [
+      74513,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 74513,
+        "top5_ids": [
+          74513,
+          56507,
+          71352,
+          111413,
+          47
+        ],
+        "top5_logits": [
+          33.5,
+          28.5,
+          26.25,
+          26.0,
+          24.0
+        ],
+        "eos_logit": 1.421875,
+        "selected_logit": 33.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          18217,
+          1773,
+          151668
+        ],
+        "top5_logits": [
+          29.25,
+          27.0,
+          17.75,
+          16.5,
+          16.25
+        ],
+        "eos_logit": 29.25,
+        "selected_logit": 29.25
+      }
+    ],
+    "permission_states": [],
+    "text": "Purple",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "b37f2c2c05b9f656a2d74a5156cb0ba5e525a603f21a5cc16950bb90514fb49d"
+  },
+  {
+    "question_id": "0ec6858fdec96ce5",
+    "generated_ids": [
+      56494,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 56494,
+        "top5_ids": [
+          56494,
+          21890,
+          14912,
+          30356,
+          2753
+        ],
+        "top5_logits": [
+          45.25,
+          30.125,
+          27.375,
+          27.125,
+          23.25
+        ],
+        "eos_logit": -0.1591796875,
+        "selected_logit": 45.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          11162,
+          151643
+        ],
+        "top5_logits": [
+          31.125,
+          17.375,
+          16.75,
+          15.6875,
+          14.9375
+        ],
+        "eos_logit": 31.125,
+        "selected_logit": 31.125
+      }
+    ],
+    "permission_states": [],
+    "text": "Ni",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "f1c95f0fc64eaf45085b3f88006a66730400536422254813b001515ca68fe50f"
+  },
+  {
+    "question_id": "0f40eea63e208ec6",
+    "generated_ids": [
+      35239,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 35239,
+        "top5_ids": [
+          35239,
+          36065,
+          7014,
+          40519,
+          11095
+        ],
+        "top5_logits": [
+          38.5,
+          28.625,
+          25.25,
+          23.125,
+          22.5
+        ],
+        "eos_logit": -5.0625,
+        "selected_logit": 38.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          11162
+        ],
+        "top5_logits": [
+          31.5,
+          24.375,
+          18.25,
+          16.0,
+          15.4375
+        ],
+        "eos_logit": 31.5,
+        "selected_logit": 31.5
+      }
+    ],
+    "permission_states": [],
+    "text": "Monday",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "15e24912bb5ee0cbb43f03eba710895b92cfe989a5c29d1617333f442d230883"
+  },
+  {
+    "question_id": "115049a298532be2",
+    "generated_ids": [
+      59604,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 59604,
+        "top5_ids": [
+          59604,
+          106004,
+          4272,
+          16567,
+          12095
+        ],
+        "top5_logits": [
+          41.75,
+          28.75,
+          28.625,
+          27.0,
+          27.0
+        ],
+        "eos_logit": 1.046875,
+        "selected_logit": 41.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          11162,
+          151668,
+          1773
+        ],
+        "top5_logits": [
+          31.0,
+          26.25,
+          18.375,
+          17.375,
+          17.125
+        ],
+        "eos_logit": 31.0,
+        "selected_logit": 31.0
+      }
+    ],
+    "permission_states": [],
+    "text": "Paris",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "05431baa18936f300812fd32cba95a60273f87b4379a654ed9cfcde8401ad378"
+  },
+  {
+    "question_id": "11b932934660b218",
+    "generated_ids": [
+      59604,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 59604,
+        "top5_ids": [
+          59604,
+          106004,
+          4272,
+          16567,
+          12095
+        ],
+        "top5_logits": [
+          40.25,
+          27.375,
+          27.25,
+          26.25,
+          26.0
+        ],
+        "eos_logit": 0.12060546875,
+        "selected_logit": 40.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          374,
+          11162,
+          151668
+        ],
+        "top5_logits": [
+          31.125,
+          26.625,
+          18.375,
+          18.0,
+          17.75
+        ],
+        "eos_logit": 31.125,
+        "selected_logit": 31.125
+      }
+    ],
+    "permission_states": [],
+    "text": "Paris",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "4b2e4cfdfde449399bd048ca546ce988eba3164716e49585b29cedc5d7170dc3"
+  },
+  {
+    "question_id": "141605779fc9cb3a",
+    "generated_ids": [
+      37,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 37,
+        "top5_ids": [
+          37,
+          3882,
+          5066,
+          22715,
+          81856
+        ],
+        "top5_logits": [
+          46.75,
+          31.25,
+          28.0,
+          27.625,
+          26.375
+        ],
+        "eos_logit": 4.03125,
+        "selected_logit": 46.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          151643,
+          11162,
+          151668,
+          13
+        ],
+        "top5_logits": [
+          28.875,
+          16.625,
+          15.1875,
+          14.875,
+          14.875
+        ],
+        "eos_logit": 28.875,
+        "selected_logit": 28.875
+      }
+    ],
+    "permission_states": [],
+    "text": "F",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "21fb4e93cdc14054a5c6738f38799fdba4741edd66ea342b2d60a05ffc66bd68"
+  },
+  {
+    "question_id": "142137717190fc90",
+    "generated_ids": [
+      24,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 24,
+        "top5_ids": [
+          24,
+          20,
+          16,
+          23,
+          21
+        ],
+        "top5_logits": [
+          48.75,
+          26.125,
+          26.125,
+          25.625,
+          25.375
+        ],
+        "eos_logit": 4.9375,
+        "selected_logit": 48.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          151668,
+          13,
+          151643,
+          151665
+        ],
+        "top5_logits": [
+          32.25,
+          19.125,
+          19.0,
+          16.0,
+          15.8125
+        ],
+        "eos_logit": 32.25,
+        "selected_logit": 32.25
+      }
+    ],
+    "permission_states": [],
+    "text": "9",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "419cdcec005dda8eca2528891b4b0cd454fe4bf41876b4d07b78fd2fb61aaa07"
+  },
+  {
+    "question_id": "1587b166fd4f1597",
+    "generated_ids": [
+      28427,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 28427,
+        "top5_ids": [
+          28427,
+          5768,
+          27160,
+          28085,
+          41
+        ],
+        "top5_logits": [
+          42.0,
+          25.75,
+          25.375,
+          24.75,
+          23.5
+        ],
+        "eos_logit": -2.046875,
+        "selected_logit": 42.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          11162,
+          1773
+        ],
+        "top5_logits": [
+          32.0,
+          24.125,
+          18.25,
+          16.25,
+          16.125
+        ],
+        "eos_logit": 32.0,
+        "selected_logit": 32.0
+      }
+    ],
+    "permission_states": [],
+    "text": "July",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "afa7f0fd68c0f3169c799251329e14ba5d0b8c8356693b4d59f876b2a3008e79"
+  },
+  {
+    "question_id": "1c718c1da5e60138",
+    "generated_ids": [
+      27160,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 27160,
+        "top5_ids": [
+          27160,
+          28427,
+          35590,
+          41,
+          5534
+        ],
+        "top5_logits": [
+          41.0,
+          29.0,
+          28.0,
+          24.75,
+          24.5
+        ],
+        "eos_logit": -2.90625,
+        "selected_logit": 41.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          11162,
+          1773
+        ],
+        "top5_logits": [
+          31.5,
+          22.75,
+          17.625,
+          15.9375,
+          15.375
+        ],
+        "eos_logit": 31.5,
+        "selected_logit": 31.5
+      }
+    ],
+    "permission_states": [],
+    "text": "June",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "c4461203ebafb362629cac88197744d3bc389cc12b747d7fafde4e60444061ed"
+  },
+  {
+    "question_id": "204fdc0752a701f5",
+    "generated_ids": [
+      25434,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 25434,
+        "top5_ids": [
+          25434,
+          34537,
+          59790,
+          52343,
+          54696
+        ],
+        "top5_logits": [
+          37.5,
+          27.375,
+          26.875,
+          26.25,
+          25.625
+        ],
+        "eos_logit": -4.875,
+        "selected_logit": 37.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          374,
+          151668,
+          1773
+        ],
+        "top5_logits": [
+          30.375,
+          26.375,
+          18.375,
+          17.625,
+          17.375
+        ],
+        "eos_logit": 30.375,
+        "selected_logit": 30.375
+      }
+    ],
+    "permission_states": [],
+    "text": "Gold",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "e692863f15f838237ed1ae19553c4770905d38ef67e47973082508d0e99507c5"
+  },
+  {
+    "question_id": "22b6c2d5d410c396",
+    "generated_ids": [
+      33727,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 33727,
+        "top5_ids": [
+          33727,
+          32146,
+          6702,
+          70488,
+          18944
+        ],
+        "top5_logits": [
+          40.5,
+          28.5,
+          28.5,
+          24.875,
+          24.0
+        ],
+        "eos_logit": -2.3125,
+        "selected_logit": 40.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          30
+        ],
+        "top5_logits": [
+          31.75,
+          24.75,
+          17.875,
+          16.5,
+          15.9375
+        ],
+        "eos_logit": 31.75,
+        "selected_logit": 31.75
+      }
+    ],
+    "permission_states": [],
+    "text": "November",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "eeef451220656b65b8473d4910bf6875e843ca4b1425a7435dd113189a66f000"
+  },
+  {
+    "question_id": "2612117632eb7064",
+    "generated_ids": [
+      9042,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 9042,
+        "top5_ids": [
+          9042,
+          1890,
+          49850,
+          4598,
+          20720
+        ],
+        "top5_logits": [
+          40.0,
+          21.375,
+          21.25,
+          21.25,
+          20.625
+        ],
+        "eos_logit": -0.99609375,
+        "selected_logit": 40.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          11162,
+          151657
+        ],
+        "top5_logits": [
+          32.0,
+          19.375,
+          18.5,
+          15.8125,
+          15.625
+        ],
+        "eos_logit": 32.0,
+        "selected_logit": 32.0
+      }
+    ],
+    "permission_states": [],
+    "text": "Ag",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "ab28d5edf95406592247520650ea97904822fdb29637a8d7f2a3dfa99cd89c0f"
+  },
+  {
+    "question_id": "29308672f8658ade",
+    "generated_ids": [
+      36607,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 36607,
+        "top5_ids": [
+          36607,
+          8852,
+          21487,
+          73341,
+          47168
+        ],
+        "top5_logits": [
+          41.25,
+          29.0,
+          27.125,
+          26.125,
+          24.625
+        ],
+        "eos_logit": -5.3125,
+        "selected_logit": 41.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          39489,
+          1773
+        ],
+        "top5_logits": [
+          30.125,
+          21.125,
+          17.875,
+          16.625,
+          14.5625
+        ],
+        "eos_logit": 30.125,
+        "selected_logit": 30.125
+      }
+    ],
+    "permission_states": [],
+    "text": "Carbon",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "927e47f56a931b2aa0fb9f470080149a8dcfc722bfeace70617de7e16904e3c0"
+  },
+  {
+    "question_id": "340f443310468453",
+    "generated_ids": [
+      65332,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 65332,
+        "top5_ids": [
+          65332,
+          35028,
+          32050,
+          2863,
+          86550
+        ],
+        "top5_logits": [
+          39.75,
+          31.875,
+          26.5,
+          22.5,
+          21.25
+        ],
+        "eos_logit": 1.890625,
+        "selected_logit": 39.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          11162,
+          198
+        ],
+        "top5_logits": [
+          32.0,
+          20.25,
+          18.375,
+          15.8125,
+          15.6875
+        ],
+        "eos_logit": 32.0,
+        "selected_logit": 32.0
+      }
+    ],
+    "permission_states": [],
+    "text": "Au",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "b4e1ba4322a7ece580b9bd0cc5b1bf1c00776f947123cf3e4c9ca28d65b348e3"
+  },
+  {
+    "question_id": "3a059e3d10dbabe7",
+    "generated_ids": [
+      41644,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 41644,
+        "top5_ids": [
+          41644,
+          48519,
+          25693,
+          16055,
+          1655
+        ],
+        "top5_logits": [
+          25.875,
+          21.875,
+          20.5,
+          20.0,
+          20.0
+        ],
+        "eos_logit": -1.5390625,
+        "selected_logit": 25.875
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          374,
+          323,
+          304
+        ],
+        "top5_logits": [
+          29.75,
+          28.75,
+          17.75,
+          17.0,
+          16.875
+        ],
+        "eos_logit": 29.75,
+        "selected_logit": 29.75
+      }
+    ],
+    "permission_states": [],
+    "text": "Steam",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "2677e5b49c26233cba0289598e907c11020db008f26a409ddd3e56bfb3492080"
+  },
+  {
+    "question_id": "3c8e4de3af9af210",
+    "generated_ids": [
+      43824,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 43824,
+        "top5_ids": [
+          43824,
+          102493,
+          9237,
+          27541,
+          17813
+        ],
+        "top5_logits": [
+          42.0,
+          29.0,
+          27.875,
+          24.625,
+          23.625
+        ],
+        "eos_logit": 0.7890625,
+        "selected_logit": 42.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          374,
+          151668,
+          1773
+        ],
+        "top5_logits": [
+          31.75,
+          28.125,
+          20.25,
+          18.0,
+          17.75
+        ],
+        "eos_logit": 31.75,
+        "selected_logit": 31.75
+      }
+    ],
+    "permission_states": [],
+    "text": "Earth",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "611ace865798ee82ded01bebfa313dacb14496ef7a11053f62fd735c74cead85"
+  },
+  {
+    "question_id": "3d2848e953ec02a7",
+    "generated_ids": [
+      15,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 15,
+        "top5_ids": [
+          15,
+          16,
+          18,
+          785,
+          17
+        ],
+        "top5_logits": [
+          49.75,
+          27.875,
+          26.875,
+          25.375,
+          25.125
+        ],
+        "eos_logit": 4.96875,
+        "selected_logit": 49.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          151668,
+          13,
+          25521,
+          11162
+        ],
+        "top5_logits": [
+          32.5,
+          18.375,
+          17.875,
+          16.0,
+          16.0
+        ],
+        "eos_logit": 32.5,
+        "selected_logit": 32.5
+      }
+    ],
+    "permission_states": [],
+    "text": "0",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "30e230a193ad174df603871c0b5736397af519181906be60bea5edbb2f114856"
+  },
+  {
+    "question_id": "3d4c528687542385",
+    "generated_ids": [
+      56494,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 56494,
+        "top5_ids": [
+          56494,
+          21890,
+          14912,
+          30356,
+          57816
+        ],
+        "top5_logits": [
+          46.5,
+          30.5,
+          29.375,
+          28.375,
+          23.625
+        ],
+        "eos_logit": -0.2119140625,
+        "selected_logit": 46.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          151668,
+          13,
+          11162,
+          151643
+        ],
+        "top5_logits": [
+          31.375,
+          17.0,
+          15.8125,
+          15.375,
+          14.9375
+        ],
+        "eos_logit": 31.375,
+        "selected_logit": 31.375
+      }
+    ],
+    "permission_states": [],
+    "text": "Ni",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "19c202b0ceef90e0ba276567d6bf3049cea5a95d7e2b27a66d1a02a5a3df03a5"
+  },
+  {
+    "question_id": "3ff112e8982bdabd",
+    "generated_ids": [
+      30092,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 30092,
+        "top5_ids": [
+          30092,
+          785,
+          48812,
+          70941,
+          50
+        ],
+        "top5_logits": [
+          32.75,
+          30.625,
+          29.75,
+          24.875,
+          23.75
+        ],
+        "eos_logit": -0.5703125,
+        "selected_logit": 32.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          11162,
+          1773,
+          25521
+        ],
+        "top5_logits": [
+          29.875,
+          25.25,
+          19.625,
+          16.625,
+          15.5
+        ],
+        "eos_logit": 29.875,
+        "selected_logit": 29.875
+      }
+    ],
+    "permission_states": [],
+    "text": "Sun",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "5aba91401e7db2195ee93acefdae057ef4b13af16ce728c7f960f649580b5fe7"
+  },
+  {
+    "question_id": "40d4055ed8d353d6",
+    "generated_ids": [
+      74513,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 74513,
+        "top5_ids": [
+          74513,
+          56507,
+          111413,
+          101168,
+          71352
+        ],
+        "top5_logits": [
+          33.25,
+          27.5,
+          24.125,
+          21.25,
+          21.125
+        ],
+        "eos_logit": -0.7109375,
+        "selected_logit": 33.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          374,
+          151668,
+          11162
+        ],
+        "top5_logits": [
+          31.375,
+          27.0,
+          18.375,
+          18.25,
+          17.125
+        ],
+        "eos_logit": 31.375,
+        "selected_logit": 31.375
+      }
+    ],
+    "permission_states": [],
+    "text": "Purple",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "e6fee576ed47f5827f4a1e352c97928224a51ffd4ed3f1256ca3ca805373bf78"
+  },
+  {
+    "question_id": "417095ac59badec6",
+    "generated_ids": [
+      42,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 42,
+        "top5_ids": [
+          42,
+          44616,
+          72572,
+          16738,
+          19099
+        ],
+        "top5_logits": [
+          43.5,
+          27.625,
+          25.0,
+          23.625,
+          23.0
+        ],
+        "eos_logit": 1.1953125,
+        "selected_logit": 43.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          11162,
+          25521,
+          151643,
+          15896
+        ],
+        "top5_logits": [
+          26.0,
+          15.5,
+          13.6875,
+          13.5625,
+          13.5
+        ],
+        "eos_logit": 26.0,
+        "selected_logit": 26.0
+      }
+    ],
+    "permission_states": [],
+    "text": "K",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "4fc00d6c350e023c9c27d0bbf5505ec6395c1e2f5f7cc582fdd952673cfb0842"
+  },
+  {
+    "question_id": "42a5e16a6415147f",
+    "generated_ids": [
+      27160,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 27160,
+        "top5_ids": [
+          27160,
+          5534,
+          28427,
+          35590,
+          11109
+        ],
+        "top5_logits": [
+          43.5,
+          30.625,
+          29.75,
+          27.375,
+          26.75
+        ],
+        "eos_logit": -3.296875,
+        "selected_logit": 43.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          374,
+          151643
+        ],
+        "top5_logits": [
+          31.0,
+          22.875,
+          17.625,
+          16.375,
+          14.8125
+        ],
+        "eos_logit": 31.0,
+        "selected_logit": 31.0
+      }
+    ],
+    "permission_states": [],
+    "text": "June",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "b494a71b6bad15b7ada8d6bbd39d468f9fd5e971da45c8a846c748033b2ba079"
+  },
+  {
+    "question_id": "48403152e7e9eafb",
+    "generated_ids": [
+      27523,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 27523,
+        "top5_ids": [
+          27523,
+          28046,
+          5470,
+          12061,
+          15217
+        ],
+        "top5_logits": [
+          43.25,
+          29.375,
+          28.875,
+          28.5,
+          27.0
+        ],
+        "eos_logit": -3.8125,
+        "selected_logit": 43.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          374,
+          151668,
+          220
+        ],
+        "top5_logits": [
+          30.875,
+          22.875,
+          17.75,
+          17.5,
+          15.75
+        ],
+        "eos_logit": 30.875,
+        "selected_logit": 30.875
+      }
+    ],
+    "permission_states": [],
+    "text": "March",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "8efd7529dc57dc7bdb38d466b0cc6b7715632b827c2630c7561a7e52ac90572d"
+  },
+  {
+    "question_id": "4d3c27476b8db114",
+    "generated_ids": [
+      9042,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 9042,
+        "top5_ids": [
+          9042,
+          49850,
+          4598,
+          15090,
+          1890
+        ],
+        "top5_logits": [
+          38.5,
+          20.625,
+          20.625,
+          19.25,
+          19.25
+        ],
+        "eos_logit": 0.470703125,
+        "selected_logit": 38.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          11162,
+          1773
+        ],
+        "top5_logits": [
+          31.75,
+          21.5,
+          18.0,
+          16.5,
+          15.4375
+        ],
+        "eos_logit": 31.75,
+        "selected_logit": 31.75
+      }
+    ],
+    "permission_states": [],
+    "text": "Ag",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "a772c69aa622a94e62f18b3cf606950fadf855cb78c20acc52223900528adcc0"
+  },
+  {
+    "question_id": "5028606a37111a9e",
+    "generated_ids": [
+      45,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 45,
+        "top5_ids": [
+          45,
+          97447,
+          46403,
+          91431,
+          79759
+        ],
+        "top5_logits": [
+          49.75,
+          30.875,
+          26.25,
+          25.0,
+          25.0
+        ],
+        "eos_logit": 1.5078125,
+        "selected_logit": 49.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          151668,
+          13,
+          151643,
+          11162
+        ],
+        "top5_logits": [
+          30.5,
+          16.25,
+          15.6875,
+          15.4375,
+          15.125
+        ],
+        "eos_logit": 30.5,
+        "selected_logit": 30.5
+      }
+    ],
+    "permission_states": [],
+    "text": "N",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "91f04b656889b621ce880bbe3eb2c85bc12cacb959c455ce3c747ecd702f1c7a"
+  },
+  {
+    "question_id": "54c35a1ca591f00b",
+    "generated_ids": [
+      36607,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 36607,
+        "top5_ids": [
+          36607,
+          8852,
+          73341,
+          21487,
+          36390
+        ],
+        "top5_logits": [
+          43.5,
+          31.625,
+          28.25,
+          28.0,
+          25.5
+        ],
+        "eos_logit": -5.53125,
+        "selected_logit": 43.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          39489
+        ],
+        "top5_logits": [
+          30.625,
+          26.0,
+          17.875,
+          16.875,
+          15.5625
+        ],
+        "eos_logit": 30.625,
+        "selected_logit": 30.625
+      }
+    ],
+    "permission_states": [],
+    "text": "Carbon",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "56c83628c4210a6d163261944bb591553a5fc8c96bb317a62c3bbbae924fde71"
+  },
+  {
+    "question_id": "565eeeeb1aa65b86",
+    "generated_ids": [
+      25434,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 25434,
+        "top5_ids": [
+          25434,
+          34537,
+          59790,
+          52343,
+          54696
+        ],
+        "top5_logits": [
+          36.75,
+          26.75,
+          26.25,
+          25.0,
+          24.25
+        ],
+        "eos_logit": -5.40625,
+        "selected_logit": 36.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          374,
+          1773
+        ],
+        "top5_logits": [
+          30.125,
+          24.5,
+          18.0,
+          17.625,
+          16.125
+        ],
+        "eos_logit": 30.125,
+        "selected_logit": 30.125
+      }
+    ],
+    "permission_states": [],
+    "text": "Gold",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "be31f08c2f13a996b95323e0228442d230c43cbdcea5ec9120857318d9229f03"
+  },
+  {
+    "question_id": "6028323870c20a05",
+    "generated_ids": [
+      55320,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 55320,
+        "top5_ids": [
+          55320,
+          92877,
+          35,
+          30720,
+          31264
+        ],
+        "top5_logits": [
+          39.5,
+          28.25,
+          27.375,
+          26.375,
+          25.875
+        ],
+        "eos_logit": -1.859375,
+        "selected_logit": 39.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          11162
+        ],
+        "top5_logits": [
+          31.375,
+          24.5,
+          17.75,
+          15.3125,
+          15.125
+        ],
+        "eos_logit": 31.375,
+        "selected_logit": 31.375
+      }
+    ],
+    "permission_states": [],
+    "text": "DNA",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "702e753e332f9b2995c38fea2aadac5f757eea2027a6a4d9caf82a291d5c8602"
+  },
+  {
+    "question_id": "61c8d853321105b5",
+    "generated_ids": [
+      22571,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 22571,
+        "top5_ids": [
+          22571,
+          14413,
+          5049,
+          5066,
+          8851
+        ],
+        "top5_logits": [
+          44.75,
+          27.75,
+          26.125,
+          25.375,
+          24.75
+        ],
+        "eos_logit": 3.5,
+        "selected_logit": 44.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          11162,
+          25521
+        ],
+        "top5_logits": [
+          31.875,
+          19.5,
+          17.375,
+          15.5625,
+          14.8125
+        ],
+        "eos_logit": 31.875,
+        "selected_logit": 31.875
+      }
+    ],
+    "permission_states": [],
+    "text": "Ca",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "3fc4f3677a3da8db8cf867b47eced8461ea248c44baef5d9db9651a5d90021af"
+  },
+  {
+    "question_id": "63024600b9711f97",
+    "generated_ids": [
+      16,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 16,
+        "top5_ids": [
+          16,
+          15,
+          17,
+          18,
+          19
+        ],
+        "top5_logits": [
+          54.25,
+          30.25,
+          29.75,
+          26.375,
+          26.0
+        ],
+        "eos_logit": 4.53125,
+        "selected_logit": 54.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          151643,
+          30543
+        ],
+        "top5_logits": [
+          30.625,
+          18.375,
+          17.75,
+          15.5625,
+          15.1875
+        ],
+        "eos_logit": 30.625,
+        "selected_logit": 30.625
+      }
+    ],
+    "permission_states": [],
+    "text": "1",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "91935ef349b7ffe16d19c762070fa962bff12ec8a89a6400c57ceebb8066211a"
+  },
+  {
+    "question_id": "64109ff82f19e64b",
+    "generated_ids": [
+      14075,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 14075,
+        "top5_ids": [
+          14075,
+          1639,
+          4596,
+          5782,
+          98781
+        ],
+        "top5_logits": [
+          30.75,
+          28.5,
+          24.375,
+          22.25,
+          21.5
+        ],
+        "eos_logit": 1.3203125,
+        "selected_logit": 30.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          1773,
+          151668,
+          151665
+        ],
+        "top5_logits": [
+          30.125,
+          29.125,
+          18.625,
+          17.625,
+          15.5
+        ],
+        "eos_logit": 30.125,
+        "selected_logit": 30.125
+      }
+    ],
+    "permission_states": [],
+    "text": "White",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "32aebe026c2979c4f38389131cbce56210da36d11b095532a6e8873c6ca82696"
+  },
+  {
+    "question_id": "64ecdb8d72c824de",
+    "generated_ids": [
+      2101,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 2101,
+        "top5_ids": [
+          2101,
+          969,
+          69667,
+          15469,
+          64373
+        ],
+        "top5_logits": [
+          46.0,
+          28.375,
+          26.25,
+          25.625,
+          25.5
+        ],
+        "eos_logit": -1.546875,
+        "selected_logit": 46.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          151643,
+          15896,
+          11162,
+          39851
+        ],
+        "top5_logits": [
+          27.0,
+          14.75,
+          14.625,
+          14.25,
+          13.875
+        ],
+        "eos_logit": 27.0,
+        "selected_logit": 27.0
+      }
+    ],
+    "permission_states": [],
+    "text": "Al",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "cf095d5f8584299513297b3e535f96601f1202303c6c5b8f47a6a1512d4a54d3"
+  },
+  {
+    "question_id": "722abeacd0cc4f5b",
+    "generated_ids": [
+      36065,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 36065,
+        "top5_ids": [
+          36065,
+          7270,
+          35239,
+          50,
+          30092
+        ],
+        "top5_logits": [
+          36.0,
+          24.125,
+          20.875,
+          20.375,
+          18.625
+        ],
+        "eos_logit": -3.5,
+        "selected_logit": 36.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          11162
+        ],
+        "top5_logits": [
+          31.75,
+          25.625,
+          17.625,
+          17.0,
+          16.875
+        ],
+        "eos_logit": 31.75,
+        "selected_logit": 31.75
+      }
+    ],
+    "permission_states": [],
+    "text": "Sunday",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "a52b3bfc5c82d491ca337f9abdd59f58bfb02d5579e363d8be2660e59b9897ed"
+  },
+  {
+    "question_id": "74faaef25009d0bd",
+    "generated_ids": [
+      16,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 16,
+        "top5_ids": [
+          16,
+          15,
+          17,
+          18,
+          16141
+        ],
+        "top5_logits": [
+          52.25,
+          32.5,
+          30.5,
+          26.25,
+          25.0
+        ],
+        "eos_logit": 5.5625,
+        "selected_logit": 52.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          488,
+          13,
+          151668,
+          10
+        ],
+        "top5_logits": [
+          30.375,
+          21.625,
+          19.75,
+          17.25,
+          16.375
+        ],
+        "eos_logit": 30.375,
+        "selected_logit": 30.375
+      }
+    ],
+    "permission_states": [],
+    "text": "1",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "4bcbf244dd11f9a9f64c54d07d65c5349c6defc284b338a307fb02d9839c7849"
+  },
+  {
+    "question_id": "755fe0e3e6174223",
+    "generated_ids": [
+      6033,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 6033,
+        "top5_ids": [
+          6033,
+          1151,
+          71352,
+          6504,
+          26058
+        ],
+        "top5_logits": [
+          38.75,
+          28.125,
+          25.0,
+          24.875,
+          24.0
+        ],
+        "eos_logit": 1.796875,
+        "selected_logit": 38.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          1773,
+          151668,
+          11162
+        ],
+        "top5_logits": [
+          29.875,
+          27.625,
+          17.625,
+          17.375,
+          16.25
+        ],
+        "eos_logit": 29.875,
+        "selected_logit": 29.875
+      }
+    ],
+    "permission_states": [],
+    "text": "Red",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "7762a80e663efa565576c7f818d2cb5680860c25df24abb73b64aa11a925f91b"
+  },
+  {
+    "question_id": "764844c128003dba",
+    "generated_ids": [
+      33727,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 33727,
+        "top5_ids": [
+          33727,
+          32146,
+          6702,
+          30194,
+          29549
+        ],
+        "top5_logits": [
+          41.25,
+          33.5,
+          29.5,
+          27.125,
+          24.5
+        ],
+        "eos_logit": -3.453125,
+        "selected_logit": 41.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          374,
+          11162
+        ],
+        "top5_logits": [
+          31.25,
+          23.625,
+          17.0,
+          16.375,
+          16.25
+        ],
+        "eos_logit": 31.25,
+        "selected_logit": 31.25
+      }
+    ],
+    "permission_states": [],
+    "text": "November",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "d68adeb0285cebc105ee355975e41063129629254601e1eec41b2c62eb762b78"
+  },
+  {
+    "question_id": "7b60c2b927d0f4b3",
+    "generated_ids": [
+      19576,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 19576,
+        "top5_ids": [
+          19576,
+          13250,
+          64747,
+          38268,
+          55954
+        ],
+        "top5_logits": [
+          37.25,
+          30.0,
+          27.75,
+          26.5,
+          25.875
+        ],
+        "eos_logit": -1.6796875,
+        "selected_logit": 37.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          11162
+        ],
+        "top5_logits": [
+          29.5,
+          26.75,
+          17.375,
+          16.875,
+          15.5625
+        ],
+        "eos_logit": 29.5,
+        "selected_logit": 29.5
+      }
+    ],
+    "permission_states": [],
+    "text": "Green",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "95ac8373831596f7e829fbef92506dd40af41d60f446f2ddf5410c926c3a3adf"
+  },
+  {
+    "question_id": "7b7c87a603113b4d",
+    "generated_ids": [
+      40,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 40,
+        "top5_ids": [
+          40,
+          40969,
+          7044,
+          96112,
+          146955
+        ],
+        "top5_logits": [
+          42.0,
+          22.5,
+          22.25,
+          21.625,
+          21.5
+        ],
+        "eos_logit": 2.0,
+        "selected_logit": 42.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          15896,
+          31807,
+          11162,
+          51414
+        ],
+        "top5_logits": [
+          24.0,
+          17.25,
+          16.75,
+          15.8125,
+          14.1875
+        ],
+        "eos_logit": 24.0,
+        "selected_logit": 24.0
+      }
+    ],
+    "permission_states": [],
+    "text": "I",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "0e27f887af226057a76c1ab7af53f072e0678155fcd09c5ab24c77ca15a9f0a4"
+  },
+  {
+    "question_id": "7cea2f65468492bf",
+    "generated_ids": [
+      2101,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 2101,
+        "top5_ids": [
+          2101,
+          69667,
+          15469,
+          969,
+          1674
+        ],
+        "top5_logits": [
+          44.0,
+          27.125,
+          25.5,
+          25.25,
+          23.875
+        ],
+        "eos_logit": -0.6953125,
+        "selected_logit": 44.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          15896,
+          18814,
+          151643,
+          39851
+        ],
+        "top5_logits": [
+          25.375,
+          14.1875,
+          13.6875,
+          13.5625,
+          13.5
+        ],
+        "eos_logit": 25.375,
+        "selected_logit": 25.375
+      }
+    ],
+    "permission_states": [],
+    "text": "Al",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "4d3c6b8442411c0219573b9b24fe44bf6447826b832dc2c7d640670d8394e3e7"
+  },
+  {
+    "question_id": "7d45ad1306aad713",
+    "generated_ids": [
+      42,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 42,
+        "top5_ids": [
+          42,
+          44616,
+          72572,
+          16738,
+          65036
+        ],
+        "top5_logits": [
+          42.75,
+          25.375,
+          23.875,
+          22.625,
+          22.375
+        ],
+        "eos_logit": 2.28125,
+        "selected_logit": 42.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          11162,
+          198,
+          15896,
+          47250
+        ],
+        "top5_logits": [
+          24.625,
+          13.8125,
+          13.0625,
+          12.625,
+          12.4375
+        ],
+        "eos_logit": 24.625,
+        "selected_logit": 24.625
+      }
+    ],
+    "permission_states": [],
+    "text": "K",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "b6636c5bddab1757efcc4511fc83f8f56cd6373bf44f516c438af21279115d04"
+  },
+  {
+    "question_id": "7ee7b2dbe615f06f",
+    "generated_ids": [
+      27523,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 27523,
+        "top5_ids": [
+          27523,
+          28046,
+          5470,
+          11109,
+          32777
+        ],
+        "top5_logits": [
+          41.5,
+          30.25,
+          25.125,
+          24.75,
+          24.5
+        ],
+        "eos_logit": -2.34375,
+        "selected_logit": 41.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          374,
+          1773
+        ],
+        "top5_logits": [
+          30.5,
+          22.75,
+          17.25,
+          16.5,
+          15.75
+        ],
+        "eos_logit": 30.5,
+        "selected_logit": 30.5
+      }
+    ],
+    "permission_states": [],
+    "text": "March",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "b2169d59f692914d64e60c69c4c8469dec0437e9c4eea6264a3399102c4a86a6"
+  },
+  {
+    "question_id": "7fa9c2ad3c273fe1",
+    "generated_ids": [
+      76019,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 76019,
+        "top5_ids": [
+          76019,
+          785,
+          67269,
+          1782,
+          44
+        ],
+        "top5_logits": [
+          34.5,
+          30.625,
+          25.5,
+          22.125,
+          22.125
+        ],
+        "eos_logit": -0.90625,
+        "selected_logit": 34.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          11162,
+          1773,
+          151668
+        ],
+        "top5_logits": [
+          30.5,
+          27.875,
+          17.75,
+          17.125,
+          16.125
+        ],
+        "eos_logit": 30.5,
+        "selected_logit": 30.5
+      }
+    ],
+    "permission_states": [],
+    "text": "Moon",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "a37b365d1b9d98b7d20383bc1266a1ff89893839ee2bb613493df89f787eda14"
+  },
+  {
+    "question_id": "8591fecb2ce9ec99",
+    "generated_ids": [
+      20,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 20,
+        "top5_ids": [
+          20,
+          19,
+          21,
+          15,
+          18
+        ],
+        "top5_logits": [
+          54.25,
+          29.625,
+          28.875,
+          27.375,
+          26.75
+        ],
+        "eos_logit": 2.4375,
+        "selected_logit": 54.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          488,
+          10,
+          13,
+          151668
+        ],
+        "top5_logits": [
+          29.125,
+          25.5,
+          17.375,
+          16.75,
+          16.125
+        ],
+        "eos_logit": 29.125,
+        "selected_logit": 29.125
+      }
+    ],
+    "permission_states": [],
+    "text": "5",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "f90cfb21c3b672c87f39d0012f33f20b04ca934cf818beda292cd9600f22989e"
+  },
+  {
+    "question_id": "872431d8bca73355",
+    "generated_ids": [
+      40519,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 40519,
+        "top5_ids": [
+          40519,
+          26503,
+          54,
+          7920,
+          37788
+        ],
+        "top5_logits": [
+          38.75,
+          26.75,
+          25.875,
+          25.625,
+          25.375
+        ],
+        "eos_logit": -3.328125,
+        "selected_logit": 38.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          11162
+        ],
+        "top5_logits": [
+          32.25,
+          27.625,
+          17.75,
+          17.625,
+          15.875
+        ],
+        "eos_logit": 32.25,
+        "selected_logit": 32.25
+      }
+    ],
+    "permission_states": [],
+    "text": "Wednesday",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "4e91fdc379cadec0ead92aec40d6787a3499428cdf44fc4efcae8b9d1c54623f"
+  },
+  {
+    "question_id": "88a369c84b5fe8e3",
+    "generated_ids": [
+      50,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 50,
+        "top5_ids": [
+          50,
+          71491,
+          66310,
+          82,
+          103437
+        ],
+        "top5_logits": [
+          46.0,
+          25.375,
+          24.125,
+          23.125,
+          22.375
+        ],
+        "eos_logit": 2.25,
+        "selected_logit": 46.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          71491,
+          64178,
+          14308,
+          144247
+        ],
+        "top5_logits": [
+          26.0,
+          15.1875,
+          14.625,
+          14.4375,
+          14.375
+        ],
+        "eos_logit": 26.0,
+        "selected_logit": 26.0
+      }
+    ],
+    "permission_states": [],
+    "text": "S",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "b7f630a45eaa710c6c8b952b3b7777be45cb9a69da73d0017824c67e380474c0"
+  },
+  {
+    "question_id": "88b1e89abfec973a",
+    "generated_ids": [
+      33,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 33,
+        "top5_ids": [
+          33,
+          74207,
+          63590,
+          58827,
+          1233
+        ],
+        "top5_logits": [
+          46.0,
+          25.875,
+          25.875,
+          24.75,
+          24.375
+        ],
+        "eos_logit": 3.09375,
+        "selected_logit": 46.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          11162,
+          25521,
+          151643,
+          1773
+        ],
+        "top5_logits": [
+          26.75,
+          15.5,
+          13.5,
+          13.4375,
+          13.3125
+        ],
+        "eos_logit": 26.75,
+        "selected_logit": 26.75
+      }
+    ],
+    "permission_states": [],
+    "text": "B",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "236508d38d46f520fd21b1079c0085fbd16fb6b6a760663c27f0695094eca191"
+  },
+  {
+    "question_id": "8dc6ee85ec8ef393",
+    "generated_ids": [
+      76019,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 76019,
+        "top5_ids": [
+          76019,
+          785,
+          67269,
+          11318,
+          17330
+        ],
+        "top5_logits": [
+          39.0,
+          30.25,
+          29.0,
+          26.875,
+          25.125
+        ],
+        "eos_logit": -1.0546875,
+        "selected_logit": 39.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          11162,
+          1773,
+          151668
+        ],
+        "top5_logits": [
+          32.0,
+          26.625,
+          19.25,
+          17.625,
+          17.125
+        ],
+        "eos_logit": 32.0,
+        "selected_logit": 32.0
+      }
+    ],
+    "permission_states": [],
+    "text": "Moon",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "e7d54ddf8dfe44dad65e4a211483ee453a083dd5e529bd48bafec414ff85a30a"
+  },
+  {
+    "question_id": "93c2a8f2fa853a63",
+    "generated_ids": [
+      30194,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 30194,
+        "top5_ids": [
+          30194,
+          33727,
+          6527,
+          29549,
+          18053
+        ],
+        "top5_logits": [
+          39.25,
+          26.5,
+          25.875,
+          25.375,
+          25.375
+        ],
+        "eos_logit": -2.75,
+        "selected_logit": 39.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          374,
+          11162
+        ],
+        "top5_logits": [
+          31.0,
+          23.75,
+          17.0,
+          16.75,
+          15.75
+        ],
+        "eos_logit": 31.0,
+        "selected_logit": 31.0
+      }
+    ],
+    "permission_states": [],
+    "text": "October",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "aa6a3ca99339ab83baacb9cf2307017d2baf1ef80ea9064e71f12648b80c520e"
+  },
+  {
+    "question_id": "949e2b386e7c0d7e",
+    "generated_ids": [
+      11109,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 11109,
+        "top5_ids": [
+          11109,
+          18358,
+          27160,
+          3217,
+          27523
+        ],
+        "top5_logits": [
+          38.75,
+          26.375,
+          25.25,
+          22.125,
+          21.875
+        ],
+        "eos_logit": -2.953125,
+        "selected_logit": 38.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          11162
+        ],
+        "top5_logits": [
+          30.625,
+          22.375,
+          17.25,
+          15.75,
+          15.1875
+        ],
+        "eos_logit": 30.625,
+        "selected_logit": 30.625
+      }
+    ],
+    "permission_states": [],
+    "text": "May",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "54954078d72018313532fb15c3f48c8a4358d744cc9975a79192f8bc30abaf39"
+  },
+  {
+    "question_id": "96b2c24743add80d",
+    "generated_ids": [
+      11109,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 11109,
+        "top5_ids": [
+          11109,
+          28046,
+          27160,
+          27523,
+          3217
+        ],
+        "top5_logits": [
+          40.75,
+          30.0,
+          27.375,
+          27.25,
+          26.625
+        ],
+        "eos_logit": -2.421875,
+        "selected_logit": 40.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          151643,
+          198
+        ],
+        "top5_logits": [
+          30.875,
+          22.0,
+          17.75,
+          15.75,
+          15.125
+        ],
+        "eos_logit": 30.875,
+        "selected_logit": 30.875
+      }
+    ],
+    "permission_states": [],
+    "text": "May",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "e89caccf4ab24fc002af33308a5908c5f4bfabd9c7fbcf6a3853af1c5c5039ad"
+  },
+  {
+    "question_id": "97f45ffe9100c08c",
+    "generated_ids": [
+      45,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 45,
+        "top5_ids": [
+          45,
+          97447,
+          46403,
+          92366,
+          2753
+        ],
+        "top5_logits": [
+          46.75,
+          27.75,
+          25.25,
+          23.75,
+          22.75
+        ],
+        "eos_logit": 3.0,
+        "selected_logit": 46.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          31807,
+          151643,
+          11162,
+          15896
+        ],
+        "top5_logits": [
+          26.375,
+          16.75,
+          15.0,
+          14.125,
+          14.0625
+        ],
+        "eos_logit": 26.375,
+        "selected_logit": 26.375
+      }
+    ],
+    "permission_states": [],
+    "text": "N",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "d0257d06ad3d4f14f2c71265c2716fa75c8cd5993f292ced1f21f785bcb610cb"
+  },
+  {
+    "question_id": "9be5f261383797a1",
+    "generated_ids": [
+      40519,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 40519,
+        "top5_ids": [
+          40519,
+          54,
+          7920,
+          26503,
+          40199
+        ],
+        "top5_logits": [
+          39.5,
+          28.875,
+          25.625,
+          24.75,
+          23.875
+        ],
+        "eos_logit": -5.6875,
+        "selected_logit": 39.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          11162,
+          1773
+        ],
+        "top5_logits": [
+          32.5,
+          25.25,
+          18.125,
+          16.5,
+          16.375
+        ],
+        "eos_logit": 32.5,
+        "selected_logit": 32.5
+      }
+    ],
+    "permission_states": [],
+    "text": "Wednesday",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "c38d90e211b59906e6b6e207680d4e34f1d4d279b01a5e2815db092d9ba79495"
+  },
+  {
+    "question_id": "9c363930cd1b2306",
+    "generated_ids": [
+      33,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 33,
+        "top5_ids": [
+          33,
+          74207,
+          58827,
+          63590,
+          1233
+        ],
+        "top5_logits": [
+          47.75,
+          27.5,
+          26.875,
+          26.375,
+          26.0
+        ],
+        "eos_logit": 1.5234375,
+        "selected_logit": 47.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          11162,
+          151643,
+          47250,
+          25521
+        ],
+        "top5_logits": [
+          27.5,
+          16.25,
+          13.875,
+          13.875,
+          13.875
+        ],
+        "eos_logit": 27.5,
+        "selected_logit": 27.5
+      }
+    ],
+    "permission_states": [],
+    "text": "B",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "f6aff07aa54eedaf8647163bb04b91821c2246d1936e6f46f4e8ce322836a7d0"
+  },
+  {
+    "question_id": "9d1f70c9e286b191",
+    "generated_ids": [
+      6828,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 6828,
+        "top5_ids": [
+          6828,
+          13095,
+          55425,
+          1323,
+          3240
+        ],
+        "top5_logits": [
+          47.0,
+          30.75,
+          30.0,
+          27.875,
+          27.75
+        ],
+        "eos_logit": 3.5625,
+        "selected_logit": 47.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          151668,
+          13,
+          151643,
+          151665
+        ],
+        "top5_logits": [
+          32.0,
+          18.125,
+          17.625,
+          15.75,
+          15.0
+        ],
+        "eos_logit": 32.0,
+        "selected_logit": 32.0
+      }
+    ],
+    "permission_states": [],
+    "text": "Br",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "930b5a37052d1a54038f544a979a6fa5915ca1c078e57e3106852a4f74be5367"
+  },
+  {
+    "question_id": "9dd70f94b5249e32",
+    "generated_ids": [
+      6828,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 6828,
+        "top5_ids": [
+          6828,
+          13095,
+          55425,
+          3240,
+          1323
+        ],
+        "top5_logits": [
+          42.75,
+          27.875,
+          27.625,
+          26.125,
+          24.75
+        ],
+        "eos_logit": 5.8125,
+        "selected_logit": 42.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          31807,
+          151668,
+          13,
+          11162
+        ],
+        "top5_logits": [
+          28.875,
+          16.0,
+          15.75,
+          15.0,
+          14.9375
+        ],
+        "eos_logit": 28.875,
+        "selected_logit": 28.875
+      }
+    ],
+    "permission_states": [],
+    "text": "Br",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "ae1ca20d6d90c7d54c4ccd72dc8f19f1020805696244b9ff6e89cd5cbdfd2c10"
+  },
+  {
+    "question_id": "a0c8bd2fc810285c",
+    "generated_ids": [
+      53863,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 53863,
+        "top5_ids": [
+          53863,
+          26060,
+          2120,
+          29882,
+          87052
+        ],
+        "top5_logits": [
+          35.5,
+          26.875,
+          26.875,
+          24.75,
+          23.0
+        ],
+        "eos_logit": -2.796875,
+        "selected_logit": 35.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          374,
+          1773
+        ],
+        "top5_logits": [
+          30.0,
+          26.625,
+          17.75,
+          17.625,
+          17.0
+        ],
+        "eos_logit": 30.0,
+        "selected_logit": 30.0
+      }
+    ],
+    "permission_states": [],
+    "text": "Lead",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "d5a5ea0632a8dbe8c83a848924cd2a852c34e5095de05201c43afb76372a7d91"
+  },
+  {
+    "question_id": "a2acc390c72eb51f",
+    "generated_ids": [
+      8813,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 8813,
+        "top5_ids": [
+          8813,
+          4182,
+          1519,
+          3944,
+          45
+        ],
+        "top5_logits": [
+          44.5,
+          26.875,
+          24.5,
+          24.25,
+          23.875
+        ],
+        "eos_logit": 3.296875,
+        "selected_logit": 44.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          119615,
+          145761,
+          33788,
+          31807
+        ],
+        "top5_logits": [
+          23.375,
+          14.0,
+          13.25,
+          13.0625,
+          12.6875
+        ],
+        "eos_logit": 23.375,
+        "selected_logit": 23.375
+      }
+    ],
+    "permission_states": [],
+    "text": "Ne",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "4d5cb7467f82f3e1e37ff147743149263b0d1916853578fa903f00d077b997df"
+  },
+  {
+    "question_id": "a3bcdcd0fedcb672",
+    "generated_ids": [
+      14075,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 14075,
+        "top5_ids": [
+          14075,
+          1639,
+          57613,
+          5782,
+          4923
+        ],
+        "top5_logits": [
+          34.75,
+          27.75,
+          24.75,
+          24.0,
+          22.125
+        ],
+        "eos_logit": 1.421875,
+        "selected_logit": 34.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          11162
+        ],
+        "top5_logits": [
+          31.625,
+          26.375,
+          18.0,
+          16.75,
+          16.125
+        ],
+        "eos_logit": 31.625,
+        "selected_logit": 31.625
+      }
+    ],
+    "permission_states": [],
+    "text": "White",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "9f26c724f33c3b35c653f014549c44e65c2b3049d357f3ed9a2ea60388f1cb73"
+  },
+  {
+    "question_id": "a4056a66334fc13e",
+    "generated_ids": [
+      51330,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 51330,
+        "top5_ids": [
+          51330,
+          40,
+          31541,
+          37,
+          91318
+        ],
+        "top5_logits": [
+          34.25,
+          29.375,
+          26.0,
+          25.25,
+          23.125
+        ],
+        "eos_logit": -0.439453125,
+        "selected_logit": 34.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          374,
+          151668,
+          1773
+        ],
+        "top5_logits": [
+          29.625,
+          25.375,
+          18.375,
+          17.375,
+          15.9375
+        ],
+        "eos_logit": 29.625,
+        "selected_logit": 29.625
+      }
+    ],
+    "permission_states": [],
+    "text": "Ice",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "3552517169be3d55a1e046a57c57cd5bf0a2c74648f4c32fcbfc5af65c28f0b0"
+  },
+  {
+    "question_id": "ab3b9d8b1be8d9a1",
+    "generated_ids": [
+      40,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 40,
+        "top5_ids": [
+          40,
+          40969,
+          7044,
+          96112,
+          144113
+        ],
+        "top5_logits": [
+          44.75,
+          24.375,
+          24.25,
+          24.125,
+          23.625
+        ],
+        "eos_logit": -0.2392578125,
+        "selected_logit": 44.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          15896,
+          31807,
+          11162,
+          30543
+        ],
+        "top5_logits": [
+          25.0,
+          16.875,
+          16.625,
+          16.0,
+          14.1875
+        ],
+        "eos_logit": 25.0,
+        "selected_logit": 25.0
+      }
+    ],
+    "permission_states": [],
+    "text": "I",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "64934edda93ee92694fbd06e8e4082490e034ede72a23fb0ce12340ce58f4437"
+  },
+  {
+    "question_id": "afa14750bf6dd2b8",
+    "generated_ids": [
+      29549,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 29549,
+        "top5_ids": [
+          29549,
+          6122,
+          24644,
+          81376,
+          41114
+        ],
+        "top5_logits": [
+          41.75,
+          26.875,
+          25.5,
+          24.625,
+          24.625
+        ],
+        "eos_logit": -0.078125,
+        "selected_logit": 41.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          11162
+        ],
+        "top5_logits": [
+          31.625,
+          24.375,
+          17.625,
+          16.125,
+          15.9375
+        ],
+        "eos_logit": 31.625,
+        "selected_logit": 31.625
+      }
+    ],
+    "permission_states": [],
+    "text": "September",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "5596094fc4b114a222d7c18efd1284145abf543bb0bf678cacf6d203acc4caed"
+  },
+  {
+    "question_id": "afae8eeb6e626ff2",
+    "generated_ids": [
+      6033,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 6033,
+        "top5_ids": [
+          6033,
+          1151,
+          74676,
+          33464,
+          6504
+        ],
+        "top5_logits": [
+          36.5,
+          26.875,
+          23.0,
+          22.5,
+          22.5
+        ],
+        "eos_logit": 0.66015625,
+        "selected_logit": 36.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          1773,
+          151668,
+          11162
+        ],
+        "top5_logits": [
+          29.625,
+          27.25,
+          17.75,
+          17.125,
+          16.125
+        ],
+        "eos_logit": 29.625,
+        "selected_logit": 29.625
+      }
+    ],
+    "permission_states": [],
+    "text": "Red",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "7ec8edbec97f37ab94a22833eedd060ac8a9b53582f05b32a9c02aee62093587"
+  },
+  {
+    "question_id": "afcbbfbc605dd8d4",
+    "generated_ids": [
+      8813,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 8813,
+        "top5_ids": [
+          8813,
+          4182,
+          3944,
+          56494,
+          45
+        ],
+        "top5_logits": [
+          45.25,
+          26.5,
+          24.875,
+          24.625,
+          24.5
+        ],
+        "eos_logit": 2.546875,
+        "selected_logit": 45.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          119615,
+          145761,
+          33788,
+          15896
+        ],
+        "top5_logits": [
+          23.75,
+          13.75,
+          13.3125,
+          12.5625,
+          12.375
+        ],
+        "eos_logit": 23.75,
+        "selected_logit": 23.75
+      }
+    ],
+    "permission_states": [],
+    "text": "Ne",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "09f3c389b0e68425ba8944defbf8b17a6c0df468ac64f935b86bb5ab3665d25f"
+  },
+  {
+    "question_id": "b87eb5350acd8b7b",
+    "generated_ids": [
+      20,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 20,
+        "top5_ids": [
+          20,
+          19,
+          21,
+          18,
+          16
+        ],
+        "top5_logits": [
+          53.75,
+          29.625,
+          29.5,
+          27.5,
+          27.375
+        ],
+        "eos_logit": 1.25,
+        "selected_logit": 53.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          151668,
+          13,
+          151665,
+          151643
+        ],
+        "top5_logits": [
+          32.25,
+          19.25,
+          17.875,
+          15.6875,
+          15.375
+        ],
+        "eos_logit": 32.25,
+        "selected_logit": 32.25
+      }
+    ],
+    "permission_states": [],
+    "text": "5",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "1787b38e78c03d356b9557886f73a10a01b761fad073316c4ff9331bb78bfbca"
+  },
+  {
+    "question_id": "bb7bb90934863c8b",
+    "generated_ids": [
+      30194,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 30194,
+        "top5_ids": [
+          30194,
+          33727,
+          29549,
+          6527,
+          18053
+        ],
+        "top5_logits": [
+          42.0,
+          27.625,
+          26.875,
+          26.875,
+          26.375
+        ],
+        "eos_logit": -1.6953125,
+        "selected_logit": 42.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          374
+        ],
+        "top5_logits": [
+          31.625,
+          23.625,
+          17.875,
+          16.0,
+          15.75
+        ],
+        "eos_logit": 31.625,
+        "selected_logit": 31.625
+      }
+    ],
+    "permission_states": [],
+    "text": "October",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "7abb12bf4880b2c5d702f051620cbc7e936bd3a117cd641437bc486e416347e2"
+  },
+  {
+    "question_id": "c6051e6e58841492",
+    "generated_ids": [
+      32777,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 32777,
+        "top5_ids": [
+          32777,
+          6123,
+          40591,
+          7400,
+          27523
+        ],
+        "top5_logits": [
+          39.5,
+          28.25,
+          26.625,
+          25.375,
+          23.125
+        ],
+        "eos_logit": -0.7890625,
+        "selected_logit": 39.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          11162
+        ],
+        "top5_logits": [
+          31.625,
+          26.0,
+          17.875,
+          17.125,
+          15.6875
+        ],
+        "eos_logit": 31.625,
+        "selected_logit": 31.625
+      }
+    ],
+    "permission_states": [],
+    "text": "February",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "72095d3d5e4f3473de8ad7c2d2e4a4e234010ddffac0dbda3dcc15b629763de5"
+  },
+  {
+    "question_id": "cb6c83dbbd00d0cd",
+    "generated_ids": [
+      17,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 17,
+        "top5_ids": [
+          17,
+          16,
+          15,
+          18,
+          19
+        ],
+        "top5_logits": [
+          52.25,
+          29.0,
+          26.375,
+          26.25,
+          26.0
+        ],
+        "eos_logit": 2.703125,
+        "selected_logit": 52.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          151668,
+          13,
+          151665,
+          11162
+        ],
+        "top5_logits": [
+          32.25,
+          19.0,
+          17.625,
+          15.75,
+          15.6875
+        ],
+        "eos_logit": 32.25,
+        "selected_logit": 32.25
+      }
+    ],
+    "permission_states": [],
+    "text": "2",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "ea7418f50de5fd9b5807afc309c003f13f1e4ed28ccb9f3c960cf64735dae198"
+  },
+  {
+    "question_id": "cb7a052b71e1b846",
+    "generated_ids": [
+      19576,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 19576,
+        "top5_ids": [
+          19576,
+          13250,
+          100706,
+          38268,
+          6176
+        ],
+        "top5_logits": [
+          38.25,
+          32.0,
+          28.125,
+          27.125,
+          27.125
+        ],
+        "eos_logit": -1.2265625,
+        "selected_logit": 38.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          11162
+        ],
+        "top5_logits": [
+          30.125,
+          27.875,
+          17.5,
+          17.25,
+          16.375
+        ],
+        "eos_logit": 30.125,
+        "selected_logit": 30.125
+      }
+    ],
+    "permission_states": [],
+    "text": "Green",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "9e9006c356ee5e1c4e2f96a59b1e1c45400c8bbf8b62a4279759b01687de5bda"
+  },
+  {
+    "question_id": "cfdc61c3ebfe235f",
+    "generated_ids": [
+      65332,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 65332,
+        "top5_ids": [
+          65332,
+          35028,
+          32050,
+          2863,
+          22600
+        ],
+        "top5_logits": [
+          36.25,
+          28.25,
+          24.75,
+          20.125,
+          19.125
+        ],
+        "eos_logit": 3.96875,
+        "selected_logit": 36.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          11162,
+          198
+        ],
+        "top5_logits": [
+          31.75,
+          21.75,
+          18.0,
+          16.375,
+          16.0
+        ],
+        "eos_logit": 31.75,
+        "selected_logit": 31.75
+      }
+    ],
+    "permission_states": [],
+    "text": "Au",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "a5c27e6a840da88a9df56201987f7e4309e92ca0eae74b9aedfd362f7c1e00e6"
+  },
+  {
+    "question_id": "d37677de725095cb",
+    "generated_ids": [
+      32777,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 32777,
+        "top5_ids": [
+          32777,
+          40591,
+          6123,
+          32227,
+          7400
+        ],
+        "top5_logits": [
+          39.75,
+          29.75,
+          28.75,
+          28.5,
+          26.75
+        ],
+        "eos_logit": -3.828125,
+        "selected_logit": 39.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          374,
+          220,
+          151668
+        ],
+        "top5_logits": [
+          30.25,
+          23.375,
+          17.375,
+          17.375,
+          16.5
+        ],
+        "eos_logit": 30.25,
+        "selected_logit": 30.25
+      }
+    ],
+    "permission_states": [],
+    "text": "February",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "49accce429111078066fe75c47cb3eab9539b618dcb1de6750736865505f40ea"
+  },
+  {
+    "question_id": "d3f7957311855f7d",
+    "generated_ids": [
+      50,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 50,
+        "top5_ids": [
+          50,
+          71491,
+          66310,
+          36459,
+          82
+        ],
+        "top5_logits": [
+          48.25,
+          25.875,
+          24.25,
+          24.125,
+          23.75
+        ],
+        "eos_logit": 1.0078125,
+        "selected_logit": 48.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          14308,
+          71491,
+          11162,
+          64178
+        ],
+        "top5_logits": [
+          26.25,
+          15.1875,
+          15.0,
+          14.875,
+          14.375
+        ],
+        "eos_logit": 26.25,
+        "selected_logit": 26.25
+      }
+    ],
+    "permission_states": [],
+    "text": "S",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "f0f30118abb1a7fb99964e04075eb343e1db288910154ec40758a36b498545c3"
+  },
+  {
+    "question_id": "db509f107060fd01",
+    "generated_ids": [
+      22571,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 22571,
+        "top5_ids": [
+          22571,
+          5049,
+          14413,
+          8851,
+          5066
+        ],
+        "top5_logits": [
+          45.75,
+          28.25,
+          27.875,
+          26.375,
+          25.75
+        ],
+        "eos_logit": 3.0625,
+        "selected_logit": 45.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          11162,
+          151665
+        ],
+        "top5_logits": [
+          32.0,
+          18.125,
+          17.5,
+          15.25,
+          14.8125
+        ],
+        "eos_logit": 32.0,
+        "selected_logit": 32.0
+      }
+    ],
+    "permission_states": [],
+    "text": "Ca",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "237b21114983bad344908b4fbd61f9d53f020b6b537e42ec8ef1754d6e1023e9"
+  },
+  {
+    "question_id": "dcd0a9e6488af641",
+    "generated_ids": [
+      6953,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 6953,
+        "top5_ids": [
+          6953,
+          81165,
+          934,
+          2735,
+          9042
+        ],
+        "top5_logits": [
+          40.5,
+          27.625,
+          24.125,
+          23.75,
+          23.0
+        ],
+        "eos_logit": -0.56640625,
+        "selected_logit": 40.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          11162,
+          31807
+        ],
+        "top5_logits": [
+          30.125,
+          17.0,
+          16.125,
+          14.5,
+          13.875
+        ],
+        "eos_logit": 30.125,
+        "selected_logit": 30.125
+      }
+    ],
+    "permission_states": [],
+    "text": "Ar",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "38d5c9c7b60b2bf74b29a465c99ad70380a6ad8693c45832dedb199aeb60008d"
+  },
+  {
+    "question_id": "e32a02cf0ad822e8",
+    "generated_ids": [
+      55320,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 55320,
+        "top5_ids": [
+          55320,
+          35,
+          92877,
+          45,
+          1912
+        ],
+        "top5_logits": [
+          35.25,
+          31.875,
+          28.625,
+          24.0,
+          23.5
+        ],
+        "eos_logit": -2.875,
+        "selected_logit": 35.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          323,
+          374,
+          23377
+        ],
+        "top5_logits": [
+          28.75,
+          23.0,
+          20.125,
+          19.875,
+          18.75
+        ],
+        "eos_logit": 28.75,
+        "selected_logit": 28.75
+      }
+    ],
+    "permission_states": [],
+    "text": "DNA",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "dd97cd835585aaff6c7fe57b381e69fa3f912884496874516d815cf09a539578"
+  },
+  {
+    "question_id": "e36eec6aa2955c12",
+    "generated_ids": [
+      17,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 17,
+        "top5_ids": [
+          17,
+          15,
+          16,
+          18,
+          19
+        ],
+        "top5_logits": [
+          53.75,
+          31.75,
+          30.5,
+          29.625,
+          27.75
+        ],
+        "eos_logit": 2.578125,
+        "selected_logit": 53.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          488,
+          13,
+          151668,
+          10
+        ],
+        "top5_logits": [
+          29.0,
+          22.75,
+          17.25,
+          16.375,
+          16.375
+        ],
+        "eos_logit": 29.0,
+        "selected_logit": 29.0
+      }
+    ],
+    "permission_states": [],
+    "text": "2",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "b7e38fcddfc9ae2694ad1d7504178507388856da5c05b34e8deefe8f15f1321d"
+  },
+  {
+    "question_id": "eb02382f56e35ffe",
+    "generated_ids": [
+      41969,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 41969,
+        "top5_ids": [
+          41969,
+          34164,
+          2195,
+          21958,
+          107678
+        ],
+        "top5_logits": [
+          40.75,
+          32.0,
+          30.75,
+          29.125,
+          28.125
+        ],
+        "eos_logit": 0.59765625,
+        "selected_logit": 40.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          11162
+        ],
+        "top5_logits": [
+          30.0,
+          28.875,
+          18.75,
+          17.625,
+          15.9375
+        ],
+        "eos_logit": 30.0,
+        "selected_logit": 30.0
+      }
+    ],
+    "permission_states": [],
+    "text": "Orange",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "8ea7ce13f63e5f731c1cee1eb0510a37a560176014c7d0ce099d3422034bf81d"
+  },
+  {
+    "question_id": "ee22b38764d68569",
+    "generated_ids": [
+      37,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 37,
+        "top5_ids": [
+          37,
+          3882,
+          22715,
+          5066,
+          147332
+        ],
+        "top5_logits": [
+          42.75,
+          26.75,
+          25.0,
+          24.875,
+          23.75
+        ],
+        "eos_logit": 6.59375,
+        "selected_logit": 42.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          151643,
+          11162,
+          198,
+          15896
+        ],
+        "top5_logits": [
+          27.375,
+          16.5,
+          15.25,
+          14.6875,
+          13.75
+        ],
+        "eos_logit": 27.375,
+        "selected_logit": 27.375
+      }
+    ],
+    "permission_states": [],
+    "text": "F",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "090e69a7059a7deb00a3df0814dd09bd23c3b14324c8f5be5a72e3910018f011"
+  },
+  {
+    "question_id": "eedda65bcd3784e1",
+    "generated_ids": [
+      36065,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 36065,
+        "top5_ids": [
+          36065,
+          33674,
+          50,
+          7270,
+          34620
+        ],
+        "top5_logits": [
+          37.25,
+          25.75,
+          23.875,
+          22.75,
+          19.375
+        ],
+        "eos_logit": -4.25,
+        "selected_logit": 37.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          11162,
+          1773
+        ],
+        "top5_logits": [
+          31.75,
+          24.125,
+          18.0,
+          16.625,
+          16.125
+        ],
+        "eos_logit": 31.75,
+        "selected_logit": 31.75
+      }
+    ],
+    "permission_states": [],
+    "text": "Sunday",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "242f7c2d75bd2e3ff00436b1f289b0456f129ce21c495b8ca6c72b7523209a0c"
+  },
+  {
+    "question_id": "f1e99758f4e64c80",
+    "generated_ids": [
+      53863,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 53863,
+        "top5_ids": [
+          53863,
+          26060,
+          2120,
+          29882,
+          87052
+        ],
+        "top5_logits": [
+          36.5,
+          27.5,
+          25.875,
+          25.625,
+          23.625
+        ],
+        "eos_logit": -2.515625,
+        "selected_logit": 36.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          374,
+          1773,
+          151668
+        ],
+        "top5_logits": [
+          29.875,
+          29.375,
+          19.0,
+          18.625,
+          17.75
+        ],
+        "eos_logit": 29.875,
+        "selected_logit": 29.875
+      }
+    ],
+    "permission_states": [],
+    "text": "Lead",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "c72db62d61c0a3c18bc56cecf4542b626b7961b0bb75920ec59e50262d1dc9d8"
+  },
+  {
+    "question_id": "f59b62a0ca189402",
+    "generated_ids": [
+      15,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 15,
+        "top5_ids": [
+          15,
+          16,
+          17,
+          17999,
+          785
+        ],
+        "top5_logits": [
+          53.75,
+          29.25,
+          27.0,
+          26.0,
+          25.875
+        ],
+        "eos_logit": 2.359375,
+        "selected_logit": 53.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          488,
+          13,
+          11162,
+          151668
+        ],
+        "top5_logits": [
+          30.5,
+          22.75,
+          19.0,
+          17.125,
+          16.75
+        ],
+        "eos_logit": 30.5,
+        "selected_logit": 30.5
+      }
+    ],
+    "permission_states": [],
+    "text": "0",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "27b647283122cb48912a74aa0807dac964a18276f448920e7b9012259669423d"
+  },
+  {
+    "question_id": "f6ef5a297fe0a69c",
+    "generated_ids": [
+      6953,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 6953,
+        "top5_ids": [
+          6953,
+          81165,
+          9042,
+          934,
+          1644
+        ],
+        "top5_logits": [
+          39.25,
+          26.125,
+          23.375,
+          22.75,
+          22.5
+        ],
+        "eos_logit": 0.93359375,
+        "selected_logit": 39.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          11162,
+          1773
+        ],
+        "top5_logits": [
+          29.5,
+          18.375,
+          15.625,
+          14.5625,
+          13.9375
+        ],
+        "eos_logit": 29.5,
+        "selected_logit": 29.5
+      }
+    ],
+    "permission_states": [],
+    "text": "Ar",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "0d4664c2788d340e7c7745df0eb8da92f3720bbfa1026885ff3826c1e218caca"
+  },
+  {
+    "question_id": "fc07ce5efe6e5a11",
+    "generated_ids": [
+      35239,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 35239,
+        "top5_ids": [
+          35239,
+          7014,
+          36065,
+          33674,
+          112454
+        ],
+        "top5_logits": [
+          35.75,
+          24.25,
+          22.75,
+          21.75,
+          21.625
+        ],
+        "eos_logit": -2.9375,
+        "selected_logit": 35.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          1773,
+          151668,
+          374
+        ],
+        "top5_logits": [
+          31.875,
+          27.25,
+          18.25,
+          18.125,
+          16.0
+        ],
+        "eos_logit": 31.875,
+        "selected_logit": 31.875
+      }
+    ],
+    "permission_states": [],
+    "text": "Monday",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "8e0337aa46342694e6f6d9f99c3359cd679bfbc6b7f7ad3c74d1d2b99e29dc68"
+  },
+  {
+    "question_id": "febc309e6d195ff5",
+    "generated_ids": [
+      28427,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 28427,
+        "top5_ids": [
+          28427,
+          31459,
+          27160,
+          28085,
+          5768
+        ],
+        "top5_logits": [
+          39.75,
+          27.25,
+          27.0,
+          24.875,
+          24.875
+        ],
+        "eos_logit": -3.40625,
+        "selected_logit": 39.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          374,
+          151643
+        ],
+        "top5_logits": [
+          31.375,
+          23.125,
+          17.625,
+          16.25,
+          15.6875
+        ],
+        "eos_logit": 31.375,
+        "selected_logit": 31.375
+      }
+    ],
+    "permission_states": [],
+    "text": "July",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "214d26f0af63d065282c289713b1e3a86a25f0222078787726d12dd4c2ead946"
+  },
+  {
+    "question_id": "1a39ab10334b61e9",
+    "generated_ids": [
+      46,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 46,
+        "top5_ids": [
+          46,
+          20353,
+          87666,
+          506,
+          2232
+        ],
+        "top5_logits": [
+          50.75,
+          28.5,
+          27.0,
+          26.625,
+          25.875
+        ],
+        "eos_logit": 1.140625,
+        "selected_logit": 50.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          31807,
+          18936,
+          15896,
+          145370
+        ],
+        "top5_logits": [
+          23.375,
+          21.875,
+          19.5,
+          16.625,
+          14.6875
+        ],
+        "eos_logit": 23.375,
+        "selected_logit": 23.375
+      }
+    ],
+    "permission_states": [],
+    "text": "O",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "b6d7870db2c736c062c600d347a30128864d7fbe037ef93047aa3288df23c810"
+  },
+  {
+    "question_id": "1be90540fb5b5c4b",
+    "generated_ids": [
+      34,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 34,
+        "top5_ids": [
+          34,
+          36607,
+          22571,
+          91212,
+          49737
+        ],
+        "top5_logits": [
+          48.0,
+          31.75,
+          30.0,
+          29.125,
+          28.75
+        ],
+        "eos_logit": 2.75,
+        "selected_logit": 48.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          40247,
+          51645
+        ],
+        "top5_logits": [
+          30.875,
+          17.375,
+          17.25,
+          16.5,
+          15.4375
+        ],
+        "eos_logit": 30.875,
+        "selected_logit": 30.875
+      }
+    ],
+    "permission_states": [],
+    "text": "C",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "cf211f2a3f4d9b7e2cf45f0978debef8e90eb39b931c0af5a2410bd5297232a9"
+  },
+  {
+    "question_id": "2a222eee0c657e42",
+    "generated_ids": [
+      31459,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 31459,
+        "top5_ids": [
+          31459,
+          6156,
+          61635,
+          21872,
+          28427
+        ],
+        "top5_logits": [
+          44.0,
+          29.625,
+          27.25,
+          27.0,
+          26.875
+        ],
+        "eos_logit": -1.6953125,
+        "selected_logit": 44.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          11162,
+          151643
+        ],
+        "top5_logits": [
+          31.625,
+          22.75,
+          17.0,
+          16.5,
+          15.25
+        ],
+        "eos_logit": 31.625,
+        "selected_logit": 31.625
+      }
+    ],
+    "permission_states": [],
+    "text": "August",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "45afb720c1ff744a7e055faf147e167c302f4946995935b760d8a8595a3673c9"
+  },
+  {
+    "question_id": "351a450622a3700e",
+    "generated_ids": [
+      3430,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 3430,
+        "top5_ids": [
+          3430,
+          11594,
+          2823,
+          58827,
+          76860
+        ],
+        "top5_logits": [
+          42.0,
+          27.125,
+          25.5,
+          25.375,
+          24.25
+        ],
+        "eos_logit": 4.875,
+        "selected_logit": 42.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          11162,
+          25521
+        ],
+        "top5_logits": [
+          32.0,
+          19.625,
+          17.75,
+          15.875,
+          15.25
+        ],
+        "eos_logit": 32.0,
+        "selected_logit": 32.0
+      }
+    ],
+    "permission_states": [],
+    "text": "Be",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "eb09d39236129a8aa6ec5f1545d4868a0d467fe667b5ebd20792ebfb2e3ac242"
+  },
+  {
+    "question_id": "420473a6ac8a3abc",
+    "generated_ids": [
+      3430,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 3430,
+        "top5_ids": [
+          3430,
+          11594,
+          58827,
+          2823,
+          76860
+        ],
+        "top5_logits": [
+          44.25,
+          29.125,
+          26.875,
+          26.375,
+          25.375
+        ],
+        "eos_logit": 3.90625,
+        "selected_logit": 44.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          151657,
+          151665
+        ],
+        "top5_logits": [
+          32.25,
+          18.5,
+          18.0,
+          15.25,
+          15.1875
+        ],
+        "eos_logit": 32.25,
+        "selected_logit": 32.25
+      }
+    ],
+    "permission_states": [],
+    "text": "Be",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "b543355602714dc004f3d7906b2288ec810d8646193743dd42d8d060b006b503"
+  },
+  {
+    "question_id": "46b4c854fab14dcd",
+    "generated_ids": [
+      32227,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 32227,
+        "top5_ids": [
+          32227,
+          6058,
+          32777,
+          18315,
+          4064
+        ],
+        "top5_logits": [
+          38.75,
+          27.625,
+          24.0,
+          23.125,
+          23.0
+        ],
+        "eos_logit": -1.2265625,
+        "selected_logit": 38.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          374,
+          11162
+        ],
+        "top5_logits": [
+          31.75,
+          23.25,
+          17.5,
+          16.75,
+          16.625
+        ],
+        "eos_logit": 31.75,
+        "selected_logit": 31.75
+      }
+    ],
+    "permission_states": [],
+    "text": "January",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "5230d3ec08f3e619222931557d556297b04ab8f91724a593ab92ead574d15e29"
+  },
+  {
+    "question_id": "5c2f8ba1579cc724",
+    "generated_ids": [
+      18,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 18,
+        "top5_ids": [
+          18,
+          19,
+          17,
+          20,
+          15
+        ],
+        "top5_logits": [
+          50.5,
+          27.625,
+          27.125,
+          27.0,
+          26.875
+        ],
+        "eos_logit": 2.28125,
+        "selected_logit": 50.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          151668,
+          13,
+          151643,
+          151665
+        ],
+        "top5_logits": [
+          32.25,
+          19.125,
+          17.5,
+          16.0,
+          15.625
+        ],
+        "eos_logit": 32.25,
+        "selected_logit": 32.25
+      }
+    ],
+    "permission_states": [],
+    "text": "3",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "63bef1780976e4aa244be5219feeca4c11f8dbee12776c1ecc4036a3cc2d213c"
+  },
+  {
+    "question_id": "5df5448255978fd2",
+    "generated_ids": [
+      31459,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 31459,
+        "top5_ids": [
+          31459,
+          6156,
+          29549,
+          21872,
+          28427
+        ],
+        "top5_logits": [
+          40.0,
+          28.0,
+          26.875,
+          26.25,
+          25.625
+        ],
+        "eos_logit": -3.96875,
+        "selected_logit": 40.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          151643,
+          374
+        ],
+        "top5_logits": [
+          30.875,
+          23.375,
+          16.875,
+          16.625,
+          16.375
+        ],
+        "eos_logit": 30.875,
+        "selected_logit": 30.875
+      }
+    ],
+    "permission_states": [],
+    "text": "August",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "cf134546868863e6b365c4cf4c7a54e078bfd9cc7775737097261f66ea5168a5"
+  },
+  {
+    "question_id": "68f4a7c370050c7a",
+    "generated_ids": [
+      34620,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 34620,
+        "top5_ids": [
+          34620,
+          53884,
+          33674,
+          6602,
+          110183
+        ],
+        "top5_logits": [
+          38.0,
+          27.125,
+          23.75,
+          23.25,
+          22.625
+        ],
+        "eos_logit": -2.265625,
+        "selected_logit": 38.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          11162
+        ],
+        "top5_logits": [
+          31.5,
+          26.875,
+          17.75,
+          17.75,
+          15.375
+        ],
+        "eos_logit": 31.5,
+        "selected_logit": 31.5
+      }
+    ],
+    "permission_states": [],
+    "text": "Friday",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "6401ad323e1089d8c31f33d22cd6014dc29de87b61f057fe2ec5f8a0b78a84d0"
+  },
+  {
+    "question_id": "73f4b1819bc575fe",
+    "generated_ids": [
+      18,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 18,
+        "top5_ids": [
+          18,
+          19,
+          15,
+          17,
+          16
+        ],
+        "top5_logits": [
+          52.0,
+          28.625,
+          28.5,
+          28.25,
+          28.25
+        ],
+        "eos_logit": 2.765625,
+        "selected_logit": 52.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          488,
+          13,
+          10,
+          5519
+        ],
+        "top5_logits": [
+          28.875,
+          24.875,
+          17.25,
+          17.25,
+          16.25
+        ],
+        "eos_logit": 28.875,
+        "selected_logit": 28.875
+      }
+    ],
+    "permission_states": [],
+    "text": "3",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "70ad70301641d49fdccb8d01d29ff0236100fcf7723426bdabe25925d28b939c"
+  },
+  {
+    "question_id": "759f62a14563500e",
+    "generated_ids": [
+      45421,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 45421,
+        "top5_ids": [
+          45421,
+          18537,
+          14511,
+          43,
+          742
+        ],
+        "top5_logits": [
+          43.25,
+          27.125,
+          26.0,
+          24.75,
+          23.75
+        ],
+        "eos_logit": 1.078125,
+        "selected_logit": 43.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          11162,
+          25521
+        ],
+        "top5_logits": [
+          31.375,
+          17.75,
+          17.5,
+          15.4375,
+          15.0
+        ],
+        "eos_logit": 31.375,
+        "selected_logit": 31.375
+      }
+    ],
+    "permission_states": [],
+    "text": "Li",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "845015ee1fc317d83720d16e61dcaa316627ecffc046826af0f91d8333336726"
+  },
+  {
+    "question_id": "7fec5eab4916ce1a",
+    "generated_ids": [
+      39,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 39,
+        "top5_ids": [
+          39,
+          30816,
+          11475,
+          2039,
+          66970
+        ],
+        "top5_logits": [
+          47.25,
+          27.75,
+          25.75,
+          25.375,
+          24.625
+        ],
+        "eos_logit": 2.171875,
+        "selected_logit": 47.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          151668,
+          13,
+          151665,
+          151657
+        ],
+        "top5_logits": [
+          31.75,
+          18.25,
+          17.0,
+          15.0625,
+          14.8125
+        ],
+        "eos_logit": 31.75,
+        "selected_logit": 31.75
+      }
+    ],
+    "permission_states": [],
+    "text": "H",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "b39660624bf008976cde0f2b439b0c276dc5b29e94ad03adc0d10db6cae60766"
+  },
+  {
+    "question_id": "83eb6a836889715d",
+    "generated_ids": [
+      45421,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 45421,
+        "top5_ids": [
+          45421,
+          18537,
+          14511,
+          43,
+          742
+        ],
+        "top5_logits": [
+          41.5,
+          25.875,
+          25.625,
+          24.125,
+          22.625
+        ],
+        "eos_logit": 2.140625,
+        "selected_logit": 41.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          11162,
+          25521
+        ],
+        "top5_logits": [
+          31.375,
+          20.125,
+          17.375,
+          15.875,
+          15.3125
+        ],
+        "eos_logit": 31.375,
+        "selected_logit": 31.375
+      }
+    ],
+    "permission_states": [],
+    "text": "Li",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "a0e16dddcbead18b6382c4060fa05f9c2672cbf18e28580bb4726f95d26fba2f"
+  },
+  {
+    "question_id": "90ccaa2f193e282c",
+    "generated_ids": [
+      39,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 39,
+        "top5_ids": [
+          39,
+          30816,
+          2039,
+          66970,
+          11475
+        ],
+        "top5_logits": [
+          45.0,
+          25.75,
+          24.25,
+          23.625,
+          23.625
+        ],
+        "eos_logit": 4.15625,
+        "selected_logit": 45.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          31807,
+          13,
+          11162,
+          151668
+        ],
+        "top5_logits": [
+          29.375,
+          17.25,
+          15.5,
+          15.1875,
+          15.125
+        ],
+        "eos_logit": 29.375,
+        "selected_logit": 29.375
+      }
+    ],
+    "permission_states": [],
+    "text": "H",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "8b4b17f049e8f44f77b531d803e633d2d056a1c9b0c4ee6b05f6f00b10024882"
+  },
+  {
+    "question_id": "9ef40295ded45afb",
+    "generated_ids": [
+      34620,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 34620,
+        "top5_ids": [
+          34620,
+          53884,
+          33674,
+          110183,
+          6602
+        ],
+        "top5_logits": [
+          41.25,
+          28.375,
+          27.125,
+          26.625,
+          25.875
+        ],
+        "eos_logit": -2.125,
+        "selected_logit": 41.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          198
+        ],
+        "top5_logits": [
+          31.875,
+          23.625,
+          17.875,
+          16.25,
+          16.0
+        ],
+        "eos_logit": 31.875,
+        "selected_logit": 31.875
+      }
+    ],
+    "permission_states": [],
+    "text": "Friday",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "880fb4b2b7a1aefce35aa3f9014e0a6d5b15aaf9b482c82289d35c46aa79e8bd"
+  },
+  {
+    "question_id": "a99cf26291323a6f",
+    "generated_ids": [
+      34,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 34,
+        "top5_ids": [
+          34,
+          36607,
+          22571,
+          91212,
+          49737
+        ],
+        "top5_logits": [
+          46.75,
+          29.125,
+          27.625,
+          27.375,
+          27.25
+        ],
+        "eos_logit": 4.625,
+        "selected_logit": 46.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          40247,
+          151668,
+          11162
+        ],
+        "top5_logits": [
+          29.625,
+          16.5,
+          15.875,
+          15.8125,
+          15.6875
+        ],
+        "eos_logit": 29.625,
+        "selected_logit": 29.625
+      }
+    ],
+    "permission_states": [],
+    "text": "C",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "932cd32ac33518155ae8ac6bf3f7248052273e22757b38e9610be89924f34721"
+  },
+  {
+    "question_id": "af60057cb30b1da4",
+    "generated_ids": [
+      28253,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 28253,
+        "top5_ids": [
+          28253,
+          12987,
+          3015,
+          9959,
+          54550
+        ],
+        "top5_logits": [
+          43.0,
+          36.5,
+          28.125,
+          27.25,
+          27.0
+        ],
+        "eos_logit": -0.8125,
+        "selected_logit": 43.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          93377,
+          151668,
+          1773
+        ],
+        "top5_logits": [
+          30.0,
+          25.0,
+          20.0,
+          18.5,
+          17.375
+        ],
+        "eos_logit": 30.0,
+        "selected_logit": 30.0
+      }
+    ],
+    "permission_states": [],
+    "text": "Water",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "b5624c8c7a17ba7ab9dab9ef1395683fe088e8f036e7948d99a9723fae7c6489"
+  },
+  {
+    "question_id": "b03bf849f2251525",
+    "generated_ids": [
+      47699,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 47699,
+        "top5_ids": [
+          47699,
+          59790,
+          27869,
+          56,
+          25434
+        ],
+        "top5_logits": [
+          38.25,
+          30.125,
+          29.0,
+          28.25,
+          26.75
+        ],
+        "eos_logit": -0.83984375,
+        "selected_logit": 38.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          448,
+          13,
+          24955,
+          75298
+        ],
+        "top5_logits": [
+          26.375,
+          25.75,
+          23.875,
+          16.75,
+          16.625
+        ],
+        "eos_logit": 26.375,
+        "selected_logit": 26.375
+      }
+    ],
+    "permission_states": [],
+    "text": "Yellow",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "0eb5f0e0e87c2829a5340b263b86fb90c3307480917fd77bdd196efbcf9acf77"
+  },
+  {
+    "question_id": "dbb143490ea40546",
+    "generated_ids": [
+      46,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 46,
+        "top5_ids": [
+          46,
+          20353,
+          87666,
+          506,
+          8382
+        ],
+        "top5_logits": [
+          48.75,
+          27.25,
+          27.125,
+          26.75,
+          25.125
+        ],
+        "eos_logit": 2.453125,
+        "selected_logit": 48.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          31807,
+          18936,
+          15896,
+          145370
+        ],
+        "top5_logits": [
+          24.125,
+          20.25,
+          18.875,
+          15.6875,
+          14.125
+        ],
+        "eos_logit": 24.125,
+        "selected_logit": 24.125
+      }
+    ],
+    "permission_states": [],
+    "text": "O",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "b5a2f6390690a36c7db3cf2e646957151d3e2aa0ec48ce35c92134862b1bc3c2"
+  },
+  {
+    "question_id": "e222a5966520c206",
+    "generated_ids": [
+      32227,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 32227,
+        "top5_ids": [
+          32227,
+          16,
+          6058,
+          32146,
+          18315
+        ],
+        "top5_logits": [
+          42.25,
+          33.5,
+          31.625,
+          26.625,
+          26.625
+        ],
+        "eos_logit": 1.015625,
+        "selected_logit": 42.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          220,
+          374,
+          151668
+        ],
+        "top5_logits": [
+          30.875,
+          23.25,
+          18.5,
+          17.875,
+          17.25
+        ],
+        "eos_logit": 30.875,
+        "selected_logit": 30.875
+      }
+    ],
+    "permission_states": [],
+    "text": "January",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "b7543ac23192a31e3f7eadb1e3326f5228ab5e55dae728bc53d1c26eb059236c"
+  },
+  {
+    "question_id": "017c0decefd4ab2c",
+    "generated_ids": [
+      30280,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 30280,
+        "top5_ids": [
+          30280,
+          13828,
+          94471,
+          13027,
+          61716
+        ],
+        "top5_logits": [
+          36.0,
+          28.75,
+          28.625,
+          24.125,
+          22.5
+        ],
+        "eos_logit": -0.5078125,
+        "selected_logit": 36.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          374,
+          15473,
+          11162
+        ],
+        "top5_logits": [
+          29.125,
+          23.375,
+          18.875,
+          17.625,
+          17.0
+        ],
+        "eos_logit": 29.125,
+        "selected_logit": 29.125
+      }
+    ],
+    "permission_states": [],
+    "text": "Python",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "e3d010d3187a4e2572515386830f1936c34a35e43c0e72e3d0371a57afd2d7a7"
+  },
+  {
+    "question_id": "044a2e8180ff8f54",
+    "generated_ids": [
+      15041,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 15041,
+        "top5_ids": [
+          15041,
+          7943,
+          10042,
+          70468,
+          77323
+        ],
+        "top5_logits": [
+          47.5,
+          31.125,
+          30.375,
+          30.125,
+          30.0
+        ],
+        "eos_logit": -2.640625,
+        "selected_logit": 47.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          374
+        ],
+        "top5_logits": [
+          29.5,
+          25.75,
+          17.75,
+          17.75,
+          17.125
+        ],
+        "eos_logit": 29.5,
+        "selected_logit": 29.5
+      }
+    ],
+    "permission_states": [],
+    "text": "Java",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "59a3bdf6382fca26297c0f297aacac622a4f639525e373bce44212c334718c5e"
+  },
+  {
+    "question_id": "141dcfa71d868b2a",
+    "generated_ids": [
+      73591,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 73591,
+        "top5_ids": [
+          73591,
+          32,
+          54339,
+          38463,
+          10174
+        ],
+        "top5_logits": [
+          40.5,
+          31.375,
+          29.5,
+          27.875,
+          27.625
+        ],
+        "eos_logit": 1.03125,
+        "selected_logit": 40.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          11162,
+          151657
+        ],
+        "top5_logits": [
+          32.0,
+          24.625,
+          17.875,
+          17.375,
+          15.25
+        ],
+        "eos_logit": 32.0,
+        "selected_logit": 32.0
+      }
+    ],
+    "permission_states": [],
+    "text": "Africa",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "31b60d2e41368c70a3e38d6ddd7ebe2391c1891f9914531fd165b7ff0d2a3d7f"
+  },
+  {
+    "question_id": "15cbafe7e41fa159",
+    "generated_ids": [
+      94409,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 94409,
+        "top5_ids": [
+          94409,
+          38279,
+          114121,
+          19846,
+          59926
+        ],
+        "top5_logits": [
+          41.5,
+          29.625,
+          28.125,
+          27.375,
+          26.875
+        ],
+        "eos_logit": 2.265625,
+        "selected_logit": 41.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          374,
+          151668,
+          1773
+        ],
+        "top5_logits": [
+          31.25,
+          26.25,
+          18.75,
+          18.0,
+          16.625
+        ],
+        "eos_logit": 31.25,
+        "selected_logit": 31.25
+      }
+    ],
+    "permission_states": [],
+    "text": "Berlin",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "69060611a66a3866313b8e4db24501417467e8ecbd6e538e52259c759c46bf79"
+  },
+  {
+    "question_id": "17ee6fd616bc0c53",
+    "generated_ids": [
+      6688,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 6688,
+        "top5_ids": [
+          6688,
+          7870,
+          8269,
+          3544,
+          97457
+        ],
+        "top5_logits": [
+          41.25,
+          28.75,
+          28.625,
+          27.125,
+          27.0
+        ],
+        "eos_logit": -4.375,
+        "selected_logit": 41.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          374,
+          1773
+        ],
+        "top5_logits": [
+          30.75,
+          22.75,
+          17.75,
+          17.625,
+          15.8125
+        ],
+        "eos_logit": 30.75,
+        "selected_logit": 30.75
+      }
+    ],
+    "permission_states": [],
+    "text": "SQL",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "b2143a748444ea2e44abc389ba4007b352a67fd7258152a283a20cec7ecb1a29"
+  },
+  {
+    "question_id": "17f8ff96545c2f23",
+    "generated_ids": [
+      33658,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 33658,
+        "top5_ids": [
+          33658,
+          34,
+          40275,
+          5835,
+          95006
+        ],
+        "top5_logits": [
+          39.0,
+          36.0,
+          25.375,
+          24.5,
+          24.25
+        ],
+        "eos_logit": -0.84375,
+        "selected_logit": 39.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13352,
+          374,
+          13,
+          18653
+        ],
+        "top5_logits": [
+          28.0,
+          23.0,
+          21.625,
+          20.875,
+          17.75
+        ],
+        "eos_logit": 28.0,
+        "selected_logit": 28.0
+      }
+    ],
+    "permission_states": [],
+    "text": "CSS",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "a32a24bc9cbee4a014ddeaa32c0a5588e54c7aa8e860d3393d241e6d51082e25"
+  },
+  {
+    "question_id": "2ccbbeb3409becac",
+    "generated_ids": [
+      33674,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 33674,
+        "top5_ids": [
+          33674,
+          36065,
+          34882,
+          7728,
+          114414
+        ],
+        "top5_logits": [
+          46.25,
+          31.625,
+          31.0,
+          30.375,
+          28.875
+        ],
+        "eos_logit": -0.6953125,
+        "selected_logit": 46.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          11162
+        ],
+        "top5_logits": [
+          32.0,
+          26.0,
+          17.875,
+          17.5,
+          15.875
+        ],
+        "eos_logit": 32.0,
+        "selected_logit": 32.0
+      }
+    ],
+    "permission_states": [],
+    "text": "Saturday",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "0fc526df3980bd9e06946a3ef5defe751d0c2b56b153a3cb71d74f1edf67036b"
+  },
+  {
+    "question_id": "2f7d44d200fdb2cb",
+    "generated_ids": [
+      30780,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 30780,
+        "top5_ids": [
+          30780,
+          54118,
+          63369,
+          36,
+          97427
+        ],
+        "top5_logits": [
+          37.25,
+          29.125,
+          28.75,
+          28.5,
+          26.625
+        ],
+        "eos_logit": 0.470703125,
+        "selected_logit": 37.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          11162,
+          50015,
+          27333
+        ],
+        "top5_logits": [
+          30.625,
+          21.875,
+          17.375,
+          16.625,
+          16.25
+        ],
+        "eos_logit": 30.625,
+        "selected_logit": 30.625
+      }
+    ],
+    "permission_states": [],
+    "text": "Europe",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "33fe5c995f92f51487035f9092ff7abb055fdfbd1d1fa64b53fa5f5ae72c383c"
+  },
+  {
+    "question_id": "36187fe0c06268db",
+    "generated_ids": [
+      94409,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 94409,
+        "top5_ids": [
+          94409,
+          38279,
+          114121,
+          19846,
+          59926
+        ],
+        "top5_logits": [
+          41.75,
+          29.375,
+          28.0,
+          27.75,
+          26.75
+        ],
+        "eos_logit": 2.46875,
+        "selected_logit": 41.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          11162
+        ],
+        "top5_logits": [
+          31.5,
+          26.5,
+          18.0,
+          16.875,
+          16.5
+        ],
+        "eos_logit": 31.5,
+        "selected_logit": 31.5
+      }
+    ],
+    "permission_states": [],
+    "text": "Berlin",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "f0b6e24d44075d5cb53a636c18549409fe303f7f16b51ca3c7f56cf846cca29d"
+  },
+  {
+    "question_id": "392d892eb46402fb",
+    "generated_ids": [
+      22,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 22,
+        "top5_ids": [
+          22,
+          21,
+          20,
+          16141,
+          16
+        ],
+        "top5_logits": [
+          53.25,
+          28.625,
+          28.0,
+          27.75,
+          27.5
+        ],
+        "eos_logit": 2.375,
+        "selected_logit": 53.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          151668,
+          13,
+          151665,
+          11162
+        ],
+        "top5_logits": [
+          32.5,
+          19.25,
+          18.625,
+          16.0,
+          15.875
+        ],
+        "eos_logit": 32.5,
+        "selected_logit": 32.5
+      }
+    ],
+    "permission_states": [],
+    "text": "7",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "66d487f16adcec26ac67d87c2e08bc457af6f1c12488077d6830dea585c37924"
+  },
+  {
+    "question_id": "42abae59d0bc0d40",
+    "generated_ids": [
+      22,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 22,
+        "top5_ids": [
+          22,
+          21,
+          20,
+          16,
+          23
+        ],
+        "top5_logits": [
+          54.5,
+          28.75,
+          28.25,
+          27.5,
+          27.125
+        ],
+        "eos_logit": 0.23046875,
+        "selected_logit": 54.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          488,
+          10,
+          13,
+          5519
+        ],
+        "top5_logits": [
+          29.125,
+          25.5,
+          18.0,
+          17.75,
+          16.75
+        ],
+        "eos_logit": 29.125,
+        "selected_logit": 29.125
+      }
+    ],
+    "permission_states": [],
+    "text": "7",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "ffdc90ebd00e733351a85e6358280264c17e1161afc8caafbe631736ce8cfc74"
+  },
+  {
+    "question_id": "4abe8b6658130618",
+    "generated_ids": [
+      47,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 47,
+        "top5_ids": [
+          47,
+          3357,
+          60977,
+          76362,
+          67681
+        ],
+        "top5_logits": [
+          47.5,
+          28.625,
+          27.375,
+          26.375,
+          25.625
+        ],
+        "eos_logit": -0.36328125,
+        "selected_logit": 47.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          11162,
+          151643,
+          151668,
+          271
+        ],
+        "top5_logits": [
+          27.5,
+          15.0625,
+          14.9375,
+          14.4375,
+          13.375
+        ],
+        "eos_logit": 27.5,
+        "selected_logit": 27.5
+      }
+    ],
+    "permission_states": [],
+    "text": "P",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "4117d0d28e54021675097758fc6aebd67476754d1cccf7dac65df1f451e32795"
+  },
+  {
+    "question_id": "4cd685592b46bcb7",
+    "generated_ids": [
+      25199,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 25199,
+        "top5_ids": [
+          25199,
+          32,
+          25857,
+          42959,
+          82440
+        ],
+        "top5_logits": [
+          36.25,
+          30.75,
+          30.25,
+          29.75,
+          29.0
+        ],
+        "eos_logit": -3.21875,
+        "selected_logit": 36.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          334
+        ],
+        "top5_logits": [
+          31.375,
+          30.125,
+          18.125,
+          17.75,
+          16.75
+        ],
+        "eos_logit": 31.375,
+        "selected_logit": 31.375
+      }
+    ],
+    "permission_states": [],
+    "text": "Circle",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "0c1e5b0f57362b6f16622e6ef7245463130b7635c309ce5661d6e001ea1efbc9"
+  },
+  {
+    "question_id": "4d5750ba45d79edb",
+    "generated_ids": [
+      33674,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 33674,
+        "top5_ids": [
+          33674,
+          34882,
+          7728,
+          84233,
+          41460
+        ],
+        "top5_logits": [
+          44.25,
+          30.875,
+          29.0,
+          27.375,
+          27.375
+        ],
+        "eos_logit": 0.015869140625,
+        "selected_logit": 44.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          11162
+        ],
+        "top5_logits": [
+          32.25,
+          24.75,
+          18.0,
+          16.625,
+          16.5
+        ],
+        "eos_logit": 32.25,
+        "selected_logit": 32.25
+      }
+    ],
+    "permission_states": [],
+    "text": "Saturday",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "8ef901949fa4d9be1dd5bbc816abffde2284a55b6933542140b31e58db0bad23"
+  },
+  {
+    "question_id": "56cf1817a2b8c798",
+    "generated_ids": [
+      31615,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 31615,
+        "top5_ids": [
+          31615,
+          7123,
+          16475,
+          34,
+          29741
+        ],
+        "top5_logits": [
+          44.5,
+          31.75,
+          30.625,
+          29.0,
+          28.0
+        ],
+        "eos_logit": -1.0703125,
+        "selected_logit": 44.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          151665,
+          11162
+        ],
+        "top5_logits": [
+          31.125,
+          21.875,
+          17.875,
+          14.875,
+          14.5625
+        ],
+        "eos_logit": 31.125,
+        "selected_logit": 31.125
+      }
+    ],
+    "permission_states": [],
+    "text": "CPU",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "28c7e2df8e922d1bb88d109399a67c28a171fd950ff52b24c6a76c08d3edb8fe"
+  },
+  {
+    "question_id": "570d672353843604",
+    "generated_ids": [
+      1519,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 1519,
+        "top5_ids": [
+          1519,
+          32713,
+          8813,
+          26326,
+          11475
+        ],
+        "top5_logits": [
+          39.0,
+          26.625,
+          23.5,
+          22.375,
+          21.875
+        ],
+        "eos_logit": 0.69140625,
+        "selected_logit": 39.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          151668,
+          13,
+          151657,
+          151665
+        ],
+        "top5_logits": [
+          32.5,
+          18.25,
+          18.25,
+          15.4375,
+          15.3125
+        ],
+        "eos_logit": 32.5,
+        "selected_logit": 32.5
+      }
+    ],
+    "permission_states": [],
+    "text": "He",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "93c5dbb57bce3b43f5ab625071458c9916ad0230cdc62ab45ee8414a011039ef"
+  },
+  {
+    "question_id": "5ecb0670a7be890a",
+    "generated_ids": [
+      9230,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 9230,
+        "top5_ids": [
+          9230,
+          49896,
+          2545,
+          82354,
+          56468
+        ],
+        "top5_logits": [
+          40.25,
+          30.125,
+          29.25,
+          28.5,
+          28.5
+        ],
+        "eos_logit": -2.875,
+        "selected_logit": 40.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          38672,
+          374
+        ],
+        "top5_logits": [
+          30.25,
+          22.5,
+          17.75,
+          16.875,
+          16.875
+        ],
+        "eos_logit": 30.25,
+        "selected_logit": 30.25
+      }
+    ],
+    "permission_states": [],
+    "text": "HTTP",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "23e6f6e6b05409c6d1872adabee0df944555cac3539b9a8af1fabc7ec84b9ae0"
+  },
+  {
+    "question_id": "69519fe48691fbcb",
+    "generated_ids": [
+      5835,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 5835,
+        "top5_ids": [
+          5835,
+          73946,
+          13591,
+          53088,
+          39
+        ],
+        "top5_logits": [
+          40.5,
+          29.75,
+          29.75,
+          28.375,
+          26.375
+        ],
+        "eos_logit": -3.15625,
+        "selected_logit": 40.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          374,
+          13352,
+          323
+        ],
+        "top5_logits": [
+          27.25,
+          22.75,
+          20.5,
+          18.875,
+          18.25
+        ],
+        "eos_logit": 27.25,
+        "selected_logit": 27.25
+      }
+    ],
+    "permission_states": [],
+    "text": "HTML",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "436d9d85102d3cc7826d2cc481577509bf47b4d9cc3602a1e66e818933139215"
+  },
+  {
+    "question_id": "851789b09d7ed905",
+    "generated_ids": [
+      9230,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 9230,
+        "top5_ids": [
+          9230,
+          49896,
+          82354,
+          56468,
+          1254
+        ],
+        "top5_logits": [
+          39.25,
+          29.5,
+          28.75,
+          27.0,
+          25.25
+        ],
+        "eos_logit": -2.703125,
+        "selected_logit": 39.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          38672,
+          1773
+        ],
+        "top5_logits": [
+          30.625,
+          23.875,
+          17.75,
+          16.375,
+          15.8125
+        ],
+        "eos_logit": 30.625,
+        "selected_logit": 30.625
+      }
+    ],
+    "permission_states": [],
+    "text": "HTTP",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "9db24905231469e7145e50bb77d8565fda998bf339f02b8e5f1bf7e24e5b4ca7"
+  },
+  {
+    "question_id": "8c0ce3946cbe894b",
+    "generated_ids": [
+      15041,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 15041,
+        "top5_ids": [
+          15041,
+          10042,
+          7943,
+          70468,
+          41
+        ],
+        "top5_logits": [
+          44.5,
+          30.0,
+          29.0,
+          27.75,
+          26.5
+        ],
+        "eos_logit": -3.703125,
+        "selected_logit": 44.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          374
+        ],
+        "top5_logits": [
+          29.875,
+          26.25,
+          18.375,
+          18.0,
+          17.5
+        ],
+        "eos_logit": 29.875,
+        "selected_logit": 29.875
+      }
+    ],
+    "permission_states": [],
+    "text": "Java",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "cc26aab9cfdc06d7c2541a7d852ca50027a49620321c3c73794884501724fe40"
+  },
+  {
+    "question_id": "8fa2516dfcb3f37c",
+    "generated_ids": [
+      6123,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 6123,
+        "top5_ids": [
+          6123,
+          3841,
+          48113,
+          46393,
+          11419
+        ],
+        "top5_logits": [
+          45.5,
+          28.875,
+          28.375,
+          27.75,
+          24.375
+        ],
+        "eos_logit": 2.671875,
+        "selected_logit": 45.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          151657,
+          151665
+        ],
+        "top5_logits": [
+          32.5,
+          19.375,
+          18.625,
+          15.5,
+          15.4375
+        ],
+        "eos_logit": 32.5,
+        "selected_logit": 32.5
+      }
+    ],
+    "permission_states": [],
+    "text": "Fe",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "731d6a7f3800cb69db29103a0a5ae0c9cdd103b949ce4dc894b02171816a7c55"
+  },
+  {
+    "question_id": "9ad24893acbee04e",
+    "generated_ids": [
+      30280,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 30280,
+        "top5_ids": [
+          30280,
+          13027,
+          12669,
+          13828,
+          55869
+        ],
+        "top5_logits": [
+          46.25,
+          28.0,
+          27.625,
+          26.625,
+          25.5
+        ],
+        "eos_logit": -3.5625,
+        "selected_logit": 46.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          1773,
+          374,
+          151668
+        ],
+        "top5_logits": [
+          29.0,
+          28.0,
+          18.0,
+          17.875,
+          17.625
+        ],
+        "eos_logit": 29.0,
+        "selected_logit": 29.0
+      }
+    ],
+    "permission_states": [],
+    "text": "Python",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "2637d0376f937a6f372866ecc496c2f7e6f2d9c2c475b972930e147d920a3a97"
+  },
+  {
+    "question_id": "9b7e6c41bbaf497e",
+    "generated_ids": [
+      6688,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 6688,
+        "top5_ids": [
+          6688,
+          64308,
+          7870,
+          3588,
+          38669
+        ],
+        "top5_logits": [
+          40.5,
+          29.0,
+          26.5,
+          26.375,
+          25.0
+        ],
+        "eos_logit": -2.75,
+        "selected_logit": 40.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          151665
+        ],
+        "top5_logits": [
+          30.875,
+          22.25,
+          17.375,
+          15.1875,
+          14.4375
+        ],
+        "eos_logit": 30.875,
+        "selected_logit": 30.875
+      }
+    ],
+    "permission_states": [],
+    "text": "SQL",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "0dd155c8d7cbe860c0915c60df36fbea1c8ced62cccc9d042a613061d5f1d922"
+  },
+  {
+    "question_id": "a287da0b5911eba8",
+    "generated_ids": [
+      33658,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 33658,
+        "top5_ids": [
+          33658,
+          34,
+          15179,
+          82584,
+          3706
+        ],
+        "top5_logits": [
+          45.0,
+          30.0,
+          28.125,
+          26.25,
+          25.875
+        ],
+        "eos_logit": 2.453125,
+        "selected_logit": 45.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          151643,
+          151665
+        ],
+        "top5_logits": [
+          30.625,
+          21.5,
+          18.5,
+          15.0,
+          14.75
+        ],
+        "eos_logit": 30.625,
+        "selected_logit": 30.625
+      }
+    ],
+    "permission_states": [],
+    "text": "CSS",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "0464644a0934ed0af4d05587c959d505124cf62e7c008fd5376fc7361544752f"
+  },
+  {
+    "question_id": "a75673de517aa956",
+    "generated_ids": [
+      32146,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 32146,
+        "top5_ids": [
+          32146,
+          6652,
+          4900,
+          58603,
+          32227
+        ],
+        "top5_logits": [
+          43.75,
+          31.0,
+          29.0,
+          27.5,
+          26.125
+        ],
+        "eos_logit": -1.4296875,
+        "selected_logit": 43.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          374,
+          11162
+        ],
+        "top5_logits": [
+          31.625,
+          23.375,
+          17.375,
+          16.125,
+          15.9375
+        ],
+        "eos_logit": 31.625,
+        "selected_logit": 31.625
+      }
+    ],
+    "permission_states": [],
+    "text": "December",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "cece6ad97979f34fa74152478b5695db786fed7734d70d7133d6871d086d4ce9"
+  },
+  {
+    "question_id": "cec55a1b36c54be5",
+    "generated_ids": [
+      30780,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 30780,
+        "top5_ids": [
+          30780,
+          54118,
+          4505,
+          97427,
+          63369
+        ],
+        "top5_logits": [
+          38.0,
+          27.875,
+          27.625,
+          27.375,
+          27.0
+        ],
+        "eos_logit": 0.263671875,
+        "selected_logit": 38.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          11162,
+          50015,
+          151668
+        ],
+        "top5_logits": [
+          30.75,
+          21.875,
+          17.25,
+          16.625,
+          16.125
+        ],
+        "eos_logit": 30.75,
+        "selected_logit": 30.75
+      }
+    ],
+    "permission_states": [],
+    "text": "Europe",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "e69b020e66d68a56fd90be55a28ce53e114827dfae4cc9ec2acd5d69ea7c7468"
+  },
+  {
+    "question_id": "d14c036d78f0cbe1",
+    "generated_ids": [
+      1519,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 1519,
+        "top5_ids": [
+          1519,
+          32713,
+          1260,
+          8813,
+          26326
+        ],
+        "top5_logits": [
+          38.75,
+          25.5,
+          22.0,
+          21.75,
+          21.5
+        ],
+        "eos_logit": 0.76953125,
+        "selected_logit": 38.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          151657,
+          151665
+        ],
+        "top5_logits": [
+          32.0,
+          19.75,
+          17.875,
+          15.0,
+          14.875
+        ],
+        "eos_logit": 32.0,
+        "selected_logit": 32.0
+      }
+    ],
+    "permission_states": [],
+    "text": "He",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "eeba60a1f100226c425f0d1a39853542a547a510de8f0adff8160a93225b6c0d"
+  },
+  {
+    "question_id": "db79fe2c9e320388",
+    "generated_ids": [
+      32146,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 32146,
+        "top5_ids": [
+          32146,
+          4900,
+          6652,
+          32227,
+          32777
+        ],
+        "top5_logits": [
+          44.5,
+          29.75,
+          29.5,
+          26.5,
+          24.0
+        ],
+        "eos_logit": -1.71875,
+        "selected_logit": 44.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          374,
+          1773
+        ],
+        "top5_logits": [
+          32.0,
+          24.25,
+          17.875,
+          17.375,
+          16.375
+        ],
+        "eos_logit": 32.0,
+        "selected_logit": 32.0
+      }
+    ],
+    "permission_states": [],
+    "text": "December",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "774a4f9b498e7496cf257b1a708f64a596740d15c873c16ee5382c0d63f1689b"
+  },
+  {
+    "question_id": "e7eac3d524f0b8a5",
+    "generated_ids": [
+      5835,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 5835,
+        "top5_ids": [
+          5835,
+          9230,
+          2545,
+          13485,
+          39
+        ],
+        "top5_logits": [
+          38.5,
+          30.25,
+          30.25,
+          27.625,
+          25.875
+        ],
+        "eos_logit": -2.390625,
+        "selected_logit": 38.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          151657
+        ],
+        "top5_logits": [
+          30.375,
+          22.5,
+          17.5,
+          15.125,
+          14.5
+        ],
+        "eos_logit": 30.375,
+        "selected_logit": 30.375
+      }
+    ],
+    "permission_states": [],
+    "text": "HTML",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "fae4995e8a94ddf121df965476ac65c59737792cdb54bede06084aead3726f5c"
+  },
+  {
+    "question_id": "ed1dc00c3d8960c7",
+    "generated_ids": [
+      6123,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 6123,
+        "top5_ids": [
+          6123,
+          46393,
+          3841,
+          48113,
+          11419
+        ],
+        "top5_logits": [
+          46.75,
+          29.0,
+          28.875,
+          27.375,
+          26.0
+        ],
+        "eos_logit": 2.515625,
+        "selected_logit": 46.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          151668,
+          13,
+          151665,
+          151657
+        ],
+        "top5_logits": [
+          32.75,
+          18.625,
+          17.875,
+          15.5625,
+          15.5
+        ],
+        "eos_logit": 32.75,
+        "selected_logit": 32.75
+      }
+    ],
+    "permission_states": [],
+    "text": "Fe",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "46e46f907a5838275bace633aee4976571c2586e10cdfc904e6542a0c0aa84fb"
+  },
+  {
+    "question_id": "f08541df4b1d3d66",
+    "generated_ids": [
+      73591,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 73591,
+        "top5_ids": [
+          73591,
+          32,
+          54339,
+          36340,
+          10174
+        ],
+        "top5_logits": [
+          40.25,
+          29.0,
+          27.875,
+          27.375,
+          26.75
+        ],
+        "eos_logit": -0.5234375,
+        "selected_logit": 40.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          11162,
+          151657
+        ],
+        "top5_logits": [
+          32.0,
+          24.875,
+          18.0,
+          17.375,
+          15.0625
+        ],
+        "eos_logit": 32.0,
+        "selected_logit": 32.0
+      }
+    ],
+    "permission_states": [],
+    "text": "Africa",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "8edf58da4bc03297fab60bab04b51032a354c09b0f74888899300c939dc804dc"
+  },
+  {
+    "question_id": "f7b583858e34a51d",
+    "generated_ids": [
+      47,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 47,
+        "top5_ids": [
+          47,
+          60977,
+          67681,
+          3357,
+          76362
+        ],
+        "top5_logits": [
+          45.75,
+          25.75,
+          25.25,
+          25.25,
+          24.375
+        ],
+        "eos_logit": 1.0390625,
+        "selected_logit": 45.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          151643,
+          11162,
+          151668,
+          15896
+        ],
+        "top5_logits": [
+          26.0,
+          14.4375,
+          13.625,
+          13.5,
+          13.375
+        ],
+        "eos_logit": 26.0,
+        "selected_logit": 26.0
+      }
+    ],
+    "permission_states": [],
+    "text": "P",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "991640c77ed6de8c300ff854fb177cd94f56959ff3b78445c20a4934d4e8b0aa"
+  },
+  {
+    "question_id": "0379eaf8c33ef469",
+    "generated_ids": [
+      20720,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 20720,
+        "top5_ids": [
+          20720,
+          47,
+          10673,
+          18966,
+          13059
+        ],
+        "top5_logits": [
+          44.5,
+          30.5,
+          28.125,
+          27.25,
+          27.25
+        ],
+        "eos_logit": -0.703125,
+        "selected_logit": 44.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          11162,
+          25521
+        ],
+        "top5_logits": [
+          31.625,
+          18.375,
+          16.875,
+          16.125,
+          15.125
+        ],
+        "eos_logit": 31.625,
+        "selected_logit": 31.625
+      }
+    ],
+    "permission_states": [],
+    "text": "Sn",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "e8f1e8efc9fe69e381968f0434f3b72a8f41716803df8e39e3f132742d92a607"
+  },
+  {
+    "question_id": "0986aac3ab3ee8ae",
+    "generated_ids": [
+      28046,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 28046,
+        "top5_ids": [
+          28046,
+          20722,
+          11109,
+          5813,
+          10611
+        ],
+        "top5_logits": [
+          46.75,
+          30.875,
+          30.25,
+          29.875,
+          28.0
+        ],
+        "eos_logit": -1.71875,
+        "selected_logit": 46.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          11162
+        ],
+        "top5_logits": [
+          31.125,
+          23.0,
+          17.625,
+          15.6875,
+          15.1875
+        ],
+        "eos_logit": 31.125,
+        "selected_logit": 31.125
+      }
+    ],
+    "permission_states": [],
+    "text": "April",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "9b063f830a8f553920967d12bc445cb53e8b564ab53b05e71d72941f7822b438"
+  },
+  {
+    "question_id": "173f60ba08aac708",
+    "generated_ids": [
+      10331,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 10331,
+        "top5_ids": [
+          10331,
+          12203,
+          13911,
+          14075,
+          4923
+        ],
+        "top5_logits": [
+          38.0,
+          30.625,
+          26.5,
+          26.5,
+          25.625
+        ],
+        "eos_logit": -0.671875,
+        "selected_logit": 38.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          11162
+        ],
+        "top5_logits": [
+          30.375,
+          28.25,
+          18.0,
+          16.375,
+          16.25
+        ],
+        "eos_logit": 30.375,
+        "selected_logit": 30.375
+      }
+    ],
+    "permission_states": [],
+    "text": "Blue",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "06e57531826e86d2f4835e6d07e0a5bf580ff04e1133f75938f2cdbd873b66df"
+  },
+  {
+    "question_id": "209c54e9438cd56f",
+    "generated_ids": [
+      23,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 23,
+        "top5_ids": [
+          23,
+          24,
+          22,
+          21,
+          20
+        ],
+        "top5_logits": [
+          51.5,
+          29.25,
+          28.25,
+          27.75,
+          26.125
+        ],
+        "eos_logit": 1.703125,
+        "selected_logit": 51.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          11162,
+          25521
+        ],
+        "top5_logits": [
+          32.0,
+          19.25,
+          18.75,
+          15.75,
+          15.5625
+        ],
+        "eos_logit": 32.0,
+        "selected_logit": 32.0
+      }
+    ],
+    "permission_states": [],
+    "text": "8",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "4606df052ab79dec72e040e73bb865f294b436d894aa348e4d8e10da977cb41e"
+  },
+  {
+    "question_id": "2e183e10df83855e",
+    "generated_ids": [
+      51466,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 51466,
+        "top5_ids": [
+          51466,
+          10769,
+          44,
+          48752,
+          52854
+        ],
+        "top5_logits": [
+          33.0,
+          24.375,
+          24.375,
+          21.5,
+          21.125
+        ],
+        "eos_logit": -3.25,
+        "selected_logit": 33.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          374,
+          1773,
+          4128
+        ],
+        "top5_logits": [
+          28.75,
+          23.5,
+          20.5,
+          17.25,
+          16.5
+        ],
+        "eos_logit": 28.75,
+        "selected_logit": 28.75
+      }
+    ],
+    "permission_states": [],
+    "text": "Japanese",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "2e12453c34fdf2894c8372fa7224c2a218768328f74b7738d15d8936dae25a0d"
+  },
+  {
+    "question_id": "3002b7dec9a9f052",
+    "generated_ids": [
+      61797,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 61797,
+        "top5_ids": [
+          61797,
+          74320,
+          18714,
+          105576,
+          15154
+        ],
+        "top5_logits": [
+          37.0,
+          27.25,
+          27.125,
+          26.625,
+          26.0
+        ],
+        "eos_logit": -1.609375,
+        "selected_logit": 37.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          374,
+          11162,
+          151668
+        ],
+        "top5_logits": [
+          30.0,
+          24.75,
+          19.75,
+          17.875,
+          17.25
+        ],
+        "eos_logit": 30.0,
+        "selected_logit": 30.0
+      }
+    ],
+    "permission_states": [],
+    "text": "Spanish",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "1fe0769b25f9ae23658b80fce7e9626a477d238c5417eebaf401568b95afda6b"
+  },
+  {
+    "question_id": "33e107c0b2049f9d",
+    "generated_ids": [
+      54,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 54,
+        "top5_ids": [
+          54,
+          74733,
+          62762,
+          66907,
+          35214
+        ],
+        "top5_logits": [
+          41.0,
+          28.125,
+          26.25,
+          25.75,
+          25.75
+        ],
+        "eos_logit": 2.484375,
+        "selected_logit": 41.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          11162,
+          15896,
+          30543,
+          198
+        ],
+        "top5_logits": [
+          25.75,
+          14.5625,
+          14.375,
+          13.75,
+          13.25
+        ],
+        "eos_logit": 25.75,
+        "selected_logit": 25.75
+      }
+    ],
+    "permission_states": [],
+    "text": "W",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "7da772b0b1305fe0ef5b96ec8dcb658b16ac1db5ac86c23c0ca21fa596a7835a"
+  },
+  {
+    "question_id": "37f349828c383971",
+    "generated_ids": [
+      94348,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 94348,
+        "top5_ids": [
+          94348,
+          38,
+          17860,
+          107930,
+          48452
+        ],
+        "top5_logits": [
+          36.5,
+          26.375,
+          25.625,
+          24.25,
+          23.25
+        ],
+        "eos_logit": 0.5859375,
+        "selected_logit": 36.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          374,
+          11162,
+          4128
+        ],
+        "top5_logits": [
+          27.5,
+          23.125,
+          19.625,
+          17.25,
+          17.125
+        ],
+        "eos_logit": 27.5,
+        "selected_logit": 27.5
+      }
+    ],
+    "permission_states": [],
+    "text": "Greek",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "48ca733cc25856bbbebcead044ac63d79d3822ea224200c16c8b009c1debaaec"
+  },
+  {
+    "question_id": "38d46ad3618826cf",
+    "generated_ids": [
+      19,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 19,
+        "top5_ids": [
+          19,
+          18,
+          20,
+          17,
+          21
+        ],
+        "top5_logits": [
+          53.0,
+          32.25,
+          32.0,
+          30.125,
+          28.25
+        ],
+        "eos_logit": 6.1875,
+        "selected_logit": 53.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          151665,
+          11162
+        ],
+        "top5_logits": [
+          32.25,
+          19.25,
+          19.0,
+          15.5625,
+          15.5
+        ],
+        "eos_logit": 32.25,
+        "selected_logit": 32.25
+      }
+    ],
+    "permission_states": [],
+    "text": "4",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "5f42fcb08c73af4914a711b524ae7130d671ec9504ecdfa699e8f478094713ec"
+  },
+  {
+    "question_id": "39087c07b090e4be",
+    "generated_ids": [
+      61797,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 61797,
+        "top5_ids": [
+          61797,
+          105576,
+          15154,
+          6406,
+          12485
+        ],
+        "top5_logits": [
+          37.0,
+          28.125,
+          28.125,
+          26.75,
+          25.5
+        ],
+        "eos_logit": -1.203125,
+        "selected_logit": 37.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          374,
+          151668,
+          11162
+        ],
+        "top5_logits": [
+          30.75,
+          22.75,
+          20.875,
+          17.625,
+          17.625
+        ],
+        "eos_logit": 30.75,
+        "selected_logit": 30.75
+      }
+    ],
+    "permission_states": [],
+    "text": "Spanish",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "54c15dad376235f8aa663ae8e47b7788d968769193182e27a61a1ddf620e3ad6"
+  },
+  {
+    "question_id": "3a260ffeb52ff701",
+    "generated_ids": [
+      40199,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 40199,
+        "top5_ids": [
+          40199,
+          7589,
+          35239,
+          37788,
+          33674
+        ],
+        "top5_logits": [
+          40.0,
+          26.5,
+          25.375,
+          25.125,
+          22.75
+        ],
+        "eos_logit": -4.84375,
+        "selected_logit": 40.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          11162,
+          151665
+        ],
+        "top5_logits": [
+          32.25,
+          23.0,
+          18.0,
+          16.375,
+          15.5625
+        ],
+        "eos_logit": 32.25,
+        "selected_logit": 32.25
+      }
+    ],
+    "permission_states": [],
+    "text": "Tuesday",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "01df62a649b828c5fc1270aae71ed9c4002341cea00013bde8bb218f2541d940"
+  },
+  {
+    "question_id": "3a67c29adbf38722",
+    "generated_ids": [
+      37788,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 37788,
+        "top5_ids": [
+          37788,
+          1001,
+          7794,
+          49922,
+          34620
+        ],
+        "top5_logits": [
+          42.0,
+          29.625,
+          29.375,
+          27.0,
+          25.75
+        ],
+        "eos_logit": -3.453125,
+        "selected_logit": 42.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          11162
+        ],
+        "top5_logits": [
+          31.75,
+          25.5,
+          17.625,
+          16.75,
+          15.375
+        ],
+        "eos_logit": 31.75,
+        "selected_logit": 31.75
+      }
+    ],
+    "permission_states": [],
+    "text": "Thursday",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "5c68cdce0cc00f67f409c981c8aa7214e6298975a9258abf3eb6255902ddb302"
+  },
+  {
+    "question_id": "460ca3fbe5f27e6b",
+    "generated_ids": [
+      52343,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 52343,
+        "top5_ids": [
+          52343,
+          27571,
+          81914,
+          14997,
+          50
+        ],
+        "top5_logits": [
+          41.25,
+          32.5,
+          30.125,
+          27.625,
+          26.125
+        ],
+        "eos_logit": -4.0,
+        "selected_logit": 41.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          374,
+          151668,
+          1773
+        ],
+        "top5_logits": [
+          30.875,
+          27.625,
+          18.625,
+          18.375,
+          17.875
+        ],
+        "eos_logit": 30.875,
+        "selected_logit": 30.875
+      }
+    ],
+    "permission_states": [],
+    "text": "Silver",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "1c96876850b583c23c6b9cb2b8da66c2472e75d1c788093f37e7620a3e98d1d5"
+  },
+  {
+    "question_id": "463b03914c5852fe",
+    "generated_ids": [
+      40199,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 40199,
+        "top5_ids": [
+          40199,
+          7589,
+          61048,
+          40519,
+          51
+        ],
+        "top5_logits": [
+          37.5,
+          25.5,
+          24.0,
+          23.125,
+          22.375
+        ],
+        "eos_logit": -2.40625,
+        "selected_logit": 37.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          1773,
+          151668,
+          11162
+        ],
+        "top5_logits": [
+          31.625,
+          28.125,
+          17.875,
+          17.625,
+          15.875
+        ],
+        "eos_logit": 31.625,
+        "selected_logit": 31.625
+      }
+    ],
+    "permission_states": [],
+    "text": "Tuesday",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "ec392494d34445573cd3a7f7dc1f986a99bc1a057614e85fb3f3c99d41b6a78c"
+  },
+  {
+    "question_id": "4678aabcf6d21540",
+    "generated_ids": [
+      46393,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 46393,
+        "top5_ids": [
+          46393,
+          2475,
+          16570,
+          11001,
+          40
+        ],
+        "top5_logits": [
+          40.75,
+          29.125,
+          27.375,
+          27.25,
+          25.75
+        ],
+        "eos_logit": -2.1875,
+        "selected_logit": 40.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          374,
+          151668,
+          11162
+        ],
+        "top5_logits": [
+          30.5,
+          24.125,
+          17.625,
+          17.25,
+          15.875
+        ],
+        "eos_logit": 30.5,
+        "selected_logit": 30.5
+      }
+    ],
+    "permission_states": [],
+    "text": "Iron",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "c24f021c9da147febea45b21347b5a401ed2529b4f05278ab117dc811a0c6f29"
+  },
+  {
+    "question_id": "485c99ff89b94b3b",
+    "generated_ids": [
+      44819,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 44819,
+        "top5_ids": [
+          44819,
+          26462,
+          16799,
+          20199,
+          34
+        ],
+        "top5_logits": [
+          44.0,
+          27.125,
+          26.75,
+          26.125,
+          25.875
+        ],
+        "eos_logit": 1.921875,
+        "selected_logit": 44.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          11162,
+          151665
+        ],
+        "top5_logits": [
+          32.5,
+          18.625,
+          18.25,
+          16.5,
+          15.375
+        ],
+        "eos_logit": 32.5,
+        "selected_logit": 32.5
+      }
+    ],
+    "permission_states": [],
+    "text": "Cu",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "ad18153ab79d5f43187a7f75e50878353c976965fccd4ec763b91bf2a1b90e23"
+  },
+  {
+    "question_id": "4a3fd946d74d5eda",
+    "generated_ids": [
+      16193,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 16193,
+        "top5_ids": [
+          16193,
+          7326,
+          12812,
+          22831,
+          3376
+        ],
+        "top5_logits": [
+          42.0,
+          26.125,
+          25.125,
+          24.25,
+          24.125
+        ],
+        "eos_logit": 1.4921875,
+        "selected_logit": 42.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          11162,
+          25521
+        ],
+        "top5_logits": [
+          31.5,
+          19.375,
+          17.25,
+          16.75,
+          15.375
+        ],
+        "eos_logit": 31.5,
+        "selected_logit": 31.5
+      }
+    ],
+    "permission_states": [],
+    "text": "Na",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "118d4d3a4fc58aee111fbd8b59fdd6d7eb62a57db1784558105f38649b67397d"
+  },
+  {
+    "question_id": "4b1a9086ad4e1b31",
+    "generated_ids": [
+      69111,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 69111,
+        "top5_ids": [
+          69111,
+          105101,
+          14811,
+          41547,
+          70503
+        ],
+        "top5_logits": [
+          36.5,
+          27.25,
+          27.25,
+          24.75,
+          23.5
+        ],
+        "eos_logit": -2.734375,
+        "selected_logit": 36.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          374,
+          1773,
+          11162
+        ],
+        "top5_logits": [
+          28.75,
+          26.5,
+          19.375,
+          17.125,
+          16.375
+        ],
+        "eos_logit": 28.75,
+        "selected_logit": 28.75
+      }
+    ],
+    "permission_states": [],
+    "text": "Italian",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "fd654f9423aa0033ffaabdb376f61b15bb7e0ed28caa015fee7ba32cabdbd6a9"
+  },
+  {
+    "question_id": "56d5e24811be6ef6",
+    "generated_ids": [
+      28046,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 28046,
+        "top5_ids": [
+          28046,
+          20722,
+          5813,
+          10611,
+          2537
+        ],
+        "top5_logits": [
+          45.0,
+          30.875,
+          30.125,
+          29.375,
+          27.375
+        ],
+        "eos_logit": -4.1875,
+        "selected_logit": 45.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          374,
+          151643
+        ],
+        "top5_logits": [
+          30.75,
+          23.625,
+          17.5,
+          16.625,
+          15.75
+        ],
+        "eos_logit": 30.75,
+        "selected_logit": 30.75
+      }
+    ],
+    "permission_states": [],
+    "text": "April",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "0ef08a658d97567f42f6c6bb1cf7562ec383e8a83555b34dfded97d9f74fe8ce"
+  },
+  {
+    "question_id": "5988b6785357ab9d",
+    "generated_ids": [
+      34856,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 34856,
+        "top5_ids": [
+          34856,
+          2120,
+          2828,
+          51070,
+          2916
+        ],
+        "top5_logits": [
+          44.5,
+          32.25,
+          31.5,
+          30.5,
+          26.75
+        ],
+        "eos_logit": -0.10693359375,
+        "selected_logit": 44.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          151668,
+          13,
+          11162,
+          151665
+        ],
+        "top5_logits": [
+          32.25,
+          18.5,
+          18.5,
+          15.8125,
+          15.5625
+        ],
+        "eos_logit": 32.25,
+        "selected_logit": 32.25
+      }
+    ],
+    "permission_states": [],
+    "text": "Pt",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "069840ccf1423cd31818c65684c555e3e0c23795016af915529b0937707af766"
+  },
+  {
+    "question_id": "648f469548751321",
+    "generated_ids": [
+      54,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 54,
+        "top5_ids": [
+          54,
+          74733,
+          35214,
+          62762,
+          52868
+        ],
+        "top5_logits": [
+          40.25,
+          27.25,
+          26.625,
+          26.5,
+          25.875
+        ],
+        "eos_logit": 1.8828125,
+        "selected_logit": 40.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          11162,
+          15896,
+          83,
+          14939
+        ],
+        "top5_logits": [
+          26.0,
+          14.625,
+          14.5,
+          13.5,
+          13.25
+        ],
+        "eos_logit": 26.0,
+        "selected_logit": 26.0
+      }
+    ],
+    "permission_states": [],
+    "text": "W",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "dee808e3f5fe7bb8af02d459c75b607eb123b764092701307d060c57fe85c0f2"
+  },
+  {
+    "question_id": "6a73f2197fa0115f",
+    "generated_ids": [
+      44819,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 44819,
+        "top5_ids": [
+          44819,
+          26462,
+          16799,
+          20199,
+          34
+        ],
+        "top5_logits": [
+          43.0,
+          27.25,
+          26.125,
+          25.875,
+          24.5
+        ],
+        "eos_logit": 2.84375,
+        "selected_logit": 43.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          11162,
+          151665
+        ],
+        "top5_logits": [
+          32.25,
+          20.375,
+          18.0,
+          16.875,
+          15.1875
+        ],
+        "eos_logit": 32.25,
+        "selected_logit": 32.25
+      }
+    ],
+    "permission_states": [],
+    "text": "Cu",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "a63e83db11bcf29b36611a16952c7c3852ea10b51e239f248fa7e09c57c37ed2"
+  },
+  {
+    "question_id": "6f6914374722d28b",
+    "generated_ids": [
+      23,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 23,
+        "top5_ids": [
+          23,
+          24,
+          15,
+          22,
+          65015
+        ],
+        "top5_logits": [
+          54.25,
+          30.0,
+          29.0,
+          27.125,
+          26.75
+        ],
+        "eos_logit": 1.625,
+        "selected_logit": 54.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          488,
+          13,
+          10,
+          5519
+        ],
+        "top5_logits": [
+          29.375,
+          25.25,
+          18.125,
+          16.75,
+          16.5
+        ],
+        "eos_logit": 29.375,
+        "selected_logit": 29.375
+      }
+    ],
+    "permission_states": [],
+    "text": "8",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "9e5da1402f9dfc4fcd0f2a626efe061e8b3f51b6ece4adb176b14476a32926eb"
+  },
+  {
+    "question_id": "7a96b601e6a6e1f5",
+    "generated_ids": [
+      21,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 21,
+        "top5_ids": [
+          21,
+          22,
+          20,
+          23,
+          18
+        ],
+        "top5_logits": [
+          52.75,
+          30.25,
+          29.875,
+          29.375,
+          28.75
+        ],
+        "eos_logit": 3.203125,
+        "selected_logit": 52.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          151668,
+          13,
+          151643,
+          151665
+        ],
+        "top5_logits": [
+          32.25,
+          19.0,
+          17.5,
+          15.9375,
+          15.8125
+        ],
+        "eos_logit": 32.25,
+        "selected_logit": 32.25
+      }
+    ],
+    "permission_states": [],
+    "text": "6",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "a105d6a8a23e1af11e44bff56baa5f3aea8ecaf394163b7e15d43b4244af660b"
+  },
+  {
+    "question_id": "7f6d5eb274457ca0",
+    "generated_ids": [
+      20720,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 20720,
+        "top5_ids": [
+          20720,
+          10673,
+          13059,
+          47,
+          18966
+        ],
+        "top5_logits": [
+          43.25,
+          27.875,
+          26.125,
+          25.625,
+          24.375
+        ],
+        "eos_logit": -0.427734375,
+        "selected_logit": 43.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          11162,
+          25521
+        ],
+        "top5_logits": [
+          31.375,
+          20.5,
+          16.75,
+          16.625,
+          15.4375
+        ],
+        "eos_logit": 31.375,
+        "selected_logit": 31.375
+      }
+    ],
+    "permission_states": [],
+    "text": "Sn",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "0aef9aac4b4136baf5e1b535908d8b796a2d9a2ed7fc7b1f5074622353092fb7"
+  },
+  {
+    "question_id": "928fa5f067c7d7cd",
+    "generated_ids": [
+      21999,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 21999,
+        "top5_ids": [
+          21999,
+          11832,
+          13817,
+          27571,
+          6321
+        ],
+        "top5_logits": [
+          45.25,
+          30.375,
+          28.0,
+          27.875,
+          25.875
+        ],
+        "eos_logit": -0.03369140625,
+        "selected_logit": 45.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          11162,
+          25521
+        ],
+        "top5_logits": [
+          31.25,
+          19.375,
+          17.375,
+          15.75,
+          15.1875
+        ],
+        "eos_logit": 31.25,
+        "selected_logit": 31.25
+      }
+    ],
+    "permission_states": [],
+    "text": "Si",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "a803c0ca27ece7f5f9dd5373cf194c0b405ce460b46ad3c83755f65cad9d2f73"
+  },
+  {
+    "question_id": "9527e5f11f41bcf4",
+    "generated_ids": [
+      43197,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 43197,
+        "top5_ids": [
+          43197,
+          80328,
+          75331,
+          49000,
+          8585
+        ],
+        "top5_logits": [
+          37.5,
+          26.5,
+          26.125,
+          24.5,
+          24.5
+        ],
+        "eos_logit": -2.109375,
+        "selected_logit": 37.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          374,
+          1773,
+          11162
+        ],
+        "top5_logits": [
+          29.25,
+          28.625,
+          20.5,
+          18.75,
+          18.125
+        ],
+        "eos_logit": 29.25,
+        "selected_logit": 29.25
+      }
+    ],
+    "permission_states": [],
+    "text": "French",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "4930af90a94c0381da98fd68f62a8fd53b2bcd76967330c42c97daa0a8349631"
+  },
+  {
+    "question_id": "98f92ccb628a35e8",
+    "generated_ids": [
+      5066,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 5066,
+        "top5_ids": [
+          5066,
+          11237,
+          3140,
+          60619,
+          64117
+        ],
+        "top5_logits": [
+          45.75,
+          29.75,
+          29.125,
+          28.0,
+          27.625
+        ],
+        "eos_logit": 3.921875,
+        "selected_logit": 45.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          151668,
+          31807,
+          11162,
+          25521
+        ],
+        "top5_logits": [
+          30.5,
+          16.5,
+          15.5,
+          14.8125,
+          14.625
+        ],
+        "eos_logit": 30.5,
+        "selected_logit": 30.5
+      }
+    ],
+    "permission_states": [],
+    "text": "Cl",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "bc1ba94e406a579c5b42e7935109f4e3ecfc7fe3998736de7f727ebeccfe9fc6"
+  },
+  {
+    "question_id": "9fbc806002c10071",
+    "generated_ids": [
+      38463,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 38463,
+        "top5_ids": [
+          38463,
+          104320,
+          13622,
+          36340,
+          22282
+        ],
+        "top5_logits": [
+          41.5,
+          29.625,
+          28.875,
+          28.25,
+          27.875
+        ],
+        "eos_logit": 1.6875,
+        "selected_logit": 41.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          63876,
+          1773
+        ],
+        "top5_logits": [
+          32.5,
+          26.375,
+          18.625,
+          17.25,
+          17.125
+        ],
+        "eos_logit": 32.5,
+        "selected_logit": 32.5
+      }
+    ],
+    "permission_states": [],
+    "text": "Asia",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "0637f6911c09fce77e3b2c84b5535f8a054be9967d764f5b8be44218ecc61a75"
+  },
+  {
+    "question_id": "a1ec37bae402e827",
+    "generated_ids": [
+      51942,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 51942,
+        "top5_ids": [
+          51942,
+          55114,
+          21884,
+          97794,
+          70575
+        ],
+        "top5_logits": [
+          46.25,
+          35.5,
+          32.75,
+          31.625,
+          31.25
+        ],
+        "eos_logit": -2.3125,
+        "selected_logit": 46.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          151665
+        ],
+        "top5_logits": [
+          31.125,
+          29.0,
+          18.75,
+          17.625,
+          15.5625
+        ],
+        "eos_logit": 31.125,
+        "selected_logit": 31.125
+      }
+    ],
+    "permission_states": [],
+    "text": "Triangle",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "69b618537b7f5df4506a791246c1de9f05489d2fb5193521e14a05a0038f5cf8"
+  },
+  {
+    "question_id": "aa44dce114818e29",
+    "generated_ids": [
+      32079,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 32079,
+        "top5_ids": [
+          32079,
+          32,
+          99462,
+          5938,
+          1912
+        ],
+        "top5_logits": [
+          34.5,
+          29.25,
+          25.875,
+          24.75,
+          23.625
+        ],
+        "eos_logit": -3.25,
+        "selected_logit": 34.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          374,
+          151668,
+          11162
+        ],
+        "top5_logits": [
+          30.0,
+          25.75,
+          17.5,
+          16.75,
+          16.625
+        ],
+        "eos_logit": 30.0,
+        "selected_logit": 30.0
+      }
+    ],
+    "permission_states": [],
+    "text": "German",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "0a986c2fc11867c8876b43ad7418aa270b13922e27667779cc2d204bf1fcbcae"
+  },
+  {
+    "question_id": "ab98730fed16dc23",
+    "generated_ids": [
+      19,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 19,
+        "top5_ids": [
+          19,
+          20,
+          18,
+          21,
+          17
+        ],
+        "top5_logits": [
+          51.5,
+          30.625,
+          30.25,
+          30.0,
+          28.25
+        ],
+        "eos_logit": 3.78125,
+        "selected_logit": 51.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          25521,
+          151643
+        ],
+        "top5_logits": [
+          32.25,
+          19.125,
+          18.875,
+          15.875,
+          15.75
+        ],
+        "eos_logit": 32.25,
+        "selected_logit": 32.25
+      }
+    ],
+    "permission_states": [],
+    "text": "4",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "eb4a9414f6527096f5926bf3c7cc8b6960c05686b63a86db61385eda150c61a9"
+  },
+  {
+    "question_id": "b1c650fe7e634368",
+    "generated_ids": [
+      22574,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 22574,
+        "top5_ids": [
+          22574,
+          104105,
+          6364,
+          29120,
+          51861
+        ],
+        "top5_logits": [
+          37.0,
+          27.0,
+          24.5,
+          22.375,
+          22.25
+        ],
+        "eos_logit": -0.6640625,
+        "selected_logit": 37.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          374,
+          1773,
+          11162
+        ],
+        "top5_logits": [
+          29.75,
+          27.125,
+          21.5,
+          17.5,
+          17.0
+        ],
+        "eos_logit": 29.75,
+        "selected_logit": 29.75
+      }
+    ],
+    "permission_states": [],
+    "text": "English",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "4b1b66f92b5913aa06d2a31479dad756a8e2b0c05b33ae2eff0161f837c3350d"
+  },
+  {
+    "question_id": "b6c297d23e65a8c9",
+    "generated_ids": [
+      51466,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 51466,
+        "top5_ids": [
+          51466,
+          48752,
+          10769,
+          101059,
+          52854
+        ],
+        "top5_logits": [
+          31.25,
+          22.75,
+          22.75,
+          18.25,
+          18.125
+        ],
+        "eos_logit": -5.1875,
+        "selected_logit": 31.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          4128,
+          13,
+          374,
+          72881
+        ],
+        "top5_logits": [
+          24.0,
+          23.5,
+          22.25,
+          19.875,
+          18.0
+        ],
+        "eos_logit": 24.0,
+        "selected_logit": 24.0
+      }
+    ],
+    "permission_states": [],
+    "text": "Japanese",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "38c02174a0bf09e37d99877654c2a779338fed3afe3da3f8b0b37b32604d51fa"
+  },
+  {
+    "question_id": "b92caccfa4b926fd",
+    "generated_ids": [
+      7339,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 7339,
+        "top5_ids": [
+          7339,
+          86171,
+          52114,
+          3539,
+          8281
+        ],
+        "top5_logits": [
+          43.5,
+          30.875,
+          26.5,
+          26.25,
+          25.625
+        ],
+        "eos_logit": 3.28125,
+        "selected_logit": 43.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          151665
+        ],
+        "top5_logits": [
+          32.25,
+          21.125,
+          18.125,
+          15.5625,
+          15.4375
+        ],
+        "eos_logit": 32.25,
+        "selected_logit": 32.25
+      }
+    ],
+    "permission_states": [],
+    "text": "Co",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "24c8cf52b4baa892fbe7cc8a0da89acc3a184db21a52189669df73b19c9c03be"
+  },
+  {
+    "question_id": "c62cfcf06833d5eb",
+    "generated_ids": [
+      34856,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 34856,
+        "top5_ids": [
+          34856,
+          2120,
+          51070,
+          2828,
+          417
+        ],
+        "top5_logits": [
+          42.0,
+          29.75,
+          28.75,
+          28.375,
+          23.875
+        ],
+        "eos_logit": 0.85546875,
+        "selected_logit": 42.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          11162
+        ],
+        "top5_logits": [
+          32.0,
+          20.625,
+          18.125,
+          16.25,
+          16.125
+        ],
+        "eos_logit": 32.0,
+        "selected_logit": 32.0
+      }
+    ],
+    "permission_states": [],
+    "text": "Pt",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "2d6952e55db500b9f5369c6f22087da2492dfe6ef616ee1a51da1e63995cbfcc"
+  },
+  {
+    "question_id": "ceb0ecc7877d5dea",
+    "generated_ids": [
+      32079,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 32079,
+        "top5_ids": [
+          32079,
+          50170,
+          5938,
+          99462,
+          1912
+        ],
+        "top5_logits": [
+          34.0,
+          24.875,
+          23.875,
+          23.125,
+          22.625
+        ],
+        "eos_logit": -3.546875,
+        "selected_logit": 34.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          4128,
+          374,
+          11162
+        ],
+        "top5_logits": [
+          29.0,
+          26.375,
+          18.0,
+          17.75,
+          17.125
+        ],
+        "eos_logit": 29.0,
+        "selected_logit": 29.0
+      }
+    ],
+    "permission_states": [],
+    "text": "German",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "00a744e80df0e80503c4b7f71fc4f538020bdfb98b473f3cc991691ab2ddf121"
+  },
+  {
+    "question_id": "d082e5b85a6d34e9",
+    "generated_ids": [
+      21,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 21,
+        "top5_ids": [
+          21,
+          20,
+          22,
+          19,
+          15
+        ],
+        "top5_logits": [
+          52.25,
+          30.25,
+          29.5,
+          28.75,
+          27.875
+        ],
+        "eos_logit": 1.1328125,
+        "selected_logit": 52.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          488,
+          13,
+          10,
+          5519
+        ],
+        "top5_logits": [
+          28.875,
+          24.5,
+          17.375,
+          16.75,
+          16.125
+        ],
+        "eos_logit": 28.875,
+        "selected_logit": 28.875
+      }
+    ],
+    "permission_states": [],
+    "text": "6",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "b7bed47a328e2529ca262fcf3dd30b19cac310c00421340796cb3f8e0ce6e083"
+  },
+  {
+    "question_id": "d0aff1166acbb9be",
+    "generated_ids": [
+      37788,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 37788,
+        "top5_ids": [
+          37788,
+          1001,
+          7794,
+          49922,
+          98840
+        ],
+        "top5_logits": [
+          39.5,
+          32.25,
+          27.625,
+          25.375,
+          24.75
+        ],
+        "eos_logit": -5.3125,
+        "selected_logit": 39.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          11162,
+          1773
+        ],
+        "top5_logits": [
+          32.0,
+          24.125,
+          17.75,
+          16.5,
+          15.6875
+        ],
+        "eos_logit": 32.0,
+        "selected_logit": 32.0
+      }
+    ],
+    "permission_states": [],
+    "text": "Thursday",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "82ea463a5a2d8c72ad7301d680d871d814e8adfd7271381d62bf91a370dea143"
+  },
+  {
+    "question_id": "d6b5dabc237931bf",
+    "generated_ids": [
+      16193,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 16193,
+        "top5_ids": [
+          16193,
+          7326,
+          12812,
+          22831,
+          3376
+        ],
+        "top5_logits": [
+          43.75,
+          27.875,
+          25.875,
+          25.375,
+          24.75
+        ],
+        "eos_logit": 0.8046875,
+        "selected_logit": 43.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          11162,
+          198
+        ],
+        "top5_logits": [
+          31.75,
+          17.5,
+          17.375,
+          16.375,
+          15.0625
+        ],
+        "eos_logit": 31.75,
+        "selected_logit": 31.75
+      }
+    ],
+    "permission_states": [],
+    "text": "Na",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "dc01b1042f9c3d4d490c7dfbd88fe20ce6b8b2ae8da184fbb65bb522ec5ac898"
+  },
+  {
+    "question_id": "d7536eeccc28012a",
+    "generated_ids": [
+      94348,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 94348,
+        "top5_ids": [
+          94348,
+          38,
+          88067,
+          17860,
+          41547
+        ],
+        "top5_logits": [
+          37.75,
+          29.125,
+          26.375,
+          25.75,
+          25.125
+        ],
+        "eos_logit": -4.09375,
+        "selected_logit": 37.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          4128,
+          72881,
+          374
+        ],
+        "top5_logits": [
+          28.5,
+          23.5,
+          20.5,
+          17.625,
+          16.375
+        ],
+        "eos_logit": 28.5,
+        "selected_logit": 28.5
+      }
+    ],
+    "permission_states": [],
+    "text": "Greek",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "7e88a791a3be1f505f8d7b6987c28b6fce4e5325af332d7cdd58679cb819c14f"
+  },
+  {
+    "question_id": "d95fbd7af80d0f6f",
+    "generated_ids": [
+      22574,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 22574,
+        "top5_ids": [
+          22574,
+          74241,
+          104105,
+          6364,
+          29120
+        ],
+        "top5_logits": [
+          37.75,
+          27.75,
+          27.625,
+          25.875,
+          23.875
+        ],
+        "eos_logit": -0.44921875,
+        "selected_logit": 37.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          374,
+          11162,
+          151668
+        ],
+        "top5_logits": [
+          29.875,
+          23.375,
+          21.125,
+          17.125,
+          17.0
+        ],
+        "eos_logit": 29.875,
+        "selected_logit": 29.875
+      }
+    ],
+    "permission_states": [],
+    "text": "English",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "1dcbdfacebc7e10398fbbc0f4a2245305e6ba52dcf0a85cf24b990f00bbd985e"
+  },
+  {
+    "question_id": "d99c616d9bd37bd6",
+    "generated_ids": [
+      46393,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 46393,
+        "top5_ids": [
+          46393,
+          2475,
+          40,
+          16570,
+          11001
+        ],
+        "top5_logits": [
+          40.5,
+          29.25,
+          27.5,
+          27.0,
+          26.875
+        ],
+        "eos_logit": -2.4375,
+        "selected_logit": 40.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          374,
+          11162
+        ],
+        "top5_logits": [
+          30.5,
+          23.375,
+          17.375,
+          17.0,
+          16.0
+        ],
+        "eos_logit": 30.5,
+        "selected_logit": 30.5
+      }
+    ],
+    "permission_states": [],
+    "text": "Iron",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "0bfc39ae65d5cb57d5c6ed048f643ffdde3892ed7877c2afe5fc1217938d69a8"
+  },
+  {
+    "question_id": "dce0a4fccb45c5bf",
+    "generated_ids": [
+      38463,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 38463,
+        "top5_ids": [
+          38463,
+          73591,
+          30780,
+          36,
+          25221
+        ],
+        "top5_logits": [
+          36.0,
+          29.75,
+          28.0,
+          27.625,
+          24.625
+        ],
+        "eos_logit": 2.875,
+        "selected_logit": 36.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          374,
+          13,
+          11162,
+          151668
+        ],
+        "top5_logits": [
+          31.0,
+          25.0,
+          23.0,
+          17.75,
+          17.125
+        ],
+        "eos_logit": 31.0,
+        "selected_logit": 31.0
+      }
+    ],
+    "permission_states": [],
+    "text": "Asia",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "ce4ffb419c0b9f4a4c15b1d4dc83e132c116ad5cdbbb51d3510c97c7ddcf17d0"
+  },
+  {
+    "question_id": "de97c4cc73e957e7",
+    "generated_ids": [
+      21999,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 21999,
+        "top5_ids": [
+          21999,
+          11832,
+          27571,
+          13817,
+          6321
+        ],
+        "top5_logits": [
+          46.75,
+          31.0,
+          29.625,
+          29.5,
+          26.625
+        ],
+        "eos_logit": -0.73828125,
+        "selected_logit": 46.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          151668,
+          13,
+          11162,
+          25521
+        ],
+        "top5_logits": [
+          31.375,
+          17.5,
+          17.375,
+          15.3125,
+          15.0
+        ],
+        "eos_logit": 31.375,
+        "selected_logit": 31.375
+      }
+    ],
+    "permission_states": [],
+    "text": "Si",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "32ecc98b0571c1f90e0e1c1fada10b69bf75ae4ff71941914a13c0f7c108ecd8"
+  },
+  {
+    "question_id": "df893cebb4c76fb9",
+    "generated_ids": [
+      51942,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 51942,
+        "top5_ids": [
+          51942,
+          55114,
+          21884,
+          38031,
+          32
+        ],
+        "top5_logits": [
+          44.25,
+          34.0,
+          30.75,
+          29.125,
+          29.0
+        ],
+        "eos_logit": -2.875,
+        "selected_logit": 44.25
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          1773,
+          0
+        ],
+        "top5_logits": [
+          31.0,
+          30.0,
+          18.25,
+          17.75,
+          15.8125
+        ],
+        "eos_logit": 31.0,
+        "selected_logit": 31.0
+      }
+    ],
+    "permission_states": [],
+    "text": "Triangle",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "82cff0d658260e9d79dfeddd2b58aa4864256d2910a4d9413f113a8acae44a32"
+  },
+  {
+    "question_id": "e35f796c302627c6",
+    "generated_ids": [
+      52343,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 52343,
+        "top5_ids": [
+          52343,
+          27571,
+          81914,
+          14997,
+          50
+        ],
+        "top5_logits": [
+          39.75,
+          31.25,
+          28.375,
+          26.0,
+          25.375
+        ],
+        "eos_logit": -3.96875,
+        "selected_logit": 39.75
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          374,
+          1773
+        ],
+        "top5_logits": [
+          30.75,
+          23.875,
+          18.625,
+          17.375,
+          15.375
+        ],
+        "eos_logit": 30.75,
+        "selected_logit": 30.75
+      }
+    ],
+    "permission_states": [],
+    "text": "Silver",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "b7e47067adbd4edae5455eed6eb63e9d37bf16e206984c876d8839550f2ed48f"
+  },
+  {
+    "question_id": "e7d6ba6c7964cfe7",
+    "generated_ids": [
+      7339,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 7339,
+        "top5_ids": [
+          7339,
+          86171,
+          8281,
+          52114,
+          3539
+        ],
+        "top5_logits": [
+          43.5,
+          31.25,
+          26.5,
+          26.0,
+          25.125
+        ],
+        "eos_logit": 3.28125,
+        "selected_logit": 43.5
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          151668,
+          151665,
+          151657
+        ],
+        "top5_logits": [
+          32.75,
+          19.375,
+          18.625,
+          15.875,
+          15.4375
+        ],
+        "eos_logit": 32.75,
+        "selected_logit": 32.75
+      }
+    ],
+    "permission_states": [],
+    "text": "Co",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "139989e93fec11f7a50ed57c803db449498df3f56319880207572fed680dee69"
+  },
+  {
+    "question_id": "ec12598e30bb9aa6",
+    "generated_ids": [
+      5066,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 5066,
+        "top5_ids": [
+          5066,
+          11237,
+          3140,
+          60619,
+          64117
+        ],
+        "top5_logits": [
+          43.0,
+          28.125,
+          27.875,
+          26.25,
+          25.0
+        ],
+        "eos_logit": 5.21875,
+        "selected_logit": 43.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          31807,
+          151668,
+          15896,
+          11162
+        ],
+        "top5_logits": [
+          27.125,
+          20.375,
+          14.0,
+          13.8125,
+          13.5
+        ],
+        "eos_logit": 27.125,
+        "selected_logit": 27.125
+      }
+    ],
+    "permission_states": [],
+    "text": "Cl",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "0fcef5bbb888aaa5f978877578bf82bf01f293494cdb335652eda571a439aba6"
+  },
+  {
+    "question_id": "fbafaf081c18ae62",
+    "generated_ids": [
+      10331,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 10331,
+        "top5_ids": [
+          10331,
+          74513,
+          25830,
+          4923,
+          33464
+        ],
+        "top5_logits": [
+          31.125,
+          28.375,
+          27.125,
+          25.625,
+          25.5
+        ],
+        "eos_logit": 0.236328125,
+        "selected_logit": 31.125
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          35889,
+          151668,
+          116011
+        ],
+        "top5_logits": [
+          24.625,
+          21.75,
+          19.0,
+          15.375,
+          14.9375
+        ],
+        "eos_logit": 24.625,
+        "selected_logit": 24.625
+      }
+    ],
+    "permission_states": [],
+    "text": "Blue",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "e70afe30083bc73d7c72af43a806b0428217ddbc378aedd91f7db5934f800116"
+  },
+  {
+    "question_id": "500d4faf381b0c26",
+    "generated_ids": [
+      15,
+      151645
+    ],
+    "raw_steps": [
+      {
+        "argmax": 15,
+        "top5_ids": [
+          15,
+          16,
+          17,
+          20,
+          18
+        ],
+        "top5_logits": [
+          52.0,
+          27.75,
+          25.25,
+          24.5,
+          24.125
+        ],
+        "eos_logit": 2.796875,
+        "selected_logit": 52.0
+      },
+      {
+        "argmax": 151645,
+        "top5_ids": [
+          151645,
+          13,
+          488,
+          5519,
+          151668
+        ],
+        "top5_logits": [
+          31.0,
+          20.875,
+          19.75,
+          17.625,
+          17.5
+        ],
+        "eos_logit": 31.0,
+        "selected_logit": 31.0
+      }
+    ],
+    "permission_states": [],
+    "text": "0",
+    "all_nonEOS_unchanged": true,
+    "first_nonEOS_bf16_sha256": "1fe397a1bb4a7363029946369b9b4561046fd7b1c085a79e8936ac2cbd37e735"
+  }
+]

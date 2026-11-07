@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-EQp3g7fiGr2GN1EnnG9GRB3azcN48",
+  "object": "chat.completion",
+  "created": 1790061504,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Hello, I am here to communicate thoughts, ideas, and emotions. I can be loud or soft, fast or slow, formal or informal. I can be a whisper in the wind, a shout of joy, a murmur of agreement, a declaration of love. I can be a poem, a song, a debate, a story. I can be a simple \"hello\" or a complex scientific explanation. I am the bridge between minds, the tool of understanding, the vehicle of expression. I am speech.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 38,
+    "completion_tokens": 104,
+    "total_tokens": 142,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

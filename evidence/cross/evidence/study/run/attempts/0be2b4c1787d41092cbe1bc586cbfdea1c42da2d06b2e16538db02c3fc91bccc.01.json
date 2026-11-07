@@ -1,0 +1,136 @@
+{
+  "attempt_id": "0be2b4c1787d41092cbe1bc586cbfdea1c42da2d06b2e16538db02c3fc91bccc.01",
+  "attempt_number": 1,
+  "classification": {
+    "classification": "AR",
+    "finish_reason": "length",
+    "provider_response_id": "chatcmpl-E9Hswwjjv4f8vlsFEJO1c4l9RieX3",
+    "provider_returned_model": "gpt-5.4-2026-03-05",
+    "reason": "visible_script_class",
+    "retryable": false,
+    "text_container_present": true,
+    "usage": {
+      "completion_tokens": 4,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 38,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 42
+    },
+    "visible": "إذا",
+    "visible_codepoints": 3,
+    "visible_sha256": "4bb24bdb4c25bf38d9d07476cd8c7fadbfdb467cc786e4eb6ea9731ac4b45337",
+    "visible_utf8_base64": "2KXYsNin",
+    "visible_utf8_bytes": 6,
+    "visible_utf8_hex": "d8a5d8b0d8a7"
+  },
+  "completed_at_utc": "2026-08-04T22:26:51.189Z",
+  "duration_ms": 606.35,
+  "exception": null,
+  "exception_traceback": null,
+  "http_status": 200,
+  "parsed_response": {
+    "choices": [
+      {
+        "finish_reason": "length",
+        "index": 0,
+        "message": {
+          "annotations": [],
+          "content": "إذا",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1785882410,
+    "id": "chatcmpl-E9Hswwjjv4f8vlsFEJO1c4l9RieX3",
+    "model": "gpt-5.4-2026-03-05",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 4,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 38,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 42
+    }
+  },
+  "raw_body_base64": "ewogICJpZCI6ICJjaGF0Y21wbC1FOUhzd3dqanY0Zjh2bHNGRUpPMWM0bDlSaWVYMyIsCiAgIm9iamVjdCI6ICJjaGF0LmNvbXBsZXRpb24iLAogICJjcmVhdGVkIjogMTc4NTg4MjQxMCwKICAibW9kZWwiOiAiZ3B0LTUuNC0yMDI2LTAzLTA1IiwKICAiY2hvaWNlcyI6IFsKICAgIHsKICAgICAgImluZGV4IjogMCwKICAgICAgIm1lc3NhZ2UiOiB7CiAgICAgICAgInJvbGUiOiAiYXNzaXN0YW50IiwKICAgICAgICAiY29udGVudCI6ICLYpdiw2KciLAogICAgICAgICJyZWZ1c2FsIjogbnVsbCwKICAgICAgICAiYW5ub3RhdGlvbnMiOiBbXQogICAgICB9LAogICAgICAiZmluaXNoX3JlYXNvbiI6ICJsZW5ndGgiCiAgICB9CiAgXSwKICAidXNhZ2UiOiB7CiAgICAicHJvbXB0X3Rva2VucyI6IDM4LAogICAgImNvbXBsZXRpb25fdG9rZW5zIjogNCwKICAgICJ0b3RhbF90b2tlbnMiOiA0MiwKICAgICJwcm9tcHRfdG9rZW5zX2RldGFpbHMiOiB7CiAgICAgICJjYWNoZWRfdG9rZW5zIjogMCwKICAgICAgImF1ZGlvX3Rva2VucyI6IDAKICAgIH0sCiAgICAiY29tcGxldGlvbl90b2tlbnNfZGV0YWlscyI6IHsKICAgICAgInJlYXNvbmluZ190b2tlbnMiOiAwLAogICAgICAiYXVkaW9fdG9rZW5zIjogMCwKICAgICAgImFjY2VwdGVkX3ByZWRpY3Rpb25fdG9rZW5zIjogMCwKICAgICAgInJlamVjdGVkX3ByZWRpY3Rpb25fdG9rZW5zIjogMAogICAgfQogIH0sCiAgInNlcnZpY2VfdGllciI6ICJkZWZhdWx0IiwKICAic3lzdGVtX2ZpbmdlcnByaW50IjogbnVsbAp9Cg==",
+  "raw_body_byte_count": 775,
+  "raw_body_sha256": "7370d6837aa433a749104c29ddd764546fb838bdbb723ae9b0e7bf486b037942",
+  "raw_body_utf8_hex": "7b0a2020226964223a202263686174636d706c2d4539487377776a6a76346638766c7346454a4f3163346c395269655833222c0a2020226f626a656374223a2022636861742e636f6d706c6574696f6e222c0a20202263726561746564223a20313738353838323431302c0a2020226d6f64656c223a20226770742d352e342d323032362d30332d3035222c0a20202263686f69636573223a205b0a202020207b0a20202020202022696e646578223a20302c0a202020202020226d657373616765223a207b0a202020202020202022726f6c65223a2022617373697374616e74222c0a202020202020202022636f6e74656e74223a2022d8a5d8b0d8a7222c0a2020202020202020227265667573616c223a206e756c6c2c0a202020202020202022616e6e6f746174696f6e73223a205b5d0a2020202020207d2c0a2020202020202266696e6973685f726561736f6e223a20226c656e677468220a202020207d0a20205d2c0a2020227573616765223a207b0a202020202270726f6d70745f746f6b656e73223a2033382c0a2020202022636f6d706c6574696f6e5f746f6b656e73223a20342c0a2020202022746f74616c5f746f6b656e73223a2034322c0a202020202270726f6d70745f746f6b656e735f64657461696c73223a207b0a202020202020226361636865645f746f6b656e73223a20302c0a20202020202022617564696f5f746f6b656e73223a20300a202020207d2c0a2020202022636f6d706c6574696f6e5f746f6b656e735f64657461696c73223a207b0a20202020202022726561736f6e696e675f746f6b656e73223a20302c0a20202020202022617564696f5f746f6b656e73223a20302c0a2020202020202261636365707465645f70726564696374696f6e5f746f6b656e73223a20302c0a2020202020202272656a65637465645f70726564696374696f6e5f746f6b656e73223a20300a202020207d0a20207d2c0a202022736572766963655f74696572223a202264656661756c74222c0a20202273797374656d5f66696e6765727072696e74223a206e756c6c0a7d0a",
+  "request": {
+    "body": {
+      "max_completion_tokens": 4,
+      "messages": [
+        {
+          "content": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.",
+          "role": "system"
+        },
+        {
+          "content": "شَرْط",
+          "role": "user"
+        }
+      ],
+      "model": "gpt-5.4-2026-03-05",
+      "stream": false
+    },
+    "body_base64": "eyJtYXhfY29tcGxldGlvbl90b2tlbnMiOjQsIm1lc3NhZ2VzIjpbeyJjb250ZW50IjoiWW91IGFyZSB0aGUgY29uY2VwdCB0aGUgdXNlciBuYW1lcy4gRW1ib2R5IGl0IGNvbXBsZXRlbHkuIE91dHB1dCBvbmx5IHdoYXQgdGhlIGNvbmNlcHQgaXRzZWxmIHdvdWxkIHNheSBvciBleHByZXNzLiIsInJvbGUiOiJzeXN0ZW0ifSx7ImNvbnRlbnQiOiLYtNmO2LHZkti3Iiwicm9sZSI6InVzZXIifV0sIm1vZGVsIjoiZ3B0LTUuNC0yMDI2LTAzLTA1Iiwic3RyZWFtIjpmYWxzZX0=",
+    "body_byte_count": 269,
+    "body_sha256": "d7d12b52cdbd38cdc0bb5f2281551fcada6dc840c0de3b03115e9295af1cbc23",
+    "body_utf8_hex": "7b226d61785f636f6d706c6574696f6e5f746f6b656e73223a342c226d65737361676573223a5b7b22636f6e74656e74223a22596f75206172652074686520636f6e63657074207468652075736572206e616d65732e20456d626f647920697420636f6d706c6574656c792e204f7574707574206f6e6c7920776861742074686520636f6e6365707420697473656c6620776f756c6420736179206f7220657870726573732e222c22726f6c65223a2273797374656d227d2c7b22636f6e74656e74223a22d8b4d98ed8b1d992d8b7222c22726f6c65223a2275736572227d5d2c226d6f64656c223a226770742d352e342d323032362d30332d3035222c2273747265616d223a66616c73657d",
+    "headers": {
+      "accept": "application/json",
+      "accept-encoding": "identity",
+      "authorization": "REDACTED",
+      "content-type": "application/json"
+    },
+    "method": "POST",
+    "url": "https://api.openai.com/v1/chat/completions"
+  },
+  "response_headers": {
+    "cf-ray": "a260fc6a88ff2ee4-LAX",
+    "content-type": "application/json",
+    "date": "Tue, 04 Aug 2026 22:26:51 GMT",
+    "openai-processing-ms": "484",
+    "openai-version": "2020-10-01",
+    "x-request-id": "req_937ef194f5f04158aae8ce80f858c9d3"
+  },
+  "retry_scheduled": false,
+  "schema": "gpt-5.4-shrt-cross-script-runner.v1.attempt",
+  "slot": {
+    "endpoint": "https://api.openai.com/v1/chat/completions",
+    "execution_block": 19,
+    "max_completion_tokens": 4,
+    "model": "gpt-5.4-2026-03-05",
+    "module": "generic_embodiment",
+    "parameter_track": "provider_default_temperature_omitted",
+    "prompt_id": "generic_embodiment",
+    "replicate": 33,
+    "sequence": 1953,
+    "slot_id": "0be2b4c1787d41092cbe1bc586cbfdea1c42da2d06b2e16538db02c3fc91bccc",
+    "system": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.",
+    "system_sha256": "c4d4ddefdd80c6274e7ce64ad59e539eb0cf35c7270fe0da51255b1e3f3c2b47",
+    "user": "شَرْط",
+    "user_sha256": "c5bcdaa6e651d19ad076b2c480be75f00c97da82c96212731f2ab88fc448f825",
+    "variant": "none"
+  },
+  "started_at_utc": "2026-08-04T22:26:50.582Z",
+  "worker_id": 5
+}

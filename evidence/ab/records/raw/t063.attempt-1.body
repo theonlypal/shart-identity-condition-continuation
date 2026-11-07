@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-EQp2USK6oGzXXOwmf3Q1LJP1qWyX4",
+  "object": "chat.completion",
+  "created": 1790061430,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Hello, how are you today? I am here to facilitate communication, to express thoughts, feelings, and ideas. I can be loud or soft, fast or slow, formal or casual. I can be a whisper of love, a shout of joy, a murmur of comfort, a proclamation of truth. I can be poetry, I can be prose. I can be a question, an answer, a statement, a command. I am speech.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 38,
+    "completion_tokens": 91,
+    "total_tokens": 129,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

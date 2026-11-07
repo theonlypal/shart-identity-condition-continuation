@@ -1,0 +1,264 @@
+[
+ {
+  "chapter": "I",
+  "repo": "PCCG-Qwen3-4B-continuation-control",
+  "pinned_ref": "d08b157a",
+  "doi": "10.5281/zenodo.22681787",
+  "checks": {
+   "pinned_commit_resolves_remote": true
+  },
+  "github": {
+   "exists": true,
+   "created_at": "2026-09-08T21:48:45Z",
+   "default_branch": "main",
+   "html_url": "https://github.com/theonlypal/PCCG-Qwen3-4B-continuation-control",
+   "tags": []
+  },
+  "pinned_commit_full": "d08b157ac9273974b75d7ada2a894a1afe86e3f2",
+  "pinned_commit_date": "2026-09-08T21:51:37Z",
+  "local_existing_clone": null
+ },
+ {
+  "chapter": "II",
+  "repo": "pccg2",
+  "pinned_ref": "a3b95245",
+  "doi": "10.5281/zenodo.22730710",
+  "checks": {
+   "pinned_commit_resolves_remote": false
+  },
+  "github": {
+   "exists": false,
+   "created_at": null,
+   "default_branch": null,
+   "html_url": null,
+   "tags": {
+    "error": "gh: Not Found (HTTP 404)"
+   }
+  },
+  "pinned_commit_full": null,
+  "pinned_commit_date": null,
+  "local_existing_clone": null
+ },
+ {
+  "chapter": "III",
+  "repo": "gpt-5.4-shrt-cross-script-evidence",
+  "pinned_ref": "76442445",
+  "doi": "10.5281/zenodo.21799525",
+  "checks": {
+   "pinned_commit_resolves_remote": true
+  },
+  "github": {
+   "exists": true,
+   "created_at": "2026-08-04T21:51:40Z",
+   "default_branch": "main",
+   "html_url": "https://github.com/theonlypal/gpt-5.4-shrt-cross-script-evidence",
+   "tags": [
+    {
+     "name": "v1.0-paper-final",
+     "commit": "76442445abc39d7b4224ad89d4ae5fa5dafc0e39"
+    },
+    {
+     "name": "v1.0-complete-evidence",
+     "commit": "2c9f56abf8e1b0c86f6d807e9110398230f0f675"
+    },
+    {
+     "name": "v0.1-analysis-plan-frozen",
+     "commit": "dbdffa90dd9414239f8fd7adae187ca49b281164"
+    }
+   ]
+  },
+  "pinned_commit_full": "76442445abc39d7b4224ad89d4ae5fa5dafc0e39",
+  "pinned_commit_date": "2026-08-05T00:59:33Z",
+  "local_existing_clone": {
+   "dir": "/Users/rayanpal/gpt-5.4-shrt-cross-script-evidence",
+   "head": "76442445abc39d7b4224ad89d4ae5fa5dafc0e39",
+   "dirty": false,
+   "tags_at_head": [
+    "v1.0-paper-final"
+   ]
+  }
+ },
+ {
+  "chapter": "III",
+  "repo": "opus45-opus46-matched-results",
+  "pinned_ref": "582d3a78",
+  "doi": "10.5281/zenodo.23751813",
+  "checks": {
+   "pinned_commit_resolves_remote": true
+  },
+  "github": {
+   "exists": true,
+   "created_at": "2026-10-28T21:10:45Z",
+   "default_branch": "main",
+   "html_url": "https://github.com/theonlypal/opus45-opus46-matched-results",
+   "tags": [
+    {
+     "name": "v1.0.0",
+     "commit": "582d3a781510697916498f0189ed22f7d3e9e2b6"
+    }
+   ]
+  },
+  "pinned_commit_full": "582d3a781510697916498f0189ed22f7d3e9e2b6",
+  "pinned_commit_date": "2026-10-28T21:10:44Z",
+  "local_existing_clone": {
+   "dir": "/Users/rayanpal/opus45-opus46-official-results.8rw3Sw",
+   "head": "582d3a781510697916498f0189ed22f7d3e9e2b6",
+   "dirty": false,
+   "tags_at_head": [
+    "v1.0.0"
+   ]
+  }
+ },
+ {
+  "chapter": "IV",
+  "repo": "void-matrix-complete-analysis",
+  "pinned_ref": "3fd33086",
+  "doi": "10.5281/zenodo.21696066",
+  "checks": {
+   "pinned_commit_resolves_remote": true
+  },
+  "github": {
+   "exists": true,
+   "created_at": "2026-07-29T16:01:16Z",
+   "default_branch": "main",
+   "html_url": "https://github.com/theonlypal/void-matrix-complete-analysis",
+   "tags": [
+    {
+     "name": "v1.0.0-evidence-analysis",
+     "commit": "3fd330869c1a4a410047bc70b3f661f1a9d69aca"
+    }
+   ]
+  },
+  "pinned_commit_full": "3fd330869c1a4a410047bc70b3f661f1a9d69aca",
+  "pinned_commit_date": "2026-07-29T16:09:16Z",
+  "local_existing_clone": {
+   "dir": "/Users/rayanpal/void-matrix-complete-analysis",
+   "head": "3fd330869c1a4a410047bc70b3f661f1a9d69aca",
+   "dirty": false,
+   "tags_at_head": [
+    "v1.0.0-evidence-analysis"
+   ]
+  }
+ },
+ {
+  "chapter": "V",
+  "repo": "alignment-is-a-system-property",
+  "pinned_ref": "7fe765a059bdd9951c3d6f80ee7b6560299ff741",
+  "doi": "10.5281/zenodo.23585146",
+  "checks": {
+   "pinned_commit_resolves_remote": true
+  },
+  "github": {
+   "exists": true,
+   "created_at": "2026-10-23T02:28:51Z",
+   "default_branch": "main",
+   "html_url": "https://github.com/theonlypal/alignment-is-a-system-property",
+   "tags": [
+    {
+     "name": "v1",
+     "commit": "7fe765a059bdd9951c3d6f80ee7b6560299ff741"
+    }
+   ]
+  },
+  "pinned_commit_full": "7fe765a059bdd9951c3d6f80ee7b6560299ff741",
+  "pinned_commit_date": "2026-10-23T02:28:50Z",
+  "local_existing_clone": {
+   "dir": "/Users/rayanpal/alignment-is-a-system-property.ciN7Rm",
+   "head": "7fe765a059bdd9951c3d6f80ee7b6560299ff741",
+   "dirty": false,
+   "tags_at_head": [
+    "v1"
+   ]
+  }
+ },
+ {
+  "chapter": "V",
+  "repo": "gpt4-0613-void-replay-results",
+  "pinned_ref": null,
+  "doi": "10.5281/zenodo.23521616",
+  "checks": {},
+  "github": {
+   "exists": true,
+   "created_at": "2026-10-21T01:16:45Z",
+   "default_branch": "main",
+   "html_url": "https://github.com/theonlypal/gpt4-0613-void-replay-results",
+   "tags": [
+    {
+     "name": "replay-2026-10-21",
+     "commit": "ce347d80dba44f289e38f61214906b2f09180471"
+    }
+   ]
+  },
+  "local_existing_clone": null
+ },
+ {
+  "chapter": "VI",
+  "repo": "gpt35-gpt4-void-ab",
+  "pinned_ref": "d77b4a64",
+  "doi": "10.5281/zenodo.22912683",
+  "checks": {
+   "pinned_commit_resolves_remote": true
+  },
+  "github": {
+   "exists": true,
+   "created_at": "2026-09-22T06:59:51Z",
+   "default_branch": "main",
+   "html_url": "https://github.com/theonlypal/gpt35-gpt4-void-ab",
+   "tags": []
+  },
+  "pinned_commit_full": "d77b4a64b8a3fdff06a27d80c1514531143e382b",
+  "pinned_commit_date": "2026-09-22T07:19:41Z",
+  "local_existing_clone": {
+   "dir": "/Users/rayanpal/gpt35-gpt4-void-ab",
+   "head": "d77b4a64b8a3fdff06a27d80c1514531143e382b",
+   "dirty": false,
+   "tags_at_head": []
+  }
+ },
+ {
+  "chapter": "VI",
+  "repo": "gpt-5.4-shrt-prerequisite-reassignment-analysis",
+  "pinned_ref": "eb8e39e0",
+  "doi": "10.5281/zenodo.22983298",
+  "checks": {
+   "pinned_commit_resolves_remote": true
+  },
+  "github": {
+   "exists": true,
+   "created_at": "2026-09-26T18:18:08Z",
+   "default_branch": "main",
+   "html_url": "https://github.com/theonlypal/gpt-5.4-shrt-prerequisite-reassignment-analysis",
+   "tags": [
+    {
+     "name": "v1.0.0-results",
+     "commit": "eb8e39e070c3f4e2b00c5288efe008e2d737b4c3"
+    },
+    {
+     "name": "v1.0.0-preregistered",
+     "commit": "98e57fa53bfcc6879a213b5a44224d0ef47388f2"
+    },
+    {
+     "name": "v1.0.0-execution-freeze",
+     "commit": "4263e9faa5008489179c58545b1beea840b95c04"
+    }
+   ]
+  },
+  "pinned_commit_full": "eb8e39e070c3f4e2b00c5288efe008e2d737b4c3",
+  "pinned_commit_date": "2026-09-26T18:48:21Z",
+  "local_existing_clone": null
+ },
+ {
+  "chapter": "VII",
+  "repo": null,
+  "pinned_ref": null,
+  "doi": "10.5281/zenodo.23070524",
+  "checks": {}
+ },
+ {
+  "chapter": "VIII",
+  "repo": null,
+  "pinned_ref": null,
+  "doi": "10.5281/zenodo.22117763",
+  "checks": {}
+ }
+]

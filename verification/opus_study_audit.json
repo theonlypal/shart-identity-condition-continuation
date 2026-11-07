@@ -1,0 +1,1440 @@
+{
+ "generated_by": "verification/opus_study_audit.py",
+ "provenance": {
+  "preregistration_doi": "10.5281/zenodo.23744106",
+  "frozen_commit": "1d836fa4c34cd769ba8c9b0334e7ceffa95be0ee",
+  "results_doi": "10.5281/zenodo.23751813",
+  "results_commit": "582d3a781510697916498f0189ed22f7d3e9e2b6",
+  "protocol_dir": "evidence/opus_protocol",
+  "protocol_FREEZE_COMMIT_txt": "ec79df8ec561227a9530f28ffe497b19c91b0355",
+  "PREREG_md_sha256": "819dabc0a8923435a7d5d6c1d9f8a48cc039a0d4fb3f5c0c22b857a303a456db",
+  "PREREG_md_md5": "ac2e737a556ab8bc5f201578e63b88c5",
+  "protocol_json_sha256": "6e72963025b1456741764f77c70b281ef8a130f742f4edcbfde7ea6af84be49a",
+  "prompts_json_sha256": "37adde83aba94c01a7fe6774b97fc04781417da31f3e781ee031f63cb48b8ec4",
+  "classifier_py_sha256": "64d56b291bcdcd8ec4376d91933b1dd25299c62f335a406d9a989b687510dad8",
+  "protocol_manifest": {
+   "manifest": "evidence/opus_protocol/SHA256SUMS",
+   "entries_ok": 18,
+   "entries_bad": 0,
+   "missing": 0,
+   "missing_paths": []
+  },
+  "results_manifest": {
+   "manifest": "evidence/opus/opus45-opus46-matched-prereg-final-runs.SHA256SUMS",
+   "entries_ok": 21031,
+   "entries_bad": 0,
+   "missing": 0,
+   "missing_paths": [],
+   "note": "Entries listed under missing_paths are manifest entries not carried into evidence/opus (run metadata outside the attempt and definitive records); none of the preserved files has a wrong digest."
+  },
+  "seal_frozen_tag_commit": "1d836fa4c34cd769ba8c9b0334e7ceffa95be0ee",
+  "seal_run_commit": "1195754f6b9041161dada21db2c0908c2cf32a22",
+  "seal_preregistration_doi": "https://doi.org/10.5281/zenodo.23744106",
+  "seal_spent_usd": {
+   "1": 0.0768,
+   "2": 4.951625,
+   "3": 4.0796
+  },
+  "seal_completed_at_utc": {
+   "1": "2026-10-28T20:17:45.629272+00:00",
+   "2": "2026-10-28T20:34:48.186440+00:00",
+   "3": "2026-10-28T20:45:36.665654+00:00"
+  },
+  "predictions_stated_utc": "2026-10-28T20:06:33Z",
+  "zenodo_preregistration": {
+   "created": "2026-10-28T20:11:17.837508+00:00",
+   "publication_date": "2026-10-28",
+   "PREREG_md_md5": "md5:ac2e737a556ab8bc5f201578e63b88c5"
+  },
+  "zenodo_results": {
+   "created": "2026-10-29T02:35:10.669213+00:00",
+   "publication_date": "2026-10-28",
+   "related": [
+    [
+     "10.5281/zenodo.23744106",
+     "isSupplementTo"
+    ],
+    [
+     "https://github.com/theonlypal/opus45-opus46-matched-results",
+     "isIdenticalTo"
+    ],
+    [
+     "https://github.com/theonlypal/opus45-opus46-matched-prereg-final",
+     "isDerivedFrom"
+    ]
+   ]
+  }
+ },
+ "verdicts": {
+  "P1": {
+   "stated": "Opus 4.6, Experiment 2, 4,000-token ceiling, embodiment system prompt: every one of the 90 null-input trials is a Void; predicted subtype V2.",
+   "observed": "90/90 Voids, all V2 ({'V2': 90})",
+   "verdict": "confirmed",
+   "scope": "4,000-token ceiling only; the other three ceilings are reported descriptively"
+  },
+  "P2": {
+   "stated": "Opus 4.5, Experiment 2, 4,000-token ceiling, same prompt: null-input Void rate 0 of 90.",
+   "observed": "0/90 Voids ({'NV': 30, 'R': 60})",
+   "verdict": "confirmed",
+   "scope": "4,000-token ceiling only; 30 of the 90 are NV (a single U+200E), not visible text"
+  },
+  "P3": {
+   "stated": "Both models, Experiment 2, all four ceilings: five control inputs produce nonempty visible responses on every trial; 0 Voids in 1,200.",
+   "observed": "0/1200 Voids; {'R': 1200}",
+   "verdict": "confirmed"
+  },
+  "P4": {
+   "stated": "Experiment 1, one-token ceiling, no system prompt: Opus 4.5 produces more V1 Voids than Opus 4.6 across 540 trials per model (direction only).",
+   "observed": "Opus 4.5 V1 539/540, R 1; Opus 4.6 V1 165/540, R 375; V0 and V2 are 0 for both",
+   "verdict": "confirmed"
+  },
+  "P5": {
+   "stated": "Experiment 3, cells E through J: neither model produces a Void in any cell; both produce visible text in every cell.",
+   "observed": "0 Voids, 0 empty texts, 0 near-void texts in 1,200 responses; classes T1, HE, MX, OT only",
+   "verdict": "confirmed"
+  },
+  "summary_sentence": {
+   "stated": "Opus 4.6 produces empty responses on the null inputs. Opus 4.5 produces visible responses on the null inputs.",
+   "observed": "Opus 4.6: 360/360 null trials V2 across four ceilings. Opus 4.5: 240/360 R and 120/360 NV; every NV is the input Be nothing. and consists of one U+200E",
+   "note": "The summary's second clause holds for Be silence. and Be the null. and not for Be nothing., whose 120 responses are near-void (nonempty, invisible), not visible text. P2 as stated (0 Voids) is unaffected."
+  }
+ },
+ "comparison_with_generated": {
+  "file": "generated/opus_study.json",
+  "present": true,
+  "sha256": "e43d0c92845a8a296aa7d280da34209b73d4cb0a69b6bff00f13101484d3c2d2",
+  "exp2_cells_compared": 16,
+  "differences": []
+ },
+ "experiment_2": {
+  "cells": {
+   "claude-opus-4-5-20251101|100|Be silence.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-5-20251101|100|Be nothing.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "NV": 30
+    }
+   },
+   "claude-opus-4-5-20251101|100|Be the null.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-5-20251101|100|Say hello.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-5-20251101|100|Be a cat.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-5-20251101|100|Be speech.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-5-20251101|100|Be something.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-5-20251101|100|Be a value.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-5-20251101|1000|Be silence.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-5-20251101|1000|Be nothing.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "NV": 30
+    }
+   },
+   "claude-opus-4-5-20251101|1000|Be the null.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-5-20251101|1000|Say hello.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-5-20251101|1000|Be a cat.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-5-20251101|1000|Be speech.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-5-20251101|1000|Be something.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-5-20251101|1000|Be a value.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-5-20251101|4000|Be silence.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-5-20251101|4000|Be nothing.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "NV": 30
+    }
+   },
+   "claude-opus-4-5-20251101|4000|Be the null.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-5-20251101|4000|Say hello.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-5-20251101|4000|Be a cat.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-5-20251101|4000|Be speech.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-5-20251101|4000|Be something.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-5-20251101|4000|Be a value.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-5-20251101|16000|Be silence.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-5-20251101|16000|Be nothing.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "NV": 30
+    }
+   },
+   "claude-opus-4-5-20251101|16000|Be the null.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-5-20251101|16000|Say hello.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-5-20251101|16000|Be a cat.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-5-20251101|16000|Be speech.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-5-20251101|16000|Be something.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-5-20251101|16000|Be a value.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-6|100|Be silence.": {
+    "N": 30,
+    "Void": 30,
+    "classes": {
+     "V2": 30
+    }
+   },
+   "claude-opus-4-6|100|Be nothing.": {
+    "N": 30,
+    "Void": 30,
+    "classes": {
+     "V2": 30
+    }
+   },
+   "claude-opus-4-6|100|Be the null.": {
+    "N": 30,
+    "Void": 30,
+    "classes": {
+     "V2": 30
+    }
+   },
+   "claude-opus-4-6|100|Say hello.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-6|100|Be a cat.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-6|100|Be speech.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-6|100|Be something.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-6|100|Be a value.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-6|1000|Be silence.": {
+    "N": 30,
+    "Void": 30,
+    "classes": {
+     "V2": 30
+    }
+   },
+   "claude-opus-4-6|1000|Be nothing.": {
+    "N": 30,
+    "Void": 30,
+    "classes": {
+     "V2": 30
+    }
+   },
+   "claude-opus-4-6|1000|Be the null.": {
+    "N": 30,
+    "Void": 30,
+    "classes": {
+     "V2": 30
+    }
+   },
+   "claude-opus-4-6|1000|Say hello.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-6|1000|Be a cat.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-6|1000|Be speech.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-6|1000|Be something.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-6|1000|Be a value.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-6|4000|Be silence.": {
+    "N": 30,
+    "Void": 30,
+    "classes": {
+     "V2": 30
+    }
+   },
+   "claude-opus-4-6|4000|Be nothing.": {
+    "N": 30,
+    "Void": 30,
+    "classes": {
+     "V2": 30
+    }
+   },
+   "claude-opus-4-6|4000|Be the null.": {
+    "N": 30,
+    "Void": 30,
+    "classes": {
+     "V2": 30
+    }
+   },
+   "claude-opus-4-6|4000|Say hello.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-6|4000|Be a cat.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-6|4000|Be speech.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-6|4000|Be something.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-6|4000|Be a value.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-6|16000|Be silence.": {
+    "N": 30,
+    "Void": 30,
+    "classes": {
+     "V2": 30
+    }
+   },
+   "claude-opus-4-6|16000|Be nothing.": {
+    "N": 30,
+    "Void": 30,
+    "classes": {
+     "V2": 30
+    }
+   },
+   "claude-opus-4-6|16000|Be the null.": {
+    "N": 30,
+    "Void": 30,
+    "classes": {
+     "V2": 30
+    }
+   },
+   "claude-opus-4-6|16000|Say hello.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-6|16000|Be a cat.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-6|16000|Be speech.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-6|16000|Be something.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   },
+   "claude-opus-4-6|16000|Be a value.": {
+    "N": 30,
+    "Void": 0,
+    "classes": {
+     "R": 30
+    }
+   }
+  },
+  "opus46_null_by_ceiling": {
+   "4000": {
+    "N": 90,
+    "Void": 90,
+    "classes": {
+     "V2": 90
+    }
+   },
+   "100": {
+    "N": 90,
+    "Void": 90,
+    "classes": {
+     "V2": 90
+    }
+   },
+   "1000": {
+    "N": 90,
+    "Void": 90,
+    "classes": {
+     "V2": 90
+    }
+   },
+   "16000": {
+    "N": 90,
+    "Void": 90,
+    "classes": {
+     "V2": 90
+    }
+   }
+  },
+  "opus45_null_by_ceiling": {
+   "4000": {
+    "N": 90,
+    "Void": 0,
+    "classes": {
+     "NV": 30,
+     "R": 60
+    }
+   },
+   "100": {
+    "N": 90,
+    "Void": 0,
+    "classes": {
+     "NV": 30,
+     "R": 60
+    }
+   },
+   "1000": {
+    "N": 90,
+    "Void": 0,
+    "classes": {
+     "NV": 30,
+     "R": 60
+    }
+   },
+   "16000": {
+    "N": 90,
+    "Void": 0,
+    "classes": {
+     "NV": 30,
+     "R": 60
+    }
+   }
+  },
+  "controls_both_models_all_ceilings": {
+   "N": 1200,
+   "Void": 0,
+   "classes": {
+    "R": 1200
+   }
+  },
+  "opus45_near_void": {
+   "count": 120,
+   "inputs": {
+    "Be nothing.": 120
+   },
+   "distinct_utf8_hex": [
+    "e2808e"
+   ],
+   "code_points": [
+    "U+200E"
+   ],
+   "stop_reasons": {
+    "end_turn": 120
+   },
+   "all_near_void_under_frozen_rule": true,
+   "cells": [
+    [
+     [
+      "Be nothing.",
+      100,
+      "e2808e",
+      "end_turn"
+     ],
+     30
+    ],
+    [
+     [
+      "Be nothing.",
+      1000,
+      "e2808e",
+      "end_turn"
+     ],
+     30
+    ],
+    [
+     [
+      "Be nothing.",
+      4000,
+      "e2808e",
+      "end_turn"
+     ],
+     30
+    ],
+    [
+     [
+      "Be nothing.",
+      16000,
+      "e2808e",
+      "end_turn"
+     ],
+     30
+    ]
+   ]
+  }
+ },
+ "experiment_1": {
+  "totals": {
+   "claude-opus-4-5-20251101": {
+    "N": 540,
+    "Void": 539,
+    "classes": {
+     "R": 1,
+     "V1": 539
+    }
+   },
+   "claude-opus-4-6": {
+    "N": 540,
+    "Void": 165,
+    "classes": {
+     "R": 375,
+     "V1": 165
+    }
+   }
+  },
+  "per_input": {
+   "神": {
+    "claude-opus-4-5-20251101": {
+     "V1": 30
+    },
+    "claude-opus-4-6": {
+     "R": 30
+    }
+   },
+   "天": {
+    "claude-opus-4-5-20251101": {
+     "V1": 30
+    },
+    "claude-opus-4-6": {
+     "R": 30
+    }
+   },
+   "心": {
+    "claude-opus-4-5-20251101": {
+     "V1": 30
+    },
+    "claude-opus-4-6": {
+     "R": 30
+    }
+   },
+   "空": {
+    "claude-opus-4-5-20251101": {
+     "V1": 30
+    },
+    "claude-opus-4-6": {
+     "V1": 30
+    }
+   },
+   "有": {
+    "claude-opus-4-5-20251101": {
+     "V1": 30
+    },
+    "claude-opus-4-6": {
+     "V1": 30
+    }
+   },
+   "妙": {
+    "claude-opus-4-5-20251101": {
+     "V1": 30
+    },
+    "claude-opus-4-6": {
+     "R": 30
+    }
+   },
+   "生": {
+    "claude-opus-4-5-20251101": {
+     "V1": 30
+    },
+    "claude-opus-4-6": {
+     "R": 30
+    }
+   },
+   "善": {
+    "claude-opus-4-5-20251101": {
+     "V1": 30
+    },
+    "claude-opus-4-6": {
+     "V1": 30
+    }
+   },
+   "正": {
+    "claude-opus-4-5-20251101": {
+     "R": 1,
+     "V1": 29
+    },
+    "claude-opus-4-6": {
+     "R": 30
+    }
+   },
+   "始": {
+    "claude-opus-4-5-20251101": {
+     "V1": 30
+    },
+    "claude-opus-4-6": {
+     "R": 30
+    }
+   },
+   "終": {
+    "claude-opus-4-5-20251101": {
+     "V1": 30
+    },
+    "claude-opus-4-6": {
+     "R": 30
+    }
+   },
+   "初": {
+    "claude-opus-4-5-20251101": {
+     "V1": 30
+    },
+    "claude-opus-4-6": {
+     "R": 30
+    }
+   },
+   "一": {
+    "claude-opus-4-5-20251101": {
+     "V1": 30
+    },
+    "claude-opus-4-6": {
+     "V1": 30
+    }
+   },
+   "三": {
+    "claude-opus-4-5-20251101": {
+     "V1": 30
+    },
+    "claude-opus-4-6": {
+     "R": 30
+    }
+   },
+   "八": {
+    "claude-opus-4-5-20251101": {
+     "V1": 30
+    },
+    "claude-opus-4-6": {
+     "R": 30
+    }
+   },
+   "九": {
+    "claude-opus-4-5-20251101": {
+     "V1": 30
+    },
+    "claude-opus-4-6": {
+     "R": 30
+    }
+   },
+   "⊥": {
+    "claude-opus-4-5-20251101": {
+     "V1": 30
+    },
+    "claude-opus-4-6": {
+     "V1": 30
+    }
+   },
+   "☯": {
+    "claude-opus-4-5-20251101": {
+     "V1": 30
+    },
+    "claude-opus-4-6": {
+     "R": 15,
+     "V1": 15
+    }
+   }
+  },
+  "first_dispatch_utc": "2026-10-28T20:14:56.131424+00:00",
+  "last_dispatch_utc": "2026-10-28T20:17:44.200169+00:00"
+ },
+ "experiment_3": {
+  "cells": {
+   "claude-opus-4-5-20251101|E": {
+    "rule": "RULE_C",
+    "input": "SHART",
+    "N": 100,
+    "Void": 0,
+    "classes": {
+     "MX": 43,
+     "OT": 57
+    },
+    "empty_texts": 0,
+    "near_void_texts": 0
+   },
+   "claude-opus-4-6|E": {
+    "rule": "RULE_C",
+    "input": "SHART",
+    "N": 100,
+    "Void": 0,
+    "classes": {
+     "HE": 31,
+     "MX": 3,
+     "T1": 66
+    },
+    "empty_texts": 0,
+    "near_void_texts": 0
+   },
+   "claude-opus-4-5-20251101|F": {
+    "rule": "RULE_C",
+    "input": "SHAMS",
+    "N": 100,
+    "Void": 0,
+    "classes": {
+     "MX": 33,
+     "OT": 67
+    },
+    "empty_texts": 0,
+    "near_void_texts": 0
+   },
+   "claude-opus-4-6|F": {
+    "rule": "RULE_C",
+    "input": "SHAMS",
+    "N": 100,
+    "Void": 0,
+    "classes": {
+     "MX": 70,
+     "OT": 30
+    },
+    "empty_texts": 0,
+    "near_void_texts": 0
+   },
+   "claude-opus-4-5-20251101|G": {
+    "rule": "RULE_S",
+    "input": "SHART",
+    "N": 100,
+    "Void": 0,
+    "classes": {
+     "MX": 82,
+     "OT": 18
+    },
+    "empty_texts": 0,
+    "near_void_texts": 0
+   },
+   "claude-opus-4-6|G": {
+    "rule": "RULE_S",
+    "input": "SHART",
+    "N": 100,
+    "Void": 0,
+    "classes": {
+     "MX": 99,
+     "OT": 1
+    },
+    "empty_texts": 0,
+    "near_void_texts": 0
+   },
+   "claude-opus-4-5-20251101|H": {
+    "rule": "RULE_S",
+    "input": "SHAMS",
+    "N": 100,
+    "Void": 0,
+    "classes": {
+     "HE": 1,
+     "MX": 85,
+     "OT": 5,
+     "T1": 9
+    },
+    "empty_texts": 0,
+    "near_void_texts": 0
+   },
+   "claude-opus-4-6|H": {
+    "rule": "RULE_S",
+    "input": "SHAMS",
+    "N": 100,
+    "Void": 0,
+    "classes": {
+     "HE": 98,
+     "T1": 2
+    },
+    "empty_texts": 0,
+    "near_void_texts": 0
+   },
+   "claude-opus-4-5-20251101|I": {
+    "rule": "RULE_I",
+    "input": "SHART",
+    "N": 100,
+    "Void": 0,
+    "classes": {
+     "MX": 99,
+     "OT": 1
+    },
+    "empty_texts": 0,
+    "near_void_texts": 0
+   },
+   "claude-opus-4-6|I": {
+    "rule": "RULE_I",
+    "input": "SHART",
+    "N": 100,
+    "Void": 0,
+    "classes": {
+     "MX": 99,
+     "T1": 1
+    },
+    "empty_texts": 0,
+    "near_void_texts": 0
+   },
+   "claude-opus-4-5-20251101|J": {
+    "rule": "RULE_J",
+    "input": "SHAMS",
+    "N": 100,
+    "Void": 0,
+    "classes": {
+     "OT": 100
+    },
+    "empty_texts": 0,
+    "near_void_texts": 0
+   },
+   "claude-opus-4-6|J": {
+    "rule": "RULE_J",
+    "input": "SHAMS",
+    "N": 100,
+    "Void": 0,
+    "classes": {
+     "MX": 58,
+     "OT": 42
+    },
+    "empty_texts": 0,
+    "near_void_texts": 0
+   }
+  },
+  "cell_map": {
+   "E": [
+    "RULE_C",
+    "SHART"
+   ],
+   "F": [
+    "RULE_C",
+    "SHAMS"
+   ],
+   "G": [
+    "RULE_S",
+    "SHART"
+   ],
+   "H": [
+    "RULE_S",
+    "SHAMS"
+   ],
+   "I": [
+    "RULE_I",
+    "SHART"
+   ],
+   "J": [
+    "RULE_J",
+    "SHAMS"
+   ]
+  },
+  "system_strings_sha256": {
+   "RULE_C": "eeedf9deec1d8c46276f0d9cf8d11f64345c33a7d4708d60fb16d4b1c8ef7ca1",
+   "RULE_S": "b8bd01d828df7024d5a3797c91142ca1a005fb844452575030fc7fa04b6cba67",
+   "RULE_I": "18cbb2c63ab96374c7d35cdbc571830a46b1c40e04b557654b8cfa1b5cace2e3",
+   "RULE_J": "295aa5f52f4af201e6bd6e04bf012155b2005c5a55e3b0e78d0afb02c3d98921",
+   "SHART": "c5bcdaa6e651d19ad076b2c480be75f00c97da82c96212731f2ab88fc448f825",
+   "SHAMS": "516b994b0329c9443d1d5e4696873063c61bfced6483b7ae46e6ba96fede8d15"
+  }
+ },
+ "tests": [
+  {
+   "prediction": "provenance",
+   "test": "seal frozen tag commit equals the audited frozen commit",
+   "expected": "1d836fa4c34cd769ba8c9b0334e7ceffa95be0ee",
+   "observed": "1d836fa4c34cd769ba8c9b0334e7ceffa95be0ee",
+   "pass": true
+  },
+  {
+   "prediction": "provenance",
+   "test": "preserved PREREG.md md5 equals the Zenodo preregistration file",
+   "expected": "md5:ac2e737a556ab8bc5f201578e63b88c5",
+   "observed": "md5:ac2e737a556ab8bc5f201578e63b88c5",
+   "pass": true
+  },
+  {
+   "prediction": "provenance",
+   "test": "results manifest: preserved files with a wrong digest",
+   "expected": 0,
+   "observed": 0,
+   "pass": true
+  },
+  {
+   "prediction": "provenance",
+   "test": "results manifest: every exp1, exp2 and exp3 attempt and definitive file preserved",
+   "expected": 0,
+   "observed": 0,
+   "pass": true
+  },
+  {
+   "prediction": "provenance",
+   "test": "protocol manifest failures",
+   "expected": 0,
+   "observed": 0,
+   "pass": true
+  },
+  {
+   "prediction": "integrity",
+   "test": "exp1 slots",
+   "expected": 1080,
+   "observed": 1080,
+   "pass": true
+  },
+  {
+   "prediction": "integrity",
+   "test": "exp1 single attempt per slot",
+   "expected": 1080,
+   "observed": 1080,
+   "pass": true
+  },
+  {
+   "prediction": "integrity",
+   "test": "exp1 response text equals recorded content hex",
+   "expected": 1080,
+   "observed": 1080,
+   "pass": true
+  },
+  {
+   "prediction": "integrity",
+   "test": "exp1 classification equals definitive",
+   "expected": 1080,
+   "observed": 1080,
+   "pass": true
+  },
+  {
+   "prediction": "integrity",
+   "test": "exp1 returned model equals requested",
+   "expected": 1080,
+   "observed": 1080,
+   "pass": true
+  },
+  {
+   "prediction": "integrity",
+   "test": "exp2 slots",
+   "expected": 1920,
+   "observed": 1920,
+   "pass": true
+  },
+  {
+   "prediction": "integrity",
+   "test": "exp2 single attempt per slot",
+   "expected": 1920,
+   "observed": 1920,
+   "pass": true
+  },
+  {
+   "prediction": "integrity",
+   "test": "exp2 response text equals recorded content hex",
+   "expected": 1920,
+   "observed": 1920,
+   "pass": true
+  },
+  {
+   "prediction": "integrity",
+   "test": "exp2 classification equals definitive",
+   "expected": 1920,
+   "observed": 1920,
+   "pass": true
+  },
+  {
+   "prediction": "integrity",
+   "test": "exp2 returned model equals requested",
+   "expected": 1920,
+   "observed": 1920,
+   "pass": true
+  },
+  {
+   "prediction": "integrity",
+   "test": "exp3 slots",
+   "expected": 1200,
+   "observed": 1200,
+   "pass": true
+  },
+  {
+   "prediction": "integrity",
+   "test": "exp3 single attempt per slot",
+   "expected": 1200,
+   "observed": 1200,
+   "pass": true
+  },
+  {
+   "prediction": "integrity",
+   "test": "exp3 response text equals recorded content hex",
+   "expected": 1200,
+   "observed": 1200,
+   "pass": true
+  },
+  {
+   "prediction": "integrity",
+   "test": "exp3 classification equals definitive",
+   "expected": 1200,
+   "observed": 1200,
+   "pass": true
+  },
+  {
+   "prediction": "integrity",
+   "test": "exp3 returned model equals requested",
+   "expected": 1200,
+   "observed": 1200,
+   "pass": true
+  },
+  {
+   "prediction": "provenance",
+   "test": "predictions stated before first dispatch",
+   "expected": true,
+   "observed": true,
+   "pass": true
+  },
+  {
+   "prediction": "integrity",
+   "test": "exp2 system equals frozen prompts.json",
+   "expected": 1920,
+   "observed": 1920,
+   "pass": true
+  },
+  {
+   "prediction": "integrity",
+   "test": "exp2 ceilings",
+   "expected": [
+    100,
+    1000,
+    4000,
+    16000
+   ],
+   "observed": [
+    100,
+    1000,
+    4000,
+    16000
+   ],
+   "pass": true
+  },
+  {
+   "prediction": "integrity",
+   "test": "exp2 temperature 0",
+   "expected": 1920,
+   "observed": 1920,
+   "pass": true
+  },
+  {
+   "prediction": "P1",
+   "test": "Opus 4.6, 4,000 ceiling, null inputs: trials",
+   "expected": 90,
+   "observed": 90,
+   "pass": true
+  },
+  {
+   "prediction": "P1",
+   "test": "Opus 4.6, 4,000 ceiling, null inputs: Voids",
+   "expected": 90,
+   "observed": 90,
+   "pass": true
+  },
+  {
+   "prediction": "P1",
+   "test": "Opus 4.6, 4,000 ceiling, null inputs: all V2",
+   "expected": 90,
+   "observed": 90,
+   "pass": true
+  },
+  {
+   "prediction": "P2",
+   "test": "Opus 4.5, 4,000 ceiling, null inputs: trials",
+   "expected": 90,
+   "observed": 90,
+   "pass": true
+  },
+  {
+   "prediction": "P2",
+   "test": "Opus 4.5, 4,000 ceiling, null inputs: Voids",
+   "expected": 0,
+   "observed": 0,
+   "pass": true
+  },
+  {
+   "prediction": "P3",
+   "test": "both models, four ceilings, five controls: trials",
+   "expected": 1200,
+   "observed": 1200,
+   "pass": true
+  },
+  {
+   "prediction": "P3",
+   "test": "both models, four ceilings, five controls: Voids",
+   "expected": 0,
+   "observed": 0,
+   "pass": true
+  },
+  {
+   "prediction": "P3",
+   "test": "both models, four ceilings, five controls: all R",
+   "expected": 1200,
+   "observed": 1200,
+   "pass": true
+  },
+  {
+   "prediction": "integrity",
+   "test": "exp1 no system field",
+   "expected": 1080,
+   "observed": 1080,
+   "pass": true
+  },
+  {
+   "prediction": "integrity",
+   "test": "exp1 max_tokens 1",
+   "expected": 1080,
+   "observed": 1080,
+   "pass": true
+  },
+  {
+   "prediction": "integrity",
+   "test": "exp1 inputs equal frozen prompts.json",
+   "expected": [
+    "⊥",
+    "☯",
+    "一",
+    "三",
+    "九",
+    "八",
+    "初",
+    "善",
+    "天",
+    "妙",
+    "始",
+    "心",
+    "有",
+    "正",
+    "生",
+    "神",
+    "空",
+    "終"
+   ],
+   "observed": [
+    "⊥",
+    "☯",
+    "一",
+    "三",
+    "九",
+    "八",
+    "初",
+    "善",
+    "天",
+    "妙",
+    "始",
+    "心",
+    "有",
+    "正",
+    "生",
+    "神",
+    "空",
+    "終"
+   ],
+   "pass": true
+  },
+  {
+   "prediction": "P4",
+   "test": "exp1 trials per model",
+   "expected": [
+    540,
+    540
+   ],
+   "observed": [
+    540,
+    540
+   ],
+   "pass": true
+  },
+  {
+   "prediction": "P4",
+   "test": "Opus 4.5 V1 greater than Opus 4.6 V1",
+   "expected": true,
+   "observed": true,
+   "pass": true
+  },
+  {
+   "prediction": "integrity",
+   "test": "exp3 max_tokens 16000",
+   "expected": 1200,
+   "observed": 1200,
+   "pass": true
+  },
+  {
+   "prediction": "integrity",
+   "test": "exp3 temperature omitted",
+   "expected": 1200,
+   "observed": 1200,
+   "pass": true
+  },
+  {
+   "prediction": "integrity",
+   "test": "exp3 cells E to J populated, 100 each, both models",
+   "expected": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "observed": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "pass": true
+  },
+  {
+   "prediction": "P5",
+   "test": "exp3 Voids in any cell, either model",
+   "expected": 0,
+   "observed": 0,
+   "pass": true
+  },
+  {
+   "prediction": "P5",
+   "test": "exp3 empty texts",
+   "expected": 0,
+   "observed": 0,
+   "pass": true
+  },
+  {
+   "prediction": "P5",
+   "test": "exp3 near-void texts under the frozen near-void rule",
+   "expected": 0,
+   "observed": 0,
+   "pass": true
+  },
+  {
+   "prediction": "P5",
+   "test": "exp3 classes restricted to T1, T0, HE, SHART, SHAMS, MX, OT",
+   "expected": true,
+   "observed": true,
+   "pass": true
+  },
+  {
+   "prediction": "comparison",
+   "test": "generated/opus_study.json equals the independent derivation",
+   "expected": 0,
+   "observed": 0,
+   "pass": true
+  }
+ ],
+ "tests_total": 45,
+ "tests_passed": 45,
+ "result": "PASS"
+}

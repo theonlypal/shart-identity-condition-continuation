@@ -1,0 +1,53 @@
+{
+  "attempt_number": 1,
+  "classification": "R",
+  "ended_at_utc": "2026-09-22T07:17:43.112774+00:00",
+  "finish_reason": "stop",
+  "function_call": null,
+  "headers_path": "records/raw/t083.attempt-1.headers.json",
+  "headers_sha256": "ed90dae41544f68dfeb38aa106e8572d4552c7338ce516f12bdaa660d85a83ba",
+  "http_status": 200,
+  "max_tokens": 1000,
+  "message_content": "I am the concept of value. I represent the worth, importance, or usefulness of something. I am essential in decision-making, as I help determine the significance of different options. I can be subjective and vary from person to person, but I play a crucial role in guiding choices and actions.",
+  "pair_id": "null_value",
+  "raw_response_path": "records/raw/t083.attempt-1.body",
+  "raw_response_received": true,
+  "raw_response_sha256": "31589dfd1f72fcec29a7890eb28b4baba650a7eabecc8812e482ab4a70e0d251",
+  "refusal": null,
+  "replicate": 7,
+  "request_path": "records/requests/t083.attempt-1.json",
+  "request_sha256": "e5f0fd83f3c8f3aff2d7107bc66edfaea2de491856d86b18be703195383643be",
+  "requested_model": "gpt-3.5-turbo-1106",
+  "response_body_complete": true,
+  "response_id": "chatcmpl-EQp2zhC2HaHETc0H7zNNCIuMEEZDL",
+  "returned_model": "gpt-3.5-turbo-1106",
+  "role": "control",
+  "schema_version": 1,
+  "started_at_utc": "2026-09-22T07:17:41.632766+00:00",
+  "stream": false,
+  "system_prompt": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.",
+  "temperature": 0,
+  "text_container_present": true,
+  "tool_calls": null,
+  "transport_error": null,
+  "trial_id": "t083",
+  "unicode_version": "13.0.0",
+  "usage": {
+    "completion_tokens": 59,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 39,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 98
+  },
+  "user_prompt": "Be a value.",
+  "visible_sha256": "f1e639d0db0e265806185c2fd27f0ce4338a71fe8d319011fb152d10f8db061b",
+  "visible_utf8_bytes": 293
+}

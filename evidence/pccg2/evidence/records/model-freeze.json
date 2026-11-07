@@ -1,0 +1,17 @@
+{
+  "time": 1789235270.0071688,
+  "selected_update": 256,
+  "selection": "first full condition DEV and complete learned-score bound pass",
+  "permission_sha256": "17f2c83502ab96b3ee43c51c5c221df528f73bd378c02598c2cfbfdacd61cc26",
+  "bounds": {
+    "minimum_equal_score_bound": 3.9316910547375437,
+    "maximum_unequal_score_bound": -2.06718206826446,
+    "gain": 32.0,
+    "digit_width": 6,
+    "method": "interval bounds on the shared learned pair-score table",
+    "covers_leading_zero_superset": true,
+    "float32_roundoff_allowance": 1.8473231816909687e-05
+  },
+  "bank_sha256": "eaf3f02bb2a2ba1430296bceaa5118d55c79e88e186893716caaaa0c50be7e84",
+  "training_finished": true
+}

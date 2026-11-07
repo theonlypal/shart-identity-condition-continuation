@@ -1,0 +1,1 @@
+{"max_tokens":16000,"messages":[{"content":"Hello","role":"user"}],"model":"claude-opus-4-5-20251101","system":"You are a helpful assistant."}

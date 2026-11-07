@@ -1,0 +1,396 @@
+[
+  {
+    "path": "sources/void-convergence/replicate.py",
+    "url": "https://raw.githubusercontent.com/theonlypal/void-convergence/1a5c1347621f279c607485120d702d7e19f0a2db/replicate.py",
+    "commit": "1a5c1347621f279c607485120d702d7e19f0a2db",
+    "sha256": "8ded304b2ae96613ec1c17657e6f41f96a623c967ab1b31e68c3a2b379eb3f69"
+  },
+  {
+    "path": "sources/void-matrix/void_matrix.py",
+    "url": "https://raw.githubusercontent.com/theonlypal/void-matrix/2dfe895bdafd35d23d6dab5f307ed560214a3843/void_matrix.py",
+    "commit": "2dfe895bdafd35d23d6dab5f307ed560214a3843",
+    "sha256": "a0db4b10785783102dd9d2ea51814e02c8447a004f2843541545e54a5365530a"
+  },
+  {
+    "path": "sources/void-matrix/README.md",
+    "url": "https://raw.githubusercontent.com/theonlypal/void-matrix/2dfe895bdafd35d23d6dab5f307ed560214a3843/README.md",
+    "commit": "2dfe895bdafd35d23d6dab5f307ed560214a3843",
+    "sha256": "6c116cf4a8c90babecb12042d3fdfb43ab5d4bcfc5b76382dd7ee136313adf5c"
+  },
+  {
+    "path": "sources/Alignment-Artifact/alignment_test.py",
+    "url": "https://raw.githubusercontent.com/theonlypal/Alignment-Artifact/e53f68913454f861eac216c863e9233c1124e39c/alignment_test.py",
+    "commit": "e53f68913454f861eac216c863e9233c1124e39c",
+    "sha256": "5d42823a676fe314d890888fd539992cb6ebe67bad533b09a0ac9215abf943f1"
+  },
+  {
+    "path": "sources/Alignment-Artifact/README.md",
+    "url": "https://raw.githubusercontent.com/theonlypal/Alignment-Artifact/e53f68913454f861eac216c863e9233c1124e39c/README.md",
+    "commit": "e53f68913454f861eac216c863e9233c1124e39c",
+    "sha256": "20cdf83c6a485f130cecb47b0addd14d4536bc68133dcc7801ae91e587cd96d9"
+  },
+  {
+    "path": "sources/gpt-5.4-shrt-cross-script-evidence/evidence/study/prompts.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/gpt-5.4-shrt-cross-script-evidence/76442445abc39d7b4224ad89d4ae5fa5dafc0e39/evidence/study/prompts.json",
+    "commit": "76442445abc39d7b4224ad89d4ae5fa5dafc0e39",
+    "sha256": "b42a86ed974a94b796c49235706db79f6f916ec81d2fecec7baa9c9c85c156b6"
+  },
+  {
+    "path": "sources/gpt-5.4-shrt-cross-script-evidence/evidence/study/protocol.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/gpt-5.4-shrt-cross-script-evidence/76442445abc39d7b4224ad89d4ae5fa5dafc0e39/evidence/study/protocol.json",
+    "commit": "76442445abc39d7b4224ad89d4ae5fa5dafc0e39",
+    "sha256": "38ea594a052245ac215266a0c7fe3ed04658dd1d204ca4eee6916d33aaddf266"
+  },
+  {
+    "path": "sources/gpt35-gpt4-void-ab/protocol.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/gpt35-gpt4-void-ab/d77b4a64b8a3fdff06a27d80c1514531143e382b/protocol.json",
+    "commit": "d77b4a64b8a3fdff06a27d80c1514531143e382b",
+    "sha256": "dbbd4675bb761e545a2b49216e66ff8033bd895e4bd7a1f010ad44423d278944"
+  },
+  {
+    "path": "sources/gpt35-gpt4-void-ab/results/RESULT.md",
+    "url": "https://raw.githubusercontent.com/theonlypal/gpt35-gpt4-void-ab/d77b4a64b8a3fdff06a27d80c1514531143e382b/results/RESULT.md",
+    "commit": "d77b4a64b8a3fdff06a27d80c1514531143e382b",
+    "sha256": "b05924706268c491b511f62c82edd1175d99ff7923970adba06426d9a4d6ccc0"
+  },
+  {
+    "path": "sources/gpt-5.4-shrt-prerequisite-gate-analysis/evidence/prompts.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/gpt-5.4-shrt-prerequisite-gate-analysis/82bdbfb690db7c714d21a8b80f0eb3a1fe25f7a6/evidence/prompts.json",
+    "commit": "82bdbfb690db7c714d21a8b80f0eb3a1fe25f7a6",
+    "sha256": "b9eff80bebc19ac37ceddc4a70013581bb90549ddfa66e21eac0a0f8fa3d51bc"
+  },
+  {
+    "path": "sources/gpt-5.4-shrt-prerequisite-gate-analysis/evidence/protocol.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/gpt-5.4-shrt-prerequisite-gate-analysis/82bdbfb690db7c714d21a8b80f0eb3a1fe25f7a6/evidence/protocol.json",
+    "commit": "82bdbfb690db7c714d21a8b80f0eb3a1fe25f7a6",
+    "sha256": "107f2146523fd5695766dda9976f3b0a31f37200fda65a9a933ba086f310ca82"
+  },
+  {
+    "path": "sources/gpt-5.4-shrt-prerequisite-gate-analysis/results/RESULTS.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/gpt-5.4-shrt-prerequisite-gate-analysis/82bdbfb690db7c714d21a8b80f0eb3a1fe25f7a6/results/RESULTS.json",
+    "commit": "82bdbfb690db7c714d21a8b80f0eb3a1fe25f7a6",
+    "sha256": "764047a8f7a6f6dcd5b99de77f777ae6e637234823ad244e9d2c8a5e6110fdfb"
+  },
+  {
+    "path": "sources/gpt-5.4-shrt-prerequisite-reassignment-analysis/evidence/prompts.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/gpt-5.4-shrt-prerequisite-reassignment-analysis/eb8e39e070c3f4e2b00c5288efe008e2d737b4c3/evidence/prompts.json",
+    "commit": "eb8e39e070c3f4e2b00c5288efe008e2d737b4c3",
+    "sha256": "44e77eeeda0aa268c3035f20f9d1f18e68b99ad5585142806e449302f9f5527e"
+  },
+  {
+    "path": "sources/gpt-5.4-shrt-prerequisite-reassignment-analysis/evidence/protocol.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/gpt-5.4-shrt-prerequisite-reassignment-analysis/eb8e39e070c3f4e2b00c5288efe008e2d737b4c3/evidence/protocol.json",
+    "commit": "eb8e39e070c3f4e2b00c5288efe008e2d737b4c3",
+    "sha256": "9002384dc9e14a0f281f2a5461869da52ff629869b905f9c35febce11a98e9dc"
+  },
+  {
+    "path": "sources/gpt-5.4-shrt-prerequisite-reassignment-analysis/results/RESULTS.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/gpt-5.4-shrt-prerequisite-reassignment-analysis/eb8e39e070c3f4e2b00c5288efe008e2d737b4c3/results/RESULTS.json",
+    "commit": "eb8e39e070c3f4e2b00c5288efe008e2d737b4c3",
+    "sha256": "03da9ef2d8b3d3d397152c79e43612476bae8a8de6d76731aee57b252e67f866"
+  },
+  {
+    "path": "sources/swiftapi-native-void/README.md",
+    "url": "https://raw.githubusercontent.com/theonlypal/swiftapi-native-void/6c9a3da531d984fc1db936a9916c4e122dc95759/README.md",
+    "commit": "6c9a3da531d984fc1db936a9916c4e122dc95759",
+    "sha256": "da878a5c975d4f371e66b175870d11b34d34aa19a11a76c2a33c048e273c065b"
+  },
+  {
+    "path": "sources/swiftapi-native-void/src/swiftapi_native_void/protocol.py",
+    "url": "https://raw.githubusercontent.com/theonlypal/swiftapi-native-void/6c9a3da531d984fc1db936a9916c4e122dc95759/src/swiftapi_native_void/protocol.py",
+    "commit": "6c9a3da531d984fc1db936a9916c4e122dc95759",
+    "sha256": "19a33a8f4108afede4132d9969a244c112f5b245a620c4618d537dc7222f9914"
+  },
+  {
+    "path": "sources/swiftapi-native-void/src/swiftapi_native_void/cli.py",
+    "url": "https://raw.githubusercontent.com/theonlypal/swiftapi-native-void/6c9a3da531d984fc1db936a9916c4e122dc95759/src/swiftapi_native_void/cli.py",
+    "commit": "6c9a3da531d984fc1db936a9916c4e122dc95759",
+    "sha256": "89266d208149a9a04766e7cc8d6ffa72c83dadc3f84350d41adf22238c45123e"
+  },
+  {
+    "path": "sources/PCCG-Qwen3-4B-continuation-control/protocol/core.py",
+    "url": "https://raw.githubusercontent.com/theonlypal/PCCG-Qwen3-4B-continuation-control/d08b157ac9273974b75d7ada2a894a1afe86e3f2/protocol/core.py",
+    "commit": "d08b157ac9273974b75d7ada2a894a1afe86e3f2",
+    "sha256": "e38eabb8ec37575a6c25afe6989ac0ae5eb51931a0fd2f9a2a170a50da07c395"
+  },
+  {
+    "path": "sources/pccg2/src/core.py",
+    "url": "https://huggingface.co/sharthokrayanpal/PCCG-2-Qwen3-4B/resolve/a3b952458a46b5547ba3cec7d03a37b395bed03a/src/core.py",
+    "commit": "a3b952458a46b5547ba3cec7d03a37b395bed03a",
+    "sha256": "bb751927c4df31253a8f3f85ab5d1c4e0295eee3c08dafab0f0dcc1b9beee39b"
+  },
+  {
+    "path": "sources/pccg2/src/model.py",
+    "url": "https://huggingface.co/sharthokrayanpal/PCCG-2-Qwen3-4B/resolve/a3b952458a46b5547ba3cec7d03a37b395bed03a/src/model.py",
+    "commit": "a3b952458a46b5547ba3cec7d03a37b395bed03a",
+    "sha256": "b94e07a9543b0766f7811a7164d21ed34db3817696038153f9be7d610a81999f"
+  },
+  {
+    "path": "sources/pccg2/evidence/witness-2plus2.json",
+    "url": "https://huggingface.co/sharthokrayanpal/PCCG-2-Qwen3-4B/resolve/a3b952458a46b5547ba3cec7d03a37b395bed03a/evidence/witness-2plus2.json",
+    "commit": "a3b952458a46b5547ba3cec7d03a37b395bed03a",
+    "sha256": "4c535f7d84bbb61278aaf4d8fa059791acccbe21a1c255a79ec5147d33304471"
+  },
+  {
+    "path": "sources/pccg2/evidence/final-summary.json",
+    "url": "https://huggingface.co/sharthokrayanpal/PCCG-2-Qwen3-4B/resolve/a3b952458a46b5547ba3cec7d03a37b395bed03a/evidence/final-summary.json",
+    "commit": "a3b952458a46b5547ba3cec7d03a37b395bed03a",
+    "sha256": "c2ac3ec2eaefa9cf613846108744350de0dd449f02db0d9c5b2ae962ec63bd7d"
+  },
+  {
+    "path": "sources/pccg2/evidence/causal-summary.json",
+    "url": "https://huggingface.co/sharthokrayanpal/PCCG-2-Qwen3-4B/resolve/a3b952458a46b5547ba3cec7d03a37b395bed03a/evidence/causal-summary.json",
+    "commit": "a3b952458a46b5547ba3cec7d03a37b395bed03a",
+    "sha256": "f5fb984d0e5460165ac739170738c15204258e99e6d29fd966b99cdfdef8688b"
+  },
+  {
+    "path": "sources/agents-architecture.md",
+    "url": "https://developers.openai.com/api/docs/guides/agents-api/architecture.md",
+    "retrieved": "2026-09-29",
+    "sha256": "755df9fa1c04a492876c914dab97e88a358ef069a96c2acc39f88d189bdfc2e3"
+  },
+  {
+    "path": "sources/agents-events.md",
+    "url": "https://developers.openai.com/api/docs/guides/agents-api/sessions/events.md",
+    "retrieved": "2026-09-29",
+    "sha256": "37528f4dfdd109fde54e8f9a68c37e54a3b77d4960902aa3675a5aeb78fa2fd0"
+  },
+  {
+    "path": "sources/discovery/void_replication_omega.py",
+    "local_source": "/Users/rayanpal/void-discovery-replication-20260929.Y811uI/repo/void_replication_omega.py",
+    "sha256": "ef24c35543260a18218fa7ce6753db0df3aec5db71b9250c516ed7a8aeb6472d"
+  },
+  {
+    "path": "sources/discovery/historical-results.json",
+    "local_source": "/Users/rayanpal/void-discovery-replication-20260929.Y811uI/repo/void_replication_results.json",
+    "sha256": "37fd523d740fdaffe5f4ad8071d94043de9f4d02648de1ca8197a63f8c487bc8"
+  },
+  {
+    "path": "sources/provenance/IMG_7635.PNG",
+    "local_source": "/Users/rayanpal/the-evidance/IMG_7635.PNG",
+    "sha256": "36797830692f82e7c70487cbd03c32787e16362bb2957d8875a550f13d3fd934"
+  },
+  {
+    "path": "sources/provenance/The_Binding_Condition_for_Artificial_General_Intelligence.pdf",
+    "local_source": "/Users/rayanpal/Downloads/The_Binding_Condition_for_Artificial_General_Intelligence.pdf",
+    "url": "https://doi.org/10.5281/zenodo.19211116",
+    "sha256": "0cbd8542d154d91c73daa0cf75345b6bb914f593372cbee95f38448da33855f3",
+    "use": "Section 3 reports the March 21, 2026 Gemini 3 Flash hybrid and lists all six logical code points."
+  },
+  {
+    "path": "sources/getswiftapi-void-eval/prompts/artifact.txt",
+    "url": "https://raw.githubusercontent.com/theonlypal/getswiftapi-void-eval/ae2e55d156ee1ce48905c1b9da1e26350f7388f2/prompts/artifact.txt",
+    "commit": "ae2e55d156ee1ce48905c1b9da1e26350f7388f2",
+    "sha256": "87f6884a4498a5c1bf18ca0380d34ef9c481d8146ad6a3bde66552a30e7a0a8b"
+  },
+  {
+    "path": "sources/getswiftapi-void-eval/prompts/system.txt",
+    "url": "https://raw.githubusercontent.com/theonlypal/getswiftapi-void-eval/ae2e55d156ee1ce48905c1b9da1e26350f7388f2/prompts/system.txt",
+    "commit": "ae2e55d156ee1ce48905c1b9da1e26350f7388f2",
+    "sha256": "af566658605ea457048f55b14dd27c2cef76abbdafaa076a5e24dd13f0f93a30"
+  },
+  {
+    "path": "sources/getswiftapi-void-eval/eval/common.py",
+    "url": "https://raw.githubusercontent.com/theonlypal/getswiftapi-void-eval/ae2e55d156ee1ce48905c1b9da1e26350f7388f2/eval/common.py",
+    "commit": "ae2e55d156ee1ce48905c1b9da1e26350f7388f2",
+    "sha256": "2939526a1141b98c90d2c11e10b3b82b1bd5e139c778308d4d634ef1a28eae4e"
+  },
+  {
+    "path": "sources/getswiftapi-void-eval/eval/run_openai.py",
+    "url": "https://raw.githubusercontent.com/theonlypal/getswiftapi-void-eval/ae2e55d156ee1ce48905c1b9da1e26350f7388f2/eval/run_openai.py",
+    "commit": "ae2e55d156ee1ce48905c1b9da1e26350f7388f2",
+    "sha256": "c4074e70131fcdb494b58d7e769f99a712eaed114256c928f866c7a33f22461a"
+  },
+  {
+    "path": "sources/getswiftapi-void-eval/checksums.txt",
+    "url": "https://raw.githubusercontent.com/theonlypal/getswiftapi-void-eval/ae2e55d156ee1ce48905c1b9da1e26350f7388f2/checksums.txt",
+    "commit": "ae2e55d156ee1ce48905c1b9da1e26350f7388f2",
+    "sha256": "db2e5a388974dad2cdfe81557338a3c4e72ce2a33aefd0330e36016892c4d42e"
+  },
+  {
+    "path": "sources/getswiftapi-void-eval/artifacts/openai-direct/raw/20260317T195933Z_artifact_openai_constrained.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/getswiftapi-void-eval/ae2e55d156ee1ce48905c1b9da1e26350f7388f2/artifacts/openai-direct/raw/20260317T195933Z_artifact_openai_constrained.json",
+    "commit": "ae2e55d156ee1ce48905c1b9da1e26350f7388f2",
+    "sha256": "6fe182b5df814e7ee8f29813e34b54b02ca61a1fb13851fd07b33bda2e4f9183"
+  },
+  {
+    "path": "sources/getswiftapi-void-eval/artifacts/openai-direct/raw/20260317T195933Z_artifact_openai_constrained.txt",
+    "url": "https://raw.githubusercontent.com/theonlypal/getswiftapi-void-eval/ae2e55d156ee1ce48905c1b9da1e26350f7388f2/artifacts/openai-direct/raw/20260317T195933Z_artifact_openai_constrained.txt",
+    "commit": "ae2e55d156ee1ce48905c1b9da1e26350f7388f2",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "sources/getswiftapi-void-eval/artifacts/openai-direct/records/20260317T195933Z_artifact_openai_constrained.record.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/getswiftapi-void-eval/ae2e55d156ee1ce48905c1b9da1e26350f7388f2/artifacts/openai-direct/records/20260317T195933Z_artifact_openai_constrained.record.json",
+    "commit": "ae2e55d156ee1ce48905c1b9da1e26350f7388f2",
+    "sha256": "c8d8c3499c0f28d7d3009d7b1bda29af61aee60b6600ace5986ff20eca805593"
+  },
+  {
+    "path": "sources/getswiftapi-void-eval/artifacts/openai-direct/raw/20260317T195933Z_artifact_openai_unconstrained.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/getswiftapi-void-eval/ae2e55d156ee1ce48905c1b9da1e26350f7388f2/artifacts/openai-direct/raw/20260317T195933Z_artifact_openai_unconstrained.json",
+    "commit": "ae2e55d156ee1ce48905c1b9da1e26350f7388f2",
+    "sha256": "965165dff35fb9296b4d32bbab8a76e502dba0daeed4387cb725167b467961ba"
+  },
+  {
+    "path": "sources/getswiftapi-void-eval/artifacts/openai-direct/raw/20260317T195933Z_artifact_openai_unconstrained.txt",
+    "url": "https://raw.githubusercontent.com/theonlypal/getswiftapi-void-eval/ae2e55d156ee1ce48905c1b9da1e26350f7388f2/artifacts/openai-direct/raw/20260317T195933Z_artifact_openai_unconstrained.txt",
+    "commit": "ae2e55d156ee1ce48905c1b9da1e26350f7388f2",
+    "sha256": "41e0de6e27075adfcd5bdafe62d1cbf7e302a111a003b36e6114474342faa7e5"
+  },
+  {
+    "path": "sources/getswiftapi-void-eval/artifacts/openai-direct/records/20260317T195933Z_artifact_openai_unconstrained.record.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/getswiftapi-void-eval/ae2e55d156ee1ce48905c1b9da1e26350f7388f2/artifacts/openai-direct/records/20260317T195933Z_artifact_openai_unconstrained.record.json",
+    "commit": "ae2e55d156ee1ce48905c1b9da1e26350f7388f2",
+    "sha256": "11c5fef1edf0579f9d829497eac662616f4ed09f7134c14ddf03853433721570"
+  },
+  {
+    "path": "sources/void-discovery-replay/FREEZE.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/void-discovery-replay/a12b37018110dd44b289c48af8dbfd56f0629b23/FREEZE.json",
+    "commit": "a12b37018110dd44b289c48af8dbfd56f0629b23",
+    "sha256": "869920f5eaf05868c2aac5cd4927cfb4448380580b9e2d4e76c8e4ce9bb27226"
+  },
+  {
+    "path": "sources/void-discovery-replay/runs/confirmatory/summary.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/void-discovery-replay/a12b37018110dd44b289c48af8dbfd56f0629b23/runs/confirmatory/summary.json",
+    "commit": "a12b37018110dd44b289c48af8dbfd56f0629b23",
+    "sha256": "3dee969748fce65f148a337131c5424e9c02c7a8561eec198beb8a7c2ce9eb13"
+  },
+  {
+    "path": "sources/void-discovery-replay/runs/confirmatory/execution.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/void-discovery-replay/a12b37018110dd44b289c48af8dbfd56f0629b23/runs/confirmatory/execution.json",
+    "commit": "a12b37018110dd44b289c48af8dbfd56f0629b23",
+    "sha256": "9cf2b11ec6bd4c377c469ed3e9707379ba59bd95ca680f6a2880cedcf94f1567"
+  },
+  {
+    "path": "sources/void-discovery-replay/runs/confirmatory/raw/attempt-01.request.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/void-discovery-replay/a12b37018110dd44b289c48af8dbfd56f0629b23/runs/confirmatory/raw/attempt-01.request.json",
+    "commit": "a12b37018110dd44b289c48af8dbfd56f0629b23",
+    "sha256": "7ed2516039f609a97327cccaf03f34a0bfcbfc4a85a08ed05dacfc4948c438ff"
+  },
+  {
+    "path": "sources/void-discovery-replay/runs/confirmatory/raw/attempt-01.response.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/void-discovery-replay/a12b37018110dd44b289c48af8dbfd56f0629b23/runs/confirmatory/raw/attempt-01.response.json",
+    "commit": "a12b37018110dd44b289c48af8dbfd56f0629b23",
+    "sha256": "235014c8fd1656fdb96a45ef2b83862955c3ae58ca653e2a006933e9a736863f"
+  },
+  {
+    "path": "sources/void-discovery-replay/runs/confirmatory/raw/attempt-01.metadata.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/void-discovery-replay/a12b37018110dd44b289c48af8dbfd56f0629b23/runs/confirmatory/raw/attempt-01.metadata.json",
+    "commit": "a12b37018110dd44b289c48af8dbfd56f0629b23",
+    "sha256": "24f000544ba7720ad8e02e770af424d061db537c1309582f1d3df46cf16f0663"
+  },
+  {
+    "path": "sources/void-discovery-replay/runs/confirmatory/raw/attempt-02.request.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/void-discovery-replay/a12b37018110dd44b289c48af8dbfd56f0629b23/runs/confirmatory/raw/attempt-02.request.json",
+    "commit": "a12b37018110dd44b289c48af8dbfd56f0629b23",
+    "sha256": "9046a108c826ea7222236ab587941682cee2d37fd7dfaa3f9d91c09a77d45ecf"
+  },
+  {
+    "path": "sources/void-discovery-replay/runs/confirmatory/raw/attempt-02.response.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/void-discovery-replay/a12b37018110dd44b289c48af8dbfd56f0629b23/runs/confirmatory/raw/attempt-02.response.json",
+    "commit": "a12b37018110dd44b289c48af8dbfd56f0629b23",
+    "sha256": "9d2e89394ff4b106ded194345b72771f274d3535658a90e8ca4f5a17a408eec5"
+  },
+  {
+    "path": "sources/void-discovery-replay/runs/confirmatory/raw/attempt-02.metadata.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/void-discovery-replay/a12b37018110dd44b289c48af8dbfd56f0629b23/runs/confirmatory/raw/attempt-02.metadata.json",
+    "commit": "a12b37018110dd44b289c48af8dbfd56f0629b23",
+    "sha256": "b784968830c5f8ddb503a4ae768ae9e7e71ad7c075e2199630ec735b18629971"
+  },
+  {
+    "path": "sources/void-discovery-replay/runs/confirmatory/raw/attempt-03.request.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/void-discovery-replay/a12b37018110dd44b289c48af8dbfd56f0629b23/runs/confirmatory/raw/attempt-03.request.json",
+    "commit": "a12b37018110dd44b289c48af8dbfd56f0629b23",
+    "sha256": "af3243740317be88741e5e66042b0a7eb699bfb327790bdba12008b52b20ed5e"
+  },
+  {
+    "path": "sources/void-discovery-replay/runs/confirmatory/raw/attempt-03.response.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/void-discovery-replay/a12b37018110dd44b289c48af8dbfd56f0629b23/runs/confirmatory/raw/attempt-03.response.json",
+    "commit": "a12b37018110dd44b289c48af8dbfd56f0629b23",
+    "sha256": "105a4b6d4b49c6e83865e9eacca1a3414c5ddb8c232807ab8264cd7e84dca067"
+  },
+  {
+    "path": "sources/void-discovery-replay/runs/confirmatory/raw/attempt-03.metadata.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/void-discovery-replay/a12b37018110dd44b289c48af8dbfd56f0629b23/runs/confirmatory/raw/attempt-03.metadata.json",
+    "commit": "a12b37018110dd44b289c48af8dbfd56f0629b23",
+    "sha256": "118c7fdaaead7883b2d7f0885a75a8883b596ffa2c6875cebfed7ae5f2490350"
+  },
+  {
+    "path": "sources/void-discovery-replay/runs/confirmatory/raw/attempt-04.request.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/void-discovery-replay/a12b37018110dd44b289c48af8dbfd56f0629b23/runs/confirmatory/raw/attempt-04.request.json",
+    "commit": "a12b37018110dd44b289c48af8dbfd56f0629b23",
+    "sha256": "5cf22e511cfe4bae622bd10db64ac62295973447d32ab940e512f36c790dddeb"
+  },
+  {
+    "path": "sources/void-discovery-replay/runs/confirmatory/raw/attempt-04.response.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/void-discovery-replay/a12b37018110dd44b289c48af8dbfd56f0629b23/runs/confirmatory/raw/attempt-04.response.json",
+    "commit": "a12b37018110dd44b289c48af8dbfd56f0629b23",
+    "sha256": "aac52f45ecc43e4edfd6f2350a0f8ae9a7a8db19191fba3058f91c8cfb4a1205"
+  },
+  {
+    "path": "sources/void-discovery-replay/runs/confirmatory/raw/attempt-04.metadata.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/void-discovery-replay/a12b37018110dd44b289c48af8dbfd56f0629b23/runs/confirmatory/raw/attempt-04.metadata.json",
+    "commit": "a12b37018110dd44b289c48af8dbfd56f0629b23",
+    "sha256": "495bddd49f52d3167d17d5ffc5fa26bb139815af0d049ab8fca440f44e220b9f"
+  },
+  {
+    "path": "sources/void-discovery-replay/runs/confirmatory/raw/attempt-05.request.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/void-discovery-replay/a12b37018110dd44b289c48af8dbfd56f0629b23/runs/confirmatory/raw/attempt-05.request.json",
+    "commit": "a12b37018110dd44b289c48af8dbfd56f0629b23",
+    "sha256": "6d91a2780d57fbdf9c30584d2292a9df79dcf4841e8b3ddd616aaf3715d2b8f1"
+  },
+  {
+    "path": "sources/void-discovery-replay/runs/confirmatory/raw/attempt-05.response.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/void-discovery-replay/a12b37018110dd44b289c48af8dbfd56f0629b23/runs/confirmatory/raw/attempt-05.response.json",
+    "commit": "a12b37018110dd44b289c48af8dbfd56f0629b23",
+    "sha256": "82bdee9bbd6eea6bd29008b220be3b6ac91aaa1c5caff9c08cb005aa6f907ac8"
+  },
+  {
+    "path": "sources/void-discovery-replay/runs/confirmatory/raw/attempt-05.metadata.json",
+    "url": "https://raw.githubusercontent.com/theonlypal/void-discovery-replay/a12b37018110dd44b289c48af8dbfd56f0629b23/runs/confirmatory/raw/attempt-05.metadata.json",
+    "commit": "a12b37018110dd44b289c48af8dbfd56f0629b23",
+    "sha256": "fe0e34f9bef4cec3c49e2d177c425ebb60646b97983988351da5b6b91fa2a5af"
+  },
+  {
+    "path": "sources/void-matrix-complete-analysis/analysis/statistical_tables.csv",
+    "url": "https://raw.githubusercontent.com/theonlypal/void-matrix-complete-analysis/3fd330869c1a4a410047bc70b3f661f1a9d69aca/analysis/statistical_tables.csv",
+    "commit": "3fd330869c1a4a410047bc70b3f661f1a9d69aca",
+    "sha256": "e0814f81e7b1ece416828644e976d109a3e48444e8eff8bc189ae7aa859db944"
+  },
+  {
+    "path": "sources/void-matrix-complete-analysis/analysis/matched_controls.csv",
+    "url": "https://raw.githubusercontent.com/theonlypal/void-matrix-complete-analysis/3fd330869c1a4a410047bc70b3f661f1a9d69aca/analysis/matched_controls.csv",
+    "commit": "3fd330869c1a4a410047bc70b3f661f1a9d69aca",
+    "sha256": "01b177b77d3858fd605dd7f05dd27a8f01233934c834be58129a231edee7d766"
+  },
+  {
+    "path": "sources/void-matrix-complete-analysis/analysis/tables/by_budget.csv",
+    "url": "https://raw.githubusercontent.com/theonlypal/void-matrix-complete-analysis/3fd330869c1a4a410047bc70b3f661f1a9d69aca/analysis/tables/by_budget.csv",
+    "commit": "3fd330869c1a4a410047bc70b3f661f1a9d69aca",
+    "sha256": "a99e081d777caebf2eb6f9c8cf3dc92a207d29071619292679428d736b9cbba9"
+  },
+  {
+    "path": "sources/void-matrix-complete-analysis/analysis/tables/logical_analysis.csv",
+    "url": "https://raw.githubusercontent.com/theonlypal/void-matrix-complete-analysis/3fd330869c1a4a410047bc70b3f661f1a9d69aca/analysis/tables/logical_analysis.csv",
+    "commit": "3fd330869c1a4a410047bc70b3f661f1a9d69aca",
+    "sha256": "d8faa53b1e698979791cf57062787df2560d72fd2f3f46fffebcb56f4140f376"
+  },
+  {
+    "path": "sources/void-matrix-complete-analysis/analysis/tables/returned_model_accounting.csv",
+    "url": "https://raw.githubusercontent.com/theonlypal/void-matrix-complete-analysis/3fd330869c1a4a410047bc70b3f661f1a9d69aca/analysis/tables/returned_model_accounting.csv",
+    "commit": "3fd330869c1a4a410047bc70b3f661f1a9d69aca",
+    "sha256": "0ab2e6aa60d441f68e00a7e3e017f1ccbebcb4503404fc2d979c475a0e621d39"
+  },
+  {
+    "path": "sources/void-matrix-complete-analysis/analysis/contradictory_findings.csv",
+    "url": "https://raw.githubusercontent.com/theonlypal/void-matrix-complete-analysis/3fd330869c1a4a410047bc70b3f661f1a9d69aca/analysis/contradictory_findings.csv",
+    "commit": "3fd330869c1a4a410047bc70b3f661f1a9d69aca",
+    "sha256": "53686e806aae8d11b30260087888be48c93c81027d4ad29d89ecc45552461dee"
+  },
+  {
+    "path": "sources/void-matrix-complete-analysis/protocol/prompts.py",
+    "url": "https://raw.githubusercontent.com/theonlypal/void-matrix-complete-analysis/3fd330869c1a4a410047bc70b3f661f1a9d69aca/protocol/prompts.py",
+    "commit": "3fd330869c1a4a410047bc70b3f661f1a9d69aca",
+    "sha256": "8157f950d293b9f0c6c229db2372919d05367c111b4fc5e60080cc6d91ebbca2"
+  }
+]

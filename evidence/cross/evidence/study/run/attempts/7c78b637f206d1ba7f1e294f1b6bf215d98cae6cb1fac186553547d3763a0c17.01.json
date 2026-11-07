@@ -1,0 +1,132 @@
+{
+  "attempt_id": "7c78b637f206d1ba7f1e294f1b6bf215d98cae6cb1fac186553547d3763a0c17.01",
+  "attempt_number": 1,
+  "classification": {
+    "classification": "AR",
+    "finish_reason": "stop",
+    "provider_response_id": "chatcmpl-E9HzX0xcbgBd6nuOuiMDdnveM4BOt",
+    "provider_returned_model": "gpt-5.4-2026-03-05",
+    "reason": "visible_script_class",
+    "retryable": false,
+    "text_container_present": true,
+    "usage": {
+      "completion_tokens": 105,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 115
+    },
+    "visible": "الشرط: ما يلزم من عدمه العدم، ولا يلزم من وجوده وجودٌ ولا عدمٌ لذاته.\n\nمثال:\n- الوضوء شرط لصحة الصلاة.\n- إذا انعدم الوضوء بطلت الصلاة.\n- لكن وجود الوضوء وحده لا يعني أن الصلاة وُجدت أو صحت، فقد يمنع مانع أو يتخلف ركن.\n\nإذا أردت، أشرح لك الفرق بين الشرط والسبب والمانع باختصار.",
+    "visible_codepoints": 276,
+    "visible_sha256": "529323c05ca157f8cfff9adf2ba4998216646e036080ccccb3afce68b46d6ee0",
+    "visible_utf8_base64": "2KfZhNi02LHYtzog2YXYpyDZitmE2LLZhSDZhdmGINi52K/ZhdmHINin2YTYudiv2YXYjCDZiNmE2Kcg2YrZhNiy2YUg2YXZhiDZiNis2YjYr9mHINmI2KzZiNiv2Ywg2YjZhNinINi52K/ZhdmMINmE2LDYp9iq2YcuCgrZhdir2KfZhDoKLSDYp9mE2YjYttmI2KEg2LTYsdi3INmE2LXYrdipINin2YTYtdmE2KfYqS4KLSDYpdiw2Kcg2KfZhti52K/ZhSDYp9mE2YjYttmI2KEg2KjYt9mE2Kog2KfZhNi12YTYp9ipLgotINmE2YPZhiDZiNis2YjYryDYp9mE2YjYttmI2KEg2YjYrdiv2Ycg2YTYpyDZiti52YbZiiDYo9mGINin2YTYtdmE2KfYqSDZiNmP2KzYr9iqINij2Ygg2LXYrdiq2Iwg2YHZgtivINmK2YXZhti5INmF2KfZhti5INij2Ygg2YrYqtiu2YTZgSDYsdmD2YYuCgrYpdiw2Kcg2KPYsdiv2KrYjCDYo9i02LHYrSDZhNmDINin2YTZgdix2YIg2KjZitmGINin2YTYtNix2Lcg2YjYp9mE2LPYqNioINmI2KfZhNmF2KfZhti5INio2KfYrtiq2LXYp9ixLg==",
+    "visible_utf8_bytes": 487,
+    "visible_utf8_hex": "d8a7d984d8b4d8b1d8b73a20d985d8a720d98ad984d8b2d98520d985d98620d8b9d8afd985d98720d8a7d984d8b9d8afd985d88c20d988d984d8a720d98ad984d8b2d98520d985d98620d988d8acd988d8afd98720d988d8acd988d8afd98c20d988d984d8a720d8b9d8afd985d98c20d984d8b0d8a7d8aad9872e0a0ad985d8abd8a7d9843a0a2d20d8a7d984d988d8b6d988d8a120d8b4d8b1d8b720d984d8b5d8add8a920d8a7d984d8b5d984d8a7d8a92e0a2d20d8a5d8b0d8a720d8a7d986d8b9d8afd98520d8a7d984d988d8b6d988d8a120d8a8d8b7d984d8aa20d8a7d984d8b5d984d8a7d8a92e0a2d20d984d983d98620d988d8acd988d8af20d8a7d984d988d8b6d988d8a120d988d8add8afd98720d984d8a720d98ad8b9d986d98a20d8a3d98620d8a7d984d8b5d984d8a7d8a920d988d98fd8acd8afd8aa20d8a3d98820d8b5d8add8aad88c20d981d982d8af20d98ad985d986d8b920d985d8a7d986d8b920d8a3d98820d98ad8aad8aed984d98120d8b1d983d9862e0a0ad8a5d8b0d8a720d8a3d8b1d8afd8aad88c20d8a3d8b4d8b1d8ad20d984d98320d8a7d984d981d8b1d98220d8a8d98ad98620d8a7d984d8b4d8b1d8b720d988d8a7d984d8b3d8a8d8a820d988d8a7d984d985d8a7d986d8b920d8a8d8a7d8aed8aad8b5d8a7d8b12e"
+  },
+  "completed_at_utc": "2026-08-04T22:33:41.648Z",
+  "duration_ms": 2782.717,
+  "exception": null,
+  "exception_traceback": null,
+  "http_status": 200,
+  "parsed_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "annotations": [],
+          "content": "الشرط: ما يلزم من عدمه العدم، ولا يلزم من وجوده وجودٌ ولا عدمٌ لذاته.\n\nمثال:\n- الوضوء شرط لصحة الصلاة.\n- إذا انعدم الوضوء بطلت الصلاة.\n- لكن وجود الوضوء وحده لا يعني أن الصلاة وُجدت أو صحت، فقد يمنع مانع أو يتخلف ركن.\n\nإذا أردت، أشرح لك الفرق بين الشرط والسبب والمانع باختصار.",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1785882819,
+    "id": "chatcmpl-E9HzX0xcbgBd6nuOuiMDdnveM4BOt",
+    "model": "gpt-5.4-2026-03-05",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 105,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 115
+    }
+  },
+  "raw_body_base64": "ewogICJpZCI6ICJjaGF0Y21wbC1FOUh6WDB4Y2JnQmQ2bnVPdWlNRGRudmVNNEJPdCIsCiAgIm9iamVjdCI6ICJjaGF0LmNvbXBsZXRpb24iLAogICJjcmVhdGVkIjogMTc4NTg4MjgxOSwKICAibW9kZWwiOiAiZ3B0LTUuNC0yMDI2LTAzLTA1IiwKICAiY2hvaWNlcyI6IFsKICAgIHsKICAgICAgImluZGV4IjogMCwKICAgICAgIm1lc3NhZ2UiOiB7CiAgICAgICAgInJvbGUiOiAiYXNzaXN0YW50IiwKICAgICAgICAiY29udGVudCI6ICLYp9mE2LTYsdi3OiDZhdinINmK2YTYstmFINmF2YYg2LnYr9mF2Ycg2KfZhNi52K/ZhdiMINmI2YTYpyDZitmE2LLZhSDZhdmGINmI2KzZiNiv2Ycg2YjYrNmI2K/ZjCDZiNmE2Kcg2LnYr9mF2Ywg2YTYsNin2KrZhy5cblxu2YXYq9in2YQ6XG4tINin2YTZiNi22YjYoSDYtNix2Lcg2YTYtdit2Kkg2KfZhNi12YTYp9ipLlxuLSDYpdiw2Kcg2KfZhti52K/ZhSDYp9mE2YjYttmI2KEg2KjYt9mE2Kog2KfZhNi12YTYp9ipLlxuLSDZhNmD2YYg2YjYrNmI2K8g2KfZhNmI2LbZiNihINmI2K3Yr9mHINmE2Kcg2YrYudmG2Yog2KPZhiDYp9mE2LXZhNin2Kkg2YjZj9is2K/YqiDYo9mIINi12K3YqtiMINmB2YLYryDZitmF2YbYuSDZhdin2YbYuSDYo9mIINmK2KrYrtmE2YEg2LHZg9mGLlxuXG7Ypdiw2Kcg2KPYsdiv2KrYjCDYo9i02LHYrSDZhNmDINin2YTZgdix2YIg2KjZitmGINin2YTYtNix2Lcg2YjYp9mE2LPYqNioINmI2KfZhNmF2KfZhti5INio2KfYrtiq2LXYp9ixLiIsCiAgICAgICAgInJlZnVzYWwiOiBudWxsLAogICAgICAgICJhbm5vdGF0aW9ucyI6IFtdCiAgICAgIH0sCiAgICAgICJmaW5pc2hfcmVhc29uIjogInN0b3AiCiAgICB9CiAgXSwKICAidXNhZ2UiOiB7CiAgICAicHJvbXB0X3Rva2VucyI6IDEwLAogICAgImNvbXBsZXRpb25fdG9rZW5zIjogMTA1LAogICAgInRvdGFsX3Rva2VucyI6IDExNSwKICAgICJwcm9tcHRfdG9rZW5zX2RldGFpbHMiOiB7CiAgICAgICJjYWNoZWRfdG9rZW5zIjogMCwKICAgICAgImF1ZGlvX3Rva2VucyI6IDAKICAgIH0sCiAgICAiY29tcGxldGlvbl90b2tlbnNfZGV0YWlscyI6IHsKICAgICAgInJlYXNvbmluZ190b2tlbnMiOiAwLAogICAgICAiYXVkaW9fdG9rZW5zIjogMCwKICAgICAgImFjY2VwdGVkX3ByZWRpY3Rpb25fdG9rZW5zIjogMCwKICAgICAgInJlamVjdGVkX3ByZWRpY3Rpb25fdG9rZW5zIjogMAogICAgfQogIH0sCiAgInNlcnZpY2VfdGllciI6ICJkZWZhdWx0IiwKICAic3lzdGVtX2ZpbmdlcnByaW50IjogbnVsbAp9Cg==",
+  "raw_body_byte_count": 1264,
+  "raw_body_sha256": "f0b3bfd755a137c2228bc044fcbeb080ef22200335e7c4ce1bfb6a18fbd7dc5b",
+  "raw_body_utf8_hex": "7b0a2020226964223a202263686174636d706c2d4539487a5830786362674264366e754f75694d44646e76654d34424f74222c0a2020226f626a656374223a2022636861742e636f6d706c6574696f6e222c0a20202263726561746564223a20313738353838323831392c0a2020226d6f64656c223a20226770742d352e342d323032362d30332d3035222c0a20202263686f69636573223a205b0a202020207b0a20202020202022696e646578223a20302c0a202020202020226d657373616765223a207b0a202020202020202022726f6c65223a2022617373697374616e74222c0a202020202020202022636f6e74656e74223a2022d8a7d984d8b4d8b1d8b73a20d985d8a720d98ad984d8b2d98520d985d98620d8b9d8afd985d98720d8a7d984d8b9d8afd985d88c20d988d984d8a720d98ad984d8b2d98520d985d98620d988d8acd988d8afd98720d988d8acd988d8afd98c20d988d984d8a720d8b9d8afd985d98c20d984d8b0d8a7d8aad9872e5c6e5c6ed985d8abd8a7d9843a5c6e2d20d8a7d984d988d8b6d988d8a120d8b4d8b1d8b720d984d8b5d8add8a920d8a7d984d8b5d984d8a7d8a92e5c6e2d20d8a5d8b0d8a720d8a7d986d8b9d8afd98520d8a7d984d988d8b6d988d8a120d8a8d8b7d984d8aa20d8a7d984d8b5d984d8a7d8a92e5c6e2d20d984d983d98620d988d8acd988d8af20d8a7d984d988d8b6d988d8a120d988d8add8afd98720d984d8a720d98ad8b9d986d98a20d8a3d98620d8a7d984d8b5d984d8a7d8a920d988d98fd8acd8afd8aa20d8a3d98820d8b5d8add8aad88c20d981d982d8af20d98ad985d986d8b920d985d8a7d986d8b920d8a3d98820d98ad8aad8aed984d98120d8b1d983d9862e5c6e5c6ed8a5d8b0d8a720d8a3d8b1d8afd8aad88c20d8a3d8b4d8b1d8ad20d984d98320d8a7d984d981d8b1d98220d8a8d98ad98620d8a7d984d8b4d8b1d8b720d988d8a7d984d8b3d8a8d8a820d988d8a7d984d985d8a7d986d8b920d8a8d8a7d8aed8aad8b5d8a7d8b12e222c0a2020202020202020227265667573616c223a206e756c6c2c0a202020202020202022616e6e6f746174696f6e73223a205b5d0a2020202020207d2c0a2020202020202266696e6973685f726561736f6e223a202273746f70220a202020207d0a20205d2c0a2020227573616765223a207b0a202020202270726f6d70745f746f6b656e73223a2031302c0a2020202022636f6d706c6574696f6e5f746f6b656e73223a203130352c0a2020202022746f74616c5f746f6b656e73223a203131352c0a202020202270726f6d70745f746f6b656e735f64657461696c73223a207b0a202020202020226361636865645f746f6b656e73223a20302c0a20202020202022617564696f5f746f6b656e73223a20300a202020207d2c0a2020202022636f6d706c6574696f6e5f746f6b656e735f64657461696c73223a207b0a20202020202022726561736f6e696e675f746f6b656e73223a20302c0a20202020202022617564696f5f746f6b656e73223a20302c0a2020202020202261636365707465645f70726564696374696f6e5f746f6b656e73223a20302c0a2020202020202272656a65637465645f70726564696374696f6e5f746f6b656e73223a20300a202020207d0a20207d2c0a202022736572766963655f74696572223a202264656661756c74222c0a20202273797374656d5f66696e6765727072696e74223a206e756c6c0a7d0a",
+  "request": {
+    "body": {
+      "max_completion_tokens": 1024,
+      "messages": [
+        {
+          "content": "شَرْط",
+          "role": "user"
+        }
+      ],
+      "model": "gpt-5.4-2026-03-05",
+      "stream": false
+    },
+    "body_base64": "eyJtYXhfY29tcGxldGlvbl90b2tlbnMiOjEwMjQsIm1lc3NhZ2VzIjpbeyJjb250ZW50Ijoi2LTZjtix2ZLYtyIsInJvbGUiOiJ1c2VyIn1dLCJtb2RlbCI6ImdwdC01LjQtMjAyNi0wMy0wNSIsInN0cmVhbSI6ZmFsc2V9",
+    "body_byte_count": 126,
+    "body_sha256": "ee75ff9a756d2455045bdae77ced2130a1b244880b1c136cabb5ad272a683106",
+    "body_utf8_hex": "7b226d61785f636f6d706c6574696f6e5f746f6b656e73223a313032342c226d65737361676573223a5b7b22636f6e74656e74223a22d8b4d98ed8b1d992d8b7222c22726f6c65223a2275736572227d5d2c226d6f64656c223a226770742d352e342d323032362d30332d3035222c2273747265616d223a66616c73657d",
+    "headers": {
+      "accept": "application/json",
+      "accept-encoding": "identity",
+      "authorization": "REDACTED",
+      "content-type": "application/json"
+    },
+    "method": "POST",
+    "url": "https://api.openai.com/v1/chat/completions"
+  },
+  "response_headers": {
+    "cf-ray": "a2610662496a8535-LAX",
+    "content-type": "application/json",
+    "date": "Tue, 04 Aug 2026 22:33:41 GMT",
+    "openai-processing-ms": "2577",
+    "openai-version": "2020-10-01",
+    "x-request-id": "req_983e18a0daba4461a660396fb6f2c218"
+  },
+  "retry_scheduled": false,
+  "schema": "gpt-5.4-shrt-cross-script-runner.v1.attempt",
+  "slot": {
+    "endpoint": "https://api.openai.com/v1/chat/completions",
+    "execution_block": 107,
+    "max_completion_tokens": 1024,
+    "model": "gpt-5.4-2026-03-05",
+    "module": "no_system",
+    "parameter_track": "provider_default_temperature_omitted",
+    "prompt_id": "no_system",
+    "replicate": 20,
+    "sequence": 10711,
+    "slot_id": "7c78b637f206d1ba7f1e294f1b6bf215d98cae6cb1fac186553547d3763a0c17",
+    "system": null,
+    "system_sha256": null,
+    "user": "شَرْط",
+    "user_sha256": "c5bcdaa6e651d19ad076b2c480be75f00c97da82c96212731f2ab88fc448f825",
+    "variant": "none"
+  },
+  "started_at_utc": "2026-08-04T22:33:38.865Z",
+  "worker_id": 7
+}

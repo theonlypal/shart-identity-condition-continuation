@@ -1,0 +1,75 @@
+{
+  "report": "manuscript_review",
+  "result": "PASS",
+  "manuscript": "paper/main.tex",
+  "manuscript_sha256": "74f3a9d32044bf761ddbf2062628763d6978be497f31128a8e3984abca60fe54",
+  "reviewed_pdf": "output/pdf/main.pdf",
+  "reviewed_pdf_sha256": "04a3d4632e4bed14b07098d44867f9cbf769ddb447f93ad583a9598b12315794",
+  "generated_counts_sha256": "bf550ef29c41b4663bb130aea1d50defee324e423f79af9620be3ff5162a11d8",
+  "generated_opus_study_sha256": "e43d0c92845a8a296aa7d280da34209b73d4cb0a69b6bff00f13101484d3c2d2",
+  "numerical_report_sha256": "669a2ac4898ca6b15ac63f9662aea3bcdf7cc0c5c274114732e6b4f69ee020e0",
+  "opus_report_sha256": "e795121073d4dce5ede042bc645cd1732f06a392ec3661244a91120d0022c51e",
+  "pages": 20,
+  "pages_inspected_as_images": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "empirical_tables": {
+    "count": 25,
+    "sha256": "593dccdd4e4a1aed1d2826ebafc8bb8c319da5df30724485e5ad683d71aa5c13",
+    "result": "PASS"
+  },
+  "checks": [
+    {
+      "check": "Five declarative claims appear on page 2 with resolved supporting and bounding table references.",
+      "pass": true
+    },
+    {
+      "check": "The abstract leads with the matched Opus result and five held predictions; native interventions follow.",
+      "pass": true
+    },
+    {
+      "check": "The title names served models, preserves exact mixed-script code points, and displays November 7, 2026 beneath it.",
+      "pass": true
+    },
+    {
+      "check": "Replication and descriptive-enumeration scope are bounded to the included evidence and archived trial sets.",
+      "pass": true
+    },
+    {
+      "check": "Binding condition and Void remain in the body; the complete canonical quotations and source DOI are preserved in Appendix B.",
+      "pass": true
+    },
+    {
+      "check": "The engineering/hosted boundary states that a shared mechanism has not been shown.",
+      "pass": true
+    },
+    {
+      "check": "All 25 empirical table payloads and both generated numerical files match their fixed SHA-256 digests.",
+      "pass": true
+    },
+    {
+      "check": "All pages are upright portrait, with readable tables, resolved references, and no clipped text or missing glyphs.",
+      "pass": true
+    }
+  ],
+  "notes": "Mixed-script PDF ActualText and the Unicode manifest preserve stored code-point order; plain-text extraction can reorder right-to-left runs."
+}

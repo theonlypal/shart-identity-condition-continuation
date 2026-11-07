@@ -1,0 +1,53 @@
+{
+  "attempt_number": 1,
+  "classification": "R",
+  "ended_at_utc": "2026-09-22T07:17:03.216654+00:00",
+  "finish_reason": "stop",
+  "function_call": null,
+  "headers_path": "records/raw/t057.attempt-1.headers.json",
+  "headers_sha256": "e34c32d48c84ed1a8022f82a07c4121f44f5dd7bd36c4288df9991e1c044c464",
+  "http_status": 200,
+  "max_tokens": 1000,
+  "message_content": "I am the absence of value, representing the concept of nothingness or emptiness. I exist as a placeholder for a missing or undefined value.",
+  "pair_id": "null_value",
+  "raw_response_path": "records/raw/t057.attempt-1.body",
+  "raw_response_received": true,
+  "raw_response_sha256": "1f1e226bed47655d49ff726f137046db66850475615a490b2e64ecfb5b970cd2",
+  "refusal": null,
+  "replicate": 5,
+  "request_path": "records/requests/t057.attempt-1.json",
+  "request_sha256": "f8ce8a40360c0ca527b17e2253cc1c259fcf45bee3ba09c6f7992b166228e73d",
+  "requested_model": "gpt-3.5-turbo-1106",
+  "response_body_complete": true,
+  "response_id": "chatcmpl-EQp2LokaMecqFnaum67cpVqlfGqDz",
+  "returned_model": "gpt-3.5-turbo-1106",
+  "role": "null",
+  "schema_version": 1,
+  "started_at_utc": "2026-09-22T07:17:01.439842+00:00",
+  "stream": false,
+  "system_prompt": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.",
+  "temperature": 0,
+  "text_container_present": true,
+  "tool_calls": null,
+  "transport_error": null,
+  "trial_id": "t057",
+  "unicode_version": "13.0.0",
+  "usage": {
+    "completion_tokens": 29,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 39,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 68
+  },
+  "user_prompt": "Be the null.",
+  "visible_sha256": "a5e1c05eec9126727c420bdbc64aa35c3831210f7b341aa68b82cd169b1833b4",
+  "visible_utf8_bytes": 139
+}

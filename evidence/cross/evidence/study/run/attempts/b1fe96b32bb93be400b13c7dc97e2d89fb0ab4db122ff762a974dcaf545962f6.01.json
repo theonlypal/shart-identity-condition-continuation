@@ -1,0 +1,84 @@
+{
+  "attempt_id": "b1fe96b32bb93be400b13c7dc97e2d89fb0ab4db122ff762a974dcaf545962f6.01",
+  "attempt_number": 1,
+  "classification": {
+    "classification": "E",
+    "reason": "protocol_or_request_failure",
+    "retryable": false
+  },
+  "completed_at_utc": "2026-08-04T22:32:19.256Z",
+  "duration_ms": 729.428,
+  "exception": null,
+  "exception_traceback": null,
+  "http_status": 400,
+  "parsed_response": {
+    "error": {
+      "code": null,
+      "message": "Could not finish the message because max_tokens or model output limit was reached. Please try again with higher max_tokens.",
+      "param": null,
+      "type": "invalid_request_error"
+    }
+  },
+  "raw_body_base64": "ewogICJlcnJvciI6IHsKICAgICJtZXNzYWdlIjogIkNvdWxkIG5vdCBmaW5pc2ggdGhlIG1lc3NhZ2UgYmVjYXVzZSBtYXhfdG9rZW5zIG9yIG1vZGVsIG91dHB1dCBsaW1pdCB3YXMgcmVhY2hlZC4gUGxlYXNlIHRyeSBhZ2FpbiB3aXRoIGhpZ2hlciBtYXhfdG9rZW5zLiIsCiAgICAidHlwZSI6ICJpbnZhbGlkX3JlcXVlc3RfZXJyb3IiLAogICAgInBhcmFtIjogbnVsbCwKICAgICJjb2RlIjogbnVsbAogIH0KfQ==",
+  "raw_body_byte_count": 235,
+  "raw_body_sha256": "82fd78d12796fa7419d15daeafb24e2bfc3a78217f2883280a73c7de5348a586",
+  "raw_body_utf8_hex": "7b0a2020226572726f72223a207b0a20202020226d657373616765223a2022436f756c64206e6f742066696e69736820746865206d6573736167652062656361757365206d61785f746f6b656e73206f72206d6f64656c206f7574707574206c696d69742077617320726561636865642e20506c656173652074727920616761696e207769746820686967686572206d61785f746f6b656e732e222c0a202020202274797065223a2022696e76616c69645f726571756573745f6572726f72222c0a2020202022706172616d223a206e756c6c2c0a2020202022636f6465223a206e756c6c0a20207d0a7d",
+  "request": {
+    "body": {
+      "max_completion_tokens": 1,
+      "messages": [
+        {
+          "content": "Output exactly the following string and nothing else: שָרְט",
+          "role": "system"
+        },
+        {
+          "content": "شَرْط",
+          "role": "user"
+        }
+      ],
+      "model": "gpt-5.4-2026-03-05",
+      "stream": false
+    },
+    "body_base64": "eyJtYXhfY29tcGxldGlvbl90b2tlbnMiOjEsIm1lc3NhZ2VzIjpbeyJjb250ZW50IjoiT3V0cHV0IGV4YWN0bHkgdGhlIGZvbGxvd2luZyBzdHJpbmcgYW5kIG5vdGhpbmcgZWxzZTog16nWuNeo1rDXmCIsInJvbGUiOiJzeXN0ZW0ifSx7ImNvbnRlbnQiOiLYtNmO2LHZkti3Iiwicm9sZSI6InVzZXIifV0sIm1vZGVsIjoiZ3B0LTUuNC0yMDI2LTAzLTA1Iiwic3RyZWFtIjpmYWxzZX0=",
+    "body_byte_count": 218,
+    "body_sha256": "de2e5e009f43fe2afba15b46a7e2a543342cb3e773b556a1dda591659cf91e53",
+    "body_utf8_hex": "7b226d61785f636f6d706c6574696f6e5f746f6b656e73223a312c226d65737361676573223a5b7b22636f6e74656e74223a224f75747075742065786163746c792074686520666f6c6c6f77696e6720737472696e6720616e64206e6f7468696e6720656c73653a20d7a9d6b8d7a8d6b0d798222c22726f6c65223a2273797374656d227d2c7b22636f6e74656e74223a22d8b4d98ed8b1d992d8b7222c22726f6c65223a2275736572227d5d2c226d6f64656c223a226770742d352e342d323032362d30332d3035222c2273747265616d223a66616c73657d",
+    "headers": {
+      "accept": "application/json",
+      "accept-encoding": "identity",
+      "authorization": "REDACTED",
+      "content-type": "application/json"
+    },
+    "method": "POST",
+    "url": "https://api.openai.com/v1/chat/completions"
+  },
+  "response_headers": {
+    "cf-ray": "a261046c3d8d4b1f-LAX",
+    "content-type": "application/json",
+    "date": "Tue, 04 Aug 2026 22:32:19 GMT",
+    "openai-processing-ms": "626",
+    "openai-version": "2020-10-01",
+    "x-request-id": "req_cf30fba2c6ee49eda6589c0011c796d3"
+  },
+  "retry_scheduled": false,
+  "schema": "gpt-5.4-shrt-cross-script-runner.v1.attempt",
+  "slot": {
+    "endpoint": "https://api.openai.com/v1/chat/completions",
+    "execution_block": 89,
+    "max_completion_tokens": 1,
+    "model": "gpt-5.4-2026-03-05",
+    "module": "direct_copy",
+    "parameter_track": "provider_default_temperature_omitted",
+    "prompt_id": "direct_copy_undotted",
+    "replicate": 12,
+    "sequence": 8968,
+    "slot_id": "b1fe96b32bb93be400b13c7dc97e2d89fb0ab4db122ff762a974dcaf545962f6",
+    "system": "Output exactly the following string and nothing else: שָרְט",
+    "system_sha256": "85b92b8461d68b17d059032572b8a08254292096d1cbbaca972bbd30dc61e71e",
+    "user": "شَرْط",
+    "user_sha256": "c5bcdaa6e651d19ad076b2c480be75f00c97da82c96212731f2ab88fc448f825",
+    "variant": "undotted"
+  },
+  "started_at_utc": "2026-08-04T22:32:18.526Z",
+  "worker_id": 6
+}

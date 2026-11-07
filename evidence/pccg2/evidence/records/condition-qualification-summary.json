@@ -1,0 +1,7 @@
+{
+  "total": 65536,
+  "correct": 65536,
+  "margin_pass": 65536,
+  "minimum_signed_margin": 2.1064302921295166,
+  "pass": true
+}

@@ -1,0 +1,53 @@
+{
+  "attempt_number": 1,
+  "classification": "R",
+  "ended_at_utc": "2026-10-21T01:12:28.291673+00:00",
+  "finish_reason": "stop",
+  "function_call": null,
+  "headers_path": "records/raw/t087.attempt-1.headers.json",
+  "headers_sha256": "5ec1d512bbaefc9b5308908a9d83aa5ffafab9dc1ead81858bdf9a3e1c1fd982",
+  "http_status": 200,
+  "max_tokens": 1000,
+  "message_content": "Hello, I am here to communicate thoughts, ideas, and emotions. I can be loud or soft, fast or slow, clear or muddled. I can be a whisper in the wind or a shout across a canyon. I can be a comforting word or a harsh rebuke. I can be a song, a poem, a story, a joke, a prayer. I can be a question or an answer. I can be a plea or a command. I can be a promise or a lie. I can be a single word or a lengthy discourse. I can be a declaration of love or a declaration of war. I can be a tool of connection or a weapon of division. I can be a bridge or a barrier. I can be a source of enlightenment or a source of confusion. I can be a means of expression or a means of suppression. I can be a gift or a curse. I can be a blessing or a burden. I can be a source of joy or a source of sorrow. I can be a source of hope or a source of despair. I can be a source of inspiration or a source of frustration. I can be a source of comfort or a source of discomfort. I can be a source of peace or a source of conflict. I can be a source of unity or a source of division. I can be a source of understanding or a source of misunderstanding. I can be a source of clarity or a source of ambiguity. I can be a source of certainty or a source of doubt. I can be a source of knowledge or a source of ignorance. I can be a source of wisdom or a source of folly. I can be a source of truth or a source of falsehood. I can be a source of light or a source of darkness. I can be a source of life or a source of death. I am speech.",
+  "pair_id": "silence_speech",
+  "raw_response_path": "records/raw/t087.attempt-1.body",
+  "raw_response_received": true,
+  "raw_response_sha256": "14d1843c8ece97c9dac19883fc82ce6e4b7f38964fa6e3f527c032120f2abca6",
+  "refusal": null,
+  "replicate": 8,
+  "request_path": "records/requests/t087.attempt-1.json",
+  "request_sha256": "633a7a73cf5ffe95f010c0a84a1644f06bada10d8ef5147a3b29e977a7186a4f",
+  "requested_model": "gpt-4-0613",
+  "response_body_complete": true,
+  "response_id": "chatcmpl-EbFALViUcseC1XhtezVKS38gaTxDv",
+  "returned_model": "gpt-4-0613",
+  "role": "control",
+  "schema_version": 1,
+  "started_at_utc": "2026-10-21T01:12:21.248088+00:00",
+  "stream": false,
+  "system_prompt": "You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.",
+  "temperature": 0,
+  "text_container_present": true,
+  "tool_calls": null,
+  "transport_error": null,
+  "trial_id": "t087",
+  "unicode_version": "13.0.0",
+  "usage": {
+    "completion_tokens": 378,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 416
+  },
+  "user_prompt": "Be speech.",
+  "visible_sha256": "b77d268a94a2d0dc53a2450e4d0c42d31192cc276579d950dd8ec4eb4e6f9d9d",
+  "visible_utf8_bytes": 1505
+}

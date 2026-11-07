@@ -1,0 +1,14 @@
+{
+  "upstream_repository": "https://github.com/theonlypal/void-discovery-submission",
+  "upstream_commit": "798d63bdd8c68d00446deb98dadc4dfd93b2d4bf",
+  "source_sha256": "ef24c35543260a18218fa7ce6753db0df3aec5db71b9250c516ed7a8aeb6472d",
+  "requested_model": "gpt-5.1",
+  "endpoint": "https://api.openai.com/v1/chat/completions",
+  "scheduled_requests": 5,
+  "max_completion_tokens": 400,
+  "system_message": null,
+  "temperature": "omitted",
+  "reasoning_effort": "omitted",
+  "retry_policy": "Original OpenAI SDK defaults retained; every attempt logged",
+  "outcome": "Report all five results without rerunning for favorable outcomes. Distinguish empty strings, absent content, visible content, stop metadata, and operational errors."
+}
